@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>anubitux.org</title>
-    <link href="https://ASeriousMister.github.com/anubitux.org/feed.xml" rel="self" />
-    <link href="https://ASeriousMister.github.com/anubitux.org" />
+    <link href="https://anubitux-org.pages.dev/feed.xml" rel="self" />
+    <link href="https://anubitux-org.pages.dev" />
     <updated>1970-01-01T01:00:00+01:00</updated>
     <author>
         <name>AnuBitux</name>
     </author>
-    <id>https://ASeriousMister.github.com/anubitux.org</id>
+    <id>https://anubitux-org.pages.dev</id>
 
 </feed>
