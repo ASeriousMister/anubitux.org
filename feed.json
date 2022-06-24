@@ -29,8 +29,8 @@
             "id": "https://anubitux-org.pages.dev/download-anuitux.html",
             "url": "https://anubitux-org.pages.dev/download-anuitux.html",
             "title": "Download Anu₿itux",
-            "summary": "DISCLAIMER!!! Keep out! Download links:",
-            "content_html": "<h2 class=\"msg msg--warning align-center\"><strong>DISCLAIMER!!!</strong></h2>\n<p>Keep out!</p>\n<p><strong>Download links:</strong></p>\n<p> </p>",
+            "summary": "DISCLAIMER!!! Anu₿itux is a free project that aims to provide a secure and safe enviroment to use cryptocurrencies, also showing some use cases and tutorials. All the tools included have been downloaded from trusted sources like officilal ubuntu repositories, github and official websites. Althought no&hellip;",
+            "content_html": "<h2 class=\"msg msg--warning align-center\"><strong>DISCLAIMER!!!</strong></h2>\n<p><em>Anu₿itux is a free project that aims to provide a secure and safe enviroment to use cryptocurrencies, also showing some use cases and tutorials. All the tools included have been downloaded from trusted sources like officilal ubuntu repositories, github and official websites.</em></p>\n<p><em>Althought no guarantee is provided with it. User is always supposed to do only things he knows and to manage sensible information and backups himself.</em></p>\n<p><em>The Anu₿itux team takes no responsibility about malfunctioning tools or about unsafe usage of its solutions and its tutorials.</em></p>\n<p><strong>Download links:</strong></p>\n<p> </p>",
             "image": "https://anubitux-org.pages.dev/media/posts/1/AnubituxWallpaperLightBlue.png",
             "author": {
                 "name": "Anu₿itux"
@@ -38,7 +38,7 @@
             "tags": [
             ],
             "date_published": "2022-06-24T18:20:12+02:00",
-            "date_modified": "2022-06-24T19:26:31+02:00"
+            "date_modified": "2022-06-24T20:24:36+02:00"
         }
     ]
 }

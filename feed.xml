@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux-org.pages.dev/feed.xml" rel="self" />
     <link href="https://anubitux-org.pages.dev" />
-    <updated>2022-06-24T19:26:31+02:00</updated>
+    <updated>2022-06-24T20:24:36+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -47,18 +47,20 @@
         <link href="https://anubitux-org.pages.dev/download-anuitux.html"/>
         <id>https://anubitux-org.pages.dev/download-anuitux.html</id>
 
-        <updated>2022-06-24T19:26:31+02:00</updated>
+        <updated>2022-06-24T20:24:36+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux-org.pages.dev/media/posts/1/AnubituxWallpaperLightBlue.png" alt="" />
-                    DISCLAIMER!!! Keep out! Download links:
+                    DISCLAIMER!!! Anu₿itux is a free project that aims to provide a secure and safe enviroment to use cryptocurrencies, also showing some use cases and tutorials. All the tools included have been downloaded from trusted sources like officilal ubuntu repositories, github and official websites. Althought no&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://anubitux-org.pages.dev/media/posts/1/AnubituxWallpaperLightBlue.png" alt="" />
                 <h2 class="msg msg--warning align-center"><strong>DISCLAIMER!!!</strong></h2>
-<p>Keep out!</p>
+<p><em>Anu₿itux is a free project that aims to provide a secure and safe enviroment to use cryptocurrencies, also showing some use cases and tutorials. All the tools included have been downloaded from trusted sources like officilal ubuntu repositories, github and official websites.</em></p>
+<p><em>Althought no guarantee is provided with it. User is always supposed to do only things he knows and to manage sensible information and backups himself.</em></p>
+<p><em>The Anu₿itux team takes no responsibility about malfunctioning tools or about unsafe usage of its solutions and its tutorials.</em></p>
 <p><strong>Download links:</strong></p>
 <p> </p>
             ]]>
