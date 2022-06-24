@@ -7,8 +7,38 @@
     "user_comment": "",
     "icon": "https://anubitux-org.pages.dev/media/website/AnubituxLogo2s.png",
     "author": {
-        "name": "AnuBitux"
+        "name": "Anu₿itux"
     },
     "items": [
+        {
+            "id": "https://anubitux-org.pages.dev/meet-the-anuitux-project.html",
+            "url": "https://anubitux-org.pages.dev/meet-the-anuitux-project.html",
+            "title": "Meet the Anu₿itux project",
+            "summary": "Anu₿itux is a free project that aims to provide to everyone a safe and secure enviroment to manage crypto-stuff like wallets, seeds, transactions, etc, in a secure and simple way. The Anu₿itux distro comes also with a lot of cool tutorials that will show how&hellip;",
+            "content_html": "<p>Anu₿itux is a free project that aims to provide to everyone a safe and secure enviroment to manage crypto-stuff like wallets, seeds, transactions, etc, in a secure and simple way. The Anu₿itux distro comes also with a lot of cool tutorials that will show how to use the included tools or how to approach with cryptos minimizing risks.</p>\n<p>Stay tuned with following our <a href=\"https://t.me/anubitux\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram channel</a>, to receive notifications every time a new releas or a new tutorial comes out.</p>\n<p>The project is carried out by:</p>\n<p>MisterSerious</p>\n<p>pinco pallino</p>\n<p>Suggestions and comments can be sent to the Anu₿itux team members or writing an e-mail to info@add_a_mail.org.</p>\n<p>If you appreciate this work and want to contribute, donations are appreciated!</p>\n<p>BTC: 1AnUbiYpuFsGrc1JFxFCh5K9tXFd1BXPgb</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://anubitux-org.pages.dev/media/posts/2/DonationBTC.png\" sizes=\"100vw\" srcset=\"https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-xs.png 300w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-sm.png 480w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-md.png 768w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-lg.png 1024w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-xl.png 1360w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-2xl.png 1600w\"  alt=\"BTC_address_QR\" width=\"200\" height=\"200\"></figure>",
+            "image": "https://anubitux-org.pages.dev/media/posts/2/AnubituxWallpaperOrange.png",
+            "author": {
+                "name": "Anu₿itux"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-06-24T18:48:26+02:00",
+            "date_modified": "2022-06-24T18:52:14+02:00"
+        },
+        {
+            "id": "https://anubitux-org.pages.dev/download-anuitux.html",
+            "url": "https://anubitux-org.pages.dev/download-anuitux.html",
+            "title": "Download Anu₿itux",
+            "summary": "DISCLAIMER!!! Keep out! Download links:",
+            "content_html": "<h2 class=\"msg msg--warning align-center\"><strong>DISCLAIMER!!!</strong></h2>\n<p>Keep out!</p>\n<p><strong>Download links:</strong></p>\n<p> </p>",
+            "image": "https://anubitux-org.pages.dev/media/posts/1/AnubituxWallpaperLightBlue.png",
+            "author": {
+                "name": "Anu₿itux"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-06-24T18:20:12+02:00",
+            "date_modified": "2022-06-24T18:51:47+02:00"
+        }
     ]
 }
