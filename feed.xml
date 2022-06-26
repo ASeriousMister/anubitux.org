@@ -3,12 +3,37 @@
     <title>anubitux.org</title>
     <link href="https://anubitux-org.pages.dev/feed.xml" rel="self" />
     <link href="https://anubitux-org.pages.dev" />
-    <updated>2022-06-25T18:04:00+02:00</updated>
+    <updated>2022-06-26T12:58:36+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux-org.pages.dev</id>
 
+    <entry>
+        <title>Tutorials and HowTos</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux-org.pages.dev/tutorials-and-howtos.html"/>
+        <id>https://anubitux-org.pages.dev/tutorials-and-howtos.html</id>
+
+        <updated>2022-06-26T11:36:34+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux-org.pages.dev/media/posts/3/AnubituxWallpaperGreen.png" alt="AnubituxWall" />
+                    Here there will be many tutorials about how to use Anu₿itux and its tools. In this section there will also be pratical use cases and news about features and releases. Stay tuned! New posts will also be shared on the related Telegram channel. - blabla
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://anubitux-org.pages.dev/media/posts/3/AnubituxWallpaperGreen.png" alt="AnubituxWall" />
+                <p>Here there will be many tutorials about how to use Anu₿itux and its tools. In this section there will also be pratical use cases and news about features and releases. <strong><span style="color: #169179;">Stay tuned!</span></strong></p>
+<p>New posts will also be shared on the related <strong><a href="https://t.me/anubitux" target="_blank" rel="noopener noreferrer"><span style="color: #3598db;">Telegram channel</span></a></strong>.</p>
+<h2>Posts list:</h2>
+<p>- blabla</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Meet the Anu₿itux project</title>
         <author>
@@ -17,7 +42,7 @@
         <link href="https://anubitux-org.pages.dev/meet-the-anubitux-project.html"/>
         <id>https://anubitux-org.pages.dev/meet-the-anubitux-project.html</id>
 
-        <updated>2022-06-25T18:03:44+02:00</updated>
+        <updated>2022-06-26T12:04:54+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux-org.pages.dev/media/posts/2/AnubituxWallpaperOrange.png" alt="" />
@@ -27,14 +52,20 @@
         <content type="html">
             <![CDATA[
                     <img src="https://anubitux-org.pages.dev/media/posts/2/AnubituxWallpaperOrange.png" alt="" />
-                <p>Anu₿itux is a free project that aims to provide to everyone a safe and secure enviroment to manage crypto-stuff like wallets, seeds, transactions, etc, in a secure and simple way. The Anu₿itux distro comes also with a lot of cool tutorials that will show how to use the included tools or how to approach with cryptos minimizing risks.</p>
-<p>Stay tuned with following our <a href="https://t.me/anubitux" target="_blank" rel="noopener noreferrer">Telegram channel</a>, to receive notifications every time a new releas or a new tutorial comes out.</p>
-<p>The project is carried out by:</p>
-<p>MisterSerious</p>
-<p>pinco pallino</p>
-<p>Suggestions and comments can be sent to the Anu₿itux team members or writing an e-mail to info@add_a_mail.org.</p>
+                <p><strong>Anu₿itux</strong> is a free project that aims to provide to everyone a safe and secure enviroment to manage crypto-stuff like wallets, seeds, transactions, etc, in a secure and simple way. The Anu₿itux distro comes also with a lot of cool <strong><a href="https://anubitux-org.pages.dev/tutorials-and-howtos.html">tutorials</a></strong> that will show how to use the included tools or how to approach with cryptos minimizing risks.</p>
+<p>Stay tuned with following our <strong><a href="https://t.me/anubitux" target="_blank" rel="noopener noreferrer">Telegram channel</a></strong>, to receive notifications every time a new releas or a new tutorial comes out.</p>
+<h3>The project is carried out by:</h3>
+<ul style="list-style-type: circle;">
+<li><em><strong><a href="https://t.me/misterserious" target="_blank" rel="noopener noreferrer">MisterSerious</a></strong></em></li>
+</ul>
+<p>Head of the Anu₿itux project. Works as cryptocurrency analyst and in the blockchain forensics field. In the free time develops this distro and codes with Python.</p>
+<ul style="list-style-type: circle;">
+<li>pinco pallino</li>
+</ul>
+<p> </p>
+<p><strong>Suggestions</strong> and <strong>comments</strong> can be sent directly to the Anu₿itux team members or writing an e-mail to <em>anubitux@yepmail.net</em>.</p>
 <p>If you appreciate this work and want to contribute, donations are appreciated!</p>
-<p>BTC: 1AnUbiYpuFsGrc1JFxFCh5K9tXFd1BXPgb</p>
+<p><strong>BTC</strong>: 1AnUbiYpuFsGrc1JFxFCh5K9tXFd1BXPgb</p>
 <figure class="post__image"><img loading="lazy"  src="https://anubitux-org.pages.dev/media/posts/2/DonationBTC.png" sizes="100vw" srcset="https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-xs.png 300w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-sm.png 480w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-md.png 768w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-lg.png 1024w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-xl.png 1360w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-2xl.png 1600w"  alt="BTC_address_QR" width="200" height="200"></figure>
             ]]>
         </content>
@@ -47,7 +78,7 @@
         <link href="https://anubitux-org.pages.dev/download-anubitux.html"/>
         <id>https://anubitux-org.pages.dev/download-anubitux.html</id>
 
-        <updated>2022-06-25T18:04:00+02:00</updated>
+        <updated>2022-06-26T12:58:36+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux-org.pages.dev/media/posts/1/AnubituxWallpaperLightBlue.png" alt="" />
@@ -61,8 +92,17 @@
 <p><em>Anu₿itux is a free project that aims to provide a secure and safe enviroment to use cryptocurrencies, also showing some use cases and tutorials. All the tools included have been downloaded from trusted sources like officilal ubuntu repositories, github and official websites.</em></p>
 <p><em>Althought no guarantee is provided with it. User is always supposed to do only things he knows and to manage sensible information and backups himself.</em></p>
 <p><em>The Anu₿itux team takes no responsibility about malfunctioning tools or about unsafe usage of its solutions and its tutorials.</em></p>
-<p><strong>Download links:</strong></p>
-<p> </p>
+<p><em>Downloading the Anu₿itux distro the user implicitly accepts to use it considering himself as responsible for the actions he will carry out and that the Anu₿itux team is not responsible in any way for eventual malfunctions or misconfigured tools.</em></p>
+<h3><strong>Download links:</strong></h3>
+<h4>Anu₿itux live</h4>
+<p>This is the main version of Anu₿itux! It is designed to work only in live mode, to prevent the storage of any information on disks and preserve the privacy of the users. Using it, it is mandatory to backup all the sensible information elsewhere in a proper and secure way.</p>
+<p>LINK HERE</p>
+<h4>Anu₿itux install</h4>
+<p>This version can be installed on devices and in virtual machines. It is intended to be used for training and to run tests on the tools. It is absolutely not recomended to use to handle sensible information (e.g. generation of new private keys).</p>
+<p>LINK HERE</p>
+<h4>Anu₿itux VM</h4>
+<p>This is a ready to use virtual machine, to see how Anu₿itux looks like and run some tests or trainings. It is not recomended to use it for real cases. To run it simply import it in <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank" rel="noopener noreferrer">VirtualBox</a>. The VirtualBox Extension Pack could be mandatory to run it in a proper way.</p>
+<p>LINK HERE</p>
             ]]>
         </content>
     </entry>

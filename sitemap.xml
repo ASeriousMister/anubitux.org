@@ -6,7 +6,7 @@
 </url>
 <url>
 <loc>https://anubitux-org.pages.dev/download-anubitux.html</loc>
-<lastmod>2022-06-25T18:04:00+02:00</lastmod>
+<lastmod>2022-06-26T12:58:36+02:00</lastmod>
 <image:image>
 <image:loc>https://anubitux-org.pages.dev/media/posts/1/AnubituxWallpaperLightBlue.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -14,7 +14,7 @@
 </url>
 <url>
 <loc>https://anubitux-org.pages.dev/meet-the-anubitux-project.html</loc>
-<lastmod>2022-06-25T18:03:44+02:00</lastmod>
+<lastmod>2022-06-26T12:04:54+02:00</lastmod>
 <image:image>
 <image:loc>https://anubitux-org.pages.dev/media/posts/2/AnubituxWallpaperOrange.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -22,6 +22,14 @@
 <image:image>
 <image:loc>https://anubitux-org.pages.dev/media/posts/2/DonationBTC.png</image:loc>
 <image:title><![CDATA[BTC_address_QR]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://anubitux-org.pages.dev/tutorials-and-howtos.html</loc>
+<lastmod>2022-06-26T11:36:34+02:00</lastmod>
+<image:image>
+<image:loc>https://anubitux-org.pages.dev/media/posts/3/AnubituxWallpaperGreen.png</image:loc>
+<image:title><![CDATA[AnubituxWall]]></image:title>
 </image:image>
 </url>
 </urlset>
