@@ -2,36 +2,36 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "anubitux.org",
     "description": "",
-    "home_page_url": "https://anubitux-org.pages.dev",
-    "feed_url": "https://anubitux-org.pages.dev/feed.json",
+    "home_page_url": "https://anubitux.org",
+    "feed_url": "https://anubitux.org/feed.json",
     "user_comment": "",
-    "icon": "https://anubitux-org.pages.dev/media/website/AnubituxLogo2s.png",
+    "icon": "https://anubitux.org/media/website/AnubituxLogo2s.png",
     "author": {
         "name": "Anu₿itux"
     },
     "items": [
         {
-            "id": "https://anubitux-org.pages.dev/tutorials-and-howtos.html",
-            "url": "https://anubitux-org.pages.dev/tutorials-and-howtos.html",
+            "id": "https://anubitux.org/tutorials-and-howtos.html",
+            "url": "https://anubitux.org/tutorials-and-howtos.html",
             "title": "Tutorials and HowTos",
             "summary": "Here there will be many tutorials about how to use Anu₿itux and its tools. In this section there will also be pratical use cases and news about features and releases. Stay tuned! New posts will also be shared on the related Telegram channel. - blabla",
             "content_html": "<p>Here there will be many tutorials about how to use Anu₿itux and its tools. In this section there will also be pratical use cases and news about features and releases. <strong><span style=\"color: #169179;\">Stay tuned!</span></strong></p>\n<p>New posts will also be shared on the related <strong><a href=\"https://t.me/anubitux\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"color: #3598db;\">Telegram channel</span></a></strong>.</p>\n<h2>Posts list:</h2>\n<p>- blabla</p>",
-            "image": "https://anubitux-org.pages.dev/media/posts/3/AnubituxWallpaperGreen.png",
+            "image": "https://anubitux.org/media/posts/3/AnubituxWallpaperGreen.png",
             "author": {
                 "name": "Anu₿itux"
             },
             "tags": [
             ],
             "date_published": "2022-06-26T11:25:28+02:00",
-            "date_modified": "2022-06-26T11:36:34+02:00"
+            "date_modified": "2022-06-26T13:01:30+02:00"
         },
         {
-            "id": "https://anubitux-org.pages.dev/meet-the-anubitux-project.html",
-            "url": "https://anubitux-org.pages.dev/meet-the-anubitux-project.html",
+            "id": "https://anubitux.org/meet-the-anubitux-project.html",
+            "url": "https://anubitux.org/meet-the-anubitux-project.html",
             "title": "Meet the Anu₿itux project",
             "summary": "Anu₿itux is a free project that aims to provide to everyone a safe and secure enviroment to manage crypto-stuff like wallets, seeds, transactions, etc, in a secure and simple way. The Anu₿itux distro comes also with a lot of cool tutorials that will show how&hellip;",
-            "content_html": "<p><strong>Anu₿itux</strong> is a free project that aims to provide to everyone a safe and secure enviroment to manage crypto-stuff like wallets, seeds, transactions, etc, in a secure and simple way. The Anu₿itux distro comes also with a lot of cool <strong><a href=\"https://anubitux-org.pages.dev/tutorials-and-howtos.html\">tutorials</a></strong> that will show how to use the included tools or how to approach with cryptos minimizing risks.</p>\n<p>Stay tuned with following our <strong><a href=\"https://t.me/anubitux\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram channel</a></strong>, to receive notifications every time a new releas or a new tutorial comes out.</p>\n<h3>The project is carried out by:</h3>\n<ul style=\"list-style-type: circle;\">\n<li><em><strong><a href=\"https://t.me/misterserious\" target=\"_blank\" rel=\"noopener noreferrer\">MisterSerious</a></strong></em></li>\n</ul>\n<p>Head of the Anu₿itux project. Works as cryptocurrency analyst and in the blockchain forensics field. In the free time develops this distro and codes with Python.</p>\n<ul style=\"list-style-type: circle;\">\n<li>pinco pallino</li>\n</ul>\n<p> </p>\n<p><strong>Suggestions</strong> and <strong>comments</strong> can be sent directly to the Anu₿itux team members or writing an e-mail to <em>anubitux@yepmail.net</em>.</p>\n<p>If you appreciate this work and want to contribute, donations are appreciated!</p>\n<p><strong>BTC</strong>: 1AnUbiYpuFsGrc1JFxFCh5K9tXFd1BXPgb</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://anubitux-org.pages.dev/media/posts/2/DonationBTC.png\" sizes=\"100vw\" srcset=\"https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-xs.png 300w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-sm.png 480w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-md.png 768w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-lg.png 1024w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-xl.png 1360w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-2xl.png 1600w\"  alt=\"BTC_address_QR\" width=\"200\" height=\"200\"></figure>",
-            "image": "https://anubitux-org.pages.dev/media/posts/2/AnubituxWallpaperOrange.png",
+            "content_html": "<p><strong>Anu₿itux</strong> is a free project that aims to provide to everyone a safe and secure enviroment to manage crypto-stuff like wallets, seeds, transactions, etc, in a secure and simple way. The Anu₿itux distro comes also with a lot of cool <strong><a href=\"https://anubitux.org/tutorials-and-howtos.html\">tutorials</a></strong> that will show how to use the included tools or how to approach with cryptos minimizing risks.</p>\n<p>Stay tuned with following our <strong><a href=\"https://t.me/anubitux\" target=\"_blank\" rel=\"noopener noreferrer\">Telegram channel</a></strong>, to receive notifications every time a new releas or a new tutorial comes out.</p>\n<h3>The project is carried out by:</h3>\n<ul style=\"list-style-type: circle;\">\n<li><em><strong><a href=\"https://t.me/misterserious\" target=\"_blank\" rel=\"noopener noreferrer\">MisterSerious</a></strong></em></li>\n</ul>\n<p>Head of the Anu₿itux project. Works as cryptocurrency analyst and in the blockchain forensics field. In the free time develops this distro and codes with Python.</p>\n<ul style=\"list-style-type: circle;\">\n<li>pinco pallino</li>\n</ul>\n<p> </p>\n<p><strong>Suggestions</strong> and <strong>comments</strong> can be sent directly to the Anu₿itux team members or writing an e-mail to <em>anubitux@yepmail.net</em>.</p>\n<p>If you appreciate this work and want to contribute, donations are appreciated!</p>\n<p><strong>BTC</strong>: 1AnUbiYpuFsGrc1JFxFCh5K9tXFd1BXPgb</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://anubitux.org/media/posts/2/DonationBTC.png\" sizes=\"100vw\" srcset=\"https://anubitux.org/media/posts/2/responsive/DonationBTC-xs.png 300w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-sm.png 480w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-md.png 768w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-lg.png 1024w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-xl.png 1360w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-2xl.png 1600w\"  alt=\"BTC_address_QR\" width=\"200\" height=\"200\"></figure>",
+            "image": "https://anubitux.org/media/posts/2/AnubituxWallpaperOrange.png",
             "author": {
                 "name": "Anu₿itux"
             },
@@ -41,12 +41,12 @@
             "date_modified": "2022-06-26T12:04:54+02:00"
         },
         {
-            "id": "https://anubitux-org.pages.dev/download-anubitux.html",
-            "url": "https://anubitux-org.pages.dev/download-anubitux.html",
+            "id": "https://anubitux.org/download-anubitux.html",
+            "url": "https://anubitux.org/download-anubitux.html",
             "title": "Download Anu₿itux",
             "summary": "DISCLAIMER!!! Anu₿itux is a free project that aims to provide a secure and safe enviroment to use cryptocurrencies, also showing some use cases and tutorials. All the tools included have been downloaded from trusted sources like officilal ubuntu repositories, github and official websites. Althought no&hellip;",
             "content_html": "<h2 class=\"msg msg--warning align-center\"><strong>DISCLAIMER!!!</strong></h2>\n<p><em>Anu₿itux is a free project that aims to provide a secure and safe enviroment to use cryptocurrencies, also showing some use cases and tutorials. All the tools included have been downloaded from trusted sources like officilal ubuntu repositories, github and official websites.</em></p>\n<p><em>Althought no guarantee is provided with it. User is always supposed to do only things he knows and to manage sensible information and backups himself.</em></p>\n<p><em>The Anu₿itux team takes no responsibility about malfunctioning tools or about unsafe usage of its solutions and its tutorials.</em></p>\n<p><em>Downloading the Anu₿itux distro the user implicitly accepts to use it considering himself as responsible for the actions he will carry out and that the Anu₿itux team is not responsible in any way for eventual malfunctions or misconfigured tools.</em></p>\n<h3><strong>Download links:</strong></h3>\n<h4>Anu₿itux live</h4>\n<p>This is the main version of Anu₿itux! It is designed to work only in live mode, to prevent the storage of any information on disks and preserve the privacy of the users. Using it, it is mandatory to backup all the sensible information elsewhere in a proper and secure way.</p>\n<p>LINK HERE</p>\n<h4>Anu₿itux install</h4>\n<p>This version can be installed on devices and in virtual machines. It is intended to be used for training and to run tests on the tools. It is absolutely not recomended to use to handle sensible information (e.g. generation of new private keys).</p>\n<p>LINK HERE</p>\n<h4>Anu₿itux VM</h4>\n<p>This is a ready to use virtual machine, to see how Anu₿itux looks like and run some tests or trainings. It is not recomended to use it for real cases. To run it simply import it in <a href=\"https://www.virtualbox.org/wiki/Downloads\" target=\"_blank\" rel=\"noopener noreferrer\">VirtualBox</a>. The VirtualBox Extension Pack could be mandatory to run it in a proper way.</p>\n<p>LINK HERE</p>",
-            "image": "https://anubitux-org.pages.dev/media/posts/1/AnubituxWallpaperLightBlue.png",
+            "image": "https://anubitux.org/media/posts/1/AnubituxWallpaperLightBlue.png",
             "author": {
                 "name": "Anu₿itux"
             },

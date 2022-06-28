@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>anubitux.org</title>
-    <link href="https://anubitux-org.pages.dev/feed.xml" rel="self" />
-    <link href="https://anubitux-org.pages.dev" />
-    <updated>2022-06-26T12:58:36+02:00</updated>
+    <link href="https://anubitux.org/feed.xml" rel="self" />
+    <link href="https://anubitux.org" />
+    <updated>2022-06-26T13:01:30+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
-    <id>https://anubitux-org.pages.dev</id>
+    <id>https://anubitux.org</id>
 
     <entry>
         <title>Tutorials and HowTos</title>
         <author>
             <name>Anu₿itux</name>
         </author>
-        <link href="https://anubitux-org.pages.dev/tutorials-and-howtos.html"/>
-        <id>https://anubitux-org.pages.dev/tutorials-and-howtos.html</id>
+        <link href="https://anubitux.org/tutorials-and-howtos.html"/>
+        <id>https://anubitux.org/tutorials-and-howtos.html</id>
 
-        <updated>2022-06-26T11:36:34+02:00</updated>
+        <updated>2022-06-26T13:01:30+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://anubitux-org.pages.dev/media/posts/3/AnubituxWallpaperGreen.png" alt="AnubituxWall" />
+                        <img src="https://anubitux.org/media/posts/3/AnubituxWallpaperGreen.png" alt="AnubituxWall" />
                     Here there will be many tutorials about how to use Anu₿itux and its tools. In this section there will also be pratical use cases and news about features and releases. Stay tuned! New posts will also be shared on the related Telegram channel. - blabla
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://anubitux-org.pages.dev/media/posts/3/AnubituxWallpaperGreen.png" alt="AnubituxWall" />
+                    <img src="https://anubitux.org/media/posts/3/AnubituxWallpaperGreen.png" alt="AnubituxWall" />
                 <p>Here there will be many tutorials about how to use Anu₿itux and its tools. In this section there will also be pratical use cases and news about features and releases. <strong><span style="color: #169179;">Stay tuned!</span></strong></p>
 <p>New posts will also be shared on the related <strong><a href="https://t.me/anubitux" target="_blank" rel="noopener noreferrer"><span style="color: #3598db;">Telegram channel</span></a></strong>.</p>
 <h2>Posts list:</h2>
@@ -39,20 +39,20 @@
         <author>
             <name>Anu₿itux</name>
         </author>
-        <link href="https://anubitux-org.pages.dev/meet-the-anubitux-project.html"/>
-        <id>https://anubitux-org.pages.dev/meet-the-anubitux-project.html</id>
+        <link href="https://anubitux.org/meet-the-anubitux-project.html"/>
+        <id>https://anubitux.org/meet-the-anubitux-project.html</id>
 
         <updated>2022-06-26T12:04:54+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://anubitux-org.pages.dev/media/posts/2/AnubituxWallpaperOrange.png" alt="" />
+                        <img src="https://anubitux.org/media/posts/2/AnubituxWallpaperOrange.png" alt="" />
                     Anu₿itux is a free project that aims to provide to everyone a safe and secure enviroment to manage crypto-stuff like wallets, seeds, transactions, etc, in a secure and simple way. The Anu₿itux distro comes also with a lot of cool tutorials that will show how&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://anubitux-org.pages.dev/media/posts/2/AnubituxWallpaperOrange.png" alt="" />
-                <p><strong>Anu₿itux</strong> is a free project that aims to provide to everyone a safe and secure enviroment to manage crypto-stuff like wallets, seeds, transactions, etc, in a secure and simple way. The Anu₿itux distro comes also with a lot of cool <strong><a href="https://anubitux-org.pages.dev/tutorials-and-howtos.html">tutorials</a></strong> that will show how to use the included tools or how to approach with cryptos minimizing risks.</p>
+                    <img src="https://anubitux.org/media/posts/2/AnubituxWallpaperOrange.png" alt="" />
+                <p><strong>Anu₿itux</strong> is a free project that aims to provide to everyone a safe and secure enviroment to manage crypto-stuff like wallets, seeds, transactions, etc, in a secure and simple way. The Anu₿itux distro comes also with a lot of cool <strong><a href="https://anubitux.org/tutorials-and-howtos.html">tutorials</a></strong> that will show how to use the included tools or how to approach with cryptos minimizing risks.</p>
 <p>Stay tuned with following our <strong><a href="https://t.me/anubitux" target="_blank" rel="noopener noreferrer">Telegram channel</a></strong>, to receive notifications every time a new releas or a new tutorial comes out.</p>
 <h3>The project is carried out by:</h3>
 <ul style="list-style-type: circle;">
@@ -66,7 +66,7 @@
 <p><strong>Suggestions</strong> and <strong>comments</strong> can be sent directly to the Anu₿itux team members or writing an e-mail to <em>anubitux@yepmail.net</em>.</p>
 <p>If you appreciate this work and want to contribute, donations are appreciated!</p>
 <p><strong>BTC</strong>: 1AnUbiYpuFsGrc1JFxFCh5K9tXFd1BXPgb</p>
-<figure class="post__image"><img loading="lazy"  src="https://anubitux-org.pages.dev/media/posts/2/DonationBTC.png" sizes="100vw" srcset="https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-xs.png 300w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-sm.png 480w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-md.png 768w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-lg.png 1024w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-xl.png 1360w ,https://anubitux-org.pages.dev/media/posts/2/responsive/DonationBTC-2xl.png 1600w"  alt="BTC_address_QR" width="200" height="200"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://anubitux.org/media/posts/2/DonationBTC.png" sizes="100vw" srcset="https://anubitux.org/media/posts/2/responsive/DonationBTC-xs.png 300w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-sm.png 480w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-md.png 768w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-lg.png 1024w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-xl.png 1360w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-2xl.png 1600w"  alt="BTC_address_QR" width="200" height="200"></figure>
             ]]>
         </content>
     </entry>
@@ -75,19 +75,19 @@
         <author>
             <name>Anu₿itux</name>
         </author>
-        <link href="https://anubitux-org.pages.dev/download-anubitux.html"/>
-        <id>https://anubitux-org.pages.dev/download-anubitux.html</id>
+        <link href="https://anubitux.org/download-anubitux.html"/>
+        <id>https://anubitux.org/download-anubitux.html</id>
 
         <updated>2022-06-26T12:58:36+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://anubitux-org.pages.dev/media/posts/1/AnubituxWallpaperLightBlue.png" alt="" />
+                        <img src="https://anubitux.org/media/posts/1/AnubituxWallpaperLightBlue.png" alt="" />
                     DISCLAIMER!!! Anu₿itux is a free project that aims to provide a secure and safe enviroment to use cryptocurrencies, also showing some use cases and tutorials. All the tools included have been downloaded from trusted sources like officilal ubuntu repositories, github and official websites. Althought no&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://anubitux-org.pages.dev/media/posts/1/AnubituxWallpaperLightBlue.png" alt="" />
+                    <img src="https://anubitux.org/media/posts/1/AnubituxWallpaperLightBlue.png" alt="" />
                 <h2 class="msg msg--warning align-center"><strong>DISCLAIMER!!!</strong></h2>
 <p><em>Anu₿itux is a free project that aims to provide a secure and safe enviroment to use cryptocurrencies, also showing some use cases and tutorials. All the tools included have been downloaded from trusted sources like officilal ubuntu repositories, github and official websites.</em></p>
 <p><em>Althought no guarantee is provided with it. User is always supposed to do only things he knows and to manage sensible information and backups himself.</em></p>

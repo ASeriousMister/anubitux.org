@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://anubitux-org.pages.dev/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://anubitux.org/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://anubitux-org.pages.dev/</loc>
+<loc>https://anubitux.org/</loc>
 </url>
 <url>
-<loc>https://anubitux-org.pages.dev/download-anubitux.html</loc>
+<loc>https://anubitux.org/download-anubitux.html</loc>
 <lastmod>2022-06-26T12:58:36+02:00</lastmod>
 <image:image>
-<image:loc>https://anubitux-org.pages.dev/media/posts/1/AnubituxWallpaperLightBlue.png</image:loc>
+<image:loc>https://anubitux.org/media/posts/1/AnubituxWallpaperLightBlue.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://anubitux-org.pages.dev/meet-the-anubitux-project.html</loc>
+<loc>https://anubitux.org/meet-the-anubitux-project.html</loc>
 <lastmod>2022-06-26T12:04:54+02:00</lastmod>
 <image:image>
-<image:loc>https://anubitux-org.pages.dev/media/posts/2/AnubituxWallpaperOrange.png</image:loc>
+<image:loc>https://anubitux.org/media/posts/2/AnubituxWallpaperOrange.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://anubitux-org.pages.dev/media/posts/2/DonationBTC.png</image:loc>
+<image:loc>https://anubitux.org/media/posts/2/DonationBTC.png</image:loc>
 <image:title><![CDATA[BTC_address_QR]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://anubitux-org.pages.dev/tutorials-and-howtos.html</loc>
-<lastmod>2022-06-26T11:36:34+02:00</lastmod>
+<loc>https://anubitux.org/tutorials-and-howtos.html</loc>
+<lastmod>2022-06-26T13:01:30+02:00</lastmod>
 <image:image>
-<image:loc>https://anubitux-org.pages.dev/media/posts/3/AnubituxWallpaperGreen.png</image:loc>
+<image:loc>https://anubitux.org/media/posts/3/AnubituxWallpaperGreen.png</image:loc>
 <image:title><![CDATA[AnubituxWall]]></image:title>
 </image:image>
 </url>
