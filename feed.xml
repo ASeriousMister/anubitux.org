@@ -3,12 +3,43 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-07-03T13:15:32+02:00</updated>
+    <updated>2022-07-04T12:21:10+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>Changelog</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/changelog/"/>
+        <id>https://anubitux.org/changelog/</id>
+            <category term="changelog"/>
+            <category term="anubitux"/>
+
+        <updated>2022-07-04T12:18:14+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/22/AnubituxWallpaperGrey.png" alt="Anu₿ituxGrey" />
+                    AnuBitux_2022_1_1 Release date: 04-jul-2022 Versions involved: live, install, virtual machine Changes: Kubuntu updates installed, TorBrowser updated, new desktop icons, changes some settings about how some Python tools use virtual enviroments. Release date: 02-jul-2022 Versions involved: live, install, virtual machine Changes: first release of Anu₿itux, previous&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://anubitux.org/media/posts/22/AnubituxWallpaperGrey.png" alt="Anu₿ituxGrey" />
+                <h4>AnuBitux_2022_1_1</h4>
+<p><span style="text-decoration: underline;"><em>Release date</em></span>: 04-jul-2022</p>
+<p><span style="text-decoration: underline;"><em>Versions involved</em></span>: live, install, virtual machine</p>
+<p><span style="text-decoration: underline;"><em>Changes</em></span>: Kubuntu updates installed, TorBrowser updated, new desktop icons, changes some settings about how some Python tools use virtual enviroments.</p>
+<h4>AnuBitux_2022_1</h4>
+<p><em><span style="text-decoration: underline;">Release date</span></em>: 02-jul-2022</p>
+<p><em><span style="text-decoration: underline;">Versions involved</span></em>: live, install, virtual machine</p>
+<p><em><span style="text-decoration: underline;">Changes</span></em>: first release of Anu₿itux, previous beta versions were shared through the <span style="color: #3598db;"><a href="https://t.me/anubitux" target="_blank" rel="noopener noreferrer" style="color: #3598db;">Telegram channel</a></span>, were the previous changelogs can still be found.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to verify your downloaded Anu₿itux</title>
         <author>
@@ -393,16 +424,16 @@
             <category term="kubuntu"/>
             <category term="anubitux"/>
 
-        <updated>2022-07-01T21:04:35+02:00</updated>
+        <updated>2022-07-04T12:21:10+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://anubitux.org/media/posts/4/Screenshot-at-2022-06-29-11-34-04.png" alt="AnuBituxDesktop" />
+                        <img src="https://anubitux.org/media/posts/4/AnuBitux_2022_1_1.png" alt="AnuBituxDesktop" />
                     Anu₿itux is, first of all, a Kubuntu based distro that aims to provide a safe enviroment to use and manage cryptocurrencies. But it is not only a customized operative system, it also wants to be a place to share knowledge and best practices, providing tutorials&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://anubitux.org/media/posts/4/Screenshot-at-2022-06-29-11-34-04.png" alt="AnuBituxDesktop" />
+                    <img src="https://anubitux.org/media/posts/4/AnuBitux_2022_1_1.png" alt="AnuBituxDesktop" />
                 <p>Anu₿itux is, first of all, a <a href="https://kubuntu.org/" target="_blank" rel="noopener noreferrer">Kubuntu</a> based distro that aims to provide a safe enviroment to use and manage cryptocurrencies. But it is not only a customized operative system, it also wants to be a place to share knowledge and best practices, providing tutorials based on Anu₿itux that can be applied in every situation.</p>
 <h3>What is included in the Anu₿itux OS?</h3>
 <p>As mentioned, Anu₿itux is an enviroment based on Kubuntu 20.04 but with many customisations:</p>
@@ -633,7 +664,7 @@
             <category term="caution"/>
             <category term="anubitux"/>
 
-        <updated>2022-07-01T11:51:29+02:00</updated>
+        <updated>2022-07-04T12:19:34+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/1/AnubituxWallpaperLightBlue.png" alt="" />
@@ -653,17 +684,19 @@
 <p>After downloaded Anu₿itux, if in doubt, please refer to <a href="https://anubitux.org/how-to-use-anubitux/" target="_blank" rel="noopener noreferrer">this post</a> to see how to use it.</p>
 <h4>Anu₿itux live</h4>
 <p>This is the main version of Anu₿itux! It is designed to work only in live mode, to prevent the storage of any information on disks and preserve the privacy of the users. Using it, it is mandatory to backup all the sensible information elsewhere in a proper and secure way.</p>
-<figure class="post__image post__image--center"><a href="https://storage.anubitux.org/AnuBitux_2022_1_live.iso" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/1/Download1.png" sizes="100vw" srcset="https://anubitux.org/media/posts/1/responsive/Download1-xs.png 300w ,https://anubitux.org/media/posts/1/responsive/Download1-sm.png 480w ,https://anubitux.org/media/posts/1/responsive/Download1-md.png 768w ,https://anubitux.org/media/posts/1/responsive/Download1-lg.png 1024w ,https://anubitux.org/media/posts/1/responsive/Download1-xl.png 1360w ,https://anubitux.org/media/posts/1/responsive/Download1-2xl.png 1600w"  alt="Download1" width="249" height="124"></figure></a></p>
+<figure class="post__image post__image--center"><a href="https://storage.anubitux.org/AnuBitux_2022_1_1_live.iso" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/1/Download1.png" sizes="100vw" srcset="https://anubitux.org/media/posts/1/responsive/Download1-xs.png 300w ,https://anubitux.org/media/posts/1/responsive/Download1-sm.png 480w ,https://anubitux.org/media/posts/1/responsive/Download1-md.png 768w ,https://anubitux.org/media/posts/1/responsive/Download1-lg.png 1024w ,https://anubitux.org/media/posts/1/responsive/Download1-xl.png 1360w ,https://anubitux.org/media/posts/1/responsive/Download1-2xl.png 1600w"  alt="Download1" width="249" height="124"></figure></a></p>
 <h4>Anu₿itux install</h4>
 <p>This version can be installed on devices and in virtual machines. It is intended to be used for training and to run tests on the tools. It is absolutely not recomended to use to handle sensible information (e.g. generation of new private keys).</p>
-<figure class="post__image post__image--center"><a href="https://storage.anubitux.org/AnuBitux_2022_1_inst.iso" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/1/Download2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/1/responsive/Download2-xs.png 300w ,https://anubitux.org/media/posts/1/responsive/Download2-sm.png 480w ,https://anubitux.org/media/posts/1/responsive/Download2-md.png 768w ,https://anubitux.org/media/posts/1/responsive/Download2-lg.png 1024w ,https://anubitux.org/media/posts/1/responsive/Download2-xl.png 1360w ,https://anubitux.org/media/posts/1/responsive/Download2-2xl.png 1600w"  alt="Download2" width="249" height="125"></figure></a></p>
+<figure class="post__image post__image--center"><a href="https://storage.anubitux.org/AnuBitux_2022_1_1_inst.iso" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/1/Download2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/1/responsive/Download2-xs.png 300w ,https://anubitux.org/media/posts/1/responsive/Download2-sm.png 480w ,https://anubitux.org/media/posts/1/responsive/Download2-md.png 768w ,https://anubitux.org/media/posts/1/responsive/Download2-lg.png 1024w ,https://anubitux.org/media/posts/1/responsive/Download2-xl.png 1360w ,https://anubitux.org/media/posts/1/responsive/Download2-2xl.png 1600w"  alt="Download2" width="249" height="125"></figure></a></p>
 <h4>Anu₿itux VM</h4>
 <p>This is a ready to use virtual machine, to see how Anu₿itux looks like and run some tests or trainings. It is not recomended to use it for real cases. To run it simply import it in <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank" rel="noopener noreferrer">VirtualBox</a>. The VirtualBox Extension Pack could be mandatory to run it in a proper way.</p>
-<figure class="post__image post__image--center"><a href="https://storage.anubitux.org/AnuBitux_2022_1_VM.ova" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/1/Download3.png" sizes="100vw" srcset="https://anubitux.org/media/posts/1/responsive/Download3-xs.png 300w ,https://anubitux.org/media/posts/1/responsive/Download3-sm.png 480w ,https://anubitux.org/media/posts/1/responsive/Download3-md.png 768w ,https://anubitux.org/media/posts/1/responsive/Download3-lg.png 1024w ,https://anubitux.org/media/posts/1/responsive/Download3-xl.png 1360w ,https://anubitux.org/media/posts/1/responsive/Download3-2xl.png 1600w"  alt="Download3" width="249" height="125"></figure></a></p>
+<figure class="post__image post__image--center"><a href="https://storage.anubitux.org/AnuBitux_2022_1_1_VM.ova" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/1/Download3.png" sizes="100vw" srcset="https://anubitux.org/media/posts/1/responsive/Download3-xs.png 300w ,https://anubitux.org/media/posts/1/responsive/Download3-sm.png 480w ,https://anubitux.org/media/posts/1/responsive/Download3-md.png 768w ,https://anubitux.org/media/posts/1/responsive/Download3-lg.png 1024w ,https://anubitux.org/media/posts/1/responsive/Download3-xl.png 1360w ,https://anubitux.org/media/posts/1/responsive/Download3-2xl.png 1600w"  alt="Download3" width="249" height="125"></figure></a></p>
+<h3>Changelog</h3>
+<p>Click <a href="https://anubitux.org/changelog/" target="_blank" rel="noopener noreferrer">here</a> to read the changelog and the details about the released versions.</p>
 <h3>Verify your download</h3>
 <p>To verify the downloaded files, please refer to the following checksums.</p>
 <p>Checksums can be verified downloading our public PGP key, that cha be found on <a href="https://github.com/ASeriousMister/Anubitux-PGP" target="_blank" rel="noopener noreferrer">github</a> or on <a href="https://pastebin.com/bqmy9y2P" target="_blank" rel="noopener noreferrer">pastebin</a>. </p>
-<p><code>-----BEGIN PGP SIGNED MESSAGE-----<br>Hash: SHA512<br><br>AnuBitux_2022_1_live.iso<br>MD5: bc8a9aa098d3b80ca0241ac298087364<br>SHA1: ca38640c02001b571b142dba207cf83b3908fcfa<br><br>AnuBitux_2022_1_inst.iso<br>MD5: a75dc76feb540aec866067a9fb2f4d97<br>SHA1: a00192da0d1a6c39542ab59ec46d5f907284ec34<br><br>AnuBitux_2022_1_VM.ova<br>MD5: 9dfd1344e5ab5a20b16aaec1ea03c916<br>SHA1: b384eca05f6ccc702da17af3a287f00cf0080718<br>-----BEGIN PGP SIGNATURE-----<br><br>iQGzBAEBCgAdFiEEefEIBKtGU1BmKiujyYDLEerEolUFAmK9c8wACgkQyYDLEerE<br>olVYUgwAjOWXvS1yRCNVduS1JM8rv8/VvhVNVH7z/N/I2Pa0N+eQMm2uPpixVSTx<br>zeYQo3GdfqwxawrEZGiuGPsDIiqxYllMRK1zonjY/dKL6zr2fi9N6GTtBBoz9EfA<br>TH0UOim7h9tOogKuxnSTF771AtlFgpxcoSe+N2sG0/gWVQ3IRtz5JPU/vx+uwHu3<br>S7537cSYIe1BV2W88rHEqgd8eNqdOPFjqp41/MtavSkHe2KjZUiXA0ROs+8IEd/G<br>4KwpLvmmx0Ud4eyrTXf5akJ/MMb7PN2CuuvekMTqZqi1BqqyV6doreKnOTyscXek<br>IiKTvUuQVQgNT6Adc3ZCw7MgaJriTZXIYe76aYbvNjBUej6BjMr6ylLUPIy2tzGN<br>MDJsnetj918aZrvzUA3u7CXmgAJdpSJoC7p0c0QCMM1nxDMamHzWQO5J4dxMtvBR<br>IEaW5RTaFgzRiRYkKgomphtqZDTb9XSwgKPbloEf8IUPht0vf/LDMzdCqYs8GWW/<br>GzLx/M7T<br>=9lF5<br>-----END PGP SIGNATURE-----</code></p>
+<p><code>------BEGIN PGP SIGNED MESSAGE-----<br>Hash: SHA512<br><br>AnuBitux_2022_1_1_live.iso<br>MD5: e761ae6af0c2c636b501126f60aea566<br>SHA1: 6648706f9957b553dc2f8b6dfd43e1d2deae45a0<br><br>AnuBitux_2022_1_1_inst.iso<br>MD5: e0c8170d3846881a93ed812be8ade7bf<br>SHA1: 77643b61e453f0ba484dece9c5f43a1a2e9b9436<br><br>AnuBitux_2022_1_1_VM.ova<br>MD5: d90c8c6b218b418d84fdab410e35d2d6<br>SHA1: fc126ef437d4d698219da4025ad73ff705f9765c<br>-----BEGIN PGP SIGNATURE-----<br><br>iQGzBAEBCgAdFiEEefEIBKtGU1BmKiujyYDLEerEolUFAmLCtbwACgkQyYDLEerE<br>olWYXgv+KpsnyHuSKGCcBGundUsyQpv3tJm+w8tHFsaoer5jYoRyus62GuwPVJyN<br>4EeeYr3yf5L5o4yduoA1XoMnZlMiovzIEep+ssiQWJ/94waR6GyV+LrxyJMOs2YI<br>277EKSJry69mIE7bxB1jcYGqlaW41ILjh1HTRMT+f/TDwAggfJDmG4LFSbPtotpQ<br>PAHtknickjmeJHXz7gMsBP1qsiEmF4/289PmjkogVyFuMgq2pUwXsyoLxBr2G8YU<br>egGOdMOP0MBcZCwdvJ5FzFoeFxAamppmVgIzkAXnynKGYEv+eZ/Ywnlx3i/bxhwV<br>En52x9+DLeMVlzXEEAIEZOqfRnEfcitUgUStDADqwIQtk4R7juT+PDv7LYWGt6Kx<br>rRHPZGKYMTFEwXP5AYXn0+EjDtjTWfDgdRlyANOBufh3cRfqTIy46q3wjUWdawQk<br>xFGQwcWToseu24/pfym2Oh6Iu3fwideq1xerkOt7LLZt/6xsFPcgtvlJa2edu9Tc<br>cUdqKmbE<br>=kUj3<br>-----END PGP SIGNATURE-----</code></p>
 <p> </p>
             ]]>
         </content>
