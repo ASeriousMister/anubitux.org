@@ -3,12 +3,82 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-07-04T12:21:10+02:00</updated>
+    <updated>2022-07-08T18:04:06+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>How to spend a Bitcoin paper wallet with Anu₿iTux </title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/how-to-spend-a-paper-wallet-with-anubitux/"/>
+        <id>https://anubitux.org/how-to-spend-a-paper-wallet-with-anubitux/</id>
+            <category term="wallet"/>
+            <category term="tutorial"/>
+            <category term="tools"/>
+            <category term="private key"/>
+            <category term="paper wallet"/>
+            <category term="opsec"/>
+            <category term="linux"/>
+            <category term="howto"/>
+            <category term="electrum"/>
+            <category term="cryptocurrency"/>
+            <category term="bitcoin"/>
+            <category term="anubitux"/>
+
+        <updated>2022-07-08T18:04:06+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/18/paper.png" alt="paper1" />
+                    Knowing the public address on our paper wallet, we will be able to receive funds and monitor our balance in many different ways, like with a watch-only wallet created with Electrum or using public block explorers. If we want to spend our funds, we need&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://anubitux.org/media/posts/18/paper.png" alt="paper1" />
+                <p>Knowing the public address on our <a href="https://anubitux.org/how-to-create-a-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">paper wallet</a>, we will be able to receive funds and monitor our balance in many different ways, like with a watch-only wallet created with Electrum or using public block explorers.</p>
+<p>If we want to spend our funds, we need to know the private key that is reported on the paper wallet and that should have been kept secret until now. But how could we use this private key? Anu₿itux provides us all we need to do it in a safe way.</p>
+<h3>The steps to follow</h3>
+<p>One of the best softwares to use in this case is, for sure, <a href="https://electrum.org/#home" target="_blank" rel="noopener noreferrer">Electrum</a>. First of all launch it going in the Anu₿itux menu, under the "Wallets" section.</p>
+<p>In the first screen select "Auto connect" or "Select server manually" if you know what you are doing.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec1.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec1-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec1-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec1-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec1-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec1-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec1-2xl.png 1600w"  alt="Elec1" width="600" height="444"></figure>
+<p class="msg msg--success"><em>If you are concerned about privacy or IP address leakage, you can use <a href="https://github.com/moonchitta/anonsurf-ubuntu" target="_blank" rel="noopener noreferrer">AnonSurf</a> clicking on the dedicated desktop icon lebeled "Start Anonymous Proxy".</em></p>
+<p>Then, in the next window, let's choose a name for our wallet.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec2-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec2-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec2-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec2-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec2-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec2-2xl.png 1600w"  alt="elec2" width="600" height="442"></figure>
+<p>Let's select the last option, "Import Bitcoin addresses or private keys".</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec3-2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec3-2-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec3-2-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec3-2-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec3-2-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec3-2-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec3-2-2xl.png 1600w"  alt="elec3" width="600" height="448"></figure>
+<p>We can now import our private key in many different ways:</p>
+<ul>
+<li>writing it manually (only if you have time and patience);</li>
+<li>clicking on the camera icon on the right bottom our webcam will be started and we can grab the private key's QR code from our paper wallet;</li>
+<li>clicking on the folder icon near the camera icon we could import it from a text file (it is very unsafe to store private keys in text files unless using encrypted storages);</li>
+<li>copying and pasting it from some source (also in this case, it is very important to keep private keys in safe places like <a href="https://keepassxc.org/" target="_blank" rel="noopener noreferrer">kdbx databases</a>, encrypted volumes, etc.).</li>
+</ul>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec4.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec4-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec4-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec4-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec4-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec4-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec4-2xl.png 1600w"  alt="elec4" width="600" height="442"></figure>
+<p>It is very important to specify the right format of your private key, according to the address format we want to get:</p>
+<ul>
+<li>p2pkh address (those starting with 1);</li>
+<li>p2wpkh address (those starting with bc1);</li>
+<li>p2wpkh-p2sh address (those starting with 3).</li>
+</ul>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec5-2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec5-2-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec5-2-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec5-2-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec5-2-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec5-2-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec5-2-2xl.png 1600w"  alt="elec5" width="600" height="435"></figure>
+<p>In this case we are importing the same private key using three different formats, and we are expecting to obtain three different addresses in three different formats. This is because every specified format corresponds to a different derivation path.</p>
+<p>As last step, set-up a password for your wallet.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec6.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec6-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec6-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec6-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec6-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec6-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec6-2xl.png 1600w"  alt="elec6" width="600" height="441"></figure>
+<p>Now we have obtained our addresses.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec7.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec7-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec7-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec7-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec7-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec7-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec7-2xl.png 1600w"  alt="elec7" width="850" height="450"></figure>
+<p>As expected, we obtained three addresses, one starting with 1, one starting with 3 and a third starting with bc1. Specifing the wrong format for the key we are importing could give us the feel that the address has no funds available. So, when we store private keys, it is a good idea to keep note also of the correct format to use when spending funds will be necessary. </p>
+<h3>Final thoughts</h3>
+<p>A paper wallet is a cold storage solution to store coins in a safe way if it is managed properly. When importing it, all its security features disappear. So it is adviced to spend all the available funds sending the change amount to a new safe <a href="https://anubitux.org/how-to-create-a-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">paper wallet</a>.</p>
+<p>To do so, go to "Tools" -&gt; "Pay to many" and specify the address (or the addresses) you want to send funds and the address of your new secure paper wallet. All the addresses have to be followed by the amount you want to send to each one (separated by a comma), like in the following picture.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec8-2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec8-2-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec8-2-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec8-2-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec8-2-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec8-2-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec8-2-2xl.png 1600w"  alt="elec8" width="850" height="455"></figure>
+<p>In this way, we can spend the funds we have to pay to someone and directly send the change to a new secure paper wallet, without the need to dispose many transactions, saving up time and fees.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Changelog</title>
         <author>
@@ -559,7 +629,7 @@
             <category term="bip39"/>
             <category term="anubitux"/>
 
-        <updated>2022-07-03T13:15:32+02:00</updated>
+        <updated>2022-07-08T17:09:07+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/3/AnubituxWallpaperGreen.png" alt="AnubituxWall" />
@@ -579,6 +649,7 @@
 <li><a href="https://anubitux.org/enable-network-monitor-in-anubitux/">Enable network monitor in Anu₿itux</a></li>
 <li><a href="https://anubitux.org/how-to-create-a-monero-paper-wallet-with-anubitux/">How to create a Monero paper wallet with Anu₿itux</a></li>
 <li><a href="https://anubitux.org/how-to-verify-your-downloaded-anubitux/">How to verify your downloaded Anu₿itux</a></li>
+<li><a href="https://anubitux.org/how-to-spend-a-paper-wallet-with-anubitux/">How to spend a Bitcoin paper wallet with Anu₿itux</a></li>
 <li><em>...more coming...</em></li>
 </ul>
 <p> </p>
@@ -641,63 +712,6 @@
 <figure class="post__image"><img loading="lazy"  src="https://anubitux.org/media/posts/2/DonationBTC.png" sizes="100vw" srcset="https://anubitux.org/media/posts/2/responsive/DonationBTC-xs.png 300w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-sm.png 480w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-md.png 768w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-lg.png 1024w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-xl.png 1360w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-2xl.png 1600w"  alt="BTC_address_QR" width="200" height="200"></figure>
 <p><strong>XMR</strong>: 87PTU58siKNb3WWXcP4Hq4CmCb7kMQUsEiUWFT7SvvMMUqVw9XXFGrJZqmnGvuJLGtLoRuEqovTG4SWqkPr8YLopTSxZkkL</p>
 <figure class="post__image"><img loading="lazy"  src="https://anubitux.org/media/posts/2/qrcodeXMR.png" sizes="100vw" srcset="https://anubitux.org/media/posts/2/responsive/qrcodeXMR-xs.png 300w ,https://anubitux.org/media/posts/2/responsive/qrcodeXMR-sm.png 480w ,https://anubitux.org/media/posts/2/responsive/qrcodeXMR-md.png 768w ,https://anubitux.org/media/posts/2/responsive/qrcodeXMR-lg.png 1024w ,https://anubitux.org/media/posts/2/responsive/qrcodeXMR-xl.png 1360w ,https://anubitux.org/media/posts/2/responsive/qrcodeXMR-2xl.png 1600w"  alt="QR_XMR" width="200" height="200"></figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Download Anu₿itux</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/download-anubitux/"/>
-        <id>https://anubitux.org/download-anubitux/</id>
-            <category term="virtualbox"/>
-            <category term="ubuntu"/>
-            <category term="live"/>
-            <category term="linux"/>
-            <category term="links"/>
-            <category term="kubuntu"/>
-            <category term="install"/>
-            <category term="downloads"/>
-            <category term="download"/>
-            <category term="disclaimer"/>
-            <category term="caution"/>
-            <category term="anubitux"/>
-
-        <updated>2022-07-04T12:19:34+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/1/AnubituxWallpaperLightBlue.png" alt="" />
-                    DISCLAIMER!!! Anu₿itux is a free project that aims to provide a secure and safe enviroment to use cryptocurrencies, also showing some use cases and tutorials. All the tools included have been downloaded from trusted sources like officilal ubuntu repositories, github and official websites. Althought no&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://anubitux.org/media/posts/1/AnubituxWallpaperLightBlue.png" alt="" />
-                <h2 class="msg msg--warning align-center"><strong>DISCLAIMER!!!</strong></h2>
-<p><em>Anu₿itux is a free project that aims to provide a secure and safe enviroment to use cryptocurrencies, also showing some use cases and tutorials. All the tools included have been downloaded from trusted sources like officilal ubuntu repositories, github and official websites.</em></p>
-<p><em>Althought no guarantee is provided with it. User is always supposed to do only things he knows and to manage sensible information and backups himself.</em></p>
-<p><em>The Anu₿itux team takes no responsibility about malfunctioning tools or about unsafe usage of its solutions and its tutorials.</em></p>
-<p><em>The Anu₿itux distro and the related tutorials are provided "as-is" and without warranty of any kind, express, implied or otherwise, including without limitation, any warranty of fitness for a particular purpose. </em></p>
-<p><em>Downloading the Anu₿itux distro the user implicitly accepts to use it considering himself as responsible for the actions he will carry out and that the Anu₿itux team is not responsible in any way for eventual malfunctions or misconfigured tools.</em></p>
-<h3><strong>Download links:</strong></h3>
-<p>After downloaded Anu₿itux, if in doubt, please refer to <a href="https://anubitux.org/how-to-use-anubitux/" target="_blank" rel="noopener noreferrer">this post</a> to see how to use it.</p>
-<h4>Anu₿itux live</h4>
-<p>This is the main version of Anu₿itux! It is designed to work only in live mode, to prevent the storage of any information on disks and preserve the privacy of the users. Using it, it is mandatory to backup all the sensible information elsewhere in a proper and secure way.</p>
-<figure class="post__image post__image--center"><a href="https://storage.anubitux.org/AnuBitux_2022_1_1_live.iso" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/1/Download1.png" sizes="100vw" srcset="https://anubitux.org/media/posts/1/responsive/Download1-xs.png 300w ,https://anubitux.org/media/posts/1/responsive/Download1-sm.png 480w ,https://anubitux.org/media/posts/1/responsive/Download1-md.png 768w ,https://anubitux.org/media/posts/1/responsive/Download1-lg.png 1024w ,https://anubitux.org/media/posts/1/responsive/Download1-xl.png 1360w ,https://anubitux.org/media/posts/1/responsive/Download1-2xl.png 1600w"  alt="Download1" width="249" height="124"></figure></a></p>
-<h4>Anu₿itux install</h4>
-<p>This version can be installed on devices and in virtual machines. It is intended to be used for training and to run tests on the tools. It is absolutely not recomended to use to handle sensible information (e.g. generation of new private keys).</p>
-<figure class="post__image post__image--center"><a href="https://storage.anubitux.org/AnuBitux_2022_1_1_inst.iso" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/1/Download2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/1/responsive/Download2-xs.png 300w ,https://anubitux.org/media/posts/1/responsive/Download2-sm.png 480w ,https://anubitux.org/media/posts/1/responsive/Download2-md.png 768w ,https://anubitux.org/media/posts/1/responsive/Download2-lg.png 1024w ,https://anubitux.org/media/posts/1/responsive/Download2-xl.png 1360w ,https://anubitux.org/media/posts/1/responsive/Download2-2xl.png 1600w"  alt="Download2" width="249" height="125"></figure></a></p>
-<h4>Anu₿itux VM</h4>
-<p>This is a ready to use virtual machine, to see how Anu₿itux looks like and run some tests or trainings. It is not recomended to use it for real cases. To run it simply import it in <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank" rel="noopener noreferrer">VirtualBox</a>. The VirtualBox Extension Pack could be mandatory to run it in a proper way.</p>
-<figure class="post__image post__image--center"><a href="https://storage.anubitux.org/AnuBitux_2022_1_1_VM.ova" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/1/Download3.png" sizes="100vw" srcset="https://anubitux.org/media/posts/1/responsive/Download3-xs.png 300w ,https://anubitux.org/media/posts/1/responsive/Download3-sm.png 480w ,https://anubitux.org/media/posts/1/responsive/Download3-md.png 768w ,https://anubitux.org/media/posts/1/responsive/Download3-lg.png 1024w ,https://anubitux.org/media/posts/1/responsive/Download3-xl.png 1360w ,https://anubitux.org/media/posts/1/responsive/Download3-2xl.png 1600w"  alt="Download3" width="249" height="125"></figure></a></p>
-<h3>Changelog</h3>
-<p>Click <a href="https://anubitux.org/changelog/" target="_blank" rel="noopener noreferrer">here</a> to read the changelog and the details about the released versions.</p>
-<h3>Verify your download</h3>
-<p>To verify the downloaded files, please refer to the following checksums.</p>
-<p>Checksums can be verified downloading our public PGP key, that cha be found on <a href="https://github.com/ASeriousMister/Anubitux-PGP" target="_blank" rel="noopener noreferrer">github</a> or on <a href="https://pastebin.com/bqmy9y2P" target="_blank" rel="noopener noreferrer">pastebin</a>. </p>
-<p><code>------BEGIN PGP SIGNED MESSAGE-----<br>Hash: SHA512<br><br>AnuBitux_2022_1_1_live.iso<br>MD5: e761ae6af0c2c636b501126f60aea566<br>SHA1: 6648706f9957b553dc2f8b6dfd43e1d2deae45a0<br><br>AnuBitux_2022_1_1_inst.iso<br>MD5: e0c8170d3846881a93ed812be8ade7bf<br>SHA1: 77643b61e453f0ba484dece9c5f43a1a2e9b9436<br><br>AnuBitux_2022_1_1_VM.ova<br>MD5: d90c8c6b218b418d84fdab410e35d2d6<br>SHA1: fc126ef437d4d698219da4025ad73ff705f9765c<br>-----BEGIN PGP SIGNATURE-----<br><br>iQGzBAEBCgAdFiEEefEIBKtGU1BmKiujyYDLEerEolUFAmLCtbwACgkQyYDLEerE<br>olWYXgv+KpsnyHuSKGCcBGundUsyQpv3tJm+w8tHFsaoer5jYoRyus62GuwPVJyN<br>4EeeYr3yf5L5o4yduoA1XoMnZlMiovzIEep+ssiQWJ/94waR6GyV+LrxyJMOs2YI<br>277EKSJry69mIE7bxB1jcYGqlaW41ILjh1HTRMT+f/TDwAggfJDmG4LFSbPtotpQ<br>PAHtknickjmeJHXz7gMsBP1qsiEmF4/289PmjkogVyFuMgq2pUwXsyoLxBr2G8YU<br>egGOdMOP0MBcZCwdvJ5FzFoeFxAamppmVgIzkAXnynKGYEv+eZ/Ywnlx3i/bxhwV<br>En52x9+DLeMVlzXEEAIEZOqfRnEfcitUgUStDADqwIQtk4R7juT+PDv7LYWGt6Kx<br>rRHPZGKYMTFEwXP5AYXn0+EjDtjTWfDgdRlyANOBufh3cRfqTIy46q3wjUWdawQk<br>xFGQwcWToseu24/pfym2Oh6Iu3fwideq1xerkOt7LLZt/6xsFPcgtvlJa2edu9Tc<br>cUdqKmbE<br>=kUj3<br>-----END PGP SIGNATURE-----</code></p>
-<p> </p>
             ]]>
         </content>
     </entry>
