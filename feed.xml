@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-07-08T18:04:06+02:00</updated>
+    <updated>2022-07-10T16:08:03+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -494,7 +494,7 @@
             <category term="kubuntu"/>
             <category term="anubitux"/>
 
-        <updated>2022-07-04T12:21:10+02:00</updated>
+        <updated>2022-07-10T16:07:51+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/4/AnuBitux_2022_1_1.png" alt="AnuBituxDesktop" />
@@ -534,7 +534,7 @@
 <li><a href="https://github.com/10gic/vanitygen-plusplus" target="_blank" rel="noopener noreferrer">VanityGen</a> is a tool that can generate multy-currency vanity addresses like 1AnUbiYpuFsGrc1JFxFCh5K9tXFd1BXPgb;</li>
 <li><a href="https://github.com/fukuchi/libqrencode/" target="_blank" rel="noopener noreferrer">QREncode</a> is a tool that generates QR codes from strings and that could be very useful to store addresses and keys offline. More information <a href="https://fukuchi.org/works/qrencode/" target="_blank" rel="noopener noreferrer">here</a>.</li>
 </ul>
-<h4>Traansaction Tools</h4>
+<h4>Transaction Tools</h4>
 <p>In this category there will be tools that can be used to handle transactions. At the moment it integrates only one tool.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/4/menu3.png" sizes="100vw" srcset="https://anubitux.org/media/posts/4/responsive/menu3-xs.png 300w ,https://anubitux.org/media/posts/4/responsive/menu3-sm.png 480w ,https://anubitux.org/media/posts/4/responsive/menu3-md.png 768w ,https://anubitux.org/media/posts/4/responsive/menu3-lg.png 1024w ,https://anubitux.org/media/posts/4/responsive/menu3-xl.png 1360w ,https://anubitux.org/media/posts/4/responsive/menu3-2xl.png 1600w"  alt="TransactionToolsMenu" width="467" height="182"></figure>
 <ul>
@@ -587,7 +587,7 @@
 <p>Here there are tools that could be useful to interact with anything regarding encryption.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/4/menu10.png" sizes="100vw" srcset="https://anubitux.org/media/posts/4/responsive/menu10-xs.png 300w ,https://anubitux.org/media/posts/4/responsive/menu10-sm.png 480w ,https://anubitux.org/media/posts/4/responsive/menu10-md.png 768w ,https://anubitux.org/media/posts/4/responsive/menu10-lg.png 1024w ,https://anubitux.org/media/posts/4/responsive/menu10-xl.png 1360w ,https://anubitux.org/media/posts/4/responsive/menu10-2xl.png 1600w"  alt="" width="471" height="350"></figure>
 <ul>
-<li><a href="https://www.veracrypt.fr/en/Home.html" target="_blank" rel="noopener noreferrer">VeraCrypt</a> is a cross-paltform <a href="https://github.com/veracrypt/VeraCrypt" target="_blank" rel="noopener noreferrer">open source</a> tool that allows to encrypt and decrypt volumes and disks with many algorithms;</li>
+<li><a href="https://www.veracrypt.fr/en/Home.html" target="_blank" rel="noopener noreferrer">VeraCrypt</a> is a cross-platform <a href="https://github.com/veracrypt/VeraCrypt" target="_blank" rel="noopener noreferrer">open source</a> tool that allows to encrypt and decrypt volumes and disks with many algorithms;</li>
 <li><a href="https://github.com/Aorimn/dislocker" target="_blank" rel="noopener noreferrer">DisLocker</a> allows to manage bitlocker encrypted volumes in a Linux enviroment;</li>
 <li><a href="https://www.openpgp.org/software/kleopatra/" target="_blank" rel="noopener noreferrer">Kleopatra</a> manages PGP Keys and allows to encrypt, decrypt, sign and verify text and files;</li>
 <li><a href="https://keepassxc.org/" target="_blank" rel="noopener noreferrer">KeepassXC</a> is an offline open source cross-platform password manager, that could also store any kind of information like mnemonic seed phrases;</li>
@@ -629,17 +629,17 @@
             <category term="bip39"/>
             <category term="anubitux"/>
 
-        <updated>2022-07-08T17:09:07+02:00</updated>
+        <updated>2022-07-10T16:08:03+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/3/AnubituxWallpaperGreen.png" alt="AnubituxWall" />
-                    Here there will be many tutorials about how to use Anu₿itux and its tools. In this section there will also be pratical use cases and news about features and releases. Stay tuned! New posts will also be shared on the related Telegram channel and on&hellip;
+                    Here there will be many tutorials about how to use Anu₿itux and its tools. In this section there will also be practical use cases and news about features and releases. Stay tuned! New posts will also be shared on the related Telegram channel and on&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://anubitux.org/media/posts/3/AnubituxWallpaperGreen.png" alt="AnubituxWall" />
-                <p>Here there will be many tutorials about how to use Anu₿itux and its tools. In this section there will also be pratical use cases and news about features and releases. <strong><span style="color: #169179;">Stay tuned!</span></strong></p>
+                <p>Here there will be many tutorials about how to use Anu₿itux and its tools. In this section there will also be practical use cases and news about features and releases. <strong><span style="color: #169179;">Stay tuned!</span></strong></p>
 <p>New posts will also be shared on the related <strong><a href="https://t.me/anubitux" target="_blank" rel="noopener noreferrer"><span style="color: #3598db;">Telegram channel</span></a> </strong>and on the official <span style="color: #3598db;"><strong><a href="https://twitter.com/anubitux" target="_blank" rel="noopener noreferrer" style="color: #3598db;">Twitter account</a></strong></span>.</p>
 <h2>Posts list:</h2>
 <ul>
