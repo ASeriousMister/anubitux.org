@@ -3,12 +3,67 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-07-10T16:08:03+02:00</updated>
+    <updated>2022-07-10T21:20:07+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>Recover access to a wallet file with Anu₿itux</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/recover-access-to-a-wallet-file-with-anubitux/"/>
+        <id>https://anubitux.org/recover-access-to-a-wallet-file-with-anubitux/</id>
+            <category term="wallet"/>
+            <category term="virtual enviroment"/>
+            <category term="tutorial"/>
+            <category term="tool"/>
+            <category term="recovery"/>
+            <category term="python"/>
+            <category term="password"/>
+            <category term="encrypted"/>
+            <category term="dictionary"/>
+            <category term="btcrecover"/>
+            <category term="brute force"/>
+            <category term="anubitux"/>
+
+        <updated>2022-07-10T21:16:09+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/9/security-g77e3e3bd2_1280.jpg" alt="Unlock" />
+                    It is a weird thing but it may happen that we forget our wallet's password. Of course, we could use our mnemonic seed to recover it, but there could also be other cases in which we could be looking for a wallet's password. Let's see&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://anubitux.org/media/posts/9/security-g77e3e3bd2_1280.jpg" alt="Unlock" />
+                <p>It is a weird thing but it may happen that we forget our wallet's password. Of course, we could use our mnemonic seed to recover it, but there could also be other cases in which we could be looking for a wallet's password. Let's see how we could recover access to the wallet with Anu₿itux, using <a href="https://btcrecover.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">btcrecover</a>.</p>
+<h3>What is btcrecover?</h3>
+<p>In Anu₿itux, we can find btcrecover in the Anu₿itux menu, under the "Recovery" section. This will show only a hint about how to use it, because it has no user interface and needs to be run in our command line. It is a very powerful python tool that gives us a lot of different solutions to recover access to our wallets. It works with wallet files of many different clients (like Electrum, BitcoinCore, Coinomi, MetaMask, etc.), encrypted private keys, bip39 seeds with passphrase, and more. <a href="https://btcrecover.readthedocs.io/en/latest/Usage_Examples/basic_password_recoveries/" target="_blank" rel="noopener noreferrer">Here</a> you can find the official documentation about its password recovery features.  </p>
+<h3>How to use it with Anu₿itux</h3>
+<p>Let's assume we have a wallet file we do not remember the password. First of all we need to prepare a list of passwords we want to try. We can do it writing a list of possibile passwords, using a prepared <a href="https://www.hacktoday.com/password-cracking-dictionarys-download-for-free/" target="_blank" rel="noopener noreferrer">dictionary</a>, exporting passwords from other available sources like mobiles, browsers, password managers, etc.</p>
+<p>For our purpose we are using a small custom list, just to test how the tool works and a prepared Electrum wallet file. Electrum wallet files can usually be found in the /home/anubitux/.electrum/wallets directory. Notice that with Linux operating systems folders and files which name starts with "." are hidden and may not be shown if the specific option is disabled.</p>
+<p>It can be useful to place a copy of the wallet file we are trying to unlock in a separate folder, to avoid any accidental malfuntion and risk to corrupt the original copy of the file. In our case it is placed in the Documents foler.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/9/btcrec1.png" sizes="100vw" srcset="https://anubitux.org/media/posts/9/responsive/btcrec1-xs.png 300w ,https://anubitux.org/media/posts/9/responsive/btcrec1-sm.png 480w ,https://anubitux.org/media/posts/9/responsive/btcrec1-md.png 768w ,https://anubitux.org/media/posts/9/responsive/btcrec1-lg.png 1024w ,https://anubitux.org/media/posts/9/responsive/btcrec1-xl.png 1360w ,https://anubitux.org/media/posts/9/responsive/btcrec1-2xl.png 1600w"  alt="btcrec1" width="800" height="511"></figure>
+<p>Now let's try to unlock the wallet file running btcrecover. We have to use the --wallet option to indicate the path to the wallet file and --passwordlist to indicate the text file containing the passwords we want to try.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/9/btcr2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/9/responsive/btcr2-xs.png 300w ,https://anubitux.org/media/posts/9/responsive/btcr2-sm.png 480w ,https://anubitux.org/media/posts/9/responsive/btcr2-md.png 768w ,https://anubitux.org/media/posts/9/responsive/btcr2-lg.png 1024w ,https://anubitux.org/media/posts/9/responsive/btcr2-xl.png 1360w ,https://anubitux.org/media/posts/9/responsive/btcr2-2xl.png 1600w"  alt="btcr2" width="800" height="520"></figure>
+<p class="msg msg--success">We could also use shorter paths to file, like "<em>Documents/wallet_to_recover</em>". So the command would be: <em>btcrecover.py --wallet Documents/wallet_to_recover --passwordlist Documents/list</em>. We could also move to the directory containing the files we need, using che <em>cd</em> command, and run the tool from there.</p>
+<p>Now clicking Enter, the tool is going to load the password list and to identify the kind of wallet file. Then it will start trying all the words until it finds the right one.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/9/btcr3.png" sizes="100vw" srcset="https://anubitux.org/media/posts/9/responsive/btcr3-xs.png 300w ,https://anubitux.org/media/posts/9/responsive/btcr3-sm.png 480w ,https://anubitux.org/media/posts/9/responsive/btcr3-md.png 768w ,https://anubitux.org/media/posts/9/responsive/btcr3-lg.png 1024w ,https://anubitux.org/media/posts/9/responsive/btcr3-xl.png 1360w ,https://anubitux.org/media/posts/9/responsive/btcr3-2xl.png 1600w"  alt="btcr3" width="800" height="510"></figure>
+<p>As we can see in the picture, the tool has found the correct password in a few seconds, even because in this case we were trying only a list of eight words and the fifth was the correct one.</p>
+<h3>Some advice</h3>
+<p>As it is possible to see in the output of the tool, in a first stage it loads the whole file containing the password list. If we are attempting to bruteforce a wallet with a big dictionary, it could saturate the RAM memory causing running issues in the whole running system. To avoid this kind of issue, it could be a good idea to split the text file in multiple smaller files. We can do that with the split command, like in the following examples:</p>
+<p><code>split -l 10000 whole_list partial_list</code></p>
+<p>This will create a set of files, which name starts with "partial_list", each one containing 10000 lines.</p>
+<p><code>split -b 100M whole_list partial_list</code></p>
+<p>This will create a set of files, which name starts with "partial_list", each one with a size of 100 MB.</p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to spend a Bitcoin paper wallet with Anu₿iTux </title>
         <author>
@@ -86,23 +141,31 @@
         </author>
         <link href="https://anubitux.org/changelog/"/>
         <id>https://anubitux.org/changelog/</id>
+            <category term="linux for xmr"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
             <category term="changelog"/>
             <category term="anubitux"/>
 
-        <updated>2022-07-04T12:18:14+02:00</updated>
+        <updated>2022-07-10T21:20:07+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/22/AnubituxWallpaperGrey.png" alt="Anu₿ituxGrey" />
-                    AnuBitux_2022_1_1 Release date: 04-jul-2022 Versions involved: live, install, virtual machine Changes: Kubuntu updates installed, TorBrowser updated, new desktop icons, changes some settings about how some Python tools use virtual enviroments. Release date: 02-jul-2022 Versions involved: live, install, virtual machine Changes: first release of Anu₿itux, previous&hellip;
+                    AnuBitux_2022_1_2 Release date: 10-jul-2022 Versions involved: live, install, virtual machine Changes: Kubuntu updates installed, some settings about how some Python tools use virtual enviroments have been changed, CoBang QR code reader added Release date: 04-jul-2022 Versions involved: live, install, virtual machine Changes: Kubuntu updates installed,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://anubitux.org/media/posts/22/AnubituxWallpaperGrey.png" alt="Anu₿ituxGrey" />
-                <h4>AnuBitux_2022_1_1</h4>
+                <h4>AnuBitux_2022_1_2</h4>
+<p><em>Release date</em>: 10-jul-2022</p>
+<p><em>Versions involved</em>: live, install, virtual machine</p>
+<p><em>Changes</em>: Kubuntu updates installed, some settings about how some Python tools use virtual enviroments have been changed, CoBang QR code reader added</p>
+<h4>AnuBitux_2022_1_1</h4>
 <p><span style="text-decoration: underline;"><em>Release date</em></span>: 04-jul-2022</p>
 <p><span style="text-decoration: underline;"><em>Versions involved</em></span>: live, install, virtual machine</p>
-<p><span style="text-decoration: underline;"><em>Changes</em></span>: Kubuntu updates installed, TorBrowser updated, new desktop icons, changes some settings about how some Python tools use virtual enviroments.</p>
+<p><span style="text-decoration: underline;"><em>Changes</em></span>: Kubuntu updates installed, TorBrowser updated, new desktop icons, some settings about how some Python tools use virtual enviroments have been changed.</p>
 <h4>AnuBitux_2022_1</h4>
 <p><em><span style="text-decoration: underline;">Release date</span></em>: 02-jul-2022</p>
 <p><em><span style="text-decoration: underline;">Versions involved</span></em>: live, install, virtual machine</p>
@@ -121,6 +184,9 @@
             <category term="tutorial"/>
             <category term="opsec"/>
             <category term="mac"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
             <category term="linux"/>
             <category term="howto"/>
             <category term="hash"/>
@@ -130,7 +196,7 @@
             <category term="caution"/>
             <category term="anubitux"/>
 
-        <updated>2022-07-03T13:14:35+02:00</updated>
+        <updated>2022-07-10T21:19:54+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/20/verified-gcc6c27d92_1920.png" alt="Verified" />
@@ -200,13 +266,17 @@
             <category term="network"/>
             <category term="monero"/>
             <category term="live"/>
+            <category term="linux for xmr"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
             <category term="howto"/>
             <category term="cryptocurrency"/>
             <category term="crypto"/>
             <category term="anubitux"/>
             <category term="USB"/>
 
-        <updated>2022-07-02T18:44:37+02:00</updated>
+        <updated>2022-07-10T21:19:37+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/8/quantitatives-JtGC2nqJYfU-unsplash.jpg" alt="MoneroCoin" />
@@ -305,9 +375,12 @@
             <category term="tutorial"/>
             <category term="opsec"/>
             <category term="network"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
             <category term="anubitux"/>
 
-        <updated>2022-07-01T21:12:21+02:00</updated>
+        <updated>2022-07-10T21:19:17+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/7/cyberspace-gc66fcea74_1280.jpg" alt="Network" />
@@ -342,13 +415,16 @@
             <category term="paper wallet"/>
             <category term="opsec"/>
             <category term="live"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
             <category term="howto"/>
             <category term="cryptocurrency"/>
             <category term="bitcoin"/>
             <category term="anubitux"/>
             <category term="USB"/>
 
-        <updated>2022-07-02T17:10:58+02:00</updated>
+        <updated>2022-07-10T21:19:06+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/6/front-300dpi.jpg" alt="PaperWallet" />
@@ -397,13 +473,16 @@
             <category term="ubuntu"/>
             <category term="tutorial"/>
             <category term="test"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
             <category term="linux"/>
             <category term="kubuntu"/>
             <category term="balena"/>
             <category term="anubitux"/>
             <category term="USB"/>
 
-        <updated>2022-07-01T21:24:16+02:00</updated>
+        <updated>2022-07-10T21:18:47+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/5/space-shuttle-774_1280.jpg" alt="Start" />
@@ -490,11 +569,14 @@
             <category term="script"/>
             <category term="python"/>
             <category term="live"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
             <category term="linux"/>
             <category term="kubuntu"/>
             <category term="anubitux"/>
 
-        <updated>2022-07-10T16:07:51+02:00</updated>
+        <updated>2022-07-10T21:17:00+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/4/AnuBitux_2022_1_1.png" alt="AnuBituxDesktop" />
@@ -595,13 +677,14 @@
 </ul>
 <h4>Useful Tools</h4>
 <p>In this section there are some tools that could be useful in many Anu₿itux's use cases.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/4/menu9.png" sizes="100vw" srcset="https://anubitux.org/media/posts/4/responsive/menu9-xs.png 300w ,https://anubitux.org/media/posts/4/responsive/menu9-sm.png 480w ,https://anubitux.org/media/posts/4/responsive/menu9-md.png 768w ,https://anubitux.org/media/posts/4/responsive/menu9-lg.png 1024w ,https://anubitux.org/media/posts/4/responsive/menu9-xl.png 1360w ,https://anubitux.org/media/posts/4/responsive/menu9-2xl.png 1600w"  alt="UsefulTools" width="470" height="352"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/4/UsefulToolsMenu.png" sizes="100vw" srcset="https://anubitux.org/media/posts/4/responsive/UsefulToolsMenu-xs.png 300w ,https://anubitux.org/media/posts/4/responsive/UsefulToolsMenu-sm.png 480w ,https://anubitux.org/media/posts/4/responsive/UsefulToolsMenu-md.png 768w ,https://anubitux.org/media/posts/4/responsive/UsefulToolsMenu-lg.png 1024w ,https://anubitux.org/media/posts/4/responsive/UsefulToolsMenu-xl.png 1360w ,https://anubitux.org/media/posts/4/responsive/UsefulToolsMenu-2xl.png 1600w"  alt="USefulTools" width="482" height="408"></figure>
 <ul>
 <li><a href="https://github.com/bee-san/pyWhat" target="_blank" rel="noopener noreferrer">PyWhat</a> is a very powerful python tool that tries to identify any kind of input that could be even a string than a file;</li>
 <li><a href="https://github.com/shutter-project/shutter" target="_blank" rel="noopener noreferrer">Shutter</a> is a complete screenshot tool that allows to do some quick editing to the picture before saving it;</li>
 <li><a href="https://www.wireshark.org/" target="_blank" rel="noopener noreferrer">Wireshark</a> is the world’s foremost and widely-used network protocol analyzer. It could be used to capture network traffic during sensible operations and verify that only proper network traffic was exchanged;</li>
-<li><a href="https://tshark.dev/" target="_blank" rel="noopener noreferrer">TShark</a> is a CLI tool for packet capturing.</li>
-<li><a href="https://ffmpeg.org/" target="_blank" rel="noopener noreferrer">FFMpeg</a> is a complete, cross-platform solution to record, convert and stream audio and video. For this purpose, it could be used to record the desktop screen while doing operations that need to be reported to a third party. <span style="text-decoration: underline;"><span style="color: #e03e2d; text-decoration: underline;"><strong>Never</strong></span></span> use it while generating sensible information like private keys or new wallets or, in general, for information that are not supposed to be shared.</li>
+<li><a href="https://tshark.dev/" target="_blank" rel="noopener noreferrer">TShark</a> is a CLI tool for packet capturing;</li>
+<li><a href="https://ffmpeg.org/" target="_blank" rel="noopener noreferrer">FFMpeg</a> is a complete, cross-platform solution to record, convert and stream audio and video. For this purpose, it could be used to record the desktop screen while doing operations that need to be reported to a third party. <span style="text-decoration: underline;"><span style="color: #e03e2d; text-decoration: underline;"><strong>Never</strong></span></span> use it while generating sensible information like private keys or new wallets or, in general, for information that are not supposed to be shared;</li>
+<li><a href="https://github.com/hongquan/CoBang" target="_blank" rel="noopener noreferrer">CoBang</a> is a QR code reader that can come in handy in many situations when dealing with cryptocurrencies.</li>
 </ul>
 <p> </p>
             ]]>
@@ -619,6 +702,9 @@
             <category term="tutorial"/>
             <category term="python"/>
             <category term="opsec"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
             <category term="linux"/>
             <category term="kubuntu"/>
             <category term="howto"/>
@@ -629,7 +715,7 @@
             <category term="bip39"/>
             <category term="anubitux"/>
 
-        <updated>2022-07-10T16:08:03+02:00</updated>
+        <updated>2022-07-10T21:18:35+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/3/AnubituxWallpaperGreen.png" alt="AnubituxWall" />
@@ -650,68 +736,10 @@
 <li><a href="https://anubitux.org/how-to-create-a-monero-paper-wallet-with-anubitux/">How to create a Monero paper wallet with Anu₿itux</a></li>
 <li><a href="https://anubitux.org/how-to-verify-your-downloaded-anubitux/">How to verify your downloaded Anu₿itux</a></li>
 <li><a href="https://anubitux.org/how-to-spend-a-paper-wallet-with-anubitux/">How to spend a Bitcoin paper wallet with Anu₿itux</a></li>
+<li><a href="https://anubitux.org/recover-access-to-a-wallet-file-with-anubitux/" target="null">Recover access to a wallet file with Anu₿itux</a></li>
 <li><em>...more coming...</em></li>
 </ul>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Meet the Anu₿itux project</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/meet-the-anubitux-project/"/>
-        <id>https://anubitux.org/meet-the-anubitux-project/</id>
-            <category term="telegram"/>
-            <category term="team"/>
-            <category term="project"/>
-            <category term="monero"/>
-            <category term="donations"/>
-            <category term="donation"/>
-            <category term="contacts"/>
-            <category term="bitcoin"/>
-            <category term="anubitux"/>
-
-        <updated>2022-07-01T21:26:25+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/2/AnubituxWallpaperOrange.png" alt="" />
-                    Anu₿itux is a free project that aims to provide to everyone a safe and secure enviroment to manage crypto-stuff like wallets, seeds, transactions, etc, in a secure and simple way. The Anu₿itux distro comes also with a lot of cool tutorials that will show how&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://anubitux.org/media/posts/2/AnubituxWallpaperOrange.png" alt="" />
-                <p><strong>Anu₿itux</strong> is a free project that aims to provide to everyone a safe and secure enviroment to manage crypto-stuff like wallets, seeds, transactions, etc, in a secure and simple way. The Anu₿itux distro comes also with a lot of cool <strong><a href="https://anubitux.org/tutorials-and-howtos/">tutorials</a></strong> that will show how to use the included tools or how to approach with cryptos minimizing risks.</p>
-<p>Stay tuned with following our <span style="color: #3598db;"><strong><a href="https://t.me/anubitux" target="_blank" rel="noopener noreferrer" style="color: #3598db;">Telegram channel</a></strong></span> and our <strong><a href="https://twitter.com/anubitux" target="_blank" rel="noopener noreferrer"><span style="color: #3598db;">Twitter profile</span></a></strong>, to receive notifications every time a new releas or a new tutorial comes out.</p>
-<h3>The project is carried out by:</h3>
-<ul style="list-style-type: circle;">
-<li><em><strong><a href="https://t.me/misterserious" target="_blank" rel="noopener noreferrer">MisterSerious</a></strong></em></li>
-</ul>
-<p>Head of the Anu₿itux project. Works as cryptocurrency analyst and in the blockchain forensics field. In the free time develops this distro and codes with Python.</p>
-<ul style="list-style-type: circle;">
-<li><em><strong><a href="https://www.dalchecco.it/" target="_blank" rel="noopener noreferrer">Forensico</a></strong></em></li>
-</ul>
-<p>Digital Forensics Expert, daily involved in mobile, network, web and digital forensics in general, interested in blockchain intelligence since ransomware poke out with cryptocurrency ransom payements, he's now doing research on tools and protocols for safely managing coins, altcoins, tokens and NFT in judicial cases.</p>
-<ul style="list-style-type: circle;">
-<li><em><strong><a href="https://www.linkedin.com/in/alessandro-rella-853547177" target="_blank" rel="noopener noreferrer">Alessandro Rella</a></strong></em></li>
-</ul>
-<p>Cybersecurity &amp; Digital Forensics Expert, specialized in Mobile Forensics and passionate about OSINT, Cryptocurrency Forensics and Python. He never stops learning. </p>
-<ul style="list-style-type: circle;">
-<li><em><strong><a href="https://it.linkedin.com/in/alessandrorossetti/" target="_blank" rel="noopener noreferrer">Alessandro Rossetti</a></strong></em></li>
-</ul>
-<p>OSINT expert and great disseminator of knowledge in lots of fields like Dark Web investigations, SocMInt, HumInt and Python programming.</p>
-<ul style="list-style-type: circle;">
-<li><em><strong><a href="https://www.linkedin.com/in/riccardotani" target="_blank" rel="noopener noreferrer">Riccardo Tani</a></strong></em></li>
-</ul>
-<p>Official OPSEC Guru of the Anubitux project, with 20+ years of experience in the cyber-physical security domain, he's now developing the next generation of OSINT and WebForensics solutions.</p>
-<p><strong>Suggestions</strong> and <strong>comments</strong> can be sent directly to the Anu₿itux team members or writing an e-mail to <em><a href="mailto:info@anubitux.org">info@anubitux.org</a> </em>or messaging to the official <a href="https://twitter.com/anubitux" target="_blank" rel="noopener noreferrer">Twitter account</a>.</p>
-<p>If you appreciate this work and want to contribute, <strong>donations</strong> are appreciated!</p>
-<p><strong>BTC</strong>: 1AnUbiYpuFsGrc1JFxFCh5K9tXFd1BXPgb</p>
-<figure class="post__image"><img loading="lazy"  src="https://anubitux.org/media/posts/2/DonationBTC.png" sizes="100vw" srcset="https://anubitux.org/media/posts/2/responsive/DonationBTC-xs.png 300w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-sm.png 480w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-md.png 768w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-lg.png 1024w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-xl.png 1360w ,https://anubitux.org/media/posts/2/responsive/DonationBTC-2xl.png 1600w"  alt="BTC_address_QR" width="200" height="200"></figure>
-<p><strong>XMR</strong>: 87PTU58siKNb3WWXcP4Hq4CmCb7kMQUsEiUWFT7SvvMMUqVw9XXFGrJZqmnGvuJLGtLoRuEqovTG4SWqkPr8YLopTSxZkkL</p>
-<figure class="post__image"><img loading="lazy"  src="https://anubitux.org/media/posts/2/qrcodeXMR.png" sizes="100vw" srcset="https://anubitux.org/media/posts/2/responsive/qrcodeXMR-xs.png 300w ,https://anubitux.org/media/posts/2/responsive/qrcodeXMR-sm.png 480w ,https://anubitux.org/media/posts/2/responsive/qrcodeXMR-md.png 768w ,https://anubitux.org/media/posts/2/responsive/qrcodeXMR-lg.png 1024w ,https://anubitux.org/media/posts/2/responsive/qrcodeXMR-xl.png 1360w ,https://anubitux.org/media/posts/2/responsive/qrcodeXMR-2xl.png 1600w"  alt="QR_XMR" width="200" height="200"></figure>
             ]]>
         </content>
     </entry>
