@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-07-10T21:20:07+02:00</updated>
+    <updated>2022-07-11T18:53:28+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -576,7 +576,7 @@
             <category term="kubuntu"/>
             <category term="anubitux"/>
 
-        <updated>2022-07-10T21:17:00+02:00</updated>
+        <updated>2022-07-11T18:53:28+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/4/AnuBitux_2022_1_1.png" alt="AnuBituxDesktop" />
@@ -587,6 +587,7 @@
             <![CDATA[
                     <img src="https://anubitux.org/media/posts/4/AnuBitux_2022_1_1.png" alt="AnuBituxDesktop" />
                 <p>Anu₿itux is, first of all, a <a href="https://kubuntu.org/" target="_blank" rel="noopener noreferrer">Kubuntu</a> based distro that aims to provide a safe enviroment to use and manage cryptocurrencies. But it is not only a customized operative system, it also wants to be a place to share knowledge and best practices, providing tutorials based on Anu₿itux that can be applied in every situation.</p>
+<p class="msg msg--info"><em><a href="https://osintops.com/benvenuti-al-progetto-anubitux/" target="_blank" rel="noopener noreferrer">Here</a> you can find the Italian translation of this page. Other translation are welcome! To link them in this page do not hesitate to <a href="https://anubitux.org/meet-the-anubitux-project/" target="_blank" rel="noopener noreferrer">contact us</a>.</em></p>
 <h3>What is included in the Anu₿itux OS?</h3>
 <p>As mentioned, Anu₿itux is an enviroment based on Kubuntu 20.04 but with many customisations:</p>
 <ul>
