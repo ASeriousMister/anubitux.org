@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-07-11T18:53:28+02:00</updated>
+    <updated>2022-07-17T16:51:27+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -148,20 +148,24 @@
             <category term="changelog"/>
             <category term="anubitux"/>
 
-        <updated>2022-07-10T21:20:07+02:00</updated>
+        <updated>2022-07-17T16:51:27+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/22/AnubituxWallpaperGrey.png" alt="Anu₿ituxGrey" />
-                    AnuBitux_2022_1_2 Release date: 10-jul-2022 Versions involved: live, install, virtual machine Changes: Kubuntu updates installed, some settings about how some Python tools use virtual enviroments have been changed, CoBang QR code reader added Release date: 04-jul-2022 Versions involved: live, install, virtual machine Changes: Kubuntu updates installed,&hellip;
+                    AnuBitux_2022_1_3 Release date: 17-jul-2022 Versions involved: live, install virtual machine Changes: Kubuntu updates installed, Firefox privacy improved (Mozilla sponsor feature is now disabled), seedcheck.py heavily improved, new tool BTCKeySearch added. Release date: 10-jul-2022 Versions involved: live, install, virtual machine Changes: Kubuntu updates installed, some settings&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://anubitux.org/media/posts/22/AnubituxWallpaperGrey.png" alt="Anu₿ituxGrey" />
-                <h4>AnuBitux_2022_1_2</h4>
+                <h4>AnuBitux_2022_1_3</h4>
+<p><em>Release date</em>: 17-jul-2022</p>
+<p><em>Versions involved</em>: live, install virtual machine</p>
+<p><em>Changes</em>: Kubuntu updates installed, Firefox privacy improved (Mozilla sponsor feature is now disabled), seedcheck.py heavily improved, new tool BTCKeySearch added.</p>
+<h4>AnuBitux_2022_1_2</h4>
 <p><em>Release date</em>: 10-jul-2022</p>
 <p><em>Versions involved</em>: live, install, virtual machine</p>
-<p><em>Changes</em>: Kubuntu updates installed, some settings about how some Python tools use virtual enviroments have been changed, CoBang QR code reader added</p>
+<p><em>Changes</em>: Kubuntu updates installed, some settings about how some Python tools use virtual enviroments have been changed, CoBang QR code reader added.</p>
 <h4>AnuBitux_2022_1_1</h4>
 <p><span style="text-decoration: underline;"><em>Release date</em></span>: 04-jul-2022</p>
 <p><span style="text-decoration: underline;"><em>Versions involved</em></span>: live, install, virtual machine</p>
@@ -576,7 +580,7 @@
             <category term="kubuntu"/>
             <category term="anubitux"/>
 
-        <updated>2022-07-11T18:53:28+02:00</updated>
+        <updated>2022-07-16T18:00:03+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/4/AnuBitux_2022_1_1.png" alt="AnuBituxDesktop" />
@@ -657,11 +661,12 @@
 </ul>
 <h4>Recovery</h4>
 <p>In this section there is a collection of tool that could help to recover access to lost wallets or blocked funds.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/4/menu7.png" sizes="100vw" srcset="https://anubitux.org/media/posts/4/responsive/menu7-xs.png 300w ,https://anubitux.org/media/posts/4/responsive/menu7-sm.png 480w ,https://anubitux.org/media/posts/4/responsive/menu7-md.png 768w ,https://anubitux.org/media/posts/4/responsive/menu7-lg.png 1024w ,https://anubitux.org/media/posts/4/responsive/menu7-xl.png 1360w ,https://anubitux.org/media/posts/4/responsive/menu7-2xl.png 1600w"  alt="RecoveryTools" width="458" height="389"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/4/menu7-2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/4/responsive/menu7-2-xs.png 300w ,https://anubitux.org/media/posts/4/responsive/menu7-2-sm.png 480w ,https://anubitux.org/media/posts/4/responsive/menu7-2-md.png 768w ,https://anubitux.org/media/posts/4/responsive/menu7-2-lg.png 1024w ,https://anubitux.org/media/posts/4/responsive/menu7-2-xl.png 1360w ,https://anubitux.org/media/posts/4/responsive/menu7-2-2xl.png 1600w"  alt="" width="476" height="436"></figure>
 <ul>
 <li><a href="https://btcrecover.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">BTCrecover</a> is a python tool that tries to recover access to wallet files with many methods like trying to unlock the files using a list of passwords given by the user;</li>
 <li><a href="https://github.com/gurnec/btcrecover/blob/master/docs/Seedrecover_Quick_Start_Guide.md" target="_blank" rel="noopener noreferrer">SeedRecover</a> is part of the BTCrecover tool. It tries to fix a mnemonic seed phrase with mistakes and/or missing words;</li>
-<li><a href="https://github.com/ASeriousMister/VeraDecrypt.py" target="_blank" rel="noopener noreferrer">VeraDecrypt</a> is a tool developed by the Anu₿itux team that tries to unlock <a href="https://www.veracrypt.fr/en/Home.html" target="_blank" rel="noopener noreferrer">VeraCrypt</a> volumes and containers using a list of passwords given by the user;</li>
+<li><a href="https://github.com/ASeriousMister/BTCKeySearch" target="_blank" rel="noopener noreferrer">BTCKeySearch</a> is a tool , developed by the Anu₿itux team, that scans files in a directory and in its subdirectories, looking for Bitcoin private keys;</li>
+<li><a href="https://github.com/ASeriousMister/VeraDecrypt.py" target="_blank" rel="noopener noreferrer">VeraDecrypt</a> is a tool, developed by the Anu₿itux team, that tries to unlock <a href="https://www.veracrypt.fr/en/Home.html" target="_blank" rel="noopener noreferrer">VeraCrypt</a> volumes and containers using a list of passwords given by the user;</li>
 <li><a href="http://cdn-fastly.deb.debian.org/debian/pool/main/s/searchmonkey/" target="_blank" rel="noopener noreferrer">Searchmonkey</a> is a GUI tool that searches among the file content in a given directory or in a whole volume for strings and regular expressions. <a href="https://www.fosslinux.com/27210/searchmonkey-a-powerful-desktop-search-app-for-linux.htm" target="_blank" rel="noopener noreferrer">Here</a> there is a useful tutorial about that tool;</li>
 <li><a href="https://github.com/simsong/bulk_extractor" target="_blank" rel="noopener noreferrer">BulkExtractor</a> is a tool that rapidly scans directory and volumes for any kind of input like regular expressions;</li>
 <li><a href="https://github.com/cgsecurity/testdisk" target="_blank" rel="noopener noreferrer">Photorec</a> tries to recover deleted files or part of them and could be useful, for instance, for accidentally deleted wallets.</li>
