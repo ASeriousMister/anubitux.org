@@ -3,12 +3,97 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-07-17T16:51:27+02:00</updated>
+    <updated>2022-07-21T20:37:18+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>Find out how a seed was used with Anu₿itux</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/find-out-how-a-seed-was-used-with-anubitux/"/>
+        <id>https://anubitux.org/find-out-how-a-seed-was-used-with-anubitux/</id>
+            <category term="wallet"/>
+            <category term="tutorial"/>
+            <category term="tools"/>
+            <category term="tool"/>
+            <category term="test"/>
+            <category term="seedcheck"/>
+            <category term="recovery"/>
+            <category term="python"/>
+            <category term="monero"/>
+            <category term="linux for xmr"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="howto"/>
+            <category term="electrum"/>
+            <category term="cryptocurrency"/>
+            <category term="crypto"/>
+            <category term="bitcoin"/>
+            <category term="bip39"/>
+            <category term="anubitux"/>
+
+        <updated>2022-07-21T20:37:18+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/11/flower-g3055cbc13_1920.jpg" alt="Flower" />
+                    There could be many situations in which we need to check how a seed was used: for example we could have a lot of old seeds and did not take note about how they were used, or we could be a consultant helping others recovering&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://anubitux.org/media/posts/11/flower-g3055cbc13_1920.jpg" alt="Flower" />
+                <p>There could be many situations in which we need to check how a seed was used: for example we could have a lot of old seeds and did not take note about how they were used, or we could be a consultant helping others recovering access to their funds. It can become very frustrating and time consuming checking the seeds with many different tools, to find out the right one.</p>
+<p>In this case,  Anu₿itux could help us with <a href="https://github.com/ASeriousMister/SeedCheck.py" target="_blank" rel="noopener noreferrer">seedcheck.py</a>, a tool developed by its team.</p>
+<h3>How to use it</h3>
+<p>To run seedcheck.py, simply type it in Anu₿itux's terminal.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/11/sc1.png" sizes="100vw" srcset="https://anubitux.org/media/posts/11/responsive/sc1-xs.png 300w ,https://anubitux.org/media/posts/11/responsive/sc1-sm.png 480w ,https://anubitux.org/media/posts/11/responsive/sc1-md.png 768w ,https://anubitux.org/media/posts/11/responsive/sc1-lg.png 1024w ,https://anubitux.org/media/posts/11/responsive/sc1-xl.png 1360w ,https://anubitux.org/media/posts/11/responsive/sc1-2xl.png 1600w"  alt="sc1" width="650" height="516"></figure>
+<p>Then the only thing we have to do is answer the prompted questions. First of all, the tool asks us if we want to check online if the addresses derived with the seed we are looking about had some activity. This information is used to determinate with what currency the seed was used and which one could be the correct <a href="https://learnmeabitcoin.com/technical/derivation-paths" target="_blank" rel="noopener noreferrer">derivation path</a>. </p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/11/sc2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/11/responsive/sc2-xs.png 300w ,https://anubitux.org/media/posts/11/responsive/sc2-sm.png 480w ,https://anubitux.org/media/posts/11/responsive/sc2-md.png 768w ,https://anubitux.org/media/posts/11/responsive/sc2-lg.png 1024w ,https://anubitux.org/media/posts/11/responsive/sc2-xl.png 1360w ,https://anubitux.org/media/posts/11/responsive/sc2-2xl.png 1600w"  alt="sc2" width="650" height="523"></figure>
+<p>If we are worried about our privacy, we can ask no to this question and the tool will work completely offline. We could also start the <a href="https://github.com/moonchitta/anonsurf-ubuntu" target="_blank" rel="noopener noreferrer">Anonymous proxy</a>, clicking on the provided desktop shortcut and all our network traffic will be routed through TOR.</p>
+<p>Then we have to provide the seed's lenght, without counting an eventual passphrase as part of it. Don't worry, the tool will ask later for it. Now, we can insert the words composing our seed.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/11/sc3.png" sizes="100vw" srcset="https://anubitux.org/media/posts/11/responsive/sc3-xs.png 300w ,https://anubitux.org/media/posts/11/responsive/sc3-sm.png 480w ,https://anubitux.org/media/posts/11/responsive/sc3-md.png 768w ,https://anubitux.org/media/posts/11/responsive/sc3-lg.png 1024w ,https://anubitux.org/media/posts/11/responsive/sc3-xl.png 1360w ,https://anubitux.org/media/posts/11/responsive/sc3-2xl.png 1600w"  alt="sc3" width="650" height="519"></figure>
+<p>We can now provide a passphrase, if the seed has one. Then we can specify the language of the seed, to check it with the correct wordlists.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/11/sc4.png" sizes="100vw" srcset="https://anubitux.org/media/posts/11/responsive/sc4-xs.png 300w ,https://anubitux.org/media/posts/11/responsive/sc4-sm.png 480w ,https://anubitux.org/media/posts/11/responsive/sc4-md.png 768w ,https://anubitux.org/media/posts/11/responsive/sc4-lg.png 1024w ,https://anubitux.org/media/posts/11/responsive/sc4-xl.png 1360w ,https://anubitux.org/media/posts/11/responsive/sc4-2xl.png 1600w"  alt="sc4" width="650" height="516"></figure>
+<p>If we are not sure about it, we can simply answer "all" and the tool will determinate the language itself.</p>
+<p>The accepted answers are:</p>
+<ul>
+<li>english</li>
+<li>italian</li>
+<li>french</li>
+<li>spanish</li>
+<li>portuguese</li>
+<li>czech</li>
+<li>chinese_simplified</li>
+<li>chinese_traditional</li>
+<li>japanese</li>
+<li>korean</li>
+<li>russian</li>
+<li>esperanto</li>
+<li>lojban</li>
+</ul>
+<p>Please, provide the languages as they are written in the above list, or the tool could encounter running issues.</p>
+<p>Now, we can ask how many addresses we want to derive for any supported derivation path. It impacts on the ouput of the tool and on the amount of the check that the tool will do online.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/11/sc5.png" sizes="100vw" srcset="https://anubitux.org/media/posts/11/responsive/sc5-xs.png 300w ,https://anubitux.org/media/posts/11/responsive/sc5-sm.png 480w ,https://anubitux.org/media/posts/11/responsive/sc5-md.png 768w ,https://anubitux.org/media/posts/11/responsive/sc5-lg.png 1024w ,https://anubitux.org/media/posts/11/responsive/sc5-xl.png 1360w ,https://anubitux.org/media/posts/11/responsive/sc5-2xl.png 1600w"  alt="sc5" width="650" height="519"></figure>
+<p>More addresses we derive, more are the possibilities to find used ones. The tool will suggest us a maximum of 15 addresses, to avoid to overload the APIs queried during the check, but if we need we can force it to derive as many addresses we want.</p>
+<p>Now the tool start its magic, checking if the seed was used with an <a href="https://electrum.org/#home" target="_blank" rel="noopener noreferrer">Electrum</a> wallet, or if it is a <a href="https://github.com/bitcoin/bips/tree/master/bip-0039" target="_blank" rel="noopener noreferrer">BIP39</a> seed used with many different derivation paths to derive Bitcoin, Ethereum, Litecoin, Dash or ZCash addresses. It is also going to check if the seed was used with <a href="https://samouraiwallet.com/" target="_blank" rel="noopener noreferrer">Samourai</a>'s Whirlpool, deriving premix and postmix addresses. The tool also checks if the provided seed is compatible with Monero wallets (like <a href="https://mymonero.com/" target="_blank" rel="noopener noreferrer">MyMonero</a>, <a href="https://featherwallet.org/" target="_blank" rel="noopener noreferrer">Feather wallet</a> or <a href="https://www.getmonero.org/" target="_blank" rel="noopener noreferrer">Monero wallet</a>).</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/11/sc6.png" sizes="100vw" srcset="https://anubitux.org/media/posts/11/responsive/sc6-xs.png 300w ,https://anubitux.org/media/posts/11/responsive/sc6-sm.png 480w ,https://anubitux.org/media/posts/11/responsive/sc6-md.png 768w ,https://anubitux.org/media/posts/11/responsive/sc6-lg.png 1024w ,https://anubitux.org/media/posts/11/responsive/sc6-xl.png 1360w ,https://anubitux.org/media/posts/11/responsive/sc6-2xl.png 1600w"  alt="sc6" width="650" height="513"></figure>
+<p>As we can see, the tool was able to determinate that the tool was used with Electrum, because the addresses derived with Electrum's algorithms had some activity.</p>
+<p>The tool also find out that the seed could have been derived from a BIP39 wordlist, and checks it with many different coins.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/11/sc7.png" sizes="100vw" srcset="https://anubitux.org/media/posts/11/responsive/sc7-xs.png 300w ,https://anubitux.org/media/posts/11/responsive/sc7-sm.png 480w ,https://anubitux.org/media/posts/11/responsive/sc7-md.png 768w ,https://anubitux.org/media/posts/11/responsive/sc7-lg.png 1024w ,https://anubitux.org/media/posts/11/responsive/sc7-xl.png 1360w ,https://anubitux.org/media/posts/11/responsive/sc7-2xl.png 1600w"  alt="sc7" width="650" height="513"></figure>
+<p>But, in this case, the tool did not find any valid derivation path because no one of the derived addesses was involved in any transaction.</p>
+<p>The tool also works with Monero seeds. Let's check how it works in this case.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/11/sc9.png" sizes="100vw" srcset="https://anubitux.org/media/posts/11/responsive/sc9-xs.png 300w ,https://anubitux.org/media/posts/11/responsive/sc9-sm.png 480w ,https://anubitux.org/media/posts/11/responsive/sc9-md.png 768w ,https://anubitux.org/media/posts/11/responsive/sc9-lg.png 1024w ,https://anubitux.org/media/posts/11/responsive/sc9-xl.png 1360w ,https://anubitux.org/media/posts/11/responsive/sc9-2xl.png 1600w"  alt="sc8" width="650" height="522"></figure>
+<p>As we can see, the tool was able to find out that the tool is compatible with Feather wallet. To check if it had some activity, simply open Feather wallet, that is also available in the Anu₿itux wallets menu, and use it to restore a wallet providing this seed.</p>
+<h3>Final thoughts</h3>
+<p>Of course this tool does not a full check, because the seed could have been used with other coins or with custom derivation paths or with some other proprietary algorithm, but it is a great help to rapidly do a lot of checks. If it gives us a positive result, we can be sure that the seed was used but, if it gives us a negative result, to be completely sure the seed was never used we shoudl try it with as many tools as we can.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Recover access to a wallet file with Anu₿itux</title>
         <author>
@@ -691,59 +776,6 @@
 <li><a href="https://tshark.dev/" target="_blank" rel="noopener noreferrer">TShark</a> is a CLI tool for packet capturing;</li>
 <li><a href="https://ffmpeg.org/" target="_blank" rel="noopener noreferrer">FFMpeg</a> is a complete, cross-platform solution to record, convert and stream audio and video. For this purpose, it could be used to record the desktop screen while doing operations that need to be reported to a third party. <span style="text-decoration: underline;"><span style="color: #e03e2d; text-decoration: underline;"><strong>Never</strong></span></span> use it while generating sensible information like private keys or new wallets or, in general, for information that are not supposed to be shared;</li>
 <li><a href="https://github.com/hongquan/CoBang" target="_blank" rel="noopener noreferrer">CoBang</a> is a QR code reader that can come in handy in many situations when dealing with cryptocurrencies.</li>
-</ul>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Tutorials and HowTos</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/tutorials-and-howtos/"/>
-        <id>https://anubitux.org/tutorials-and-howtos/</id>
-            <category term="wallet"/>
-            <category term="ubuntu"/>
-            <category term="tutorial"/>
-            <category term="python"/>
-            <category term="opsec"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="linux"/>
-            <category term="kubuntu"/>
-            <category term="howto"/>
-            <category term="distro"/>
-            <category term="cryptocurrency"/>
-            <category term="crypto"/>
-            <category term="bitcoin"/>
-            <category term="bip39"/>
-            <category term="anubitux"/>
-
-        <updated>2022-07-10T21:18:35+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/3/AnubituxWallpaperGreen.png" alt="AnubituxWall" />
-                    Here there will be many tutorials about how to use Anu₿itux and its tools. In this section there will also be practical use cases and news about features and releases. Stay tuned! New posts will also be shared on the related Telegram channel and on&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://anubitux.org/media/posts/3/AnubituxWallpaperGreen.png" alt="AnubituxWall" />
-                <p>Here there will be many tutorials about how to use Anu₿itux and its tools. In this section there will also be practical use cases and news about features and releases. <strong><span style="color: #169179;">Stay tuned!</span></strong></p>
-<p>New posts will also be shared on the related <strong><a href="https://t.me/anubitux" target="_blank" rel="noopener noreferrer"><span style="color: #3598db;">Telegram channel</span></a> </strong>and on the official <span style="color: #3598db;"><strong><a href="https://twitter.com/anubitux" target="_blank" rel="noopener noreferrer" style="color: #3598db;">Twitter account</a></strong></span>.</p>
-<h2>Posts list:</h2>
-<ul>
-<li><a href="https://anubitux.org/what-is-anubitux/">What is Anu₿itux?</a></li>
-<li><a href="https://anubitux.org/how-to-use-anubitux/">How to use Anu₿itux</a></li>
-<li><a href="https://anubitux.org/how-to-create-a-paper-wallet-with-anubitux/">How to create a paper wallet with Anu₿itux</a></li>
-<li><a href="https://anubitux.org/enable-network-monitor-in-anubitux/">Enable network monitor in Anu₿itux</a></li>
-<li><a href="https://anubitux.org/how-to-create-a-monero-paper-wallet-with-anubitux/">How to create a Monero paper wallet with Anu₿itux</a></li>
-<li><a href="https://anubitux.org/how-to-verify-your-downloaded-anubitux/">How to verify your downloaded Anu₿itux</a></li>
-<li><a href="https://anubitux.org/how-to-spend-a-paper-wallet-with-anubitux/">How to spend a Bitcoin paper wallet with Anu₿itux</a></li>
-<li><a href="https://anubitux.org/recover-access-to-a-wallet-file-with-anubitux/" target="null">Recover access to a wallet file with Anu₿itux</a></li>
-<li><em>...more coming...</em></li>
 </ul>
 <p> </p>
             ]]>
