@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-08-01T19:22:17+02:00</updated>
+    <updated>2022-08-02T09:10:34+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -143,7 +143,7 @@
             <category term="bip39"/>
             <category term="anubitux"/>
 
-        <updated>2022-07-21T20:37:18+02:00</updated>
+        <updated>2022-08-02T09:10:21+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/11/flower-g3055cbc13_1920.jpg" alt="Flower" />
@@ -187,7 +187,7 @@
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/11/sc5.png" sizes="100vw" srcset="https://anubitux.org/media/posts/11/responsive/sc5-xs.png 300w ,https://anubitux.org/media/posts/11/responsive/sc5-sm.png 480w ,https://anubitux.org/media/posts/11/responsive/sc5-md.png 768w ,https://anubitux.org/media/posts/11/responsive/sc5-lg.png 1024w ,https://anubitux.org/media/posts/11/responsive/sc5-xl.png 1360w ,https://anubitux.org/media/posts/11/responsive/sc5-2xl.png 1600w"  alt="sc5" width="650" height="519"></figure>
 <p>More addresses we derive, more are the possibilities to find used ones. The tool will suggest us a maximum of 15 addresses, to avoid to overload the APIs queried during the check, but if we need we can force it to derive as many addresses we want.</p>
 <p>Now the tool start its magic, checking if the seed was used with an <a href="https://electrum.org/#home" target="_blank" rel="noopener noreferrer">Electrum</a> wallet, or if it is a <a href="https://github.com/bitcoin/bips/tree/master/bip-0039" target="_blank" rel="noopener noreferrer">BIP39</a> seed used with many different derivation paths to derive Bitcoin, Ethereum, Litecoin, Dash or ZCash addresses. It is also going to check if the seed was used with <a href="https://samouraiwallet.com/" target="_blank" rel="noopener noreferrer">Samourai</a>'s Whirlpool, deriving premix and postmix addresses. The tool also checks if the provided seed is compatible with Monero wallets (like <a href="https://mymonero.com/" target="_blank" rel="noopener noreferrer">MyMonero</a>, <a href="https://featherwallet.org/" target="_blank" rel="noopener noreferrer">Feather wallet</a> or <a href="https://www.getmonero.org/" target="_blank" rel="noopener noreferrer">Monero wallet</a>).</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/11/sc6.png" sizes="100vw" srcset="https://anubitux.org/media/posts/11/responsive/sc6-xs.png 300w ,https://anubitux.org/media/posts/11/responsive/sc6-sm.png 480w ,https://anubitux.org/media/posts/11/responsive/sc6-md.png 768w ,https://anubitux.org/media/posts/11/responsive/sc6-lg.png 1024w ,https://anubitux.org/media/posts/11/responsive/sc6-xl.png 1360w ,https://anubitux.org/media/posts/11/responsive/sc6-2xl.png 1600w"  alt="sc6" width="650" height="513"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/11/sc6-2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/11/responsive/sc6-2-xs.png 300w ,https://anubitux.org/media/posts/11/responsive/sc6-2-sm.png 480w ,https://anubitux.org/media/posts/11/responsive/sc6-2-md.png 768w ,https://anubitux.org/media/posts/11/responsive/sc6-2-lg.png 1024w ,https://anubitux.org/media/posts/11/responsive/sc6-2-xl.png 1360w ,https://anubitux.org/media/posts/11/responsive/sc6-2-2xl.png 1600w"  alt="" width="650" height="513"></figure>
 <p>As we can see, the tool was able to determinate that the tool was used with Electrum, because the addresses derived with Electrum's algorithms had some activity.</p>
 <p>The tool also find out that the seed could have been derived from a BIP39 wordlist, and checks it with many different coins.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/11/sc7.png" sizes="100vw" srcset="https://anubitux.org/media/posts/11/responsive/sc7-xs.png 300w ,https://anubitux.org/media/posts/11/responsive/sc7-sm.png 480w ,https://anubitux.org/media/posts/11/responsive/sc7-md.png 768w ,https://anubitux.org/media/posts/11/responsive/sc7-lg.png 1024w ,https://anubitux.org/media/posts/11/responsive/sc7-xl.png 1360w ,https://anubitux.org/media/posts/11/responsive/sc7-2xl.png 1600w"  alt="sc7" width="650" height="513"></figure>
@@ -256,7 +256,7 @@
         </content>
     </entry>
     <entry>
-        <title>How to spend a Bitcoin paper wallet with Anu₿iTux </title>
+        <title>How to spend a Bitcoin paper wallet with Anu₿itux </title>
         <author>
             <name>Anu₿itux</name>
         </author>
@@ -275,7 +275,7 @@
             <category term="bitcoin"/>
             <category term="anubitux"/>
 
-        <updated>2022-07-08T18:04:06+02:00</updated>
+        <updated>2022-08-02T09:10:34+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/18/paper.png" alt="paper1" />
