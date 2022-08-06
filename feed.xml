@@ -3,12 +3,90 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-08-02T09:10:34+02:00</updated>
+    <updated>2022-08-06T10:58:32+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>Clustering Bitcoin addresses</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/clustering-bitcoin-addresses/"/>
+        <id>https://anubitux.org/clustering-bitcoin-addresses/</id>
+            <category term="wallet"/>
+            <category term="tutorial"/>
+            <category term="tracing"/>
+            <category term="osint"/>
+            <category term="opsec"/>
+            <category term="investigation"/>
+            <category term="howto"/>
+            <category term="explorer"/>
+            <category term="cryptocurrency"/>
+            <category term="crypto"/>
+            <category term="chain analysis"/>
+            <category term="blockchain"/>
+            <category term="bitcoin"/>
+
+        <updated>2022-08-06T10:58:32+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/27/universe-g9bc0cc67d_1280.jpg" alt="" />
+                    Using Bitcoin, it is important for both those who value their privacy and those who seek to collect information disseminated in the blockchain to know what clustering is and how it works. Clustering addresses means assuming that they belong to the same owner which could&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://anubitux.org/media/posts/27/universe-g9bc0cc67d_1280.jpg" alt="" />
+                <p>Using Bitcoin, it is important for both those who value their privacy and those who seek to collect information disseminated in the blockchain to know what clustering is and how it works.</p>
+<h3>Basic knowledge</h3>
+<p>Clustering addresses means assuming that they belong to the same owner which could be a person, a firm, a service like an exchange, a darknet market, a payment processor, etc.</p>
+<p>This can be done knowing how a Bitcoin transaction works. Basically, it allows users that have a valid private key to sign transactions that forward any amount that was previously received to an arbitrary address. This implies that it is not possible to spend any desired amount of bitcoin, but only amounts derived summing previously received ones that have not been spent yet. Those amounts are named UTxOs (unspent transactions outputs).</p>
+<p>This seems to be a limit of the Bitcoin protocol, but this appearent issue is quickly solved, allowing users to send bitcoins to more addresses with the same transaction. So, when a user specifies in his client the amount he wants to send, the client chooses enough UTxOs to reach this value, sending the desired amount to the specified recipient address and sending the remaining part to another address (which could be the same sending address or a new address). This last address is called change address and the amount it receives is named change of the transaction.</p>
+<h3>Let's see an example.</h3>
+<p>Anubi received three transactions, one of 0.5 bitcoins, one of 0.9 bitcoins and one of 0.3 bitcoins. Now, Anubi wants to send 1 bitcoin to Ramses.</p>
+<p>Anubi's wallet will choose UTxOs to reach the amount of 1 bitcoin (some clients spend every time the entire available amount).</p>
+<p>In this case we can assume that the wallet chooses the amount of 0.9 bitcoins and the amount of 0.3, reaching a sum of 1.2 bitcoins. So, the client is going to create a transaction that sends 1.1 bitcoins to Ramses' address and 0.1 (minus the transaction fees) to another address belonging to Anubi.</p>
+<p>If the UTxOs used by Anubi's wallet were received by the same address, the transaction will show only one sending address. Unless so, we will see more sendig addresses. To make the transaction valid, it needs to be signed with the private keys corresponding to all the sending addresses (all belonging to Anubi).</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/27/utxo.drawio.png" sizes="100vw" srcset="https://anubitux.org/media/posts/27/responsive/utxo.drawio-xs.png 300w ,https://anubitux.org/media/posts/27/responsive/utxo.drawio-sm.png 480w ,https://anubitux.org/media/posts/27/responsive/utxo.drawio-md.png 768w ,https://anubitux.org/media/posts/27/responsive/utxo.drawio-lg.png 1024w ,https://anubitux.org/media/posts/27/responsive/utxo.drawio-xl.png 1360w ,https://anubitux.org/media/posts/27/responsive/utxo.drawio-2xl.png 1600w"  alt="UTxO" width="800" height="362"></figure>
+<h3>Let's cluster!</h3>
+<p>With these premises, we can find out some methods that can be used to cluster addresses togheter. Here there are some clustering techniques, with examples obtained using <a href="https://www.blockchain.com/explorer" target="_blank" rel="noopener noreferrer">blockchain.com</a>'s explorer.</p>
+<h4>Co-spending</h4>
+<p>As stated above, when a transaction shows more input addresses, it means that it has been signed by the private key related to each of the sending addresses. It is technically possible to partially sign a transaction and then let it sign from another person, but it is an absolutely rare circumstance. In this case it is possible to assume that all the sending addresses belong to the same entity and they can be clustered togheter.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/27/Selection_004.png" sizes="100vw" srcset="https://anubitux.org/media/posts/27/responsive/Selection_004-xs.png 300w ,https://anubitux.org/media/posts/27/responsive/Selection_004-sm.png 480w ,https://anubitux.org/media/posts/27/responsive/Selection_004-md.png 768w ,https://anubitux.org/media/posts/27/responsive/Selection_004-lg.png 1024w ,https://anubitux.org/media/posts/27/responsive/Selection_004-xl.png 1360w ,https://anubitux.org/media/posts/27/responsive/Selection_004-2xl.png 1600w"  alt="cospending" width="800" height="295"></figure>
+<p>There are methods and solution that could give us false results. For instance, there are <a href="https://en.bitcoin.it/wiki/CoinJoin" target="_blank" rel="noopener noreferrer">CoinJoin</a> transactions, related to softwares like <a href="https://samouraiwallet.com/" target="_blank" rel="noopener noreferrer">Samourai</a> and <a href="https://wasabiwallet.io/" target="_blank" rel="noopener noreferrer">Wasabi</a>, where there are a lot of different input addresses that can't be clustered togheter. The addresses used by this services are spending bitcoins of different users, and clustering them togheter could give us wrong information. This kind of transactions can easily be recognised because there are many addresses spending the same amount.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/27/Selection_005.png" sizes="100vw" srcset="https://anubitux.org/media/posts/27/responsive/Selection_005-xs.png 300w ,https://anubitux.org/media/posts/27/responsive/Selection_005-sm.png 480w ,https://anubitux.org/media/posts/27/responsive/Selection_005-md.png 768w ,https://anubitux.org/media/posts/27/responsive/Selection_005-lg.png 1024w ,https://anubitux.org/media/posts/27/responsive/Selection_005-xl.png 1360w ,https://anubitux.org/media/posts/27/responsive/Selection_005-2xl.png 1600w"  alt="coinjoin" width="800" height="180"></figure>
+<p>Other false results could be obtained with <a href="https://en.bitcoin.it/wiki/PayJoin" target="_blank" rel="noopener noreferrer">PayJoin</a> transactions, supported by softwares like the above mentioned Samourai and Wasabi. In this case the UTxOs of different users are joined togheter in the same transactions, making it very difficult to recognize any single flow of coins. These kind of transactions, unlike CoinJoin transactions, is almost impossibile to recognize, because they do not have any distinctive feature.</p>
+<figure class="post__image post__image--center"><a href="https://samouraiwallet.com/stowaway" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/27/Selection_010.png" sizes="100vw" srcset="https://anubitux.org/media/posts/27/responsive/Selection_010-xs.png 300w ,https://anubitux.org/media/posts/27/responsive/Selection_010-sm.png 480w ,https://anubitux.org/media/posts/27/responsive/Selection_010-md.png 768w ,https://anubitux.org/media/posts/27/responsive/Selection_010-lg.png 1024w ,https://anubitux.org/media/posts/27/responsive/Selection_010-xl.png 1360w ,https://anubitux.org/media/posts/27/responsive/Selection_010-2xl.png 1600w"  alt="" width="800" height="278"></figure></a></p>
+<h4>Change address</h4>
+<p>Looking at how change addresses work let's us assume that not only the input addresses can be clustered togheter, but also the one receiving the change. The only problem could be how to find out which one is receivng the change and which one is the effective recipient address (the one that is receiving the bitcoins that the user wanted to transfer).</p>
+<h5>Amounts</h5>
+<p>First of all we can look at the transfered amounts. Usually, if an address receives an amount with a very low number of decimal digits, it could be the effective recipient address because:</p>
+<ul>
+<li>humans do not like complex numbers;</li>
+<li>it is very unlikely to send an amount with eight decimal digits that would give a change (minus the transaction fees) with only a few decimal digits.</li>
+</ul>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/27/Selection_006.png" sizes="100vw" srcset="https://anubitux.org/media/posts/27/responsive/Selection_006-xs.png 300w ,https://anubitux.org/media/posts/27/responsive/Selection_006-sm.png 480w ,https://anubitux.org/media/posts/27/responsive/Selection_006-md.png 768w ,https://anubitux.org/media/posts/27/responsive/Selection_006-lg.png 1024w ,https://anubitux.org/media/posts/27/responsive/Selection_006-xl.png 1360w ,https://anubitux.org/media/posts/27/responsive/Selection_006-2xl.png 1600w"  alt="" width="800" height="135"></figure>
+<p>Considering that some clients choose the UTxOs so that the amount involved in the transactions reaches the amount that the user wants to transfer, the amount that necessarily requires all the involved UTxOs should be the effective recipient address. In the example of Anubi and Ramses, Anubi's client wouldn't have involved both the UTxOs if he was intended to send only 0.1 bitcoins, so the address receiving that amount is necessarily the change address.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/27/Selection_007.png" sizes="100vw" srcset="https://anubitux.org/media/posts/27/responsive/Selection_007-xs.png 300w ,https://anubitux.org/media/posts/27/responsive/Selection_007-sm.png 480w ,https://anubitux.org/media/posts/27/responsive/Selection_007-md.png 768w ,https://anubitux.org/media/posts/27/responsive/Selection_007-lg.png 1024w ,https://anubitux.org/media/posts/27/responsive/Selection_007-xl.png 1360w ,https://anubitux.org/media/posts/27/responsive/Selection_007-2xl.png 1600w"  alt="" width="800" height="144"></figure>
+<p>Also in the transaction showed in the picture, if the user wanted to send 0.000888 bitcoins, he wouldn't have needed to involve three UTxOs. This rule works pretty well but, nowadays, lots of clients have their own optimisation algorithms and do not allow users to make coin selection. In some cases, to avoid address reuse, preserve users' privacy or consolidate the amounts, they spend all the available UTxOs of each address that is involved in the transaction. </p>
+<h5>Address types</h5>
+<p>The majority of the Bitcoin wallets usually uses addresses of the same type (for example Electrum supports different kind of addresses only when creating a wallet <a href="https://anubitux.org/how-to-spend-a-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">importing the private keys</a>). When a transactions is sent to two addresses of different types, the change address is mostly the one in the same format of the sendig addresses.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/27/Selection_008.png" sizes="100vw" srcset="https://anubitux.org/media/posts/27/responsive/Selection_008-xs.png 300w ,https://anubitux.org/media/posts/27/responsive/Selection_008-sm.png 480w ,https://anubitux.org/media/posts/27/responsive/Selection_008-md.png 768w ,https://anubitux.org/media/posts/27/responsive/Selection_008-lg.png 1024w ,https://anubitux.org/media/posts/27/responsive/Selection_008-xl.png 1360w ,https://anubitux.org/media/posts/27/responsive/Selection_008-2xl.png 1600w"  alt="" width="800" height="130"></figure>
+<h4>Consolidation transactions</h4>
+<p>There is another situation to consider. Some users do not like to have many UTxOs in many addresses or sometimes move funds to cold storages or new wallets. In this case we'll have a transaction without any change address, because users are moving all of their funds. So all the addresses involved in the transactions (senders and receiver) can be reconducted to the same person. Indeed, it is very unlikely that a user has available different UTxOs which total amount is exactly what he is intended to send including the exact transaction fee.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/27/Selection_009.png" sizes="100vw" srcset="https://anubitux.org/media/posts/27/responsive/Selection_009-xs.png 300w ,https://anubitux.org/media/posts/27/responsive/Selection_009-sm.png 480w ,https://anubitux.org/media/posts/27/responsive/Selection_009-md.png 768w ,https://anubitux.org/media/posts/27/responsive/Selection_009-lg.png 1024w ,https://anubitux.org/media/posts/27/responsive/Selection_009-xl.png 1360w ,https://anubitux.org/media/posts/27/responsive/Selection_009-2xl.png 1600w"  alt="" width="800" height="179"></figure>
+<p>We have to be careful with this kind of assertion, because it could also happen that users decide to empty their wallet sending all thei coins to an exchange, maybe to convert virtual currency in FIAT currency or to do some trades. So, clustering the recipient address with the sending ones, would mean to cluster the user's addresses with an address belonging to an exchange. So, we need to observe how the recipient address is being used before clustering it with the sending ones.</p>
+<h3>Final thoughts</h3>
+<p>The mentioned techniques are all based on statistics and on the observation of a huge amount of data, so they can mostly be considered valid. Someone that knows very well how Bitcoin works could circumvent this clustering methods, but it is very hard to do it without doing any mistake. In any case, this techniques work very well in great part of the cases. We only need to remember that exceptions happen and we have to be ready to question this methods at any time.</p>
+<p> </p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Connecting your hardware wallet to Anu₿itux</title>
         <author>
@@ -605,65 +683,6 @@
 <p>Now you will be able to see two coloured waves on the panel that symbolize the network load.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/7/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_006.png" sizes="100vw" srcset="https://anubitux.org/media/posts/7/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_006-xs.png 300w ,https://anubitux.org/media/posts/7/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_006-sm.png 480w ,https://anubitux.org/media/posts/7/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_006-md.png 768w ,https://anubitux.org/media/posts/7/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_006-lg.png 1024w ,https://anubitux.org/media/posts/7/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_006-xl.png 1360w ,https://anubitux.org/media/posts/7/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_006-2xl.png 1600w"  alt="NetworkLoad" width="575" height="170"></figure>
 <p>This feature is very userful to notice if a service or a tool is doing some unexpected network traffic.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to create a paper wallet with Anu₿itux</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/how-to-create-a-paper-wallet-with-anubitux/"/>
-        <id>https://anubitux.org/how-to-create-a-paper-wallet-with-anubitux/</id>
-            <category term="wallet"/>
-            <category term="tutorial"/>
-            <category term="tools"/>
-            <category term="print"/>
-            <category term="paper wallet"/>
-            <category term="opsec"/>
-            <category term="live"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="howto"/>
-            <category term="cryptocurrency"/>
-            <category term="bitcoin"/>
-            <category term="anubitux"/>
-            <category term="USB"/>
-
-        <updated>2022-07-10T21:19:06+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/6/front-300dpi.jpg" alt="PaperWallet" />
-                    One of the purposes of who uses a live work enviroment like Anu₿itux is to leave no traces on the device. This feature could be very useful when doing things that need to remain secret, like creating a paper wallet. When we create a paper&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://anubitux.org/media/posts/6/front-300dpi.jpg" alt="PaperWallet" />
-                <p>One of the purposes of who uses a live work enviroment like <span class="css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0">Anu₿itux is to leave no traces on the device. This feature could be very useful when doing things that need to remain secret, like creating a paper wallet. </span></p>
-<p>When we create a paper wallet with our daily operating system, even if we delete the file when the process is complete, some information could remain on our disk, like cached pages and thumbnails, or worse, some information could be sent through the Internet to some remote device that could store our private keys. Consider what happened with <a href="https://www.coindesk.com/tech/2021/02/24/bitcoinpaperwallet-back-door-responsible-for-millions-in-missing-funds-research-suggests/" target="_blank" rel="noopener noreferrer">bitcoinpaperwallet</a>.</p>
-<p>Using a live enviroment, the operating system is not stored on the internal hard drive of the device we are using, but only on the RAM memory. So, in the most cases, turning off our device will delete its content because it is considered to be a volatile memory and no one will be able to recover its content.</p>
-<h3>The steps to follow</h3>
-<p>Let's see the steps to follow to create a secure paper wallet. This tutorial only takes care about the creation process. The safe storage of the paper wallet completely lies on the user. </p>
-<h4>Test the enviroment</h4>
-<p><span class="css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0">Anu₿itux comes not only with a lot of cool tools. It also has lots of printer drivers installed. Before proceding, it is a good idea to test if our printer is supported by Anu₿itux or if we need to download separate drivers (if so, please let us know which driver is missing so that it can be added in the next release).</span></p>
-<p>To do that, simply start <span class="css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0">Anu₿itux live, plug in your printer and turn it on.</span></p>
-<p class="msg msg--warning"><em>When creating a paper wallet that is going to store our cryptos, no care is enough. Always prefer printers connected by cable and avoid connection types like Wi-Fi and Bluetooth because the data could be sent unencrypted and some threat actor could sniff it.</em></p>
-<p>If the printer is supported by <span class="css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0">Anu₿itux, you'll see a notification like the one in the below picture.</span></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/6/Selection_001.png" sizes="100vw" srcset="https://anubitux.org/media/posts/6/responsive/Selection_001-xs.png 300w ,https://anubitux.org/media/posts/6/responsive/Selection_001-sm.png 480w ,https://anubitux.org/media/posts/6/responsive/Selection_001-md.png 768w ,https://anubitux.org/media/posts/6/responsive/Selection_001-lg.png 1024w ,https://anubitux.org/media/posts/6/responsive/Selection_001-xl.png 1360w ,https://anubitux.org/media/posts/6/responsive/Selection_001-2xl.png 1600w"  alt="PrinterOK" width="385" height="158"></figure>
-<p>To be sure it works, you can click on the "Print test page" button.</p>
-<h4>Proceed with the generation</h4>
-<p>Now, to be sure that the enviroment is not communicating with any external device, you can use the button placed on the desktop with the "Go Offline" label. It will turn off networking and bluetooth communication.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/6/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_001.png" sizes="100vw" srcset="https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_001-xs.png 300w ,https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_001-sm.png 480w ,https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_001-md.png 768w ,https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_001-lg.png 1024w ,https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_001-xl.png 1360w ,https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_001-2xl.png 1600w"  alt="Offline" width="700" height="431"></figure>
-<p>Then, going to the application menu in the lower left corner, start the tool "<a href="https://github.com/pointbiz/bitaddress.org" target="_blank" rel="noopener noreferrer">BitAddress</a>" (under the "AddressGenerators" section). It is a javascript tool that collects entropy and generates a paper wallet.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/6/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_002.png" sizes="100vw" srcset="https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_002-xs.png 300w ,https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_002-sm.png 480w ,https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_002-md.png 768w ,https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_002-lg.png 1024w ,https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_002-xl.png 1360w ,https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_002-2xl.png 1600w"  alt="PaperWallet" width="800" height="427"></figure>
-<p>Now you can click the "Print" button placed over the secret key and youl have your paper wallet.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/6/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_003.png" sizes="100vw" srcset="https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_003-xs.png 300w ,https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_003-sm.png 480w ,https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_003-md.png 768w ,https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_003-lg.png 1024w ,https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_003-xl.png 1360w ,https://anubitux.org/media/posts/6/responsive/AnuBitux_2022_1_VM-Running-Oracle-VM-VirtualBox_003-2xl.png 1600w"  alt="Print" width="600" height="487"></figure>
-<p>Using the <a href="https://github.com/shutter-project/shutter" target="_blank" rel="noopener noreferrer">Shutter</a> tool, placed in the "UsefulTools" section, you could take a screenshot of the public address and the related QR code (placed near the "SHARE" label). It could be helpful in case you have to communicate your receiveng address to a third party without the need to handle your paper wallet and keep your private key in a safe place.</p>
-<p class="msg msg--success msg--warning"><em>Note that your paper wallet should not be moved unless you need to dispose a transaction. You only need your public address to receive funds.  </em></p>
-<p> </p>
-<p> </p>
             ]]>
         </content>
     </entry>
