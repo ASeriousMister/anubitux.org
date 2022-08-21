@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-08-21T13:51:48+02:00</updated>
+    <updated>2022-08-21T21:08:31+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -34,14 +34,16 @@
             <category term="bitcoin"/>
             <category term="anubitux"/>
 
-        <updated>2022-08-21T13:51:48+02:00</updated>
+        <updated>2022-08-21T21:08:31+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://anubitux.org/media/posts/32/dice-g8fd9d2d4d_1920.jpg" alt="" />
                     There are a lot of tools that allow us to generate a paper wallet for many different currencies. Most of these tools are open source and use well-known algorithms to generate keys avoiding conflicts and duplicates. When using such tools, it is always a good&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://anubitux.org/media/posts/32/dice-g8fd9d2d4d_1920.jpg" alt="" />
                 <p>There are a lot of tools that allow us to generate a paper wallet for many different currencies. Most of these tools are open source and use well-known algorithms to generate keys avoiding conflicts and duplicates. When using such tools, it is always a good idea to download them from <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a> and never use their online versions, even if our working environment is not connected to the Internet during the generation process (<a href="https://medium.com/mycrypto/disclosure-key-generation-vulnerability-found-on-walletgenerator-net-potentially-malicious-3d8936485961" target="_blank" rel="noopener noreferrer">example</a>).</p>
 <p>If we want to generate a paper wallet without trusting any tool and any algorithm, we can use <a href="https://github.com/ASeriousMister/DiceTracker.py" target="_blank" rel="noopener noreferrer">DiceTracker</a>, a tool developed by the Anu₿itux team and included in the Anu₿itux distro under the AddressGenerators menu.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/32/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_002.png" sizes="100vw" srcset="https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_002-xs.png 300w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_002-sm.png 480w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_002-md.png 768w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_002-lg.png 1024w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_002-xl.png 1360w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_002-2xl.png 1600w"  alt="menu" width="450" height="289"></figure>
