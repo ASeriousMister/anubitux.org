@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-08-21T21:08:31+02:00</updated>
+    <updated>2022-08-22T10:52:25+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -34,7 +34,7 @@
             <category term="bitcoin"/>
             <category term="anubitux"/>
 
-        <updated>2022-08-21T21:08:31+02:00</updated>
+        <updated>2022-08-22T10:52:25+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/32/dice-g8fd9d2d4d_1920.jpg" alt="" />
@@ -51,9 +51,13 @@
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/32/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_004.png" sizes="100vw" srcset="https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_004-xs.png 300w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_004-sm.png 480w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_004-md.png 768w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_004-lg.png 1024w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_004-xl.png 1360w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_004-2xl.png 1600w"  alt="dt2" width="800" height="292"></figure>
 <p>Now the tool gives us the choice to paste:</p>
 <ul>
-<li>a previously generated binary key, like 0000001100101011100101110101101000101000011001011010000111010100000011101100011111110010001000101010010010101101111100010011100111011100110110101001111001110110100011001010100110101101010000010100110000110011011010111101001110010101110010010001000001101001;</li>
-<li>the result of 256 dice rolls, like 1423353625241324352413243526252525243534666554653645463535262525162525363532526251252626353433533536225356225251414255336355242142253633534242411252535364453534242525161525343422525161625253434252516162525434352521661252443434252516162525434352525166542512.</li>
+<li>a previously generated binary key, like</li>
 </ul>
+<p><code> 0000001100101011100101110101101000101000011001011010000111010100000011101100011111110010001000101010010010101101111100010011100111011100110110101001111001110110100011001010100110101101010000010100110000110011011010111101001110010101110010010001000001101001</code></p>
+<ul>
+<li>the result of 256 dice rolls, like</li>
+</ul>
+<p><code> 1423353625241324352413243526252525243534666554653645463535262525162525363532526251252626353433533536225356225251414255336355242142253633534242411252535364453534242525161525343422525161625253434252516162525434352521661252443434252516162525434352525166542512</code></p>
 <p>The tool will automatically recognize if we are pasting a binary key, the result of previously made dice rolls, or some kind of invalid string.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/32/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_005.png" sizes="100vw" srcset="https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_005-xs.png 300w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_005-sm.png 480w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_005-md.png 768w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_005-lg.png 1024w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_005-xl.png 1360w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_005-2xl.png 1600w"  alt="dt3" width="800" height="319"></figure>
 <p>Now we can choose which kind of paper wallet we want from different virtual currencies.</p>
