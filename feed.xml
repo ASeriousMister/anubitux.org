@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-08-22T11:23:03+02:00</updated>
+    <updated>2022-08-22T11:31:08+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -34,7 +34,7 @@
             <category term="bitcoin"/>
             <category term="anubitux"/>
 
-        <updated>2022-08-22T11:23:03+02:00</updated>
+        <updated>2022-08-22T11:31:08+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/32/dice-g8fd9d2d4d_1920.jpg" alt="" />
@@ -64,7 +64,8 @@
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/32/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_006.png" sizes="100vw" srcset="https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_006-xs.png 300w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_006-sm.png 480w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_006-md.png 768w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_006-lg.png 1024w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_006-xl.png 1360w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_006-2xl.png 1600w"  alt="dt3" width="800" height="233"></figure>
 <p>Let's choose option 1 to obtain a Bitcoin private key and the correspinding Bitcoin addresses.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/32/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_007.png" sizes="100vw" srcset="https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_007-xs.png 300w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_007-sm.png 480w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_007-md.png 768w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_007-lg.png 1024w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_007-xl.png 1360w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_007-2xl.png 1600w"  alt="dt4" width="800" height="325"></figure>
-<p>Now, using the qrencode tool we can obtain QR codes of the private key and of the public address we want, as we did for the <a href="https://anubitux.org/how-to-create-a-monero-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">Monero paper wallet</a>. </p>
+<p>Now, using the qrencode tool we can obtain QR codes of the private key and of the public address we want, as we did for the <a href="https://anubitux.org/how-to-create-a-monero-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">Monero paper wallet</a>. The syntax is:</p>
+<p><code>qrencode -m 10 -o key.png '1AnUbiYpuFsGrc1JFxFCh5K9tXFd1BXPg'</code></p>
 <p>To spend coins from this paper wallet, we can follow the procedure shown <a href="https://anubitux.org/how-to-spend-a-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">here</a>.</p>
 <p>If we don't have a binary key or the result of previously made dice rolls to paste, we can use the tool to track our dice rolls. It may take a while, but we can be sure that by doing so we are only trusting our dice and we do not need to rely on any algorithm.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/32/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_008.png" sizes="100vw" srcset="https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_008-xs.png 300w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_008-sm.png 480w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_008-md.png 768w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_008-lg.png 1024w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_008-xl.png 1360w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_008-2xl.png 1600w"  alt="dt5" width="800" height="376"></figure>
