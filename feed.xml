@@ -3,12 +3,184 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-08-24T21:08:45+02:00</updated>
+    <updated>2022-08-30T10:33:32+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>How to obtain the private key of any address</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/how-to-obtain-the-private-key-of-any-address/"/>
+        <id>https://anubitux.org/how-to-obtain-the-private-key-of-any-address/</id>
+            <category term="wallet"/>
+            <category term="tutorial"/>
+            <category term="tools"/>
+            <category term="tool"/>
+            <category term="private key"/>
+            <category term="live"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="howto"/>
+            <category term="hardware wallet"/>
+            <category term="electrum"/>
+            <category term="cryptocurrency"/>
+            <category term="crypto"/>
+            <category term="caution"/>
+            <category term="bitcoin"/>
+            <category term="bip39"/>
+            <category term="anubitux"/>
+
+        <updated>2022-08-30T10:33:32+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/30/cubes-2492010_1920.jpg" alt="" />
+                    This post has to be considered educational and is intended to show how mnemonic seeds work, how to manage private keys and what considerations to make when disposing a transaction. Always be careful when managing seeds, especially with devices connected to the Internet. Many wallet&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://anubitux.org/media/posts/30/cubes-2492010_1920.jpg" alt="" />
+                <p class="msg msg--success"><em>This post has to be considered educational and is intended to show how mnemonic seeds work, how to manage private keys and what considerations to make when disposing a transac</em><em>tion. Always be careful when managing seeds, especially with devices connected to the Internet.</em></p>
+<p>Many wallet clients do not allow users to see the private keys of their addresses, which could be useful, for example, to spend coins only from the desired address. Even if the addresses are derived from the same seed, they are not bound together and, from the outside, each address is an autonomous entity with its private key. Maybe we used addresses to receive funds from different sources and spending these together could compromise our privacy or correlate funds that we want to keep separate. Indeed, as seen in <a href="https://anubitux.org/clustering-bitcoin-addresses/" target="_blank" rel="noopener noreferrer">this post</a>, it is very simple to correlate addresses spending funds in the same transaction.</p>
+<h3>How to solve this?</h3>
+<p>Private keys are rarely revealed by our clients, especially if we are using hardware wallets but usually we have access to the mnemonic seed phrase, that is needed to restore access to a wallet. Through a hierarchical-deterministic process, private keys, public keys and public addresses are derived from this sequence of words, but we usually see only our addresses.</p>
+<h3>How could we do that?</h3>
+<p>Let's see an example procedure, carried out with Anu₿itux, to obtain the private key of a specific address, minimizing the risks of handling our mnemonic seed thanks to the fact that we are using a live working environment.</p>
+<p>For example, let's say we are interested in the private key of a specific address that we usually manage with our <a href="https://blockstream.com/green/" target="_blank" rel="noopener noreferrer">Blockstream Green Wallet</a>, like the following one.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/Selection_028.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/Selection_028-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/Selection_028-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/Selection_028-md.png 768w ,https://anubitux.org/media/posts/30/responsive/Selection_028-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/Selection_028-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/Selection_028-2xl.png 1600w"  alt="green1" width="800" height="360"></figure>
+<p>To know the related private key we also need to know our mnemonic seed, in this case: <em>stand tree close slice beauty alert stereo green beauty verify fatal since brown pig impact zone snap measure obtain fun often neither rough elevator.</em></p>
+<p class="msg msg--warning"><em><strong>Handling our mnemonic seeds has always to be considered a very dangerous operation. We should only do that in safe places, preferably alone, and store it in a safe place when it is not needed anymore.</strong></em></p>
+<p>To derive all the information from this seed, we can use the <a href="https://iancoleman.io/bip39/" target="_blank" rel="noopener noreferrer">Ian Coleman's tool</a>, integrated into Anu₿itux in the "WalletTools" menu.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_001.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_001-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_001-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_001-md.png 768w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_001-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_001-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_001-2xl.png 1600w"  alt="" width="550" height="664"></figure>
+<p>Before starting the tool, it is recommended to safeguard our security by putting the operating system offline. To do that, we can click on the proper desktop shortcut and provide the root password, which is set to anubitux.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_002.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_002-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_002-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_002-md.png 768w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_002-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_002-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_002-2xl.png 1600w"  alt="" width="300" height="362"></figure>
+<p>Now we can start the tool and type the seed in the proper box. The tool will automatically derive the desired information (the "Auto compute" box must be checked).</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/Selection_017.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/Selection_017-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/Selection_017-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/Selection_017-md.png 768w ,https://anubitux.org/media/posts/30/responsive/Selection_017-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/Selection_017-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/Selection_017-2xl.png 1600w"  alt="Bip39_paste" width="800" height="360"></figure>
+<p>Scrolling down the page, we can see all the derived addresses. By default, the tool derives Bitcoin legacy addresses (those starting with 1). In this case, we are interested in bech32 Bitcoin addresses, derived with the BIP84 derivation path. To see them we have to click on the proper button.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/Selection_018.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/Selection_018-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/Selection_018-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/Selection_018-md.png 768w ,https://anubitux.org/media/posts/30/responsive/Selection_018-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/Selection_018-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/Selection_018-2xl.png 1600w"  alt="bip_selection" width="500" height="342"></figure>
+<p>Continuing to scroll the page, we will find all the bech32 addresses derived from our mnemonic seed, with the related public and private keys.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/Selection_019.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/Selection_019-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/Selection_019-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/Selection_019-md.png 768w ,https://anubitux.org/media/posts/30/responsive/Selection_019-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/Selection_019-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/Selection_019-2xl.png 1600w"  alt="addresses" width="1000" height="297"></figure>
+<p>Now we can store the desired private key in a text file and close our browser. The browser in Anu₿itux has been set up to lose all the information when it is closed, so we do not need to reboot the system to be safe and we do not have to store the private key on an external memorization device.</p>
+<p>At this point we can import the private key in Electrum, using the procedure shown in <a href="https://anubitux.org/how-to-spend-a-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">this tutorial</a>. It is important to specify the correct format of the private key when importing it, in this case typing "p2wpkh:" before the key.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_003.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_003-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_003-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_003-md.png 768w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_003-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_003-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_003-2xl.png 1600w"  alt="importkey" width="600" height="436"></figure>
+<p>Finally, we have control of our address through the Electrum client and we could spend the available coins as we want.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_004.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_004-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_004-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_004-md.png 768w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_004-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_004-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_004-2xl.png 1600w"  alt="electrumaddress" width="800" height="428"></figure>
+<p>We need to remember to turn our working environment online, through the proper desktop shortcut, to be able to see the addresse's balance and send transactions to the Bitcoin network.</p>
+<h3><figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_005.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_005-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_005-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_005-md.png 768w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_005-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_005-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_005-2xl.png 1600w"  alt="goOnline" width="230" height="356"></figure></h3>
+<p>This procedure can be used also to obtain private keys of addresses related to other cryptocurrencies, like Ethereum. After providing the seeds, we only need to choose the desired coin from the proper menu.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/Selection_023.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/Selection_023-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/Selection_023-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/Selection_023-md.png 768w ,https://anubitux.org/media/posts/30/responsive/Selection_023-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/Selection_023-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/Selection_023-2xl.png 1600w"  alt="coinselect" width="800" height="265"></figure>
+<p>Now, at the bottom of the page, there will be the addresses and the private keys derived starting from the same seed, but with the derivation path related to another coin.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/Selection_024.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/Selection_024-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/Selection_024-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/Selection_024-md.png 768w ,https://anubitux.org/media/posts/30/responsive/Selection_024-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/Selection_024-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/Selection_024-2xl.png 1600w"  alt="derivedETH" width="1000" height="368"></figure>
+<h3>Another way </h3>
+<p>The same result could have been obtained by importing the seed into Electrum.</p>
+<p>First of all, we need to import the seed in Electrum. When typing it we have to click on the "Option" button and select the "BIP39 seed" option.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_007.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_007-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_007-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_007-md.png 768w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_007-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_007-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_007-2xl.png 1600w"  alt="bip39elc" width="600" height="441"></figure>
+<p>Now we have to specify the derivation path we want Electrum to use to derive our addresses, in our case "native segwit" corresponding to BIP84 (m/84'/0'/0').</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_009.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_009-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_009-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_009-md.png 768w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_009-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_009-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_009-2xl.png 1600w"  alt="derpathelec" width="600" height="426"></figure>
+<p>Now we can see that we have many Bitcoin addresses available, including the one of which we want to find the private key.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_010.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_010-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_010-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_010-md.png 768w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_010-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_010-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_010-2xl.png 1600w"  alt="elecaddr" width="800" height="422"></figure>
+<p>To obtain the private key of the desired address and also of all the other derived addresses, we have to click on the "Wallet" menu, then on "Private Keys" and on "Export".</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_006.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_006-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_006-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_006-md.png 768w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_006-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_006-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_006-2xl.png 1600w"  alt="privkeyexport" width="800" height="418"></figure>
+<p>After providing the wallet's password, that we have set up when we imported the seed, we will obtain all the private keys. We can also export the list to a CSV or a JSON file.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/30/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_007-2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_007-2-xs.png 300w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_007-2-sm.png 480w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_007-2-md.png 768w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_007-2-lg.png 1024w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_007-2-xl.png 1360w ,https://anubitux.org/media/posts/30/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_007-2-2xl.png 1600w"  alt="privkeylist" width="800" height="392"></figure>
+<h3>Final thoughts</h3>
+<p>The shown procedure should be used only to test how mnemonic seeds and private keys or for specific purposes, like spending coins only from the desired address when using clients that do not support "coin selection" features.</p>
+<p>Before using this procedure for real needs, it is recommended to do an online search about our client, checking if it allows us to see the private keys of our address with some kind of hidden menu. In this way, we will not need to access our backup seed and leave it safe in the place we have chosen to store it.</p>
+<p class="msg msg--warning"><em>In any case, these procedures are intended to be used with wallets used as "hot wallets". It is not recommended to manage seeds related to cold storage in that way unless we are intended to move all the funds.</em></p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to use Anu₿iTux to perform crypto seizures</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/how-to-use-anubitux-to-perform-crypto-seizures/"/>
+        <id>https://anubitux.org/how-to-use-anubitux-to-perform-crypto-seizures/</id>
+            <category term="wallet"/>
+            <category term="ubuntu"/>
+            <category term="tool"/>
+            <category term="seizure"/>
+            <category term="seize"/>
+            <category term="seedcheck"/>
+            <category term="recovery"/>
+            <category term="python"/>
+            <category term="private key"/>
+            <category term="print"/>
+            <category term="password"/>
+            <category term="paper wallet"/>
+            <category term="opsec"/>
+            <category term="monero"/>
+            <category term="live"/>
+            <category term="linux for xmr"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="linux"/>
+            <category term="kubuntu"/>
+            <category term="howto"/>
+            <category term="encrypted"/>
+            <category term="electrum"/>
+            <category term="distro"/>
+            <category term="dictionary"/>
+            <category term="cryptocurrency"/>
+            <category term="crypto"/>
+            <category term="btcrecover"/>
+            <category term="brute force"/>
+            <category term="bitcoin"/>
+            <category term="anubitux"/>
+
+        <updated>2022-08-30T10:29:29+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/17/BitNightPolice.png" alt="BTC_police" />
+                    DISCLAIMER: This post contains some suggestions that could be helpful for law enforcement agencies or security consultants that need to seize cryptocurrencies. It aims to show how Anu₿itux could be used to perform the seizure but is not intended to be exhaustive. It is also&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://anubitux.org/media/posts/17/BitNightPolice.png" alt="BTC_police" />
+                <p class="msg msg--warning"><em><strong>DISCLAIMER</strong>: This post contains some suggestions that could be helpful for law enforcement agencies or security consultants that need to seize cryptocurrencies. It aims to show how Anu₿itux could be used to perform the seizure but is not intended to be exhaustive. It is also recommended to check the local law before proceeding with a cryptocurrency seizure procedure.</em></p>
+<p>Anu₿itux is realized to safeguard users' privacy and provide a very simple environment to manage a lot of aspects regarding cryptos. Of course, it could be used by law enforcement agencies and security consultants to perform crypto seizures.</p>
+<h3>Where?</h3>
+<p>Doing a crypto seizure, the first matter is to obtain a secure place to store cryptocurrencies With Anu₿itux we can create a lot of different kinds of wallets to store coins. One of the best and cheaper ways is to store them with a <a href="https://anubitux.org/how-to-generate-random-paper-wallets-with-anubitux/" target="_blank" rel="noopener noreferrer">paper wallet</a>. In previous posts, we have seen some methods to realize <a href="https://anubitux.org/how-to-create-a-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">Bitcoin</a> and <a href="https://anubitux.org/how-to-create-a-monero-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">Monero</a> paper wallets, but these procedures can be adapted also to other currencies. With Anu₿itux we also can print our paper wallets without the need to connect to the Internet and download drivers, since it has a lot of them already installed. </p>
+<p>Once we printed our paper wallet, we also need to take care of where are we going to store it. We should use a sealed container that does not reveal any information, even if exposing it near a strong light or wetting it. We also need to close it in a way that makes it difficult to open and that can reveal if someone accessed it without authorization.</p>
+<p>If we had time to prepare the seizure we could have a hardware wallet to store the currencies we need to size. In this case, we can also use Anu₿itux to manage it, because it integrates clients, drivers and udev rules for many different <a href="https://anubitux.org/connecting-your-hardware-wallet-to-anubitux/" target="_blank" rel="noopener noreferrer">hardware wallets</a>, like Ledgers, Trezors, Bitboxes, etc. In this case, it is very important to decide how to handle the mnemonic seed because, even if hardware wallets can be considered very secure, obtaining their seed could give complete control over the handled funds. If we decide to keep the seed, we can consider valid the same considerations we made for paper wallets.</p>
+<p>If we need to perform a Bitcoin seizure, a good way to store the seized coins could be to use an <a href="https://opendime.com/" target="_blank" rel="noopener noreferrer">OpenDime</a>. It is a special kind of hardware wallet, supporting only Bitcoin, that gives us a public address to send the coins to and that won't reveal the related private key unless we push a pin through the appropriate hole. So, as long as this hole is safe, we can be sure that no human has seen the private key of our address and no one could have spent the funds we sent to the OpenDime's public address.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/17/Selection_027.png" sizes="100vw" srcset="https://anubitux.org/media/posts/17/responsive/Selection_027-xs.png 300w ,https://anubitux.org/media/posts/17/responsive/Selection_027-sm.png 480w ,https://anubitux.org/media/posts/17/responsive/Selection_027-md.png 768w ,https://anubitux.org/media/posts/17/responsive/Selection_027-lg.png 1024w ,https://anubitux.org/media/posts/17/responsive/Selection_027-xl.png 1360w ,https://anubitux.org/media/posts/17/responsive/Selection_027-2xl.png 1600w"  alt="opendime" width="600" height="317"></figure>
+<h3>How?</h3>
+<p>Once we have arranged something to send the coins to, we need to dispose a transaction to accomplish the seizure. We need to remember that the only way for a seizure to be effective is to have the funds on something that is under our control. So we need to be sure that there are no other copies of the wallet that is going to keep the seized coins and that there is a way to guarantee that no one can have access to private keys or seeds. So, we can't consider the funds as seized if we seize a hardware wallet, a device with some kind of wallet installed, or a recovery seed. All these things could have been backed up in a lot of creative ways so, if we don't move funds they could be accessed in many ways and our seizure could be ineffective.</p>
+<p>Moving funds could not be that easy. There are many ways to protect cryptocurrencies from unauthorized uses, like PINs, passwords, passphrases, etc. If the owner of the funds we need to seize is cooperating, we should not encounter any problem disposing the transaction. If not so, we could need to take control of the funds against their will.</p>
+<p>With skilled users, it could be almost impossible, but a lot of users are lazy or do not have a very strong OpSec. So we could do some of the following actions, looking for any information that could be used to take control over the funds:</p>
+<ul>
+<li>try to unlock wallet files with <a href="https://anubitux.org/recover-access-to-a-wallet-file-with-anubitux/" target="_blank" rel="noopener noreferrer">btcrecover</a>, maybe using a custom password list created with credentials extracted from the users' browsers or from their devices or based on their personal information;</li>
+<li>scan directories for mnemonic seeds with <a href="https://anubitux.org/search-for-bip39-seeds-with-anubitux/" target="_blank" rel="noopener noreferrer">seedsearch</a>;</li>
+<li>scan directories for private keys with <a href="https://anubitux.org/how-to-find-lost-private-keys-with-anubitux/" target="_blank" rel="noopener noreferrer">btckeysearch</a>;</li>
+<li>try to unlock encrypted volumes and containers with <a href="https://github.com/ASeriousMister/VeraDecrypt.py" target="_blank" rel="noopener noreferrer">veradecrypt</a>, maybe using a custom password list created with credentials extracted from the users' browsers or from their devices or based on their personal information;</li>
+<li>perform an accurate house search looking for everything that seems like a mnemonic seed or a private key or any kind of wallet stuff;</li>
+<li>any other creative idea is welcome.</li>
+</ul>
+<p>Once we obtained the information we need to dispose the transaction, we need to know how to use it. If we have found the password or the PIN to unlock a desktop wallet, we can dispose the transaction from there or we could decide to <a href="https://anubitux.org/how-to-sign-a-transaction-offline-with-anubitux/" target="_blank" rel="noopener noreferrer">dispose it offline</a> to avoid using the user's device. Instead, if we have found mnemonic seeds or private keys, we need to import them to a compatible client. If we don't know how the seeds were used, we can use <a href="https://anubitux.org/find-out-how-a-seed-was-used-with-anubitux/" target="_blank" rel="noopener noreferrer">seedcheck</a> and try to find it out and import it to the right client. Instead, if we have found some <a href="https://anubitux.org/how-to-find-lost-private-keys-with-anubitux/" target="_blank" rel="noopener noreferrer">private keys</a>, we can refer to the procedures shown for <a href="https://anubitux.org/how-to-spend-a-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">Bitcoin</a> and <a href="https://anubitux.org/how-to-spend-a-monero-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">Monero</a>.</p>
+<h3>Considerations</h3>
+<p>There are a lot of considerations that can be done when performing this kind of procedure and, as much experience we have, as many useful considerations we will be able to make.</p>
+<p>One of the first considerations we need to make is about the network fees. A higher one could be useful to obtain faster confirmations of our transaction and consider it valid but, if the chosen fee is too high, it could impact too much on the seized amount.</p>
+<p>When the transaction has been disposed, we also need to wait for some confirmations to avoid that someone else could make it invalid with an <a href="https://en.bitcoin.it/wiki/Replace_by_fee" target="_blank" rel="noopener noreferrer">RBF</a> (replace by fee) transaction, that is a transaction with a higher fee that could be processed faster and making ours look like a "double spend" attempt.</p>
+<p>Other useful considerations could be done when dealing with multi-currency wallets, like <a href="https://www.exodus.com/" target="_blank" rel="noopener noreferrer">Exodus</a>, <a href="https://www.coinomi.com" target="_blank" rel="noopener noreferrer">Coinomi</a>, <a href="https://wallet.mycelium.com/" target="_blank" rel="noopener noreferrer">MyCellium</a>, <a href="https://guarda.com/" target="_blank" rel="noopener noreferrer">Guarda</a>, <a href="https://atomicwallet.io/" target="_blank" rel="noopener noreferrer">Atomic</a>, etc. First of all, it could be better to arrange a paper wallet for any of the available currencies. We also need to evaluate if the user owns tokens in his wallet that work on layer 2 blockchains, like <a href="https://ethereum.org/en/developers/docs/standards/tokens/erc-20/" target="_blank" rel="noopener noreferrer">ERC20</a> tokens, <a href="https://opensea.io/blog/guides/non-fungible-tokens/" target="_blank" rel="noopener noreferrer">NFTs</a>, etc. These tokens "live" on other blockchains and do not have their own so, to move them, we need to pay the fee with the main coin related to the blockchain on which they work. For instance, with tokens like <a href="https://basicattentiontoken.org/" target="_blank" rel="noopener noreferrer">BAT</a> or <a href="https://shibatoken.com/" target="_blank" rel="noopener noreferrer">Shiba Inu</a>, we won't be able to move them without an amount of ETH that we will need to pay gas fees for the Ethereum network. This happens not only with tokens working on the Ethereum network but also with tokens working on networks like <a href="https://solscan.io/tokens" target="_blank" rel="noopener noreferrer">Solana</a>, <a href="https://bscscan.com/" target="_blank" rel="noopener noreferrer">BSC</a>, etc.</p>
+<h3>Final thoughts</h3>
+<p>What we have seen in this post is just a collection of tips that can be useful for those who need to seize cryptocurrencies. Of course, it is a more complex operation that needs a lot of different skills, not only regarding how cryptocurrencies work but also regarding digital forensic techniques, networking, OpSec, etc.</p>
+<p>In this scenario, Anu₿itux tries to provide a simple and safe environment that includes all the tools that could be helpful when performing such tasks.</p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to spend a Monero paper wallet with Anu₿itux</title>
         <author>
@@ -593,131 +765,6 @@
 <p>As we can see, the tool was able to find out that the tool is compatible with Feather wallet. To check if it had some activity, simply open Feather wallet, which is also available in the Anu₿itux wallets menu, and use it to restore a wallet providing this seed.</p>
 <h3>Final thoughts</h3>
 <p>Of course, this tool does not do a full check, because the seed could have been used with other coins or with custom derivation paths or with some other proprietary algorithm, but it is a great help to rapidly do a lot of checks. If it gives us a positive result, we can be sure that the seed was used but, if it gives us a negative result, to be completely sure the seed was never used we should try it with as many tools as we can.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Recover access to a wallet file with Anu₿itux</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/recover-access-to-a-wallet-file-with-anubitux/"/>
-        <id>https://anubitux.org/recover-access-to-a-wallet-file-with-anubitux/</id>
-            <category term="wallet"/>
-            <category term="virtual enviroment"/>
-            <category term="tutorial"/>
-            <category term="tool"/>
-            <category term="recovery"/>
-            <category term="python"/>
-            <category term="password"/>
-            <category term="encrypted"/>
-            <category term="dictionary"/>
-            <category term="btcrecover"/>
-            <category term="brute force"/>
-            <category term="anubitux"/>
-
-        <updated>2022-08-10T11:05:48+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/9/security-g77e3e3bd2_1280.jpg" alt="Unlock" />
-                    It is a weird thing but we may forget our wallet's password. Of course, we could use our mnemonic seed to recover it, but there could also be other cases in which we could be looking for a wallet's password. Let's see how we could&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://anubitux.org/media/posts/9/security-g77e3e3bd2_1280.jpg" alt="Unlock" />
-                <p>It is a weird thing but we may forget our wallet's password. Of course, we could use our mnemonic seed to recover it, but there could also be other cases in which we could be looking for a wallet's password. Let's see how we could recover access to the wallet with Anu₿itux, using <a href="https://btcrecover.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">btcrecover</a>.</p>
-<h3>What is btcrecover?</h3>
-<p>In Anu₿itux, we can find btcrecover in the Anu₿itux menu, under the "Recovery" section. This will show only a hint about how to use it because it has no user interface and needs to be run in our command line. It is a very powerful python tool that gives us a lot of different solutions to recover access to our wallets. It works with wallet files of many different clients (like Electrum, BitcoinCore, Coinomi, MetaMask, etc.), encrypted private keys, bip39 seeds with a passphrase, and more. <a href="https://btcrecover.readthedocs.io/en/latest/Usage_Examples/basic_password_recoveries/" target="_blank" rel="noopener noreferrer">Here</a> you can find the official documentation about its password recovery features.  </p>
-<h3>How to use it with Anu₿itux</h3>
-<p>Let's assume we have a wallet file we do not remember the password. First of all, we need to prepare a list of passwords we want to try. We can do it by writing a list of possible passwords, using a prepared <a href="https://www.hacktoday.com/password-cracking-dictionarys-download-for-free/" target="_blank" rel="noopener noreferrer">dictionary</a>, exporting passwords from other available sources like mobiles, browsers, password managers, etc.</p>
-<p>For our purpose we are using a small custom list, just to test how the tool works and a prepared Electrum wallet file. Electrum wallet files can usually be found in the /home/anubitux/.electrum/wallets directory. Notice that with Linux operating systems folders and files whose name starts with "." are hidden and may not be shown if the specific option is disabled.</p>
-<p>It can be useful to place a copy of the wallet file we are trying to unlock in a separate folder, to avoid any accidental malfunction and risk to corrupt the original copy of the file. In our case, it is placed in the Documents folder.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/9/btcrec1.png" sizes="100vw" srcset="https://anubitux.org/media/posts/9/responsive/btcrec1-xs.png 300w ,https://anubitux.org/media/posts/9/responsive/btcrec1-sm.png 480w ,https://anubitux.org/media/posts/9/responsive/btcrec1-md.png 768w ,https://anubitux.org/media/posts/9/responsive/btcrec1-lg.png 1024w ,https://anubitux.org/media/posts/9/responsive/btcrec1-xl.png 1360w ,https://anubitux.org/media/posts/9/responsive/btcrec1-2xl.png 1600w"  alt="btcrec1" width="800" height="511"></figure>
-<p>Now let's try to unlock the wallet file running btcrecover. We have to use the --wallet option to indicate the path to the wallet file and --passwordlist to indicate the text file containing the passwords we want to try.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/9/btcr2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/9/responsive/btcr2-xs.png 300w ,https://anubitux.org/media/posts/9/responsive/btcr2-sm.png 480w ,https://anubitux.org/media/posts/9/responsive/btcr2-md.png 768w ,https://anubitux.org/media/posts/9/responsive/btcr2-lg.png 1024w ,https://anubitux.org/media/posts/9/responsive/btcr2-xl.png 1360w ,https://anubitux.org/media/posts/9/responsive/btcr2-2xl.png 1600w"  alt="btcr2" width="800" height="520"></figure>
-<p class="msg msg--success">We could also use shorter paths to file, like "<em>Documents/wallet_to_recover</em>". So the command would be: <em>btcrecover.py --wallet Documents/wallet_to_recover --passwordlist Documents/list</em>. We could also move to the directory containing the files we need, using the <em>cd</em> command, and run the tool from there.</p>
-<p>Now clicking Enter, the tool is going to load the password list and identify the kind of wallet file. Then it will start trying all the words until it finds the right one.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/9/btcr3.png" sizes="100vw" srcset="https://anubitux.org/media/posts/9/responsive/btcr3-xs.png 300w ,https://anubitux.org/media/posts/9/responsive/btcr3-sm.png 480w ,https://anubitux.org/media/posts/9/responsive/btcr3-md.png 768w ,https://anubitux.org/media/posts/9/responsive/btcr3-lg.png 1024w ,https://anubitux.org/media/posts/9/responsive/btcr3-xl.png 1360w ,https://anubitux.org/media/posts/9/responsive/btcr3-2xl.png 1600w"  alt="btcr3" width="800" height="510"></figure>
-<p>As we can see in the picture, the tool found the correct password in a few seconds, even because in this case we were trying only a list of eight words and the fifth was the correct one.</p>
-<h3>Some advice</h3>
-<p>As it is possible to see in the output of the tool, in the first stage it loads the whole file containing the password list. If we are attempting to brute-force a wallet with a big dictionary, it could saturate the RAM causing running issues in the whole running system. To avoid this kind of issue, it could be a good idea to split the text file into multiple smaller files. We can do that with the split command, like in the following examples:</p>
-<p><code>split -l 10000 whole_list partial_list</code></p>
-<p>This will create a set of files, which name starts with "partial_list", each one containing 10000 lines.</p>
-<p><code>split -b 100M whole_list partial_list</code></p>
-<p>This will create a set of files, which name starts with "partial_list", each one with a size of 100 MB.</p>
-<p> </p>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to spend a Bitcoin paper wallet with Anu₿itux </title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/how-to-spend-a-paper-wallet-with-anubitux/"/>
-        <id>https://anubitux.org/how-to-spend-a-paper-wallet-with-anubitux/</id>
-            <category term="wallet"/>
-            <category term="tutorial"/>
-            <category term="tools"/>
-            <category term="private key"/>
-            <category term="paper wallet"/>
-            <category term="opsec"/>
-            <category term="linux"/>
-            <category term="howto"/>
-            <category term="electrum"/>
-            <category term="cryptocurrency"/>
-            <category term="bitcoin"/>
-            <category term="anubitux"/>
-
-        <updated>2022-08-10T11:33:18+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/18/paper.png" alt="paper1" />
-                    Knowing the public address on our paper wallet, we will be able to receive funds and monitor our balance in many different ways, like with a watch-only wallet created with Electrum or using public block explorers. If we want to spend our funds, we need&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://anubitux.org/media/posts/18/paper.png" alt="paper1" />
-                <p>Knowing the public address on our <a href="https://anubitux.org/how-to-create-a-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">paper wallet</a>, we will be able to receive funds and monitor our balance in many different ways, like with a watch-only wallet created with Electrum or using public block explorers.</p>
-<p>If we want to spend our funds, we need to know the private key that is reported on the paper wallet and that should have been kept secret until now. But how could we use this private key? Anu₿itux provides us all we need to do it in a safe way.</p>
-<h3>The steps to follow</h3>
-<p>One of the best softwares to use in this case is, for sure, <a href="https://electrum.org/#home" target="_blank" rel="noopener noreferrer">Electrum</a>. First of all launch it going in the Anu₿itux menu, under the "Wallets" section.</p>
-<p>In the first screen select "Auto connect" or "Select server manually" if you know what you are doing.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec1.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec1-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec1-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec1-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec1-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec1-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec1-2xl.png 1600w"  alt="Elec1" width="600" height="444"></figure>
-<p class="msg msg--success"><em>If you are concerned about privacy or IP address leakage, you can use <a href="https://github.com/moonchitta/anonsurf-ubuntu" target="_blank" rel="noopener noreferrer">AnonSurf</a> by clicking on the dedicated desktop icon labeled "Start Anonymous Proxy".</em></p>
-<p>Then, in the next window, let's choose a name for our wallet.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec2-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec2-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec2-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec2-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec2-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec2-2xl.png 1600w"  alt="elec2" width="600" height="442"></figure>
-<p>Let's select the last option, "Import Bitcoin addresses or private keys".</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec3-2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec3-2-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec3-2-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec3-2-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec3-2-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec3-2-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec3-2-2xl.png 1600w"  alt="elec3" width="600" height="448"></figure>
-<p>We can now import our private key in many different ways:</p>
-<ul>
-<li>writing it manually (only if you have time and patience);</li>
-<li>clicking on the camera icon on the right bottom our webcam will be started and we can grab the private key's QR code from our paper wallet;</li>
-<li>clicking on the folder icon near the camera icon we could import it from a text file (it is very unsafe to store private keys in text files unless using encrypted storage);</li>
-<li>copying and pasting it from some source (also in this case, it is very important to keep private keys in safe places like <a href="https://keepassxc.org/" target="_blank" rel="noopener noreferrer">kdbx databases</a>, encrypted volumes, etc.).</li>
-</ul>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec4.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec4-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec4-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec4-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec4-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec4-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec4-2xl.png 1600w"  alt="elec4" width="600" height="442"></figure>
-<p>It is very important to specify the right format of your private key, according to the address format we want to get:</p>
-<ul>
-<li>p2pkh address (those starting with 1);</li>
-<li>p2wpkh address (those starting with bc1);</li>
-<li>p2wpkh-p2sh address (those starting with 3).</li>
-</ul>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec5-2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec5-2-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec5-2-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec5-2-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec5-2-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec5-2-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec5-2-2xl.png 1600w"  alt="elec5" width="600" height="435"></figure>
-<p>In this case, we are importing the same private key using three different formats, and we are expecting to obtain three different addresses in three different formats. This is because every specified format corresponds to a different derivation path.</p>
-<p>As the last step, set up a password for your wallet.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec6.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec6-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec6-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec6-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec6-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec6-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec6-2xl.png 1600w"  alt="elec6" width="600" height="441"></figure>
-<p>Now we have obtained our addresses.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec7.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec7-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec7-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec7-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec7-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec7-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec7-2xl.png 1600w"  alt="elec7" width="850" height="450"></figure>
-<p>As expected, we obtained three addresses, one starting with 1, one starting with 3 and a third starting with bc1. Specifying the wrong format for the key we are importing could give us the feeling that the address has no funds available. So, when we store private keys, it is a good idea to keep notes also of the correct format to use when spending funds will be necessary. </p>
-<h3>Final thoughts</h3>
-<p>A paper wallet is a cold storage solution to store coins safely if it is managed properly. When importing it, all its security features disappear. So it is advised to spend all the available funds by sending the change amount to a new safe <a href="https://anubitux.org/how-to-create-a-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">paper wallet</a>.</p>
-<p>To do so, go to "Tools" -&gt; "Pay to many" and specify the address (or the addresses) you want to send funds and the address of your new secure paper wallet. All the addresses have to be followed by the amount you want to send to each one (separated by a comma), like in the following picture.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/18/elec8-2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/18/responsive/elec8-2-xs.png 300w ,https://anubitux.org/media/posts/18/responsive/elec8-2-sm.png 480w ,https://anubitux.org/media/posts/18/responsive/elec8-2-md.png 768w ,https://anubitux.org/media/posts/18/responsive/elec8-2-lg.png 1024w ,https://anubitux.org/media/posts/18/responsive/elec8-2-xl.png 1360w ,https://anubitux.org/media/posts/18/responsive/elec8-2-2xl.png 1600w"  alt="elec8" width="850" height="455"></figure>
-<p>In this way, we can spend the funds we have to pay to someone and directly send the change to a new secure paper wallet, without the need to dispose many transactions, saving up time and fees.</p>
             ]]>
         </content>
     </entry>
