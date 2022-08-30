@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-08-30T10:33:32+02:00</updated>
+    <updated>2022-08-30T11:17:21+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -137,16 +137,16 @@
             <category term="bitcoin"/>
             <category term="anubitux"/>
 
-        <updated>2022-08-30T10:29:29+02:00</updated>
+        <updated>2022-08-30T11:17:21+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://anubitux.org/media/posts/17/BitNightPolice.png" alt="BTC_police" />
+                        <img src="https://anubitux.org/media/posts/17/wallnight.png" alt="BTC_police" />
                     DISCLAIMER: This post contains some suggestions that could be helpful for law enforcement agencies or security consultants that need to seize cryptocurrencies. It aims to show how Anu₿itux could be used to perform the seizure but is not intended to be exhaustive. It is also&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://anubitux.org/media/posts/17/BitNightPolice.png" alt="BTC_police" />
+                    <img src="https://anubitux.org/media/posts/17/wallnight.png" alt="BTC_police" />
                 <p class="msg msg--warning"><em><strong>DISCLAIMER</strong>: This post contains some suggestions that could be helpful for law enforcement agencies or security consultants that need to seize cryptocurrencies. It aims to show how Anu₿itux could be used to perform the seizure but is not intended to be exhaustive. It is also recommended to check the local law before proceeding with a cryptocurrency seizure procedure.</em></p>
 <p>Anu₿itux is realized to safeguard users' privacy and provide a very simple environment to manage a lot of aspects regarding cryptos. Of course, it could be used by law enforcement agencies and security consultants to perform crypto seizures.</p>
 <h3>Where?</h3>
