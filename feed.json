@@ -11,6 +11,37 @@
     },
     "items": [
         {
+            "id": "https://anubitux.org/try-to-unlock-a-veracrypt-volume-with-anubitux/",
+            "url": "https://anubitux.org/try-to-unlock-a-veracrypt-volume-with-anubitux/",
+            "title": "Try to unlock a VeraCrypt volume with Anu₿itux",
+            "summary": "Using encrypted volumes to store sensitive information is a very good idea. With tools like Veracrypt, we can encrypt storage devices or create encrypted containers to store all kinds of files in them and make sure that no one will be able to access them&hellip;",
+            "content_html": "<p>Using encrypted volumes to store sensitive information is a very good idea. With tools like <a href=\"https://www.veracrypt.fr/en/Home.html\" target=\"_blank\" rel=\"noopener noreferrer\">Veracrypt</a>, we can encrypt storage devices or create encrypted containers to store all kinds of files in them and make sure that no one will be able to access them without knowing the correct credentials.</p>\n<p>Tools like Veracrypt use very strong encryption algorithms so, it is very hard to access files without decrypting them with the correct password and/or the additional credentials set up when we created the volume.</p>\n<p>It could happen that, if we did not access a volume for a while, we have no clue about what's the correct password to unlock it.</p>\n<p>If we are in doubt between a reasonable number of passwords, we can try to unlock our volume with VeraDecrypt, a tool developed by the Anu₿itux team and included in the Anu₿itux menu under the Recovery section.</p>\n<p>To run it simply run it with root privileges (needed by Veracrypt), specifying the volume to unlock with the -v option and the list of passwords to try with the -p option:</p>\n<p><code>sudo VeraDecrypt.py -v path/to/volume -p path/to/passwordlist</code></p>\n<p>We can use it with encrypted volume files or with encrypted external storages, specifying the path like</p>\n<p><code>/dev/sdb1</code></p>\n<p>To know the correct name of the external storage we want to try to unlock, we can use the command</p>\n<p><code>sudo fdisk -l</code></p>\n<h3>Let's see how it works</h3>\n<p>First of all let's run the tool and provide the root password, which is set to anubitux.</p>\n<p>Since the tool will mount the volume on slot 1 if the correct password is found, before proceeding it warns us and asks for confirmation.</p>\n<figure class=\"post__image post__image--center\"><img loading=\"lazy\"  src=\"https://anubitux.org/media/posts/12/AnuBiBlog_1_6-VMware-Workstation_019.png\" sizes=\"100vw\" srcset=\"https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_019-xs.png 300w ,https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_019-sm.png 480w ,https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_019-md.png 768w ,https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_019-lg.png 1024w ,https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_019-xl.png 1360w ,https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_019-2xl.png 1600w\"  alt=\"\" width=\"700\" height=\"268\"></figure>\n<p>If we have a volume mounted on slot 1 it is recommendable to stop the tool typing n, save all the files stored in the already mounted volume we are working on and dismount the volume.</p>\n<p>If we have no volumes mounted on slot 1, let's continue by typing y.</p>\n<p>Now the tool will try all the passwords that are in the provided list, stopping and warning us if the correct one is found.</p>\n<figure class=\"post__image post__image--center\"><img loading=\"lazy\"  src=\"https://anubitux.org/media/posts/12/AnuBiBlog_1_6-VMware-Workstation_020.png\" sizes=\"100vw\" srcset=\"https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_020-xs.png 300w ,https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_020-sm.png 480w ,https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_020-md.png 768w ,https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_020-lg.png 1024w ,https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_020-xl.png 1360w ,https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_020-2xl.png 1600w\"  alt=\"\" width=\"700\" height=\"425\"></figure>\n<p>As we can see, the tool found the correct password. We can now proceed with running Veracrypt and mounting our volume. Veracrypt can be found in Anu₿itux under the Encryption menu.</p>\n<p>Some passwords may contain symbols that could cause issues with terminal commands. These will be collected and provided when the tool ends its work so that we can try them manually.</p>\n<figure class=\"post__image post__image--center\"><img loading=\"lazy\"  src=\"https://anubitux.org/media/posts/12/AnuBiBlog_1_6-VMware-Workstation_021.png\" sizes=\"100vw\" srcset=\"https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_021-xs.png 300w ,https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_021-sm.png 480w ,https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_021-md.png 768w ,https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_021-lg.png 1024w ,https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_021-xl.png 1360w ,https://anubitux.org/media/posts/12/responsive/AnuBiBlog_1_6-VMware-Workstation_021-2xl.png 1600w\"  alt=\"\" width=\"700\" height=\"489\"></figure>\n<h3>Final thoughts</h3>\n<p>Of course, there are more efficient methods to try to unlock Veracrypt volumes, like <a href=\"https://hashcat.net/hashcat/\" target=\"_blank\" rel=\"noopener noreferrer\">Hashcat</a> or other similar tools but sometimes they can be hard to set up and should preferably be run by experienced users. If we need a quick and easy tool that tries a bunch of passwords for us, VeraDecrypt could be the right choice for us.</p>",
+            "image": "https://anubitux.org/media/posts/12/key-gf82317512_1920.jpg",
+            "author": {
+                "name": "Anu₿itux"
+            },
+            "tags": [
+                   "tutorial",
+                   "tools",
+                   "tool",
+                   "recovery",
+                   "python",
+                   "password",
+                   "opsec",
+                   "linux for cryptocurrencies",
+                   "linux for crypto",
+                   "linux for bitcoin",
+                   "linux",
+                   "howto",
+                   "encrypted",
+                   "dictionary",
+                   "anubitux",
+                   "USB"
+            ],
+            "date_published": "2022-09-26T20:50:37+02:00",
+            "date_modified": "2022-09-26T20:50:37+02:00"
+        },
+        {
             "id": "https://anubitux.org/dust-transactions/",
             "url": "https://anubitux.org/dust-transactions/",
             "title": "Dust transactions, what are they?",
@@ -303,33 +334,6 @@
             ],
             "date_published": "2022-08-01T18:04:37+02:00",
             "date_modified": "2022-08-20T09:59:31+02:00"
-        },
-        {
-            "id": "https://anubitux.org/how-to-find-lost-private-keys-with-anubitux/",
-            "url": "https://anubitux.org/how-to-find-lost-private-keys-with-anubitux/",
-            "title": "How to find lost private keys with Anu₿itux",
-            "summary": "Online we can read about lots of posts and messages from people that lost access to their Bitcoin wallet, maybe because they did not pay enough attention to it or maybe because they stored keys on old hard drives full of stuff many years ago,&hellip;",
-            "content_html": "<p>Online we can read about lots of posts and messages from people that lost access to their Bitcoin wallet, maybe because they did not pay enough attention to it or maybe because they stored keys on old hard drives full of stuff many years ago, believing Bitcoin was not going to become that big. With Anu₿itux we can try to solve this matter, scanning directories and volumes automatically with the tool <a href=\"https://github.com/ASeriousMister/BTCKeySearch\" target=\"_blank\" rel=\"noopener noreferrer\">BTCKeySearch</a>, developed by the Anu₿itux team.</p>\n<h3>How does it work?</h3>\n<p>BTCKeySearch is a very simple and powerful Python tool. It can be found in the \"Recovery\" section of the Anu₿itux menu or it can be run directly in the command line, with the \"-d\" option followed by the path in which we want to look for private keys.</p>\n<figure class=\"post__image post__image--center\"><img loading=\"lazy\"  src=\"https://anubitux.org/media/posts/24/btcks1.png\" sizes=\"100vw\" srcset=\"https://anubitux.org/media/posts/24/responsive/btcks1-xs.png 300w ,https://anubitux.org/media/posts/24/responsive/btcks1-sm.png 480w ,https://anubitux.org/media/posts/24/responsive/btcks1-md.png 768w ,https://anubitux.org/media/posts/24/responsive/btcks1-lg.png 1024w ,https://anubitux.org/media/posts/24/responsive/btcks1-xl.png 1360w ,https://anubitux.org/media/posts/24/responsive/btcks1-2xl.png 1600w\"  alt=\"btcks1\" width=\"650\" height=\"517\"></figure>\n<p>Now the tool maps all the files that are stored in the given directory, including all the subdirectories, and starts reading the contained text, looking for strings that could match Bitcoin private keys.</p>\n<figure class=\"post__image post__image--center\"><img loading=\"lazy\"  src=\"https://anubitux.org/media/posts/24/btcks2.png\" sizes=\"100vw\" srcset=\"https://anubitux.org/media/posts/24/responsive/btcks2-xs.png 300w ,https://anubitux.org/media/posts/24/responsive/btcks2-sm.png 480w ,https://anubitux.org/media/posts/24/responsive/btcks2-md.png 768w ,https://anubitux.org/media/posts/24/responsive/btcks2-lg.png 1024w ,https://anubitux.org/media/posts/24/responsive/btcks2-xl.png 1360w ,https://anubitux.org/media/posts/24/responsive/btcks2-2xl.png 1600w\"  alt=\"btcks2\" width=\"650\" height=\"534\"></figure>\n<p>If we open the files scanned by BTCKeySearch, we can see that it did its job. Infact, all the Bitcoin private keys placed among the text were found.</p>\n<figure class=\"post__image post__image--center\"><img loading=\"lazy\"  src=\"https://anubitux.org/media/posts/24/btcks3.png\" sizes=\"100vw\" srcset=\"https://anubitux.org/media/posts/24/responsive/btcks3-xs.png 300w ,https://anubitux.org/media/posts/24/responsive/btcks3-sm.png 480w ,https://anubitux.org/media/posts/24/responsive/btcks3-md.png 768w ,https://anubitux.org/media/posts/24/responsive/btcks3-lg.png 1024w ,https://anubitux.org/media/posts/24/responsive/btcks3-xl.png 1360w ,https://anubitux.org/media/posts/24/responsive/btcks3-2xl.png 1600w\"  alt=\"btcks3\" width=\"1200\" height=\"791\"></figure>\n<h3>Final thoughts</h3>\n<p>This tool was specifically realized to find Bitcoin private keys quickly, but AnuBitux also includes <a href=\"http://cdn-fastly.deb.debian.org/debian/pool/main/s/searchmonkey/\" target=\"_blank\" rel=\"noopener noreferrer\">SearchMonkey</a> and <a href=\"https://github.com/simsong/bulk_extractor\" target=\"_blank\" rel=\"noopener noreferrer\">BulkExtractor</a> that could be used for similar purposes by advanced users, configuring them with the appropriate regular expressions.</p>\n<h3>Updates</h3>\n<p>BTCKeySearch is now able to find Monero private spend keys and BIP32 root keys (xpriv). Output is also more readable. </p>\n<figure class=\"post__image post__image--center\"><img loading=\"lazy\"  src=\"https://anubitux.org/media/posts/24/btcks.png\" sizes=\"100vw\" srcset=\"https://anubitux.org/media/posts/24/responsive/btcks-xs.png 300w ,https://anubitux.org/media/posts/24/responsive/btcks-sm.png 480w ,https://anubitux.org/media/posts/24/responsive/btcks-md.png 768w ,https://anubitux.org/media/posts/24/responsive/btcks-lg.png 1024w ,https://anubitux.org/media/posts/24/responsive/btcks-xl.png 1360w ,https://anubitux.org/media/posts/24/responsive/btcks-2xl.png 1600w\"  alt=\"btcks_update\" width=\"950\" height=\"556\"></figure>\n<p>BTCKeySearch is now also able to scan DOCX and PDF files.</p>",
-            "image": "https://anubitux.org/media/posts/24/pexels-monstera-7412098.jpg",
-            "author": {
-                "name": "Anu₿itux"
-            },
-            "tags": [
-                   "tutorial",
-                   "tools",
-                   "tool",
-                   "recovery",
-                   "python",
-                   "private key",
-                   "linux for cryptocurrencies",
-                   "linux for crypto",
-                   "linux for bitcoin",
-                   "howto",
-                   "bitcoin",
-                   "anubitux"
-            ],
-            "date_published": "2022-07-23T17:53:17+02:00",
-            "date_modified": "2022-08-20T09:58:56+02:00"
         }
     ]
 }
