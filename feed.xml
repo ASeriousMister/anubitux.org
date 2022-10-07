@@ -3,12 +3,61 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-09-26T20:50:37+02:00</updated>
+    <updated>2022-10-07T18:53:11+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>How to generate 24 words mnemonic seeds with Electrum</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/how-to-generate-24-words-mnemonic-seeds-with-electrum/"/>
+        <id>https://anubitux.org/how-to-generate-24-words-mnemonic-seeds-with-electrum/</id>
+            <category term="wallet"/>
+            <category term="tutorial"/>
+            <category term="tools"/>
+            <category term="tool"/>
+            <category term="python"/>
+            <category term="offline"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="howto"/>
+            <category term="electrum"/>
+            <category term="bitcoin"/>
+            <category term="bip39"/>
+            <category term="anubitux"/>
+
+        <updated>2022-10-07T18:53:11+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/37/SeedCloud.png" alt="" />
+                    Usually, when we create a new wallet with Electrum, we obtain a 12 words seed and there is no way to customize it. We can only extend it with an optional passphrase. But there is a way to create longer mnemonic seeds using Electrum's derivation&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://anubitux.org/media/posts/37/SeedCloud.png" alt="" />
+                <p>Usually, when we create a new wallet with Electrum, we obtain a 12 words seed and there is no way to customize it. We can only extend it with an optional passphrase.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/37/Selection_037.png" sizes="100vw" srcset="https://anubitux.org/media/posts/37/responsive/Selection_037-xs.png 300w ,https://anubitux.org/media/posts/37/responsive/Selection_037-sm.png 480w ,https://anubitux.org/media/posts/37/responsive/Selection_037-md.png 768w ,https://anubitux.org/media/posts/37/responsive/Selection_037-lg.png 1024w ,https://anubitux.org/media/posts/37/responsive/Selection_037-xl.png 1360w ,https://anubitux.org/media/posts/37/responsive/Selection_037-2xl.png 1600w"  alt="" width="600" height="429"></figure>
+<p>But there is a way to create longer mnemonic seeds using Electrum's derivation algorithm, without the need to generate BIP39 mnemonic seeds with other tools.</p>
+<p>We simply need to use our terminal. In Anu₿itux we will use the following command:</p>
+<p><code>./Tools/Wallets/electrum-4.3.1-x86_64.AppImage --offline make_seed --nbits=256</code></p>
+<p>This command forces Electrum to generate a mnemonic seed using 256 bits of entropy and gives us a phrase that we can import through Elecrtum's user interface.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/37/Selection_038.png" sizes="100vw" srcset="https://anubitux.org/media/posts/37/responsive/Selection_038-xs.png 300w ,https://anubitux.org/media/posts/37/responsive/Selection_038-sm.png 480w ,https://anubitux.org/media/posts/37/responsive/Selection_038-md.png 768w ,https://anubitux.org/media/posts/37/responsive/Selection_038-lg.png 1024w ,https://anubitux.org/media/posts/37/responsive/Selection_038-xl.png 1360w ,https://anubitux.org/media/posts/37/responsive/Selection_038-2xl.png 1600w"  alt="" width="600" height="84"></figure>
+<p>Now we can start our Electrum wallet with its user interface and create a new wallet importing this mnemonic seed.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/37/Selection_036.png" sizes="100vw" srcset="https://anubitux.org/media/posts/37/responsive/Selection_036-xs.png 300w ,https://anubitux.org/media/posts/37/responsive/Selection_036-sm.png 480w ,https://anubitux.org/media/posts/37/responsive/Selection_036-md.png 768w ,https://anubitux.org/media/posts/37/responsive/Selection_036-lg.png 1024w ,https://anubitux.org/media/posts/37/responsive/Selection_036-xl.png 1360w ,https://anubitux.org/media/posts/37/responsive/Selection_036-2xl.png 1600w"  alt="" width="600" height="439"></figure>
+<p>As we can see, the mnemonic seed is valid. If not so, the "Next" button would not be active and we would not be able to complete the wallet creation process.</p>
+<p>If we try to examine the mnemonic seed with <a href="https://iancoleman.io/bip39/" target="_blank" rel="noopener noreferrer">Ian Coleman's BIP39 tool</a>, we will see that it is not valid since it was not derived from a BIP39 wordlist and does not respect the BIP39 checksum.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/37/Selection_039.png" sizes="100vw" srcset="https://anubitux.org/media/posts/37/responsive/Selection_039-xs.png 300w ,https://anubitux.org/media/posts/37/responsive/Selection_039-sm.png 480w ,https://anubitux.org/media/posts/37/responsive/Selection_039-md.png 768w ,https://anubitux.org/media/posts/37/responsive/Selection_039-lg.png 1024w ,https://anubitux.org/media/posts/37/responsive/Selection_039-xl.png 1360w ,https://anubitux.org/media/posts/37/responsive/Selection_039-2xl.png 1600w"  alt="" width="800" height="335"></figure>
+<p>So we have a confirmation that this command gives us the ability to generate 24 words mnemonic seeds with Electrum.</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Try to unlock a VeraCrypt volume with Anu₿itux</title>
         <author>
@@ -734,65 +783,6 @@
 <p> </p>
 <p> </p>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Connecting your hardware wallet to Anu₿itux</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/connecting-your-hardware-wallet-to-anubitux/"/>
-        <id>https://anubitux.org/connecting-your-hardware-wallet-to-anubitux/</id>
-            <category term="wallet"/>
-            <category term="tutorial"/>
-            <category term="tools"/>
-            <category term="opsec"/>
-            <category term="live"/>
-            <category term="linux for xmr"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="howto"/>
-            <category term="hardware wallet"/>
-            <category term="electrum"/>
-            <category term="cryptocurrency"/>
-            <category term="bitcoin"/>
-            <category term="anubitux"/>
-            <category term="USB"/>
-
-        <updated>2022-08-20T09:59:31+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/21/regularguy-eth-1C37UztDU8s-unsplash.jpg" alt="hww" />
-                    Hardware wallets are designed to improve the operational security of crypto users and avoid the loss of their funds. Using such devices in a live system like Anu₿itux, leaving no trace on our main device, could also improve our privacy. Also, if we need to&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://anubitux.org/media/posts/21/regularguy-eth-1C37UztDU8s-unsplash.jpg" alt="hww" />
-                <p>Hardware wallets are designed to improve the operational security of crypto users and avoid the loss of their funds. Using such devices in a live system like Anu₿itux, leaving no trace on our main device, could also improve our privacy. Also, if we need to connect a hardware wallet that is not ours, using it in a live environment could be useful to prevent the leak of any information.</p>
-<h3>How to use hardware wallets</h3>
-<p>In Anu₿itux we can find the official clients for Ledger, Trezor, BitBox and BC Vault hardware wallets.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/21/menuw2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/21/responsive/menuw2-xs.png 300w ,https://anubitux.org/media/posts/21/responsive/menuw2-sm.png 480w ,https://anubitux.org/media/posts/21/responsive/menuw2-md.png 768w ,https://anubitux.org/media/posts/21/responsive/menuw2-lg.png 1024w ,https://anubitux.org/media/posts/21/responsive/menuw2-xl.png 1360w ,https://anubitux.org/media/posts/21/responsive/menuw2-2xl.png 1600w"  alt="menuhw" width="450" height="295"></figure>
-<p>To use them, simply click on their icons and follow the instructions provided.</p>
-<p>Instructions may change according to the used devices and their firmware version.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/21/ledgerlive-2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/21/responsive/ledgerlive-2-xs.png 300w ,https://anubitux.org/media/posts/21/responsive/ledgerlive-2-sm.png 480w ,https://anubitux.org/media/posts/21/responsive/ledgerlive-2-md.png 768w ,https://anubitux.org/media/posts/21/responsive/ledgerlive-2-lg.png 1024w ,https://anubitux.org/media/posts/21/responsive/ledgerlive-2-xl.png 1360w ,https://anubitux.org/media/posts/21/responsive/ledgerlive-2-2xl.png 1600w"  alt="ledgerlive" width="800" height="622"></figure>
-<p>Using official clients can be useful to manage all the different coins supported by our device.</p>
-<p>If we need to connect another kind of hardware wallet or if we are only interested in handling Bitcoin, Litecoin or Bitcoin Cash, we can connect our device through Electrum and its derivations. </p>
-<p>Support for the following <a href="https://electrum.readthedocs.io/en/latest/hardware-linux.html" target="_blank" rel="noopener noreferrer">hardware wallets</a> has been set up:</p>
-<ul>
-<li>Trezor</li>
-<li>Ledger</li>
-<li>KeepKey</li>
-<li>BitBox</li>
-<li>Archos Safe-T</li>
-<li>ColdCard</li>
-</ul>
-<p>To connect them we only have to connect our device and start the desired version of Electrum, choose the "Auto connect" option (or "select server manually" if we know what we are doing), choose a name for our wallet, then select "Standard wallet" and "Use a hardware device". Now Electrum should automatically detect our device.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/21/Electrum-Install-Wizard_001.png" sizes="100vw" srcset="https://anubitux.org/media/posts/21/responsive/Electrum-Install-Wizard_001-xs.png 300w ,https://anubitux.org/media/posts/21/responsive/Electrum-Install-Wizard_001-sm.png 480w ,https://anubitux.org/media/posts/21/responsive/Electrum-Install-Wizard_001-md.png 768w ,https://anubitux.org/media/posts/21/responsive/Electrum-Install-Wizard_001-lg.png 1024w ,https://anubitux.org/media/posts/21/responsive/Electrum-Install-Wizard_001-xl.png 1360w ,https://anubitux.org/media/posts/21/responsive/Electrum-Install-Wizard_001-2xl.png 1600w"  alt="electrumTrezor" width="600" height="429"></figure>
-<h3>Final thoughts</h3>
-<p>Anu₿itux provides us the possibility to manage hardware wallets in a live ready to use operating system, without the need to download, install and configure appropriate tools each time we need them. Of course, using this kind of solution we need to pay even more attention to how we backup our mnemonic seed because rebooting Anu₿itux will completely delete our current working session. </p>
             ]]>
         </content>
     </entry>
