@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-10-07T18:53:11+02:00</updated>
+    <updated>2022-10-07T19:10:38+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -31,7 +31,7 @@
             <category term="bip39"/>
             <category term="anubitux"/>
 
-        <updated>2022-10-07T18:53:11+02:00</updated>
+        <updated>2022-10-07T19:10:38+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/37/SeedCloud.png" alt="" />
@@ -41,7 +41,7 @@
         <content type="html">
             <![CDATA[
                     <img src="https://anubitux.org/media/posts/37/SeedCloud.png" alt="" />
-                <p>Usually, when we create a new wallet with Electrum, we obtain a 12 words seed and there is no way to customize it. We can only extend it with an optional passphrase.</p>
+                <p>Usually, when we create a new wallet with <a href="https://electrum.org/#home" target="_blank" rel="noopener noreferrer">Electrum</a>, we obtain a 12 words seed and there is no way to customize it. We can only extend it with an optional passphrase.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/37/Selection_037.png" sizes="100vw" srcset="https://anubitux.org/media/posts/37/responsive/Selection_037-xs.png 300w ,https://anubitux.org/media/posts/37/responsive/Selection_037-sm.png 480w ,https://anubitux.org/media/posts/37/responsive/Selection_037-md.png 768w ,https://anubitux.org/media/posts/37/responsive/Selection_037-lg.png 1024w ,https://anubitux.org/media/posts/37/responsive/Selection_037-xl.png 1360w ,https://anubitux.org/media/posts/37/responsive/Selection_037-2xl.png 1600w"  alt="" width="600" height="429"></figure>
 <p>But there is a way to create longer mnemonic seeds using Electrum's derivation algorithm, without the need to generate BIP39 mnemonic seeds with other tools.</p>
 <p>We simply need to use our terminal. In Anu₿itux we will use the following command:</p>
