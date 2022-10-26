@@ -3,12 +3,87 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-10-22T18:48:49+02:00</updated>
+    <updated>2022-10-26T23:42:24+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>Anu₿itux  and Python virutal environments</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/anubitux-and-python-virutal-environments/"/>
+        <id>https://anubitux.org/anubitux-and-python-virutal-environments/</id>
+            <category term="virtual environment"/>
+            <category term="ubuntu"/>
+            <category term="tools"/>
+            <category term="tool"/>
+            <category term="script"/>
+            <category term="python"/>
+            <category term="project"/>
+            <category term="opsec"/>
+            <category term="linux for xmr"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="linux"/>
+            <category term="kubuntu"/>
+            <category term="anubitux"/>
+
+        <updated>2022-10-26T23:42:24+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/19/python-gbd1e5efef_1920.jpg" alt="" />
+                    When coding with Python, one of the bigger matters we have to deal with its dependencies. With a community as big as Python's one, this problem couldn't remain unsolved! In fact, we can use virtual environments, a solution that allows us to execute every Python&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://anubitux.org/media/posts/19/python-gbd1e5efef_1920.jpg" alt="" />
+                <p>When coding with Python, one of the bigger matters we have to deal with its dependencies. With a community as big as Python's one, this problem couldn't remain unsolved! In fact, we can use <a href="https://docs.python.org/3/library/venv.html" target="_blank" rel="noopener noreferrer">virtual environments</a>, a solution that allows us to execute every Python script with its own version of the libraries it uses. This helps us to avoid conflicts between scripts needing different versions of the same library or between incompatible libraries.</p>
+<h3>How virtual environments work </h3>
+<p>First of all, we need to install Python virtual environments to be able to use them. To do that we can simply run:</p>
+<p><code>pip3 install venv</code></p>
+<p>Now, when we write a Python script or download some from <a href="https://github.com/search?l=Python&amp;q=python&amp;type=Repositories" target="_blank" rel="noopener noreferrer">GitHub</a>, like one of <a href="https://github.com/ASeriousMister" target="_blank" rel="noopener noreferrer">ours</a>, we can open our Terminal and change the working directory with the path of the tool:</p>
+<p><code>cd /home/anubitux/Tools/python_tool</code></p>
+<p>Now, let's create our virtual environment:</p>
+<p><code>virtualenv demo</code></p>
+<p>This is going to create a python virtual environment named "demo", that will be placed in a newly created folder in the tool's directory.</p>
+<p>At this point, we need to activate it, and all the libraries we are going to install will only be used within our virtual environment:</p>
+<p><code>source demo/bin/activate</code></p>
+<p>Now, to be sure our virtual environment is active, we can see its name in brackets on the left of our username in our terminal.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/19/Selection_055.png" sizes="100vw" srcset="https://anubitux.org/media/posts/19/responsive/Selection_055-xs.png 300w ,https://anubitux.org/media/posts/19/responsive/Selection_055-sm.png 480w ,https://anubitux.org/media/posts/19/responsive/Selection_055-md.png 768w ,https://anubitux.org/media/posts/19/responsive/Selection_055-lg.png 1024w ,https://anubitux.org/media/posts/19/responsive/Selection_055-xl.png 1360w ,https://anubitux.org/media/posts/19/responsive/Selection_055-2xl.png 1600w"  alt="venv1" width="900" height="143"></figure>
+<p>Now we can install our libraries, running</p>
+<p><code>pip3 -r install requirements.txt</code></p>
+<p>if the tool we are going to use has a list of dependencies placed in the conventional <em>requirements.txt</em> file, or simply running</p>
+<p><code>pip3 install python_library_name</code></p>
+<p>When our environment is ready, we can run our tool:</p>
+<p><code>python3 demo_tool.py</code></p>
+<p>If we are done, we can stop our virtual environment running:</p>
+<p><code>deactivate</code></p>
+<p>So the virtual environment's name in brackets will disappear.</p>
+<h3>How Anu₿itux uses virtual environments</h3>
+<p>Anu₿itux uses many different <a href="https://anubitux.org/what-is-anubitux/" target="_blank" rel="noopener noreferrer">Python tools</a>, some of them developed by our <a href="https://anubitux.org/meet-the-anubitux-project/" target="_blank" rel="noopener noreferrer">team</a>, some of them developed by other trusted developers. Of course, our users wouldn't feel comfortable activating a different virtual environment every time they need to run a Python tool. So we adopted a solution suggested by our friends from the <a href="https://tsurugi-linux.org/" target="_blank" rel="noopener noreferrer">Tsurugi Linux</a> team.</p>
+<p>First of all, we created an environment for every single tool, with the procedure shown above. Then, to make sure that our tool is going to use it without the need to activate it, we placed its directory in the first commented line of every tool. This is the way to specify for every tool where it has to take the libraries it is going to use.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/19/Selection_056.png" sizes="100vw" srcset="https://anubitux.org/media/posts/19/responsive/Selection_056-xs.png 300w ,https://anubitux.org/media/posts/19/responsive/Selection_056-sm.png 480w ,https://anubitux.org/media/posts/19/responsive/Selection_056-md.png 768w ,https://anubitux.org/media/posts/19/responsive/Selection_056-lg.png 1024w ,https://anubitux.org/media/posts/19/responsive/Selection_056-xl.png 1360w ,https://anubitux.org/media/posts/19/responsive/Selection_056-2xl.png 1600w"  alt="comment" width="500" height="109"></figure>
+<p>in the example, <em>ssve</em> is the name we gave to the virtual environment.</p>
+<p>It is important to indicate <em>python3</em> at the end of the line. This way we will be able to launch the tool without the need to specify it in the Terminal.</p>
+<p class="msg msg--info">Doing that, it could happen that a python3 file is not available in the virtual environment folder. If so, we can place a <a href="https://linuxhint.com/create_symbolic_link_ubuntu/" target="_blank" rel="noopener noreferrer">symbolic link</a> into it pointing to <em>/usr/bin/python3</em>.</p>
+<p>Now, to be able to run the tool without the need to go to its directory, using root privileges we'll add a symbolic link to it in a directory that is included in the $PATH system variable, like <em>/usr/bin</em>. The $PATH system variable controls where our system is going to look for the commands we enter in our Terminal.</p>
+<p><code>sudo ln -s demo_tool.py /usr/bin/</code></p>
+<p>Finally we need to add the execution rights to the symbolic link:</p>
+<p><code>sudo chmod +x /usr/bin/demo_tool.py</code></p>
+<p>Now, after restarting our Terminal, we will be able to run our tools as all the other commands we are used to!</p>
+<h3>Something to pay attention to</h3>
+<p>A lot of python tools do not use only libraries, but also some files placed in their folder. When launching them from our Terminal in any working directory, they won't be able to find those files. To solve this, we need to add a line to our python tool that makes its process run in the correct directory:</p>
+<p><code>os.chdir('path/of/the/tool')</code></p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/19/Selection_057.png" sizes="100vw" srcset="https://anubitux.org/media/posts/19/responsive/Selection_057-xs.png 300w ,https://anubitux.org/media/posts/19/responsive/Selection_057-sm.png 480w ,https://anubitux.org/media/posts/19/responsive/Selection_057-md.png 768w ,https://anubitux.org/media/posts/19/responsive/Selection_057-lg.png 1024w ,https://anubitux.org/media/posts/19/responsive/Selection_057-xl.png 1360w ,https://anubitux.org/media/posts/19/responsive/Selection_057-2xl.png 1600w"  alt="oschdir" width="450" height="61"></figure>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to generate a mnemonic seed with Anu₿itux and a dice</title>
         <author>
@@ -719,60 +794,6 @@
 <p>When doing such delicate operations as creating a new wallet, it could be a good idea to work in an offline and live environment, to prevent leaking information on the Internet and to avoid storing any kind of information on physical drives.</p>
 <p>Using Anu₿itux we can do the whole procedure in a live environment. With the proper desktop shortcut, named "Go offline", we can also disable the networking features.</p>
 <p>When our paper wallet is ready we can print it. Anu₿itux integrates a lot of ready to use printer drivers, so we will not need to connect to the Internet to download the proper drivers for our printer. If our printer is not supported, it is preferrable to download the proper drivers from a different working environment or to prepare them before starting this procedure.</p>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Search for BIP39 seeds with Anu₿itux</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/search-for-bip39-seeds-with-anubitux/"/>
-        <id>https://anubitux.org/search-for-bip39-seeds-with-anubitux/</id>
-            <category term="wallet"/>
-            <category term="tutorial"/>
-            <category term="tools"/>
-            <category term="tool"/>
-            <category term="seedcheck"/>
-            <category term="recovery"/>
-            <category term="python"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="howto"/>
-            <category term="cryptocurrency"/>
-            <category term="crypto"/>
-            <category term="bitcoin"/>
-            <category term="bip39"/>
-            <category term="anubitux"/>
-
-        <updated>2022-08-21T13:43:24+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/26/background-g80bb52ded_1920.jpg" alt="" />
-                    There may be a lot of different reasons for which we have to scan a directory or a set of files, looking for BIP39 seeds. Maybe we have forgotten where we stored a seed or we are digital forensic consultants scanning third parties hard drives.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://anubitux.org/media/posts/26/background-g80bb52ded_1920.jpg" alt="" />
-                <p>There may be a lot of different reasons for which we have to scan a directory or a set of files, looking for <a href="https://github.com/bitcoin/bips/tree/master/bip-0039" target="_blank" rel="noopener noreferrer">BIP39</a> seeds. Maybe we have forgotten where we stored a seed or we are digital forensic consultants scanning third parties hard drives. With Anu₿itux we can use <a href="https://github.com/ASeriousMister/SeedSearch.py" target="_blank" rel="noopener noreferrer">seedsearch.py</a> and <a href="https://github.com/ASeriousMister/SeedSearch.py" target="_blank" rel="noopener noreferrer">seedsearchpro.py</a> to perform this task.</p>
-<p>Seedsearch.py simply scans all the files in a directory and looks for sequences of words that could be BIP39 seeds. Seessearchpro.py, after doing the search, allows us to derive addresses from the found seeds and check online if the obtained addresses had some activity, as <a href="https://anubitux.org/find-out-how-a-seed-was-used-with-anubitux/" target="_blank" rel="noopener noreferrer">seedcheck.py</a> does.</p>
-<p>Let's see how these tools work.</p>
-<p>To run seedsearch.py we simply have to type the tool's name in our terminal followed by the -d option and the directory we want to scan, like:</p>
-<p class="align-center"><code>seedsearch.py -d /home/anubitux/Documents</code></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/26/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_028.png" sizes="100vw" srcset="https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_028-xs.png 300w ,https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_028-sm.png 480w ,https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_028-md.png 768w ,https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_028-lg.png 1024w ,https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_028-xl.png 1360w ,https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_028-2xl.png 1600w"  alt="seedsearch1" width="1000" height="264"></figure>
-<p>The tool found four valid mnemonic seeds and also identified the language of the wordlist that has been used. Now we can consider if we want to import the seeds into a wallet client, check them using seedcheck.py, store them in a safe place, etc.</p>
-<p>Using seedsearchpro.py, we will also be able to derive the addresses related to the found mnemonic seeds for the currencies Bitcoin, Ethereum, Litecoin, Dash and ZCash and check them through APIs to find out if they were involved in any activity. It can be run with the same syntax:</p>
-<p class="align-center"><code>seedsearchpro.py -d /home/anubitux/Documents</code></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/26/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_029.png" sizes="100vw" srcset="https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_029-xs.png 300w ,https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_029-sm.png 480w ,https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_029-md.png 768w ,https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_029-lg.png 1024w ,https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_029-xl.png 1360w ,https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_029-2xl.png 1600w"  alt="seedsearch2" width="1000" height="429"></figure>
-<p>As we can see in the picture, the tool asks us if we want to derive the addresses and check them online. Then it shows the addresses derived with many derivation paths for each mnemonic seed and tells us if there was any activity for some of them.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/26/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_030.png" sizes="100vw" srcset="https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_030-xs.png 300w ,https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_030-sm.png 480w ,https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_030-md.png 768w ,https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_030-lg.png 1024w ,https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_030-xl.png 1360w ,https://anubitux.org/media/posts/26/responsive/AnuBitux_2022_1_4_VM-Running-Oracle-VM-VirtualBox_030-2xl.png 1600w"  alt="seedsearch3" width="1000" height="453"></figure>
-<p>In this case, the tool didn't find any activity and any derivation path because we used test files containing mnemonic seeds that were never used.</p>
-<p>The tool uses some public APIs to check the addresses, provided by <a href="https://www.blockchain.com/api" target="_blank" rel="noopener noreferrer">blockchain.com</a>, <a href="https://www.blockcypher.com/dev/bitcoin/#introduction" target="_blank" rel="noopener noreferrer">blockcypher.com</a> and <a href="https://explorer.zcha.in/api" target="_blank" rel="noopener noreferrer">zcha.in</a>. Blockcypher's APIs have strict <a href="https://www.blockcypher.com/dev/bitcoin/#rate-limits-and-tokens" target="_blank" rel="noopener noreferrer">limits</a> that could easily be reached when doing a lot of tests. If we have a valid API key to avoid reaching this limit, we can provide it by editing line 46 of the seedsearchpro.py file.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/26/Selection_026.png" sizes="100vw" srcset="https://anubitux.org/media/posts/26/responsive/Selection_026-xs.png 300w ,https://anubitux.org/media/posts/26/responsive/Selection_026-sm.png 480w ,https://anubitux.org/media/posts/26/responsive/Selection_026-md.png 768w ,https://anubitux.org/media/posts/26/responsive/Selection_026-lg.png 1024w ,https://anubitux.org/media/posts/26/responsive/Selection_026-xl.png 1360w ,https://anubitux.org/media/posts/26/responsive/Selection_026-2xl.png 1600w"  alt="github" width="500" height="141"></figure>
-<p>Of course, the scan performed by the tool can't replace a manual review of each file, but it can be useful when we have not that much time or we know that mnemonic seeds can be found in commonly readable files like DOCX, PDF, TXT, CSV, HTML, JSON, etc.</p>
 <p> </p>
             ]]>
         </content>
