@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-10-26T23:52:36+02:00</updated>
+    <updated>2022-10-26T23:56:21+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -14,8 +14,8 @@
         <author>
             <name>Anu₿itux</name>
         </author>
-        <link href="https://anubitux.org/anubitux-and-python-virutal-environments/"/>
-        <id>https://anubitux.org/anubitux-and-python-virutal-environments/</id>
+        <link href="https://anubitux.org/anubitux-and-python-virtual-environments/"/>
+        <id>https://anubitux.org/anubitux-and-python-virtual-environments/</id>
             <category term="virtual environment"/>
             <category term="ubuntu"/>
             <category term="tools"/>
@@ -32,7 +32,7 @@
             <category term="kubuntu"/>
             <category term="anubitux"/>
 
-        <updated>2022-10-26T23:52:36+02:00</updated>
+        <updated>2022-10-26T23:56:21+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/19/python-gbd1e5efef_1920.jpg" alt="" />
