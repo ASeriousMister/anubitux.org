@@ -3,14 +3,14 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-10-27T00:00:12+02:00</updated>
+    <updated>2022-10-27T00:12:21+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
     <entry>
-        <title>Anu₿itux  and Python virtual environments</title>
+        <title>Anu₿itux and Python virtual environments</title>
         <author>
             <name>Anu₿itux</name>
         </author>
@@ -32,7 +32,7 @@
             <category term="kubuntu"/>
             <category term="anubitux"/>
 
-        <updated>2022-10-27T00:00:12+02:00</updated>
+        <updated>2022-10-27T00:12:21+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/19/python-gbd1e5efef_1920.jpg" alt="" />
