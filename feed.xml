@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-10-26T23:56:21+02:00</updated>
+    <updated>2022-10-27T00:00:12+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -32,7 +32,7 @@
             <category term="kubuntu"/>
             <category term="anubitux"/>
 
-        <updated>2022-10-26T23:56:21+02:00</updated>
+        <updated>2022-10-27T00:00:12+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/19/python-gbd1e5efef_1920.jpg" alt="" />
@@ -78,7 +78,7 @@
 <p>Now, after restarting our Terminal, we will be able to run our tools as all the other commands we are used to!</p>
 <h3>Something to pay attention to</h3>
 <p>A lot of python tools do not use only libraries, but also some files placed in their folder. When launching them from our Terminal in any working directory, they won't be able to find those files. To solve this, we need to add a line to our python tool that makes its process run in the correct directory:</p>
-<p><code>os.chdir('path/of/the/tool')</code></p>
+<p><code>os.chdir('/path/of/the/tool')</code></p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/19/Selection_057.png" sizes="100vw" srcset="https://anubitux.org/media/posts/19/responsive/Selection_057-xs.png 300w ,https://anubitux.org/media/posts/19/responsive/Selection_057-sm.png 480w ,https://anubitux.org/media/posts/19/responsive/Selection_057-md.png 768w ,https://anubitux.org/media/posts/19/responsive/Selection_057-lg.png 1024w ,https://anubitux.org/media/posts/19/responsive/Selection_057-xl.png 1360w ,https://anubitux.org/media/posts/19/responsive/Selection_057-2xl.png 1600w"  alt="oschdir" width="450" height="61"></figure>
 <p> </p>
             ]]>
