@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/anubitux
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://anubitux.org
+  * I am anubitux (https://keybase.io/anubitux) on keybase.
+  * I have a public key ASDx_pdK-BwdkR_LYK7fl5WPyuS1Uc_YnU5PXGRiZ1QwEgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01206cfa80aafa362175be1632bb2f4afba4d1b9420d5113c653e03726a8393627830a",
+      "host": "keybase.io",
+      "kid": "0120f1fe974af81c1d911fcb60aedf97958fcae4b551cfd89d4e4f5c6462675430120a",
+      "uid": "582b37ea62176bbf0a4ff79e6b854c19",
+      "username": "anubitux"
+    },
+    "merkle_root": {
+      "ctime": 1666895788,
+      "hash": "c79cdfc510d0c534d1be183e011a60799ef91a1b442c1dd081010a4ae1ed60b8acb3edf024d5ccb737a9c704286023a205f657aded7384bf2570f5ee17e5ef3d",
+      "hash_meta": "f87f02ba39e7dbc4665fae3d35f183b7f8c58d2a11d73eb604b1e62587840b34",
+      "seqno": 23444013
+    },
+    "service": {
+      "entropy": "j//LO+d6eAG6e3rRx2wLD4ZS",
+      "hostname": "anubitux.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.2"
+  },
+  "ctime": 1666895811,
+  "expire_in": 504576000,
+  "prev": "3462c783ff1fbe285981479ad8ef0ef2c094b6134ee010837693a054fbfb932d",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg8f6XSvgcHZEfy2Cu35eVj8rktVHP2J1OT1xkYmdUMBIKp3BheWxvYWTESpcCDcQgNGLHg/8fvihZgUea2O8O8sCUthNO4BCDdpOgVPv7ky3EIFAhsbKwGaLadu838O5kiXJ5083ZaMgzOR8xQ7jDP/nIAgHCo3NpZ8RAjTX9fImao2/6cnirwQxHBHtjJrhNJ7gyNvH03/vS3mnyLToeoFQVlZxpFjuiUONyPcZsDO4DhioySywNA4ZQDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEKdvSg7XEvi9cJI6UGiVbcUm+AD32WTwUOafBgGahZGo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/anubitux
+
+==================================================================

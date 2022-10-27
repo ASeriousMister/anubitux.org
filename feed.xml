@@ -3,32 +3,12 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-10-27T20:39:31+02:00</updated>
+    <updated>2022-10-27T00:12:21+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
-    <entry>
-        <title>keybase.txt</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/keybasetxt/"/>
-        <id>https://anubitux.org/keybasetxt/</id>
-
-        <updated>2022-10-27T20:39:31+02:00</updated>
-            <summary>
-                <![CDATA[
-                    ================================================================== https://keybase.io/anubitux -------------------------------------------------------------------- I hereby claim: * I am an admin of https://anubitux.org * I am anubitux (https://keybase.io/anubitux) on keybase. * I have a public key ASDx_pdK-BwdkR_LYK7fl5WPyuS1Uc_YnU5PXGRiZ1QwEgo To do so, I am signing this object: { "body": { "key": { "eldest_kid": "01206cfa80aafa362175be1632bb2f4afba4d1b9420d5113c653e03726a8393627830a", "host": "keybase.io", "kid":&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>==================================================================<br>https://keybase.io/anubitux<br>--------------------------------------------------------------------<br><br>I hereby claim:<br><br>  * I am an admin of https://anubitux.org<br>  * I am anubitux (https://keybase.io/anubitux) on keybase.<br>  * I have a public key ASDx_pdK-BwdkR_LYK7fl5WPyuS1Uc_YnU5PXGRiZ1QwEgo<br><br>To do so, I am signing this object:<br><br>{<br>  "body": {<br>    "key": {<br>      "eldest_kid": "01206cfa80aafa362175be1632bb2f4afba4d1b9420d5113c653e03726a8393627830a",<br>      "host": "keybase.io",<br>      "kid": "0120f1fe974af81c1d911fcb60aedf97958fcae4b551cfd89d4e4f5c6462675430120a",<br>      "uid": "582b37ea62176bbf0a4ff79e6b854c19",<br>      "username": "anubitux"<br>    },<br>    "merkle_root": {<br>      "ctime": 1666895788,<br>      "hash": "c79cdfc510d0c534d1be183e011a60799ef91a1b442c1dd081010a4ae1ed60b8acb3edf024d5ccb737a9c704286023a205f657aded7384bf2570f5ee17e5ef3d",<br>      "hash_meta": "f87f02ba39e7dbc4665fae3d35f183b7f8c58d2a11d73eb604b1e62587840b34",<br>      "seqno": 23444013<br>    },<br>    "service": {<br>      "entropy": "j//LO+d6eAG6e3rRx2wLD4ZS",<br>      "hostname": "anubitux.org",<br>      "protocol": "https:"<br>    },<br>    "type": "web_service_binding",<br>    "version": 2<br>  },<br>  "client": {<br>    "name": "keybase.io go client",<br>    "version": "6.0.2"<br>  },<br>  "ctime": 1666895811,<br>  "expire_in": 504576000,<br>  "prev": "3462c783ff1fbe285981479ad8ef0ef2c094b6134ee010837693a054fbfb932d",<br>  "seqno": 13,<br>  "tag": "signature"<br>}<br><br>which yields the signature:<br><br>hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg8f6XSvgcHZEfy2Cu35eVj8rktVHP2J1OT1xkYmdUMBIKp3BheWxvYWTESpcCDcQgNGLHg/8fvihZgUea2O8O8sCUthNO4BCDdpOgVPv7ky3EIFAhsbKwGaLadu838O5kiXJ5083ZaMgzOR8xQ7jDP/nIAgHCo3NpZ8RAjTX9fImao2/6cnirwQxHBHtjJrhNJ7gyNvH03/vS3mnyLToeoFQVlZxpFjuiUONyPcZsDO4DhioySywNA4ZQDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEKdvSg7XEvi9cJI6UGiVbcUm+AD32WTwUOafBgGahZGo3RhZ80CAqd2ZXJzaW9uAQ==<br><br>And finally, I am proving ownership of this host by posting or<br>appending to this document.<br><br>View my publicly-auditable identity here: https://keybase.io/anubitux<br><br>==================================================================</p>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>Anu₿itux and Python virtual environments</title>
         <author>
@@ -738,6 +718,82 @@
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/23/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_024-2.png" sizes="100vw" srcset="https://anubitux.org/media/posts/23/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_024-2-xs.png 300w ,https://anubitux.org/media/posts/23/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_024-2-sm.png 480w ,https://anubitux.org/media/posts/23/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_024-2-md.png 768w ,https://anubitux.org/media/posts/23/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_024-2-lg.png 1024w ,https://anubitux.org/media/posts/23/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_024-2-xl.png 1360w ,https://anubitux.org/media/posts/23/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_024-2-2xl.png 1600w"  alt="monerocli2" width="800" height="307"></figure>
 <p> </p>
 <p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to generate random paper wallets with Anu₿itux</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/how-to-generate-random-paper-wallets-with-anubitux/"/>
+        <id>https://anubitux.org/how-to-generate-random-paper-wallets-with-anubitux/</id>
+            <category term="wallet"/>
+            <category term="tutorial"/>
+            <category term="tools"/>
+            <category term="tool"/>
+            <category term="python"/>
+            <category term="private key"/>
+            <category term="paper wallet"/>
+            <category term="opsec"/>
+            <category term="offline"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="howto"/>
+            <category term="cryptocurrency"/>
+            <category term="crypto"/>
+            <category term="bitcoin"/>
+            <category term="anubitux"/>
+
+        <updated>2022-09-16T23:01:26+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/32/dice-g8fd9d2d4d_1920.jpg" alt="" />
+                    There are a lot of tools that allow us to generate a paper wallet for many different currencies. Most of these tools are open source and use well-known algorithms to generate keys avoiding conflicts and duplicates. When using such tools, it is always a good&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://anubitux.org/media/posts/32/dice-g8fd9d2d4d_1920.jpg" alt="" />
+                <p>There are a lot of tools that allow us to generate a paper wallet for many different currencies. Most of these tools are open source and use well-known algorithms to generate keys avoiding conflicts and duplicates. When using such tools, it is always a good idea to download them from <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a> and never use their online versions, even if our working environment is not connected to the Internet during the generation process (<a href="https://medium.com/mycrypto/disclosure-key-generation-vulnerability-found-on-walletgenerator-net-potentially-malicious-3d8936485961" target="_blank" rel="noopener noreferrer">example</a>).</p>
+<p>If we want to generate a paper wallet without trusting any tool and any algorithm, we can use <a href="https://github.com/ASeriousMister/DiceTracker.py" target="_blank" rel="noopener noreferrer">DiceTracker</a>, a tool developed by the Anu₿itux team and included in the Anu₿itux distro under the AddressGenerators menu.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/32/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_002.png" sizes="100vw" srcset="https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_002-xs.png 300w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_002-sm.png 480w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_002-md.png 768w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_002-lg.png 1024w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_002-xl.png 1360w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_002-2xl.png 1600w"  alt="menu" width="450" height="289"></figure>
+<p>To run it we simply need to type "dicetracker.py" in our terminal. It could be a good idea to perform this procedure without any active connection. In Anu₿itux we can do that with the proper desktop shortcut.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/32/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_004.png" sizes="100vw" srcset="https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_004-xs.png 300w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_004-sm.png 480w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_004-md.png 768w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_004-lg.png 1024w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_004-xl.png 1360w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_004-2xl.png 1600w"  alt="dt2" width="800" height="292"></figure>
+<p>Now the tool gives us the choice to paste:</p>
+<ul>
+<li>a previously generated binary key, like</li>
+</ul>
+<p><code>000000110010101110010111010110100010100001100101101000011101010000001110 1100011111110010001000101010010010101101111100010011100111011100110110101 0011110011101101000110010101001101011010100000101001100001100110110101111 01001110010101110010010001000001101001</code><code></code></p>
+<ul>
+<li>the result of 256 dice rolls, like</li>
+</ul>
+<p><code>142335362524132435241324352625252524353466655465364546353526252516252536 3532526251252626353433533536225356225251414255336355242142253633534242411 2525353644535342425251615253434225251616252534342525161625254343525216612 52443434252516162525434352525166542512</code><code></code></p>
+<p>The tool will automatically recognize if we are pasting a binary key, the result of previously made dice rolls, or some kind of invalid string.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/32/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_005.png" sizes="100vw" srcset="https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_005-xs.png 300w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_005-sm.png 480w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_005-md.png 768w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_005-lg.png 1024w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_005-xl.png 1360w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_005-2xl.png 1600w"  alt="dt3" width="800" height="319"></figure>
+<p>Now we can choose which kind of paper wallet we want from different virtual currencies.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/32/AnuBiBlog_1_6-VMware-Workstation_001.png" sizes="100vw" srcset="https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_001-xs.png 300w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_001-sm.png 480w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_001-md.png 768w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_001-lg.png 1024w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_001-xl.png 1360w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_001-2xl.png 1600w"  alt="CoinSel" width="650" height="248"></figure>
+<p>Let's choose option 1 to obtain a Bitcoin private key and the correspinding Bitcoin addresses.</p>
+<p>Now DiceTracker allows us to choice if we want to generate a printable paper wallet with the keys related to the selected coin.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/32/AnuBiBlog_1_6-VMware-Workstation_004.png" sizes="100vw" srcset="https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_004-xs.png 300w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_004-sm.png 480w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_004-md.png 768w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_004-lg.png 1024w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_004-xl.png 1360w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_004-2xl.png 1600w"  alt="paperwalletchoice" width="650" height="129"></figure>
+<p>This process will empty the PaperWallet directory, that in Anu₿itux can be found in the Documents folder. So, if we have generated other keys or other paper wallets, we need to backup them before continuing.</p>
+<p>Then we will obtain a ready to use private key in the wallet import format and the corresponding public address.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/32/AnuBiBlog_1_6-VMware-Workstation_005.png" sizes="100vw" srcset="https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_005-xs.png 300w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_005-sm.png 480w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_005-md.png 768w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_005-lg.png 1024w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_005-xl.png 1360w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_005-2xl.png 1600w"  alt="" width="700" height="161"></figure>
+<p>We can now find our printable paper wallet in the PaperWallet directory, also with png images of the QR codes of our keys.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/32/AnuBiBlog_1_6-VMware-Workstation_006.png" sizes="100vw" srcset="https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_006-xs.png 300w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_006-sm.png 480w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_006-md.png 768w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_006-lg.png 1024w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_006-xl.png 1360w ,https://anubitux.org/media/posts/32/responsive/AnuBiBlog_1_6-VMware-Workstation_006-2xl.png 1600w"  alt="pdf" width="1000" height="686"></figure>
+<p>Anu₿itux integrates a lot of printer drivers, so printing our paper wallet should not be an issue.</p>
+<p>After we have received funds to this paper wallet, to spend coins we can follow the procedure shown <a href="https://anubitux.org/how-to-spend-a-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p>If we don't have a binary key or the result of previously made dice rolls to paste, we can use the tool to track our dice rolls. It may take a while, but we can be sure that by doing so we are only trusting our dice and we do not need to rely on any algorithm.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/32/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_008.png" sizes="100vw" srcset="https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_008-xs.png 300w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_008-sm.png 480w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_008-md.png 768w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_008-lg.png 1024w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_008-xl.png 1360w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_008-2xl.png 1600w"  alt="dt5" width="800" height="376"></figure>
+<p>Note that only six faces dices are allowed.</p>
+<p>When reaching 256 dice rolls, the tool will automatically calculate our binary key and, as seen before, it will give us the choice between different virtual currencies and will allow us to generate a printable paper wallet.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/32/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_009.png" sizes="100vw" srcset="https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_009-xs.png 300w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_009-sm.png 480w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_009-md.png 768w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_009-lg.png 1024w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_009-xl.png 1360w ,https://anubitux.org/media/posts/32/responsive/AnuBItux_2022_1_5_VM-Running-Oracle-VM-VirtualBox_009-2xl.png 1600w"  alt="dt6" width="800" height="515"></figure>
+<h3>Opsec advice</h3>
+<p>When doing such delicate operations as creating a new wallet, it could be a good idea to work in an offline and live environment, to prevent leaking information on the Internet and to avoid storing any kind of information on physical drives.</p>
+<p>Using Anu₿itux we can do the whole procedure in a live environment. With the proper desktop shortcut, named "Go offline", we can also disable the networking features.</p>
+<p>When our paper wallet is ready we can print it. Anu₿itux integrates a lot of ready to use printer drivers, so we will not need to connect to the Internet to download the proper drivers for our printer. If our printer is not supported, it is preferrable to download the proper drivers from a different working environment or to prepare them before starting this procedure.</p>
 <p> </p>
             ]]>
         </content>
