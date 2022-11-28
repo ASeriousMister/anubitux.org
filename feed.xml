@@ -3,12 +3,60 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-11-26T20:00:39+01:00</updated>
+    <updated>2022-11-28T18:24:31+01:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>Anu₿itux and encrypted storages</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/anubitux-and-encrypted-storages/"/>
+        <id>https://anubitux.org/anubitux-and-encrypted-storages/</id>
+        <media:content url="https://anubitux.org/media/posts/40/decrypt.png" medium="image" />
+            <category term="ubuntu"/>
+            <category term="tools"/>
+            <category term="opsec"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux"/>
+            <category term="kubuntu"/>
+            <category term="howto"/>
+            <category term="encrypted"/>
+            <category term="caution"/>
+            <category term="anubitux"/>
+
+        <updated>2022-11-28T18:24:31+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/40/decrypt.png" alt="" />
+                    Anu₿itux is a live Linux distribution and it does not store any kind of information about what we do while using it. So, even our wallets are not stored anywhere when we access them They should be stored on some external storage, like paper, USB&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://anubitux.org/media/posts/40/decrypt.png" class="type:primaryImage" alt="" /></p>
+                <p>Anu₿itux is a live Linux distribution and it does not store any kind of information about what we do while using it. So, even our wallets are not stored anywhere when we access them They should be stored on some external storage, like paper, USB drives, hard drives, hardware wallets, etc.</p>
+<p>Using Anu₿itux to access our main wallets or our cold storages should be done only when we need it so we should not consider a good strategy to access our wallets using seeds or paper wallets on a daily base. A good strategy could be to store most of the funds on cold storages that we keep offline unless we need them and have some funds on hot wallets that we use with clients like Electrum, MyCrypto, Feather, Coinomi, etc. We could have our wallet files on an encrypted USB storage and plug it in when we need to access our funds.</p>
+<p>To manage encrypted storages, Anu₿itux integrates <a href="https://www.veracrypt.fr/en/Home.html" target="_blank" rel="noopener noreferrer">VeraCrypt</a> and <a href="https://github.com/mhogomchungu/zuluCrypt" target="_blank" rel="noopener noreferrer">ZuluCrypt</a> (supporting lots of different encryption standards, like <a href="https://gitlab.com/cryptsetup/cryptsetup" target="_blank" rel="noopener noreferrer">LUKS</a>, VeraCrypt, <a href="https://learn.microsoft.com/it-it/windows/security/information-protection/bitlocker/bitlocker-overview" target="_blank" rel="noopener noreferrer">BitLocker</a> and <a href="https://en.wikipedia.org/wiki/TrueCrypt" target="_blank" rel="noopener noreferrer">TrueCrypt</a>).</p>
+<p>We described how to use VeraCrypt in a previous <a href="https://anubitux.org/create-encrypted-volumes-with-veracrypt/" target="_blank" rel="noopener noreferrer">post</a>. VeraCrypt is a very powerful tool to manage encrypted volumes that works across almost all the desktop operating systems. So, it is a very valuable option to safely manage our files.</p>
+<p>But also ZuluCrypt has a very great potential since it supports a lot of different kinds of encryption standards. So, using it, we could be able to decrypt almost all the containers and the storages we have encrypted with other tools or using other operating systems and access the files we need while using Anu₿itux.</p>
+<p>To use ZuluCrypt to access encrypted storages, we simply run its GUI from the Anu₿itux menu, provide the root password (which is set to anubitux when using Anu₿itux live or VM), click on the "Open" menu and choose the option that fits your needs.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/40/Selection_072.png" alt="zulu1" width="750" height="442" sizes="100vw" srcset="https://anubitux.org/media/posts/40/responsive/Selection_072-xs.png 300w ,https://anubitux.org/media/posts/40/responsive/Selection_072-sm.png 480w ,https://anubitux.org/media/posts/40/responsive/Selection_072-md.png 768w ,https://anubitux.org/media/posts/40/responsive/Selection_072-lg.png 1024w ,https://anubitux.org/media/posts/40/responsive/Selection_072-xl.png 1360w ,https://anubitux.org/media/posts/40/responsive/Selection_072-2xl.png 1600w"></figure>
+<p>In the next window, we can select the volume or the container we want to decrypt, choose its format and provide the information to unlock it, like password, PIM, keyfile, etc.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/40/Selection_073.png" alt="zulu2" width="750" height="432" sizes="100vw" srcset="https://anubitux.org/media/posts/40/responsive/Selection_073-xs.png 300w ,https://anubitux.org/media/posts/40/responsive/Selection_073-sm.png 480w ,https://anubitux.org/media/posts/40/responsive/Selection_073-md.png 768w ,https://anubitux.org/media/posts/40/responsive/Selection_073-lg.png 1024w ,https://anubitux.org/media/posts/40/responsive/Selection_073-xl.png 1360w ,https://anubitux.org/media/posts/40/responsive/Selection_073-2xl.png 1600w"></figure>
+<p>At this point we only have to click the "Open" button and, if we provided the correct credentials, we can access the encrypted files we need from our file manager.</p>
+<p>When we finished our work, we do not have to forget to dismount the volume. To do it, we simply right click on the volume from ZuluCrypt's GUI and select the "Unmount" option.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/40/Selection_074.png" alt="zulu3" width="750" height="437" sizes="100vw" srcset="https://anubitux.org/media/posts/40/responsive/Selection_074-xs.png 300w ,https://anubitux.org/media/posts/40/responsive/Selection_074-sm.png 480w ,https://anubitux.org/media/posts/40/responsive/Selection_074-md.png 768w ,https://anubitux.org/media/posts/40/responsive/Selection_074-lg.png 1024w ,https://anubitux.org/media/posts/40/responsive/Selection_074-xl.png 1360w ,https://anubitux.org/media/posts/40/responsive/Selection_074-2xl.png 1600w"></figure>
+<p>As we can see in the above picture, ZuluCrypt also supports volumes that were encrypted using LUKS, the encryption standard used by Linux systems, BitLocker, a proprietary encryption standard powered by Microsoft, and TrueCrypt.</p>
+<p class="msg msg--warning">TrueCrypt is an old encryption software that should not be used anymore since it contains<a href="https://arstechnica.com/information-technology/2014/05/bombshell-truecrypt-advisory-backdoor-hack-hoax-none-of-the-above/" target="_blank" rel="noopener noreferrer"> unfixed security issues</a> that could allow an attacker to access our files even if he does not know the correct password. This feature should only be used to migrate the files we stored in a TrueCrypt volume to a new volume we have encrypted with another encryption method. </p>
+<p>This process could easily be done using Anu₿itux live disabling all the connections with the proper desktop shortcut. So we are sure we are not accessing our encrypted files from an unsafe working environment.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Create encrypted volumes with VeraCrypt</title>
         <author>
@@ -844,91 +892,6 @@
 <p>The shown procedure should be used only to test how mnemonic seeds and private keys or for specific purposes, like spending coins only from the desired address when using clients that do not support "coin selection" features.</p>
 <p>Before using this procedure for real needs, it is recommended to do an online search about our client, checking if it allows us to see the private keys of our address with some kind of hidden menu. In this way, we will not need to access our backup seed and leave it safe in the place we have chosen to store it.</p>
 <p class="msg msg--warning"><em>In any case, these procedures are intended to be used with wallets used as "hot wallets". It is not recommended to manage seeds related to cold storage in that way unless we are intended to move all the funds.</em></p>
-<p> </p>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to use Anu₿iTux to perform crypto seizures</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/how-to-use-anubitux-to-perform-crypto-seizures/"/>
-        <id>https://anubitux.org/how-to-use-anubitux-to-perform-crypto-seizures/</id>
-        <media:content url="https://anubitux.org/media/posts/17/wallnight.png" medium="image" />
-            <category term="wallet"/>
-            <category term="ubuntu"/>
-            <category term="tool"/>
-            <category term="seizure"/>
-            <category term="seize"/>
-            <category term="seedcheck"/>
-            <category term="recovery"/>
-            <category term="python"/>
-            <category term="private key"/>
-            <category term="print"/>
-            <category term="password"/>
-            <category term="paper wallet"/>
-            <category term="opsec"/>
-            <category term="monero"/>
-            <category term="live"/>
-            <category term="linux for xmr"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="linux"/>
-            <category term="kubuntu"/>
-            <category term="howto"/>
-            <category term="encrypted"/>
-            <category term="electrum"/>
-            <category term="distro"/>
-            <category term="dictionary"/>
-            <category term="cryptocurrency"/>
-            <category term="crypto"/>
-            <category term="btcrecover"/>
-            <category term="brute force"/>
-            <category term="bitcoin"/>
-            <category term="anubitux"/>
-
-        <updated>2022-08-30T11:17:21+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/17/wallnight.png" alt="BTC_police" />
-                    DISCLAIMER: This post contains some suggestions that could be helpful for law enforcement agencies or security consultants that need to seize cryptocurrencies. It aims to show how Anu₿itux could be used to perform the seizure but is not intended to be exhaustive. It is also&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/17/wallnight.png" class="type:primaryImage" alt="BTC_police" /></p>
-                <p class="msg msg--warning"><em><strong>DISCLAIMER</strong>: This post contains some suggestions that could be helpful for law enforcement agencies or security consultants that need to seize cryptocurrencies. It aims to show how Anu₿itux could be used to perform the seizure but is not intended to be exhaustive. It is also recommended to check the local law before proceeding with a cryptocurrency seizure procedure.</em></p>
-<p>Anu₿itux is realized to safeguard users' privacy and provide a very simple environment to manage a lot of aspects regarding cryptos. Of course, it could be used by law enforcement agencies and security consultants to perform crypto seizures.</p>
-<h3>Where?</h3>
-<p>Doing a crypto seizure, the first matter is to obtain a secure place to store cryptocurrencies With Anu₿itux we can create a lot of different kinds of wallets to store coins. One of the best and cheaper ways is to store them with a <a href="https://anubitux.org/how-to-generate-random-paper-wallets-with-anubitux/" target="_blank" rel="noopener noreferrer">paper wallet</a>. In previous posts, we have seen some methods to realize <a href="https://anubitux.org/how-to-create-a-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">Bitcoin</a> and <a href="https://anubitux.org/how-to-create-a-monero-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">Monero</a> paper wallets, but these procedures can be adapted also to other currencies. With Anu₿itux we also can print our paper wallets without the need to connect to the Internet and download drivers, since it has a lot of them already installed. </p>
-<p>Once we printed our paper wallet, we also need to take care of where are we going to store it. We should use a sealed container that does not reveal any information, even if exposing it near a strong light or wetting it. We also need to close it in a way that makes it difficult to open and that can reveal if someone accessed it without authorization.</p>
-<p>If we had time to prepare the seizure we could have a hardware wallet to store the currencies we need to size. In this case, we can also use Anu₿itux to manage it, because it integrates clients, drivers and udev rules for many different <a href="https://anubitux.org/connecting-your-hardware-wallet-to-anubitux/" target="_blank" rel="noopener noreferrer">hardware wallets</a>, like Ledgers, Trezors, Bitboxes, etc. In this case, it is very important to decide how to handle the mnemonic seed because, even if hardware wallets can be considered very secure, obtaining their seed could give complete control over the handled funds. If we decide to keep the seed, we can consider valid the same considerations we made for paper wallets.</p>
-<p>If we need to perform a Bitcoin seizure, a good way to store the seized coins could be to use an <a href="https://opendime.com/" target="_blank" rel="noopener noreferrer">OpenDime</a>. It is a special kind of hardware wallet, supporting only Bitcoin, that gives us a public address to send the coins to and that won't reveal the related private key unless we push a pin through the appropriate hole. So, as long as this hole is safe, we can be sure that no human has seen the private key of our address and no one could have spent the funds we sent to the OpenDime's public address.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/17/Selection_027.png" alt="opendime" width="600" height="317" sizes="100vw" srcset="https://anubitux.org/media/posts/17/responsive/Selection_027-xs.png 300w ,https://anubitux.org/media/posts/17/responsive/Selection_027-sm.png 480w ,https://anubitux.org/media/posts/17/responsive/Selection_027-md.png 768w ,https://anubitux.org/media/posts/17/responsive/Selection_027-lg.png 1024w ,https://anubitux.org/media/posts/17/responsive/Selection_027-xl.png 1360w ,https://anubitux.org/media/posts/17/responsive/Selection_027-2xl.png 1600w"></figure>
-<h3>How?</h3>
-<p>Once we have arranged something to send the coins to, we need to dispose a transaction to accomplish the seizure. We need to remember that the only way for a seizure to be effective is to have the funds on something that is under our control. So we need to be sure that there are no other copies of the wallet that is going to keep the seized coins and that there is a way to guarantee that no one can have access to private keys or seeds. So, we can't consider the funds as seized if we seize a hardware wallet, a device with some kind of wallet installed, or a recovery seed. All these things could have been backed up in a lot of creative ways so, if we don't move funds they could be accessed in many ways and our seizure could be ineffective.</p>
-<p>Moving funds could not be that easy. There are many ways to protect cryptocurrencies from unauthorized uses, like PINs, passwords, passphrases, etc. If the owner of the funds we need to seize is cooperating, we should not encounter any problem disposing the transaction. If not so, we could need to take control of the funds against their will.</p>
-<p>With skilled users, it could be almost impossible, but a lot of users are lazy or do not have a very strong OpSec. So we could do some of the following actions, looking for any information that could be used to take control over the funds:</p>
-<ul>
-<li>try to unlock wallet files with <a href="https://anubitux.org/recover-access-to-a-wallet-file-with-anubitux/" target="_blank" rel="noopener noreferrer">btcrecover</a>, maybe using a custom password list created with credentials extracted from the users' browsers or from their devices or based on their personal information;</li>
-<li>scan directories for mnemonic seeds with <a href="https://anubitux.org/search-for-bip39-seeds-with-anubitux/" target="_blank" rel="noopener noreferrer">seedsearch</a>;</li>
-<li>scan directories for private keys with <a href="https://anubitux.org/how-to-find-lost-private-keys-with-anubitux/" target="_blank" rel="noopener noreferrer">btckeysearch</a>;</li>
-<li>try to unlock encrypted volumes and containers with <a href="https://github.com/ASeriousMister/VeraDecrypt.py" target="_blank" rel="noopener noreferrer">veradecrypt</a>, maybe using a custom password list created with credentials extracted from the users' browsers or from their devices or based on their personal information;</li>
-<li>perform an accurate house search looking for everything that seems like a mnemonic seed or a private key or any kind of wallet stuff;</li>
-<li>any other creative idea is welcome.</li>
-</ul>
-<p>Once we obtained the information we need to dispose the transaction, we need to know how to use it. If we have found the password or the PIN to unlock a desktop wallet, we can dispose the transaction from there or we could decide to <a href="https://anubitux.org/how-to-sign-a-transaction-offline-with-anubitux/" target="_blank" rel="noopener noreferrer">dispose it offline</a> to avoid using the user's device. Instead, if we have found mnemonic seeds or private keys, we need to import them to a compatible client. If we don't know how the seeds were used, we can use <a href="https://anubitux.org/find-out-how-a-seed-was-used-with-anubitux/" target="_blank" rel="noopener noreferrer">seedcheck</a> and try to find it out and import it to the right client. Instead, if we have found some <a href="https://anubitux.org/how-to-find-lost-private-keys-with-anubitux/" target="_blank" rel="noopener noreferrer">private keys</a>, we can refer to the procedures shown for <a href="https://anubitux.org/how-to-spend-a-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">Bitcoin</a> and <a href="https://anubitux.org/how-to-spend-a-monero-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">Monero</a>.</p>
-<h3>Considerations</h3>
-<p>There are a lot of considerations that can be done when performing this kind of procedure and, as much experience we have, as many useful considerations we will be able to make.</p>
-<p>One of the first considerations we need to make is about the network fees. A higher one could be useful to obtain faster confirmations of our transaction and consider it valid but, if the chosen fee is too high, it could impact too much on the seized amount.</p>
-<p>When the transaction has been disposed, we also need to wait for some confirmations to avoid that someone else could make it invalid with an <a href="https://en.bitcoin.it/wiki/Replace_by_fee" target="_blank" rel="noopener noreferrer">RBF</a> (replace by fee) transaction, that is a transaction with a higher fee that could be processed faster and making ours look like a "double spend" attempt.</p>
-<p>Other useful considerations could be done when dealing with multi-currency wallets, like <a href="https://www.exodus.com/" target="_blank" rel="noopener noreferrer">Exodus</a>, <a href="https://www.coinomi.com" target="_blank" rel="noopener noreferrer">Coinomi</a>, <a href="https://wallet.mycelium.com/" target="_blank" rel="noopener noreferrer">MyCellium</a>, <a href="https://guarda.com/" target="_blank" rel="noopener noreferrer">Guarda</a>, <a href="https://atomicwallet.io/" target="_blank" rel="noopener noreferrer">Atomic</a>, etc. First of all, it could be better to arrange a paper wallet for any of the available currencies. We also need to evaluate if the user owns tokens in his wallet that work on layer 2 blockchains, like <a href="https://ethereum.org/en/developers/docs/standards/tokens/erc-20/" target="_blank" rel="noopener noreferrer">ERC20</a> tokens, <a href="https://opensea.io/blog/guides/non-fungible-tokens/" target="_blank" rel="noopener noreferrer">NFTs</a>, etc. These tokens "live" on other blockchains and do not have their own so, to move them, we need to pay the fee with the main coin related to the blockchain on which they work. For instance, with tokens like <a href="https://basicattentiontoken.org/" target="_blank" rel="noopener noreferrer">BAT</a> or <a href="https://shibatoken.com/" target="_blank" rel="noopener noreferrer">Shiba Inu</a>, we won't be able to move them without an amount of ETH that we will need to pay gas fees for the Ethereum network. This happens not only with tokens working on the Ethereum network but also with tokens working on networks like <a href="https://solscan.io/tokens" target="_blank" rel="noopener noreferrer">Solana</a>, <a href="https://bscscan.com/" target="_blank" rel="noopener noreferrer">BSC</a>, etc.</p>
-<h3>Final thoughts</h3>
-<p>What we have seen in this post is just a collection of tips that can be useful for those who need to seize cryptocurrencies. Of course, it is a more complex operation that needs a lot of different skills, not only regarding how cryptocurrencies work but also regarding digital forensic techniques, networking, OpSec, etc.</p>
-<p>In this scenario, Anu₿itux tries to provide a simple and safe environment that includes all the tools that could be helpful when performing such tasks.</p>
 <p> </p>
 <p> </p>
             ]]>
