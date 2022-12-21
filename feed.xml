@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-12-21T23:31:27+01:00</updated>
+    <updated>2022-12-21T23:46:53+01:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -14,8 +14,8 @@
         <author>
             <name>Anu₿itux</name>
         </author>
-        <link href="https://anubitux.org/how-to-create-a-watch-only-wallet-for-our-cold-storage/"/>
-        <id>https://anubitux.org/how-to-create-a-watch-only-wallet-for-our-cold-storage/</id>
+        <link href="https://anubitux.org/how-to-create-a-view-only-wallet-for-our-cold-storage/"/>
+        <id>https://anubitux.org/how-to-create-a-view-only-wallet-for-our-cold-storage/</id>
         <media:content url="https://anubitux.org/media/posts/45/Golde_Eye.png" medium="image" />
             <category term="wallet"/>
             <category term="ubuntu"/>
@@ -41,7 +41,7 @@
             <category term="bip39"/>
             <category term="anubitux"/>
 
-        <updated>2022-12-21T23:31:27+01:00</updated>
+        <updated>2022-12-21T23:46:53+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/45/Golde_Eye.png" alt="" />
