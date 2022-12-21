@@ -3,12 +3,121 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-12-07T20:46:49+01:00</updated>
+    <updated>2022-12-21T23:31:27+01:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>How to create a &quot;view-only&quot; wallet for our cold storage</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/how-to-create-a-watch-only-wallet-for-our-cold-storage/"/>
+        <id>https://anubitux.org/how-to-create-a-watch-only-wallet-for-our-cold-storage/</id>
+        <media:content url="https://anubitux.org/media/posts/45/Golde_Eye.png" medium="image" />
+            <category term="wallet"/>
+            <category term="ubuntu"/>
+            <category term="tutorial"/>
+            <category term="tools"/>
+            <category term="tool"/>
+            <category term="private key"/>
+            <category term="password"/>
+            <category term="paper wallet"/>
+            <category term="opsec"/>
+            <category term="monero"/>
+            <category term="linux for xmr"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="linux"/>
+            <category term="howto"/>
+            <category term="electrum"/>
+            <category term="cryptocurrency"/>
+            <category term="crypto"/>
+            <category term="caution"/>
+            <category term="bitcoin"/>
+            <category term="bip39"/>
+            <category term="anubitux"/>
+
+        <updated>2022-12-21T23:31:27+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/45/Golde_Eye.png" alt="" />
+                    Let's hypothesize we arranged our super secure cold storage to "hodl" cryptos until they get to the moon, maybe using one of our tools like dicetracker or dice2seed! It could be very useful to be able to monitor our addresses, not only to see how&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://anubitux.org/media/posts/45/Golde_Eye.png" class="type:primaryImage" alt="" /></p>
+                <p>Let's hypothesize we arranged our super secure cold storage to "hodl" cryptos until they get to the moon, maybe using one of our tools like <a href="https://anubitux.org/how-to-generate-random-paper-wallets-with-anubitux/" target="_blank" rel="noopener noreferrer">dicetracker</a> or <a href="https://anubitux.org/how-to-generate-a-mnemonic-seed-with-anubitux-and-a-dice/" target="_blank" rel="noopener noreferrer">dice2seed</a>! It could be very useful to be able to monitor our addresses, not only to see how we are getting to the moon but also to be sure that our funds are safe and our cold storage is working properly. To do that, of course, we could take note of our public addresses and check them periodically on some block explorer. We can find a lot of them in Firefox's bookmarks in Anu₿itux. To perform this task in a better way, we could arrange a view-only wallet, a wallet that is only able to see what's going on with our addresses but does not know our private keys so that it will be unable to sign transactions and spend our funds.</p>
+<p class="msg msg--warning"><strong>Never send or request funds to addresses that are in our view-only wallets if we are not sure to be able to access the corresponding private keys!</strong></p>
+<h3>Bitcoin watching-only wallet</h3>
+<p>With Bitcoin addresses, one of the best tools to arrange a watching-only wallet is <a href="https://electrum.org/#home" target="_blank" rel="noopener noreferrer">Electrum</a>. We could arrange it using public addresses or master public keys, depending on how we created our cold storage.</p>
+<p class="msg msg--info">OPSEC TIP: wallets like the ones proposed in this post are called SPV wallets. They use other's nodes to check our balances. If available, we should set up our clients to connect only to trusted nodes (we will discuss it in further posts, keep following us).</p>
+<h4>Public addresses</h4>
+<p>In the first case, let's hypothesize we took note of our public addresses and would like to monitor them comfortably through Electrum. To do that let's start Electrum from the Wallets menu in Anu₿itux and create a new wallet, selecting the "Import Bitcoin addresses or private keys" option.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_086.png" alt="" width="600" height="425" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_086-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_086-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_086-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_086-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_086-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_086-2xl.png 1600w"></figure>
+<p>In the next step, we can type or paste our public addresses in the proper box.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_087.png" alt="" width="600" height="431" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_087-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_087-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_087-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_087-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_087-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_087-2xl.png 1600w"></figure>
+<p>Now, clicking on next, we can provide a password and then we will have our watching-only wallet.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_088.png" alt="" width="600" height="404" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_088-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_088-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_088-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_088-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_088-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_088-2xl.png 1600w"></figure>
+<h4>Electrum Master Public Key</h4>
+<p>If we created our seed using Electrum, maybe using the advanced feature to obtain a <a href="https://anubitux.org/how-to-generate-24-words-mnemonic-seeds-with-electrum/" target="_blank" rel="noopener noreferrer">24 words mnemonic seed phrase</a>, we could obtain our master public key and use it to set up a new watching-only wallet. Using master keys allows us to create hierarchical deterministic (HD) watching-only wallets. With this kind of wallet, we are able to obtain all the same addresses that we could obtain in our main wallet, related to our mnemonic seed. It could also be very useful if we want to be able to receive transactions on many different public addresses, obtaining them without the need to access our cold storage and keep our private keys safe.</p>
+<p>To obtain our master public key, we only have to go to the Wallet menu and click on Information.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_089.png" alt="" width="350" height="313" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_089-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_089-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_089-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_089-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_089-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_089-2xl.png 1600w"></figure>
+<p>In the next window we will see a lot of information about our wallet, like our Master Public Key.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_090.png" alt="" width="800" height="515" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_090-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_090-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_090-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_090-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_090-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_090-2xl.png 1600w"></figure>
+<p>Let's take note of it and let's create a new Standard wallet.</p>
+<p class="msg msg--highlight  msg--info">OPSEC TIP: It could be a good idea to access our wallet only in Anu₿itux live and offline, extract our Master Public Key and use it to create our watching-only wallet in a separate working environment that we will connect to the Internet.</p>
+<p>In the second step of the creation wizard, we have to choose the "Use a Master Key" option.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_091.png" alt="" width="600" height="428" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_091-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_091-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_091-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_091-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_091-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_091-2xl.png 1600w"></figure>
+<p>Now we only have to type or paste the Master Public Key and we have set up our watch-only wallet. </p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_092.png" alt="" width="600" height="434" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_092-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_092-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_092-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_092-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_092-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_092-2xl.png 1600w"></figure>
+<p>As we can see in the following screenshot, we obtained the same addresses in both wallets, with the difference that only one of them would be able to spend the funds we could receive.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_093.png" alt="" width="1000" height="379" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_093-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_093-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_093-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_093-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_093-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_093-2xl.png 1600w"></figure>
+<h4>Master Public Key</h4>
+<p>Let's now hypothesize we want to create a watch-only wallet related to a BIP39 seed. To obtain the Master Public Key we could import our BIP39 seed creating a new Electrum wallet, taking care to specify the right derivation path, and obtain it with the same steps we have seen above, or we could use the <a href="https://github.com/iancoleman/bip39" target="_blank" rel="noopener noreferrer">Ian Coleman BIP39 tool</a>.</p>
+<p>Typing the seed in the proper box and selecting the desired derivation path, we will obtain the addresses and the private keys that could be derived from that seed and also many master keys. We are interested in the one named "Account Extended Public Key".</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_094.png" alt="" width="1000" height="655" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_094-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_094-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_094-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_094-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_094-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_094-2xl.png 1600w"></figure>
+<p>Do not use the "BIP32 Extended Public Key" since it will show different addresses and sending transactions to them could give us some trouble accessing our funds (do not worry, it can be done with the "BIP32 Extended Private Key").</p>
+<p>To confirm that the Master Public Key we have chosen is the right one, we can compare the obtained addresses.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_095.png" alt="" width="800" height="447" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_095-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_095-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_095-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_095-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_095-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_095-2xl.png 1600w"></figure>
+<h3>Monero view-only wallet</h3>
+<p>As stated in <a href="https://anubitux.org/how-to-spend-a-monero-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">other posts</a>, Monero works with two kinds of private keys, a private spend key to sign transactions and a private view key to view information about our addresses since with Monero we can't check information about public addresses as we are used to do with Bitcoin and other cryptos. The private view key is the one we are going to use to set up our watch-only wallets.</p>
+<p>For the following examples we are going to use a Monero Paper Wallet generated with our tool <a href="https://anubitux.org/how-to-generate-random-paper-wallets-with-anubitux/" target="_blank" rel="noopener noreferrer">dicetracker</a>.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_106.png" alt="" width="550" height="628" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_106-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_106-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_106-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_106-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_106-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_106-2xl.png 1600w"></figure>
+<h4>Feather wallet</h4>
+<p>To set up a watch-only wallet with <a href="https://featherwallet.org/" target="_blank" rel="noopener noreferrer">Feather Wallet</a>, we have to start the wallet creation wizard and select the "Restore wallet from keys" option.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_096.png" alt="" width="575" height="576" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_096-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_096-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_096-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_096-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_096-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_096-2xl.png 1600w"></figure>
+<p>In the next step we have to provide the Primary address and the Secret view Key. The tool itself gives us the tip to not insert the Secret spend key if we are creating a view-only wallet.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_097.png" alt="" width="575" height="581" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_097-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_097-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_097-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_097-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_097-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_097-2xl.png 1600w"></figure>
+<p>Now we only have to provide the wallet creation date and a password and our watch-only wallet is ready. If we are not sure about the wallet creation date, we can provide a date we are sure is earlier than it, unless so the wallet could not scan some blocks including transactions that we could be interested in.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_098.png" alt="" width="1000" height="532" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_098-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_098-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_098-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_098-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_098-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_098-2xl.png 1600w"></figure>
+<h4>Monero CLI</h4>
+<p>To create a view-only wallet using the <a href="https://www.getmonero.org/downloads/" target="_blank" rel="noopener noreferrer">Monero official</a> command line interface wallet, we have to start it with the <em>--generate-from-view-key</em> option followed by the name we are giving to our watch-only wallet. In Anu₿itux you can type:</p>
+<p><code>Tools/AddressGen/monero-x86_64-linux-gnu-v0.18.1.2/monero-wallet-cli --generate-from-view-key wallet_name</code></p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_099.png" alt="" width="900" height="204" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_099-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_099-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_099-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_099-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_099-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_099-2xl.png 1600w"></figure>
+<p>With commands like <em>balance</em> and <em>wallet_info</em> we can obtain some information about our wallet.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_100.png" alt="" width="700" height="416" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_100-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_100-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_100-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_100-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_100-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_100-2xl.png 1600w"></figure>
+<p>And with commands like <em>address all</em> and <em>address new</em> we will obtain addresses we could share to request transactions.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_101.png" alt="" width="800" height="76" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_101-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_101-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_101-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_101-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_101-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_101-2xl.png 1600w"></figure>
+<h3>Ethereum view-only wallet</h3>
+<p>To obtain a view-only wallet with Ethereum we could use <a href="https://mycrypto.com/" target="_blank" rel="noopener noreferrer">MyCrypto</a>, which can be started from the Anu₿itux Wallets menu, and a public address we obtained previously with any desired method.</p>
+<p>To obtain our view-only wallet, we only have to start MyCrypto, click on the "View &amp; Send" button on the left of the screen and then click on the </p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_102.png" alt="" width="1000" height="528" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_102-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_102-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_102-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_102-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_102-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_102-2xl.png 1600w"></figure>
+<p>Now we only have to type or paste our address and our view-only wallet is ready to be used.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_104.png" alt="" width="500" height="301" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_104-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_104-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_104-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_104-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_104-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_104-2xl.png 1600w"></figure>
+<p>In this way we can easily monitor our Ethereum account, even for token transactions, without exposing our private keys or our mnemonic seeds.</p>
+<figure class="post__image"><img loading="lazy"  src="https://anubitux.org/media/posts/45/Selection_105.png" alt="" width="900" height="704" sizes="100vw" srcset="https://anubitux.org/media/posts/45/responsive/Selection_105-xs.png 300w ,https://anubitux.org/media/posts/45/responsive/Selection_105-sm.png 480w ,https://anubitux.org/media/posts/45/responsive/Selection_105-md.png 768w ,https://anubitux.org/media/posts/45/responsive/Selection_105-lg.png 1024w ,https://anubitux.org/media/posts/45/responsive/Selection_105-xl.png 1360w ,https://anubitux.org/media/posts/45/responsive/Selection_105-2xl.png 1600w"></figure>
+<h3>Final thoughts</h3>
+<p>Using view-only wallets allows us to manage and monitor our addresses without exposing our private keys unless we need to dispose transactions. It is a very useful feature of many software wallets that we should consider if we are not doing transactions on a regular basis. We only have to remember that obtaining master public keys implies that we are handling our private keys or our seed and this operation has to be done very carefully, to avoid any risk concerning the safety of our funds.</p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Hide your mnemonic seed with steganography</title>
         <author>
@@ -39,7 +148,7 @@
             <category term="bip39"/>
             <category term="anubitux"/>
 
-        <updated>2022-12-07T20:46:49+01:00</updated>
+        <updated>2022-12-07T21:13:57+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/44/steganography.png" alt="" />
@@ -803,56 +912,6 @@
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/10/Selection_043.png" alt="" width="900" height="461" sizes="100vw" srcset="https://anubitux.org/media/posts/10/responsive/Selection_043-xs.png 300w ,https://anubitux.org/media/posts/10/responsive/Selection_043-sm.png 480w ,https://anubitux.org/media/posts/10/responsive/Selection_043-md.png 768w ,https://anubitux.org/media/posts/10/responsive/Selection_043-lg.png 1024w ,https://anubitux.org/media/posts/10/responsive/Selection_043-xl.png 1360w ,https://anubitux.org/media/posts/10/responsive/Selection_043-2xl.png 1600w"></figure>
 <h3>Final thoughts</h3>
 <p>We have seen some simple applications of this tool but, of course, it could also perform harder tasks. For example, it could fix a mnemonic seed with both missing and wrong words. It is important that we do not know only the mnemonic seed we are trying to fix but also at least one other piece of information like our extended public key, one or more addresses or the wallet file the seed is related to. We also need to know the correct derivation path used with the mnemonic seed.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to generate 24 words mnemonic seeds with Electrum</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/how-to-generate-24-words-mnemonic-seeds-with-electrum/"/>
-        <id>https://anubitux.org/how-to-generate-24-words-mnemonic-seeds-with-electrum/</id>
-        <media:content url="https://anubitux.org/media/posts/37/SeedCloud.png" medium="image" />
-            <category term="wallet"/>
-            <category term="tutorial"/>
-            <category term="tools"/>
-            <category term="tool"/>
-            <category term="python"/>
-            <category term="offline"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="howto"/>
-            <category term="electrum"/>
-            <category term="bitcoin"/>
-            <category term="bip39"/>
-            <category term="anubitux"/>
-
-        <updated>2022-10-07T19:10:38+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/37/SeedCloud.png" alt="" />
-                    Usually, when we create a new wallet with Electrum, we obtain a 12 words seed and there is no way to customize it. We can only extend it with an optional passphrase. But there is a way to create longer mnemonic seeds using Electrum's derivation&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/37/SeedCloud.png" class="type:primaryImage" alt="" /></p>
-                <p>Usually, when we create a new wallet with <a href="https://electrum.org/#home" target="_blank" rel="noopener noreferrer">Electrum</a>, we obtain a 12 words seed and there is no way to customize it. We can only extend it with an optional passphrase.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/37/Selection_037.png" alt="" width="600" height="429" sizes="100vw" srcset="https://anubitux.org/media/posts/37/responsive/Selection_037-xs.png 300w ,https://anubitux.org/media/posts/37/responsive/Selection_037-sm.png 480w ,https://anubitux.org/media/posts/37/responsive/Selection_037-md.png 768w ,https://anubitux.org/media/posts/37/responsive/Selection_037-lg.png 1024w ,https://anubitux.org/media/posts/37/responsive/Selection_037-xl.png 1360w ,https://anubitux.org/media/posts/37/responsive/Selection_037-2xl.png 1600w"></figure>
-<p>But there is a way to create longer mnemonic seeds using Electrum's derivation algorithm, without the need to generate BIP39 mnemonic seeds with other tools.</p>
-<p>We simply need to use our terminal. In Anu₿itux we will use the following command:</p>
-<p><code>./Tools/Wallets/electrum-4.3.1-x86_64.AppImage --offline make_seed --nbits=256</code></p>
-<p>This command forces Electrum to generate a mnemonic seed using 256 bits of entropy and gives us a phrase that we can import through Elecrtum's user interface.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/37/Selection_038.png" alt="" width="600" height="84" sizes="100vw" srcset="https://anubitux.org/media/posts/37/responsive/Selection_038-xs.png 300w ,https://anubitux.org/media/posts/37/responsive/Selection_038-sm.png 480w ,https://anubitux.org/media/posts/37/responsive/Selection_038-md.png 768w ,https://anubitux.org/media/posts/37/responsive/Selection_038-lg.png 1024w ,https://anubitux.org/media/posts/37/responsive/Selection_038-xl.png 1360w ,https://anubitux.org/media/posts/37/responsive/Selection_038-2xl.png 1600w"></figure>
-<p>Now we can start our Electrum wallet with its user interface and create a new wallet importing this mnemonic seed.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/37/Selection_036.png" alt="" width="600" height="439" sizes="100vw" srcset="https://anubitux.org/media/posts/37/responsive/Selection_036-xs.png 300w ,https://anubitux.org/media/posts/37/responsive/Selection_036-sm.png 480w ,https://anubitux.org/media/posts/37/responsive/Selection_036-md.png 768w ,https://anubitux.org/media/posts/37/responsive/Selection_036-lg.png 1024w ,https://anubitux.org/media/posts/37/responsive/Selection_036-xl.png 1360w ,https://anubitux.org/media/posts/37/responsive/Selection_036-2xl.png 1600w"></figure>
-<p>As we can see, the mnemonic seed is valid. If not so, the "Next" button would not be active and we would not be able to complete the wallet creation process.</p>
-<p>If we try to examine the mnemonic seed with <a href="https://iancoleman.io/bip39/" target="_blank" rel="noopener noreferrer">Ian Coleman's BIP39 tool</a>, we will see that it is not valid since it was not derived from a BIP39 wordlist and does not respect the BIP39 checksum.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/37/Selection_039.png" alt="" width="800" height="335" sizes="100vw" srcset="https://anubitux.org/media/posts/37/responsive/Selection_039-xs.png 300w ,https://anubitux.org/media/posts/37/responsive/Selection_039-sm.png 480w ,https://anubitux.org/media/posts/37/responsive/Selection_039-md.png 768w ,https://anubitux.org/media/posts/37/responsive/Selection_039-lg.png 1024w ,https://anubitux.org/media/posts/37/responsive/Selection_039-xl.png 1360w ,https://anubitux.org/media/posts/37/responsive/Selection_039-2xl.png 1600w"></figure>
-<p>So we have a confirmation that this command gives us the ability to generate 24 words mnemonic seeds with Electrum.</p>
-<p> </p>
             ]]>
         </content>
     </entry>
