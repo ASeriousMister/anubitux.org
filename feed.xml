@@ -3,12 +3,338 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2022-12-21T23:46:53+01:00</updated>
+    <updated>2023-01-01T00:03:00+01:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>Happy Anew₿year! Anu₿itux 2 is out!</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/happy-anewyear-anuitux-2-is-out/"/>
+        <id>https://anubitux.org/happy-anewyear-anuitux-2-is-out/</id>
+        <media:content url="https://anubitux.org/media/posts/54/Screenshot_20221226_120241.png" medium="image" />
+            <category term="team"/>
+            <category term="python"/>
+            <category term="project"/>
+            <category term="opsec"/>
+            <category term="live"/>
+            <category term="linux for xmr"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="linux"/>
+            <category term="links"/>
+            <category term="install"/>
+            <category term="downloads"/>
+            <category term="download"/>
+            <category term="distro"/>
+            <category term="debian"/>
+            <category term="cryptocurrency"/>
+            <category term="crypto"/>
+            <category term="changelog"/>
+            <category term="bitcoin"/>
+            <category term="anubitux"/>
+
+        <updated>2023-01-01T00:03:00+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/54/Screenshot_20221226_120241.png" alt="" />
+                    Great news! Anu₿itux 2 is out! It is now based on Debian 11 bullseye and has a completely new user interface based on Cinnamon! Now user can chose at the boot if they want to run Anu₿itux in live mode, the main purpose of this&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://anubitux.org/media/posts/54/Screenshot_20221226_120241.png" class="type:primaryImage" alt="" /></p>
+                <p>Great news! <a href="https://anubitux.org/what-is-anubitux-2/">Anu₿itux 2</a> is out! It is now based on Debian 11 bullseye and has a completely new user interface based on Cinnamon!</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/54/Selection_127-2.png" alt="" width="800" height="391" sizes="100vw" srcset="https://anubitux.org/media/posts/54/responsive/Selection_127-2-xs.png 300w ,https://anubitux.org/media/posts/54/responsive/Selection_127-2-sm.png 480w ,https://anubitux.org/media/posts/54/responsive/Selection_127-2-md.png 768w ,https://anubitux.org/media/posts/54/responsive/Selection_127-2-lg.png 1024w ,https://anubitux.org/media/posts/54/responsive/Selection_127-2-xl.png 1360w ,https://anubitux.org/media/posts/54/responsive/Selection_127-2-2xl.png 1600w"></figure>
+<p>Now user can chose at the boot if they want to run Anu₿itux in live mode, the main purpose of this project, or install it to train using its tools.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/54/Selection_116.png" alt="" width="600" height="451" sizes="100vw" srcset="https://anubitux.org/media/posts/54/responsive/Selection_116-xs.png 300w ,https://anubitux.org/media/posts/54/responsive/Selection_116-sm.png 480w ,https://anubitux.org/media/posts/54/responsive/Selection_116-md.png 768w ,https://anubitux.org/media/posts/54/responsive/Selection_116-lg.png 1024w ,https://anubitux.org/media/posts/54/responsive/Selection_116-xl.png 1360w ,https://anubitux.org/media/posts/54/responsive/Selection_116-2xl.png 1600w"></figure>
+<p>It also has a lot of new tools and updates! <a href="https://anubitux.org/download-anubitux/" target="_blank" rel="noopener noreferrer">Download</a> it and <a href="https://anubitux.org/how-to-use-anubitux-2/">check it out</a>!</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Enable network monitor in Anu₿itux 2</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/enable-network-monitor-in-anubitux-2/"/>
+        <id>https://anubitux.org/enable-network-monitor-in-anubitux-2/</id>
+        <media:content url="https://anubitux.org/media/posts/53/cyberspace-gc66fcea74_1280.jpg" medium="image" />
+            <category term="tutorial"/>
+            <category term="opsec"/>
+            <category term="network"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="anubitux"/>
+
+        <updated>2023-01-01T00:02:00+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/53/cyberspace-gc66fcea74_1280.jpg" alt="Network" />
+                    Anu₿itux is a linux distro based on Debian. By default, Anu₿itux has the network monitor enabled in the lower panel, but, it could not show any data because it needs to be configured accordingly to the network interfaces of the device you are using. To&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://anubitux.org/media/posts/53/cyberspace-gc66fcea74_1280.jpg" class="type:primaryImage" alt="Network" /></p>
+                <p>Anu₿itux is a linux distro based on Debian. By default, Anu₿itux has the network monitor enabled in the lower panel, but, it could not show any data because it needs to be configured accordingly to the network interfaces of the device you are using.</p>
+<p>To make it work properly, right click on the right part of the lower panel, near the notification area, as shown below.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/53/Selection_128.png" alt="" width="470" height="289" sizes="100vw" srcset="https://anubitux.org/media/posts/53/responsive/Selection_128-xs.png 300w ,https://anubitux.org/media/posts/53/responsive/Selection_128-sm.png 480w ,https://anubitux.org/media/posts/53/responsive/Selection_128-md.png 768w ,https://anubitux.org/media/posts/53/responsive/Selection_128-lg.png 1024w ,https://anubitux.org/media/posts/53/responsive/Selection_128-xl.png 1360w ,https://anubitux.org/media/posts/53/responsive/Selection_128-2xl.png 1600w"></figure>
+<p>Then click on Network interfaces and select the interfaces you want to be monitored, to show the inbound and outbound network traffic on your panel and always be able to see if something is going on.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/53/Selection_129.png" alt="" width="470" height="321" sizes="100vw" srcset="https://anubitux.org/media/posts/53/responsive/Selection_129-xs.png 300w ,https://anubitux.org/media/posts/53/responsive/Selection_129-sm.png 480w ,https://anubitux.org/media/posts/53/responsive/Selection_129-md.png 768w ,https://anubitux.org/media/posts/53/responsive/Selection_129-lg.png 1024w ,https://anubitux.org/media/posts/53/responsive/Selection_129-xl.png 1360w ,https://anubitux.org/media/posts/53/responsive/Selection_129-2xl.png 1600w"></figure>
+<p>Now you will be able to see two coloured waves on the panel that symbolize the network load.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/53/Selection_130.png" alt="" width="298" height="90" sizes="100vw" srcset="https://anubitux.org/media/posts/53/responsive/Selection_130-xs.png 300w ,https://anubitux.org/media/posts/53/responsive/Selection_130-sm.png 480w ,https://anubitux.org/media/posts/53/responsive/Selection_130-md.png 768w ,https://anubitux.org/media/posts/53/responsive/Selection_130-lg.png 1024w ,https://anubitux.org/media/posts/53/responsive/Selection_130-xl.png 1360w ,https://anubitux.org/media/posts/53/responsive/Selection_130-2xl.png 1600w"></figure>
+<p>This feature is very userful to notice if a service or a tool is doing some unexpected network traffic.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to use Anu₿itux 2</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/how-to-use-anubitux-2/"/>
+        <id>https://anubitux.org/how-to-use-anubitux-2/</id>
+        <media:content url="https://anubitux.org/media/posts/52/space-shuttle-774_1280.jpg" medium="image" />
+            <category term="vmware"/>
+            <category term="virtualbox"/>
+            <category term="virtual machine"/>
+            <category term="ubuntu"/>
+            <category term="tutorial"/>
+            <category term="test"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="linux"/>
+            <category term="kubuntu"/>
+            <category term="balena"/>
+            <category term="anubitux"/>
+            <category term="USB"/>
+
+        <updated>2023-01-01T00:01:00+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/52/space-shuttle-774_1280.jpg" alt="Start" />
+                    On the web there is a lot of tutorials about how to use iso files containing Linux distributions or about how to import a virtual appliance in softwares like VirtualBox, so, here's another one. Of course, users may use any preferred and known solutions. These&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://anubitux.org/media/posts/52/space-shuttle-774_1280.jpg" class="type:primaryImage" alt="Start" /></p>
+                <p>On the web there is a lot of tutorials about how to use iso files containing Linux distributions or about how to import a virtual appliance in softwares like <a href="https://www.virtualbox.org/" target="_blank" rel="noopener noreferrer">VirtualBox</a>, so, here's another one. Of course, users may use any preferred and known solutions. These are only suggestions diirected to those who are not used to this type of files.</p>
+<p>After you have <a href="https://anubitux.org/download-anubitux/" target="_blank" rel="noopener noreferrer">downloaded</a> the preferred version of Anu₿itux, please refer to the corresponding section of this page to start using it.</p>
+<h3>Anu₿itux Live</h3>
+<p>This is the main version of the Anu₿itux distro, designed to provide a safe environment and leave no traces on the devices used to run it. To use it, you'll need a USB stick and a software to flash the .iso file on it and make it bootable. For this purpose, we suggest <a href="https://www.balena.io/etcher/" target="_blank" rel="noopener noreferrer">Balena Etcher</a> which works on any kind of operative system, but there are many different solutions like <a href="https://rufus.ie/en/" target="_blank" rel="noopener noreferrer">Rufus</a> for Windows or <a href="https://unetbootin.github.io/" target="_blank" rel="noopener noreferrer">UNetbootin</a> for different OSes.</p>
+<p>When using Balena Etcher, there is a very easy wizard to follow.</p>
+<p>First of all plug in your USB stick and then click on the Flash from file" and select the .iso file you want to have on your USB stick.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Screenshot-at-2022-06-30-12-23-51.png" alt="Etcher1" width="819" height="526" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-23-51-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-23-51-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-23-51-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-23-51-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-23-51-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-23-51-2xl.png 1600w"></figure>
+<p>Then click on the "Select target" button and choose your USB stick. Do not forget that this process will overwrite all the content of the used drive, so, if needed, backup your files before completing this process.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Screenshot-at-2022-06-30-12-27-54.png" alt="Etcher2" width="819" height="526" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-27-54-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-27-54-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-27-54-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-27-54-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-27-54-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-27-54-2xl.png 1600w"></figure>
+<p>Now click on the "Flash!" button (if using Linux provide your root password) and wait until the process ends.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Screenshot-at-2022-06-30-12-32-23.png" alt="etcher3" width="819" height="526" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-32-23-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-32-23-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-32-23-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-32-23-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-32-23-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-32-23-2xl.png 1600w"></figure>
+<p>When finished, you can plug in the USB stick to the device you want to use with Anu₿itux and turn it on.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Screenshot-at-2022-06-30-12-38-04.png" alt="etcher4" width="819" height="526" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-38-04-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-38-04-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-38-04-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-38-04-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-38-04-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Screenshot-at-2022-06-30-12-38-04-2xl.png 1600w"></figure>
+<p>Now you may need to enter your BIOS configuration and change the boot priority so that the USB device will be in the first position. Unless so, your device may boot your common operating system. In some cases, to change boot priority you may need to disable the secure boot features or change the boot mode settings. This procedure may be different depending on the used device. <a href="https://www.acronis.com/en-us/blog/posts/usb-boot/" target="_blank" rel="noopener noreferrer">Here</a> you can find some useful suggestions about how to do that.</p>
+<p>When your device boots from the USB drive containing Anu₿itux, we have to chose the Live (amd64) option tu run it in in Live mode and leave no traces on our device about what we are doing, unless we want.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selection_116.png" alt="" width="600" height="451" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selection_116-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selection_116-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selection_116-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selection_116-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selection_116-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selection_116-2xl.png 1600w"></figure>
+<h3>Anu₿itux install</h3>
+<p>We could need to install Anu₿itux, maybe to run some tests on the tools or do some training with them. To install it on a dedicated device, we can arrange an USB drive following the steps shown above and, when booting from it, we have to chose the Start installer option.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selection_117.png" alt="" width="640" height="477" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selection_117-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selection_117-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selection_117-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selection_117-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selection_117-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selection_117-2xl.png 1600w"></figure>
+<p>Now we have to follow the debian installation wizard.</p>
+<p class="msg msg--highlight ">It is suggested to chose anubitux as username, to be sure that all the tools run properly.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selezione_108.png" alt="" width="800" height="594" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selezione_108-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selezione_108-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selezione_108-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selezione_108-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selezione_108-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selezione_108-2xl.png 1600w"></figure>
+<p>When arriving at the step where we have to chose the root password, we can leave it blank, so that our user will automatically be allowed to run administrative commands with sudo, and have a more "<em>ubuntu-like</em>" user experience.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selection_109.png" alt="" width="790" height="512" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selection_109-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selection_109-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selection_109-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selection_109-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selection_109-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selection_109-2xl.png 1600w"></figure>
+<p>We may also install it in a virtual machine like <a href="https://www.virtualbox.org/" target="_blank" rel="noopener noreferrer">VirtualBox</a> or <a href="https://www.vmware.com/products/workstation-player.html" target="_blank" rel="noopener noreferrer">VMWare Player</a>.</p>
+<h5>VIrtualBox</h5>
+<p>First of all create a new virtual machine (Machine -&gt; New) and fill the form as preferred or like suggested in the following picture, providing the iso file of Anu₿itux.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selection_118-2.png" alt="" width="800" height="483" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selection_118-2-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selection_118-2-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selection_118-2-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selection_118-2-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selection_118-2-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selection_118-2-2xl.png 1600w"></figure>
+<p>It is very important to check the "Skip Unattended Installation" option, to avoid running issues due to some wrong configuration that VirtualBox could automatically make.</p>
+<p>In the next step we have to assing the resources to our virtual machine. This depends on the host machine we are using to run the VM.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selection_119.png" alt="" width="800" height="484" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selection_119-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selection_119-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selection_119-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selection_119-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selection_119-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selection_119-2xl.png 1600w"></figure>
+<p>Then we have to chose the size of the virtual drive: 20 GB should be enough.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selection_120.png" alt="" width="800" height="475" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selection_120-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selection_120-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selection_120-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selection_120-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selection_120-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selection_120-2xl.png 1600w"></figure>
+<p>Now we are ready to run our virtual machine and install it following the steps of the debian installer wizard.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selection_117-2.png" alt="" width="640" height="477" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selection_117-2-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selection_117-2-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selection_117-2-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selection_117-2-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selection_117-2-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selection_117-2-2xl.png 1600w"></figure>
+<p>For a better user experience, it is suggested to install the <a href="https://www.virtualbox.org/manual/ch01.html#intro-installing" target="_blank" rel="noopener noreferrer">VirtualBox Extension Pack</a> on your host system and the <a href="https://linuxconfig.org/install-virtualbox-guest-additions-on-linux-guest" target="_blank" rel="noopener noreferrer">VirtualBox Guest Additions</a> in your virtual machine.</p>
+<h5>VMWare Player</h5>
+<p>To install and run Anu₿itux in a VMWare virtual machine, open <a href="https://www.vmware.com/it/products/workstation-player.html" target="_blank" rel="noopener noreferrer">VMWare Player</a> and click on "Create a New Virtual Machine".</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/vmw1.png" alt="vmw1" width="791" height="543" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/vmw1-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/vmw1-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/vmw1-md.png 768w ,https://anubitux.org/media/posts/52/responsive/vmw1-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/vmw1-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/vmw1-2xl.png 1600w"></figure>
+<p>In the next window select the "Use ISO image:" option, click on "Browse..." and select the Anu₿itux iso image you wish to install.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selection_121.png" alt="" width="770" height="680" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selection_121-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selection_121-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selection_121-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selection_121-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selection_121-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selection_121-2xl.png 1600w"></figure>
+<p>In the next window select the "Linux" option and choose "Debian 11.x 64-bit" from the list.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selection_122.png" alt="" width="770" height="676" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selection_122-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selection_122-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selection_122-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selection_122-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selection_122-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selection_122-2xl.png 1600w"></figure>
+<p>In the next window choose a name for your virtual machine and the folder where VMWare player is going to store the files.</p>
+<p>Then choose the maximum size of the virtual har disk that the virtual machine will use. Make sure to select the "Split disk into multiple files option" to avoid an excessive disk space consumption. A size of 20 GB should be appropriate for running some tests on Anu₿itux and its tools.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selection_123.png" alt="" width="770" height="679" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selection_123-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selection_123-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selection_123-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selection_123-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selection_123-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selection_123-2xl.png 1600w"></figure>
+<p>In the next window you can click "Customize Hardware..." to change settings like the number of processors to assign to the virtual machine. Then you can click "Finish" and run your virtual machine.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selection_124.png" alt="" width="770" height="622" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selection_124-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selection_124-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selection_124-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selection_124-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selection_124-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selection_124-2xl.png 1600w"></figure>
+<p>Now you can start the virtual machine and select the "Start Installer" option.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selection_117-3.png" alt="" width="640" height="477" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selection_117-3-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selection_117-3-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selection_117-3-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selection_117-3-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selection_117-3-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selection_117-3-2xl.png 1600w"></figure>
+<p>After doing that you only have to follow the Debian installer wizard.</p>
+<p>Debian usually has the open-vm-tools installed by default, but for a better user experience you could also install the "<a href="https://kb.vmware.com/s/article/1035392" target="_blank" rel="noopener noreferrer">VMware Tools</a>".</p>
+<h3>Anu₿itux virtual machine</h3>
+<p>On the <a href="https://anubitux.org/download-anubitux/" target="_blank" rel="noopener noreferrer">download page</a> there is also a ready to use Anu₿itux virtual machine. To use it, first of all, you need to have <a href="https://www.virtualbox.org/" target="_blank" rel="noopener noreferrer">VIrtualBox</a> installed. You may also install the <a href="https://www.virtualbox.org/manual/ch01.html#intro-installing" target="_blank" rel="noopener noreferrer">VirtualBox Extension Pack</a> to increase the features of your virtual machine.</p>
+<p>Then you simply have to click on "File" -&gt; "Import Appliance..." and select the .ova file you have downloaded.</p>
+<p>Then select the "Local File System" option and choose the .ova file to import.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/ova1.png" alt="ova1" width="1085" height="826" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/ova1-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/ova1-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/ova1-md.png 768w ,https://anubitux.org/media/posts/52/responsive/ova1-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/ova1-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/ova1-2xl.png 1600w"></figure>
+<p>Then simply click on "Next &gt;" and on "Import".</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/ova2.png" alt="ova2" width="1085" height="826" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/ova2-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/ova2-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/ova2-md.png 768w ,https://anubitux.org/media/posts/52/responsive/ova2-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/ova2-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/ova2-2xl.png 1600w"></figure>
+<p>Then, when the import process is complete, the virtual machine will appera in the left side of the VirtualBox client, where al the virtual appliances are listed. Now you can start Anu₿itux or click on the "Settings" button to customize the hardware assigned to it.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>What is Anu₿itux?</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/what-is-anubitux-2/"/>
+        <id>https://anubitux.org/what-is-anubitux-2/</id>
+        <media:content url="https://anubitux.org/media/posts/51/Screenshot_20221226_120241.png" medium="image" />
+            <category term="wallet"/>
+            <category term="ubuntu"/>
+            <category term="tutorial"/>
+            <category term="tools"/>
+            <category term="tool"/>
+            <category term="script"/>
+            <category term="python"/>
+            <category term="live"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="linux"/>
+            <category term="distro"/>
+            <category term="cryptocurrency"/>
+            <category term="crypto"/>
+            <category term="bitcoin"/>
+            <category term="anubitux"/>
+
+        <updated>2023-01-01T00:00:00+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/51/Screenshot_20221226_120241.png" alt="AnuBituxDesktop" />
+                    Anu₿itux is, first of all, a Debian based distro that aims to provide a simple and safe environment to use and manage cryptocurrencies. But it is not only a customized operative system, it also wants to be a place to share knowledge and best practices,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://anubitux.org/media/posts/51/Screenshot_20221226_120241.png" class="type:primaryImage" alt="AnuBituxDesktop" /></p>
+                <p>Anu₿itux is, first of all, a <a href="https://debian.org/" target="_blank" rel="noopener noreferrer">Debian</a> based distro that aims to provide a <strong>simple</strong> and <strong>safe</strong> environment to use and manage cryptocurrencies. But it is not only a customized operative system, it also wants to be a place to share knowledge and best practices, providing tutorials based on Anu₿itux that can be applied in every situation.</p>
+<h3>What is included in the Anu₿itux OS?</h3>
+<p>As mentioned, Anu₿itux is an environment based on Debian 11 Bullseye but with many customizations:</p>
+<ul>
+<li>it includes a lot of useful tools to manage cryptocurrencies, like address generators and desktop wallets. Many tools are includes as AppImages, so that end-users will be able to check hashes by themselves;</li>
+<li>the Firefox browser is improved to prevent fingerprinting and the storage of any kind of information on the device. It also has a lot of useful and interesting bookmarks to easily reach online resources;</li>
+<li>if more privacy is neede, <a href="https://www.torproject.org/download/" target="_blank" rel="noopener noreferrer">Tor Browser</a> is also available;</li>
+<li><a href="https://github.com/Und3rf10w/kali-anonsurf" target="_blank" rel="noopener noreferrer">AnonSurf</a> has been added, to help users safeguard their privacy while accessing online resources;</li>
+<li>Python tools run in dedicated <a href="https://anubitux.org/anubitux-and-python-virtual-environments/" target="_blank" rel="noopener noreferrer">virtual environments</a>;</li>
+<li>many printer drivers are installed. They could be useful to generate and print paper wallets completely offline;</li>
+<li>it also includes many solutions to recover access to lost wallets;</li>
+<li>and more...</li>
+</ul>
+<p>The most significant part of Anu₿itux is his collection of tools. Some of them have been selected for this environment, others have been <a href="https://github.com/ASeriousMister" target="_blank" rel="noopener noreferrer">developed</a> by the Anu₿itux team to fit the needs that users may encounter.</p>
+<h3>Tools list</h3>
+<p>The tools are placed in dedicated sub-menus, divided into different categories so that users will be able to quickly find what they need. Some tools did not provide a menu entry. In this case, Anu₿itux has arranged a custom menu entry that also shows some useful information about the tool, like examples and suggestions.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/Selection_111.png" alt="" width="240" height="553" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/Selection_111-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/Selection_111-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/Selection_111-md.png 768w ,https://anubitux.org/media/posts/51/responsive/Selection_111-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/Selection_111-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/Selection_111-2xl.png 1600w"></figure>
+<h4>Address generators</h4>
+<p>The first category is dedicated to the address generators, a collection of tools that could be used to securely generate crypto addresses to store, for instance, on a paper wallet.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/Selection_113.png" alt="" width="370" height="219" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/Selection_113-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/Selection_113-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/Selection_113-md.png 768w ,https://anubitux.org/media/posts/51/responsive/Selection_113-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/Selection_113-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/Selection_113-2xl.png 1600w"></figure>
+<ul>
+<li><a href="https://github.com/pointbiz/bitaddress.org" target="_blank" rel="noopener noreferrer">BitAddress</a> is a javascript tool that runs locally and creates a Bitcoin paper wallet and that can be found at <a href="https://www.bitaddress.org/" target="_blank" rel="noopener noreferrer">bitaddress.org</a>;</li>
+<li><a href="https://github.com/dashpay/paper.dash.org" target="_blank" rel="noopener noreferrer">DashPaperWallet</a> is a javascript tool that runs locally and creates a Dash paper wallet that can be found on <a href="https://paper.dash.org/" target="_blank" rel="noopener noreferrer">paper.dash.org</a>;</li>
+<li><a href="https://github.com/ASeriousMister/Dice2Seed" target="_blank" rel="noopener noreferrer">Dice2Seed</a> is a tool that obtaines a mnemonic seed starting from the entropy obtained rolling a dice;</li>
+<li><a href="https://github.com/ASeriousMister/DiceTracker.py" target="_blank" rel="noopener noreferrer">DiceTracker</a> is a tool that generates printable paper wallets starting from 256 dice rolls, removing the need to trust software's entropy;</li>
+<li><a href="https://github.com/moneromooo-monero/monero-wallet-generator/" target="_blank" rel="noopener noreferrer">MoneroWalletGenerator</a> is an offline Monero wallet generator that can also be found on <a href="https://moneroaddress.org/" target="_blank" rel="noopener noreferrer">moneroaddress.org</a>; </li>
+<li><a href="https://github.com/walletgeneratornet/WalletGenerator.net" target="_blank" rel="noopener noreferrer">WalletGenerator</a> is a multi-currency paper wallet generator that supports dozens of different coins;</li>
+<li><a href="https://github.com/luigi1111/xmr.llcoins.net/blob/master/site/addressgen.html" target="_blank" rel="noopener noreferrer">XMR AddressGen</a> is a tool to generate XMR addresses that can also be reached on <a href="https://xmr.llcoins.net/" target="_blank" rel="noopener noreferrer">this</a> website.</li>
+</ul>
+<h4>Encryption</h4>
+<p>Here there are tools that could be useful to interact with anything regarding encryption.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/Screenshot_20221226_191603.png" alt="" width="300" height="172" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191603-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191603-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191603-md.png 768w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191603-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191603-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191603-2xl.png 1600w"></figure>
+<ul>
+<li><a href="https://bitwarden.com/" target="_blank" rel="noopener noreferrer">BitWarden</a> is a very popular, powerful and <a href="https://github.com/bitwarden" target="_blank" rel="noopener noreferrer">open source</a> password manager;</li>
+<li><a href="https://keepassxc.org/" target="_blank" rel="noopener noreferrer">KeepassXC</a> is an offline <a href="https://github.com/keepassxreboot/keepassxc" target="_blank" rel="noopener noreferrer">open source</a> cross-platform password manager, that could also store any kind of information like mnemonic seed phrases;</li>
+<li><a href="https://www.openpgp.org/software/kleopatra/" target="_blank" rel="noopener noreferrer">Kleopatra</a> manages PGP Keys and allows to encrypt, decrypt, sign and verify text and files;</li>
+<li><a href="https://www.veracrypt.fr/en/Home.html" target="_blank" rel="noopener noreferrer">VeraCrypt</a> is a cross-platform <a href="https://github.com/veracrypt/VeraCrypt" target="_blank" rel="noopener noreferrer">open source</a> tool that allows to encrypt and decrypt volumes and disks with many algorithms;</li>
+<li><a href="https://github.com/mhogomchungu/zuluCrypt" target="_blank" rel="noopener noreferrer">zuluCrypt</a> is a simple,feature rich and powerful solution for hard drives encryption. More info <a href="https://mhogomchungu.github.io/zuluCrypt/" target="_blank" rel="noopener noreferrer">here</a>.</li>
+</ul>
+<h4>Hardware Wallets</h4>
+<p>This category encloses the official clients of some hardware wallets. Many of them are also supported by desktop clients like Electrum, since the udev rules have been set up in Anu₿itux so that they can be connected without troubles. </p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/Selection_126.png" alt="" width="350" height="190" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/Selection_126-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/Selection_126-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/Selection_126-md.png 768w ,https://anubitux.org/media/posts/51/responsive/Selection_126-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/Selection_126-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/Selection_126-2xl.png 1600w"></figure>
+<ul>
+<li><a href="https://bc-vault.com/download/" target="_blank" rel="noopener noreferrer">BC Vault</a> is the official client to manage <a href="https://bc-vault.com/" target="_blank" rel="noopener noreferrer">BCVault hardware wallets</a>.</li>
+<li><a href="https://github.com/digitalbitbox/bitbox-wallet-app" target="_blank" rel="noopener noreferrer">BitBoxApp</a> is the official client to manage <a href="https://shiftcrypto.ch/" target="_blank" rel="noopener noreferrer">BitBox hardware wallets</a>;</li>
+<li><a href="https://www.ledger.com/ledger-live" target="_blank" rel="noopener noreferrer">Ledger Live</a> is the official client to manage <a href="https://www.ledger.com/" target="_blank" rel="noopener noreferrer">Ledger hardware wallets</a> like the Nano S model and the Nano X model;</li>
+<li>Setup udev rules is a script that sets up the udev rules, needed by the clients to interact with hardware wallets (this is done completely offline);</li>
+<li><a href="https://suite.trezor.io/" target="_blank" rel="noopener noreferrer">Trezor Suite</a> is the official client to manage <a href="https://trezor.io/" target="_blank" rel="noopener noreferrer">Trezor hardware wallets</a> like the Model One and the Model T.</li>
+</ul>
+<h4>Recovery</h4>
+<p>In this section there is a collection of tool that could help to recover access to lost wallets or locked funds.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/Screenshot_20221226_191238.png" alt="" width="300" height="276" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191238-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191238-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191238-md.png 768w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191238-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191238-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191238-2xl.png 1600w"></figure>
+<ul>
+<li><a href="https://github.com/ASeriousMister/BTCKeySearch" target="_blank" rel="noopener noreferrer">BTCKeySearch</a> is a tool , developed by the Anu₿itux team, that scans files in a directory and in its subdirectories, looking for Bitcoin private keys, Monero private spend keys and BIP32 root keys (xpriv);</li>
+<li><a href="https://github.com/simsong/bulk_extractor" target="_blank" rel="noopener noreferrer">BulkExtractor</a> is a tool that rapidly scans directory and volumes for any kind of input like regular expressions;</li>
+<li><a href="https://hashcat.net/hashcat/" target="_blank" rel="noopener noreferrer">HashCat</a> is a very popular password cracking tool that supports a lot of different algorithms. Please refer to the <a href="https://hashcat.net/forum/" target="_blank" rel="noopener noreferrer">official forum</a> to learn how to use it in every specific case;</li>
+<li><a href="https://github.com/cgsecurity/testdisk" target="_blank" rel="noopener noreferrer">Photorec</a> tries to recover deleted files or part of them and could be useful, for instance, for accidentally deleted wallets.</li>
+<li><a href="https://github.com/ASeriousMister/SeedSearch.py" target="_blank" rel="noopener noreferrer">SeedSearch</a> is a tool, developed by the Anu₿itux team, that scans files in a directory and in its subdirectories, looking for BIP39 mnemonic seeds;</li>
+<li><a href="https://github.com/gurnec/btcrecover/blob/master/docs/Seedrecover_Quick_Start_Guide.md" target="_blank" rel="noopener noreferrer">SeedRecover</a> is part of the BTCrecover tool. It tries to fix a mnemonic seed phrase with mistakes and/or missing words;</li>
+<li><a href="https://github.com/ASeriousMister/SeedSearch.py" target="_blank" rel="noopener noreferrer">SeedSearch</a> is a tool, developed by the Anu₿itux team, that scans files in a directory and in its subdirectories, looking for BIP39 mnemonic seeds;</li>
+<li><a href="https://github.com/ASeriousMister/VeraDecrypt.py" target="_blank" rel="noopener noreferrer">VeraDecrypt</a> is a tool, developed by the Anu₿itux team, that tries to unlock <a href="https://www.veracrypt.fr/en/Home.html" target="_blank" rel="noopener noreferrer">VeraCrypt</a> volumes and containers using a list of passwords given by the user.</li>
+</ul>
+<h4>UsefulTools</h4>
+<p>In this section there are some tools that could be useful in many Anu₿itux's use cases.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/Screenshot_20221226_192634.png" alt="" width="350" height="289" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_192634-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_192634-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_192634-md.png 768w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_192634-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_192634-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_192634-2xl.png 1600w"></figure>
+<ul>
+<li><a href="https://ffmpeg.org/" target="_blank" rel="noopener noreferrer">FFMpeg</a> is a complete, cross-platform solution to record, convert and stream audio and video. For this purpose, it could be used to record the desktop screen while doing operations that need to be reported to a third party. <span style="text-decoration: underline;"><span style="color: #e03e2d; text-decoration: underline;"><strong>Never</strong></span></span> use it while generating sensible information like private keys or new wallets or, in general, for information that are not supposed to be shared;</li>
+<li><a href="https://flameshot.org/" target="_blank" rel="noopener noreferrer">Flameshot</a> is a powerful tool to capture and edit screenshots</li>
+<li><a href="https://github.com/ASeriousMister/passgen.py" target="_blank" rel="noopener noreferrer">Password (passgen.py)</a> is a secure password generator developed by the Anu₿itux team;</li>
+<li><a href="https://github.com/fukuchi/libqrencode/" target="_blank" rel="noopener noreferrer">QREncode</a> is a tool that generates QR codes from strings and that could be very useful to store addresses and keys offline. More information <a href="https://fukuchi.org/works/qrencode/" target="_blank" rel="noopener noreferrer">here</a>.</li>
+<li><a href="https://github.com/sayanarijit/qrscan" target="_blank" rel="noopener noreferrer">QRScan</a> is a lightweight QR scanner with a terminal user interface (TUX) that works on files and throught the webcam;</li>
+<li><a href="https://debian.pkgs.org/11/debian-main-amd64/qtqr_2.0~bzr33-2_all.deb.html" target="_blank" rel="noopener noreferrer">QtQR</a> is a GUI tool to generate and scan QR codes; </li>
+<li><a href="https://tshark.dev/" target="_blank" rel="noopener noreferrer">TShark</a> is a CLI tool for packet capturing;</li>
+<li><a href="https://www.wireshark.org/" target="_blank" rel="noopener noreferrer">Wireshark</a> is the world’s foremost and widely-used network protocol analyzer. It could be used to capture network traffic during sensible operations and verify that only proper network traffic was exchanged.</li>
+</ul>
+<h4>Wallets</h4>
+<p>In this category there is a collection of many desktop wallets, so that the users, in most cases, will be able to use their coins without the need to install any client.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/Screenshot_20221226_193930.png" alt="" width="390" height="342" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_193930-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_193930-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_193930-md.png 768w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_193930-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_193930-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_193930-2xl.png 1600w"></figure>
+<ul>
+<li><a href="https://www.coinomi.com/" target="_blank" rel="noopener noreferrer">Coinomi</a> is a multi-chain wallet that is widely used;</li>
+<li><a href="https://electroncash.org/" target="_blank" rel="noopener noreferrer">ElectronCash</a> is a version of the well known Electrum wallet that works with Bitcoin Cash;</li>
+<li><a href="https://electrum-ltc.org/" target="_blank" rel="noopener noreferrer">Electrum(LTC)</a> is a version of the well known Electrum wallet that works with Litecoin;</li>
+<li><a href="https://electrum.org/#home" target="_blank" rel="noopener noreferrer">Electrum(BTC)</a> is one of the most known and used SPV Bitcoin wallets; </li>
+<li><a href="https://www.exodus.com/" target="_blank" rel="noopener noreferrer">Exodus</a> is a multi-currency and multi-service desktop wallet;</li>
+<li><a href="https://featherwallet.org/" target="_blank" rel="noopener noreferrer">FeatherWallet</a> is a very complete and powerful Monero wallet with a comfortable user interface that is similar to Electrum's one;</li>
+<li><a href="https://blockstream.com/green/" target="_blank" rel="noopener noreferrer">GreenWallet</a> is a desktop wallet, <a href="https://github.com/Blockstream/green_qt/releases" target="_blank" rel="noopener noreferrer">developed</a> by <a href="https://blockstream.com/" target="_blank" rel="noopener noreferrer">Blockstream</a> that supports Bitcoin and even L-BTC on the <a href="https://blockstream.com/liquid/" target="_blank" rel="noopener noreferrer">Liquid</a> sidechain.</li>
+<li><a href="https://www.getmonero.org/resources/user-guides/monero-wallet-cli.html" target="_blank" rel="noopener noreferrer">Monero-CLI</a> is the official command line Monero wallet;</li>
+<li><a href="https://mycrypto.com/" target="_blank" rel="noopener noreferrer">MyCrypto</a> is a wallet that allows to manage Ethereum accounts;</li>
+<li><a href="https://mymonero.com/" target="_blank" rel="noopener noreferrer">MyMonero</a> is a lightweight and efficient Monero wallet;</li>
+<li><a href="https://sparrowwallet.com/" target="_blank" rel="noopener noreferrer">Sparrow wallet</a> is a Bitcoin wallet caring for user's privacy;</li>
+<li><a href="https://www.zecwallet.co/" target="_blank" rel="noopener noreferrer">ZecWallet Lite</a> is a fully featured shielded wallet for Zcash;</li>
+<li><a href="https://github.com/MetaMask/metamask-extension/" target="_blank" rel="noopener noreferrer">MetaMask</a> is a wallet for Ethereum accounts and a gateway to blockchain apps. It can be found as an extension of the FireFox browser;</li>
+<li><a href="https://templewallet.com/" target="_blank" rel="noopener noreferrer">Temple</a> is a Tezos wallet that can be found as an extension of the FireFox browser.</li>
+</ul>
+<h4>Wallet Tools</h4>
+<p>In this section there are tools that can be used to manage wallet related stuff, especially mnemonic seed phrases.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/Selection_114.png" alt="" width="370" height="338" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/Selection_114-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/Selection_114-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/Selection_114-md.png 768w ,https://anubitux.org/media/posts/51/responsive/Selection_114-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/Selection_114-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/Selection_114-2xl.png 1600w"></figure>
+<ul>
+<li><a href="https://github.com/iancoleman/bip39" target="_blank" rel="noopener noreferrer">BIP39</a> is the well known tool developed by Ian Coleman that handles derivation paths based on BIP39 wordlists. It is also available on his <a href="https://iancoleman.io/bip39/" target="_blank" rel="noopener noreferrer">website</a>;</li>
+<li><a href="https://github.com/OutCast3k/coinbin/" target="_blank" rel="noopener noreferrer">Coinb.in</a> is a tool that allows users to sign, verify and broadcast transactions that could also have been written from scratch. The tool is also available on the web at the <a href="https://coinb.in/" target="_blank" rel="noopener noreferrer">coinb.in</a> page.</li>
+<li><a href="https://github.com/luigi1111/xmr.llcoins.net/blob/master/site/addresstests.html" target="_blank" rel="noopener noreferrer">XMR Address Test</a> is a tool related to Cryptonote Addresses, used by the Monero protocol;</li>
+<li><a href="https://github.com/luigi1111/xmr.llcoins.net/blob/master/site/checktx.html" target="_blank" rel="noopener noreferrer">XMR check tx</a> is a tool that can be used to verify XMR transactions, providing the necessary keys;</li>
+<li><a href="https://github.com/luigi1111/xmr.llcoins.net/blob/master/site/sign.html" target="_blank" rel="noopener noreferrer">XMR message sign</a> can be used to sign and verify messages using XMR keys;</li>
+<li><a href="https://github.com/ASeriousMister/SeedCheck.py" target="_blank" rel="noopener noreferrer">SeedCheck.py</a> is a tool developed by the Anu₿itux team that tries to find out the correct derivation path or the right software a seed was used with.</li>
+</ul>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to create a &quot;view-only&quot; wallet for our cold storage</title>
         <author>
@@ -442,476 +768,6 @@
 <p class="msg msg--info">When we do not need the volume anymore, we should always dismount it from the VeraCrypt user interface, using the proper button. </p>
 <h3>Final thoughts</h3>
 <p>Veracrypt gives us a safe way to store information and files and access them from almost any desktop operating system. We have always to consider that adding security to our information requires a bigger caution from our side since if we lose or forget the encryption password or the PIM we have set up, it could be impossible to <a href="https://anubitux.org/try-to-unlock-a-veracrypt-volume-with-anubitux/" target="_blank" rel="noopener noreferrer">recover our information</a>. So it is recommended to use passwords we can always remember or we can always access in a safe way.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to track Bitcoin transactions</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/how-to-track-bitcoin-transactions/"/>
-        <id>https://anubitux.org/how-to-track-bitcoin-transactions/</id>
-        <media:content url="https://anubitux.org/media/posts/25/quantitatives-dV7UYaPtv6w-unsplash.jpg" medium="image" />
-            <category term="tutorial"/>
-            <category term="tracing"/>
-            <category term="osint"/>
-            <category term="investigation"/>
-            <category term="howto"/>
-            <category term="cryptocurrency"/>
-            <category term="crypto"/>
-            <category term="chain analysis"/>
-            <category term="blockchain"/>
-            <category term="bitcoin"/>
-
-        <updated>2022-11-07T21:31:50+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/25/quantitatives-dV7UYaPtv6w-unsplash.jpg" alt="" />
-                    Using cryptocurrencies like Bitcoin, all the transactions we make will stay in the blockchain forever and ever and anyone will be able to check them. Knowing what to look to, it could be possible to perform an investigation of our transactions. Let's see an example&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/25/quantitatives-dV7UYaPtv6w-unsplash.jpg" class="type:primaryImage" alt="" /></p>
-                <p>Using cryptocurrencies like Bitcoin, all the transactions we make will stay in the blockchain forever and ever and anyone will be able to check them. Knowing what to look to, it could be possible to perform an investigation of our transactions. Let's see an example of a chain analysis investigation proposed on the <a href="https://osintops.com/blockchain-pat-1/" target="_blank" rel="noopener noreferrer">osintops.com</a> blog and performed starting from a <a href="https://www.blockchain.com/btc/tx/3c4c026ce8a285ddc281f78e5f9d00df2c19d627904165696faf8263a6f34761" target="_blank" rel="noopener noreferrer">transaction</a> pointed out in <a href="https://www.bellingcat.com/resources/how-tos/2019/02/01/tracking-illicit-transactions-with-blockchain-a-guide-featuring-mueller/" target="_blank" rel="noopener noreferrer">this article</a> written by Brenna Smith.</p>
-<p>The transaction, according to <a href="https://www.justice.gov/file/1080281/download" target="_blank" rel="noopener noreferrer">this document</a>, was carried out by a group of Russian secret agents and was intended to manipulate the work of the US Democratic National Committee and Hillary Clinton’s presidential campaign.</p>
-<p>Performing such analysis there are two main questions that we need to answer:</p>
-<ul>
-<li>where are the bitcoins from?</li>
-<li>where were they sent?</li>
-</ul>
-<p>This approach should allow us to identify not so much who managed the bitcoins but rather who could provide us with some information about it, like exchanges and payment processors. Indeed, even if we know that blockchains do not store personal information, nowadays it is almost essential to interact with online services by performing KYC (<em>know your customer</em>) procedures when handling cryptocurrencies.</p>
-<h3>Where are the bitcoins from?</h3>
-<p>To find an answer to this question we will use one of the many blockchain explorers available: <a href="https://bitcoinwhoswho.com/" target="_blank" rel="noopener noreferrer">bitcoinwhoswho.com</a>. This service is able to provide additional information about the addresses we are checking (scam reports, links to web pages where they are mentioned, information about the owner, etc.).</p>
-<p>In combination we will use <a href="https://www.walletexplorer.com/" target="_blank" rel="noreferrer noopener">walletexplorer.com</a>: this service uses algorithms that could associate bitcoin addresses with others to reconstruct a wallet and relate it to known entities such as exchanges, darknet markets, gambling sites, etc.</p>
-<p>The transaction used to start this analysis was disposed by the address 1LQv8aKtQoiY5M5zkaG8RWL7LMwNzVaVqR. Unfortunately, in this case, the analysis of the address via bitcoinwhoswho.com did not provide any additional information.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2020/09/image001-800x297.png" sizes="(max-width: 800px) 100vw, 800px" srcset="https://osintops.com/wp-content/uploads/2020/09/image001-800x297.png 800w, https://osintops.com/wp-content/uploads/2020/09/image001-300x111.png 300w, https://osintops.com/wp-content/uploads/2020/09/image001-768x285.png 768w, https://osintops.com/wp-content/uploads/2020/09/image001.png 1152w" alt="" width="800" height="297" data-is-external-image="true"></figure>
-<p>We can also observe that the address was involved in only two transactions, one incoming and one outgoing.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2020/09/image003-800x130.png" sizes="(max-width: 800px) 100vw, 800px" srcset="https://osintops.com/wp-content/uploads/2020/09/image003-800x130.png 800w, https://osintops.com/wp-content/uploads/2020/09/image003-300x49.png 300w, https://osintops.com/wp-content/uploads/2020/09/image003-768x124.png 768w, https://osintops.com/wp-content/uploads/2020/09/image003.png 1142w" alt="" width="800" height="130" loading="lazy" data-is-external-image="true"></figure>
-<p>Even <a href="https://www.walletexplorer.com/" target="_blank" rel="noreferrer noopener">walletexplorer.com</a> is not able to provide us any useful information: the wallet consisting of the address being analyzed alone cannot be connected to any known name, nor is any further bitcoin address aggregated that could be associated with the same user.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2020/09/image005.png" sizes="(max-width: 712px) 100vw, 712px" srcset="https://osintops.com/wp-content/uploads/2020/09/image005.png 712w, https://osintops.com/wp-content/uploads/2020/09/image005-300x67.png 300w" alt="" width="700" height="157" loading="lazy" data-is-external-image="true"></figure>
-<p>To continue finding an answer to our question, let's take another look at the transactions in which the address 1LQv8aKtQoiY5M5zkaG8RWL7LMwNzVaVqR was involved.</p>
-<p> The incoming transaction, indicated by the green arrow, comes from the address <a href="https://www.blockchain.com/btc/address/1HF9VgN3AcA5RJd6ZUPnXdETmFbYmikveN" target="_blank" rel="noreferrer noopener">1HF9VgN3AcA5RJd6ZUPnXdETmFbYmikveN</a>.</p>
-<p>This address also made only two transactions of which it is not possible to obtain additional information either via bitcoinwhoswho.com or walletexplorer.com.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2020/09/image007-800x146.png" sizes="(max-width: 733px) 100vw, 733px" srcset="https://osintops.com/wp-content/uploads/2020/09/image007-800x146.png 800w, https://osintops.com/wp-content/uploads/2020/09/image007-300x55.png 300w, https://osintops.com/wp-content/uploads/2020/09/image007.png 1164w" alt="" width="800" height="145" loading="lazy" data-is-external-image="true"></figure>
-<p>So, with the same approach, let's continue to analyze the address that sent bitcoins to the one we are looking to, checking them with bitcoinwhoswho.com and walletexplorer.com.</p>
-<p>Doing so, we will encounter this addresses:</p>
-<ul>
-<li>1Fj4RkrtnnMn5mBtQFW5ZkzEw4vGyCoRe9;</li>
-<li>1KSkbN7JHYxBSoYwuuWuzA4dpZf9TKP6V8;</li>
-<li>1AB99VvWeLtRcEZ6yubX1Cqvcvi4bPH6R6;</li>
-<li>13ZMs871ZBcTTauhXDpRQ6hDaTaPcPVmTY;</li>
-<li>1MS4KRpKakzTEUFzcU9PHCbs2f1u9a1aL4;</li>
-<li>1MYQzejdwhiU83qy4SsLKcm7CwV5XxVFRn;</li>
-<li>1ECFBdcnfhVWcGG6k4p4Pt4J9ciQsK8wEn;</li>
-<li>1GN5ZGGQsgQGQdP5Yc2LAWUKssrLk5YRbc;</li>
-<li><a href="https://www.blockchain.com/btc/address/1KgUcHDuWLVzFxVnwp3u5jZw3FmorjG1jD">1KgUcHDuWLVzFxVnwp3u5jZw3FmorjG1jD</a>.</li>
-</ul>
-<p>The last address, unlike what happens with the others, receives bitcoins from four different addresses.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image009-1024x205.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://osintops.com/wp-content/uploads/2019/02/image009-1024x205.png 1024w, https://osintops.com/wp-content/uploads/2019/02/image009-300x60.png 300w, https://osintops.com/wp-content/uploads/2019/02/image009-768x154.png 768w, https://osintops.com/wp-content/uploads/2019/02/image009.png 1159w" alt="" width="800" height="160" loading="lazy" data-is-external-image="true"></figure>
-<p>These addresses seem to be involved in an intenser activity. Walletexplorer.com clusters all 4 addresses in the wallet with ID <a href="https://www.walletexplorer.com/wallet/0001d2e72691ea9d" target="_blank" rel="noreferrer noopener">0001d2e726</a>, whose activities are mostly inbound transactions attributable to the exchange <a href="https://cex.io/" target="_blank" rel="noopener noreferrer">Cex.io</a>.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image011.png" sizes="(max-width: 971px) 100vw, 971px" srcset="https://osintops.com/wp-content/uploads/2019/02/image011.png 971w, https://osintops.com/wp-content/uploads/2019/02/image011-300x296.png 300w, https://osintops.com/wp-content/uploads/2019/02/image011-768x757.png 768w" alt="" width="800" height="788" loading="lazy" data-is-external-image="true"></figure>
-<p>So, we are now able to state that the transactions we are looking to involve bitcoins that were purchased through the Cex.io exchange.</p>
-<h3>Where were the bitcoins sent?</h3>
-<p>Now let's take a look at the transactions disposed by the owners of the bitcoins after they bought them at Cex.io. Looking at the addresses we have encountered by now, we can see that every time there is an outgoing transaction sending coins to two addresses:</p>
-<ul>
-<li>one receiving a larger amount which is gradually carried forward from transaction to transaction;</li>
-<li>one receiving a smaller amount, which often consists of more decimal digits. </li>
-</ul>
-<h4>Peel chains</h4>
-<p>This transactions schema is usually called peel chain. In peel chains, users send bitcoin to an intended destination address, maybe because they are paying something, and receive the remaining part, named change, on a new address that is in their control. This happens because the Bitcoin protocol does not allow to spend any desired amount but only allows to forward amounts that were previously received and have not yet been involved in transactions. These amounts are called UTxOs (unspent transaction outputs).</p>
-<p>Analyzing peel chains can give us two kinds of information:</p>
-<ul>
-<li>we can collect a lot of addresses belonging to the target of our identification;</li>
-<li>we will encounter a lot of payments made by the target of our investigations and, some of them could lead us to new evidence regarding our target.</li>
-</ul>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2020/09/Concept-Diagram_EN-1.png" sizes="(max-width: 481px) 100vw, 481px" srcset="https://osintops.com/wp-content/uploads/2020/09/Concept-Diagram_EN-1.png 481w, https://osintops.com/wp-content/uploads/2020/09/Concept-Diagram_EN-1-300x115.png 300w" alt="" width="481" height="184" loading="lazy" data-is-external-image="true"></figure>
-<p>The main challenge in this kind of analysis is to determine which address is receiving the change and which one is the recipient of the payment. This can be done by making <a href="https://anubitux.org/clustering-bitcoin-addresses/" target="_blank" rel="noopener noreferrer">considerations</a> on the amounts and the addresses involved. So, we should be able to determine, for any transaction, which address will receive the funds of the target of our investigation and which one is receiving their payment.</p>
-<h4>How to go up the chain of transactions</h4>
-<p>Let's start following the chain from the first address that received the bitcoins purchased from Cex.io. This is the starting point of the peel chain.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/03/image014.jpg" sizes="(max-width: 643px) 100vw, 643px" srcset="https://osintops.com/wp-content/uploads/2019/03/image014.jpg 643w, https://osintops.com/wp-content/uploads/2019/03/image014-300x36.jpg 300w" alt="" width="640" height="77" data-is-external-image="true"></figure>
-<p>In this case, the address that receives 0.8 bitcoin, 1N5hfyuGVZbTR78zXQ22kjUyCwZbgB8yhw, is most likely the actual destination address, while the address that receives 11.04445 bitcoin, 1GN5ZGGQsgQGQdP5Yc2LAWUKssrLk5YR, is the change address. It is very unlikely that a user could make a transaction of 11.04445 bitcoins (even by specifying the sending amount in FIAT currency on their client) and get a change of exactly 0.8 bitcoins.</p>
-<p>Analyzing the address 1N5hfyuGVZbTR78zXQ22kjUyCwZbgB8yhw with walletexplorer.com, it is not traced back to any known person or entity.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image016.jpg" sizes="(max-width: 531px) 100vw, 531px" srcset="https://osintops.com/wp-content/uploads/2019/02/image016.jpg 531w, https://osintops.com/wp-content/uploads/2019/02/image016-300x44.jpg 300w" alt="" width="500" height="73" loading="lazy" data-is-external-image="true"></figure>
-<p>This does not mean that it is not possible to trace the address to an exchanger or a payment intermediary but rather that walletexplorer.com was unable to identify who presumably controls the address.</p>
-<p>Continuing to follow the sequence of payments, observing the transaction made from the change address 1GN5ZGGQsgQGQdP5Yc2LAWUKssrLk5YRbc and considering the behavior assumed in the other transactions examined, we can assume that the actual recipient is the address 1Mut7bPWhQS2NkTQ6wUpRtbV65vyELBqcs and the change address is 1ECFBdcnfhVWcGG6k4p4Pt4J9ciQsK8wEn.</p>
-<p> </p>
-<div class="wp-block-image"><figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image018.jpg" sizes="(max-width: 643px) 100vw, 643px" srcset="https://osintops.com/wp-content/uploads/2019/02/image018.jpg 643w, https://osintops.com/wp-content/uploads/2019/02/image018-300x25.jpg 300w" alt="" width="640" height="54" loading="lazy" data-is-external-image="true"></figure></div>
-<p>Analyzing the information provided by walletexplorer.com, confirming what we hypothesized a little while ago, 1Mut7bPWhQS2NkTQ6wUpRtbV65vyELBqcs is traced back to the payment intermediary BitPay.com.</p>
-<div class="wp-block-image"><figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image020.jpg" sizes="(max-width: 530px) 100vw, 530px" srcset="https://osintops.com/wp-content/uploads/2019/02/image020.jpg 530w, https://osintops.com/wp-content/uploads/2019/02/image020-300x42.jpg 300w" alt="" width="530" height="74" loading="lazy" data-is-external-image="true"></figure></div>
-<p>Now, look at the outgoing transaction made from the address 1ECFBdcnfhVWcGG6k4p4Pt4J9ciQsK8wEn.</p>
-<div class="wp-block-image"><figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image022.jpg" sizes="(max-width: 642px) 100vw, 642px" srcset="https://osintops.com/wp-content/uploads/2019/02/image022.jpg 642w, https://osintops.com/wp-content/uploads/2019/02/image022-300x24.jpg 300w" alt="Transazione 3" width="640" height="52" loading="lazy" data-is-external-image="true"></figure></div>
-<p>We assume, with the same criteria adopted for the previous transactions, that the destination address is 1ChwFk9Wtq7zav6TRnxE8e8xgf5daFXV5D, while the change address is 1MYQzejdwhiU83qy4SsLKcm7CwV5XxVFRn. Also, in this case, walletexplorer.com was unable to link it to any known service.</p>
-<div class="wp-block-image"><figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image024.jpg" sizes="(max-width: 527px) 100vw, 527px" srcset="https://osintops.com/wp-content/uploads/2019/02/image024.jpg 527w, https://osintops.com/wp-content/uploads/2019/02/image024-300x35.jpg 300w" alt="Wallet Explorer 3" width="520" height="60" loading="lazy" data-is-external-image="true"></figure></div>
-<p>Continuing along the flow of transactions, analyzing the transactions disposed by every encountered change address, we can find the following destination addresses:</p>
-<ul>
-<li>13ov4UBJYJQBC1Tv5vEvijShn2vWS3vPrJ, not attributable to any entity;</li>
-<li>1Atc1n6rCm7GMpW1JsRuwF8b2hWQJjxi6i, not attributable to any entity, but recipient of an unusually high amount equal to 5 bitcoins;</li>
-<li>13DD8uH3FMZbJjXnSgZfL2MMTxesT9qUgJ, not attributable to any entity but grouped with other 6 addresses that could be further examined;</li>
-<li>1Hy8Comf7wyBtqgGzph3fX8Ky6S5t8eXeh, attributable to the same wallet as the address in the previous point;</li>
-<li>1DLTLvpev16LemyDtuyEL2WnyLskcPSvKM, attributable to CoinPayments.net;</li>
-</ul>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image026.jpg" sizes="(max-width: 533px) 100vw, 533px" srcset="https://osintops.com/wp-content/uploads/2019/02/image026.jpg 533w, https://osintops.com/wp-content/uploads/2019/02/image026-300x37.jpg 300w" alt="" width="530" height="65" loading="lazy" data-is-external-image="true"></figure>
-<ul>
-<li>1J8LeRgSwuHqfJuFX3Uo62WnDNFsNuAygR, attributable to BitPay.com;</li>
-</ul>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image028.jpg" sizes="(max-width: 535px) 100vw, 535px" srcset="https://osintops.com/wp-content/uploads/2019/02/image028.jpg 535w, https://osintops.com/wp-content/uploads/2019/02/image028-300x41.jpg 300w" alt="" width="530" height="72" loading="lazy" data-is-external-image="true"></figure>
-<ul>
-<li>1Jkoon938Pe66whJgZZwxn6zzjKMLkFRCX, not attributable to any entity;</li>
-<li>14mUSXvddwR9qgBr93BGXEAcgRw84jEtaG, not attributable to any entity;</li>
-<li>1NZ4MSeYcDKFiPRt8h7VK6XMhShwzhCzCp, not attributable to any entity.</li>
-</ul>
-<p>This last address is the one that received the transaction from the address 1LQv8aKtQoiY5M5zkaG8RWL7LMwNzVaVqR, cited in the article from which we began our analysis.</p>
-<h4>Let's recap</h4>
-<p>Returning to the main discourse, in the following image, we can graphically observe what we have reconstructed so far with our analysis. The change addresses are represented by circles that get smaller and smaller, to represent the part of bitcoin that is used to make payments.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/Grafo-Parte2.png" sizes="(max-width: 974px) 100vw, 974px" srcset="https://osintops.com/wp-content/uploads/2019/02/Grafo-Parte2.png 974w, https://osintops.com/wp-content/uploads/2019/02/Grafo-Parte2-300x77.png 300w, https://osintops.com/wp-content/uploads/2019/02/Grafo-Parte2-768x197.png 768w" alt="" width="970" height="249" loading="lazy" data-is-external-image="true"></figure>
-<h4>What else should we look at?</h4>
-<p>To obtain more information, the aforementioned wallet of seven addresses, including 13DD8uH3FMZbJjXnSgZfL2MMTxesT9qUgJ and 1Hy8Comf7wyBtqgGzph3fX8Ky6S5t8eXeh, could be examined.</p>
-<p>Furthermore, we can observe that the aforementioned address 1Atc1n6rCm7GMpW1JsRuwF8b2hWQJjxi6i, with the transaction made on 23 December 2015, receives 5.0 bitcoins, unlike other transactions where the amounts are much smaller. This could be a more substantial payment but, considering that less than 12 bitcoins were handled at the beginning of the transaction sequence, it could also be that the user of these addresses wanted to split the managed bitcoins and start another sequence of transactions. In fact, the following transaction is destined in favor of the addresses 1HbKVbT2k82JcMrvErwWMhJPGHjSo8iLBK and 1JX9Q7fqn9TajUe4F6vjWGtGnD2wqnXTii. Of these, the address 1HbKVbT2k82JcMrvErwWMhJPGHjSo8iLBK is associated, by walletexplorer.com, to the payment intermediary BitPay.com.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image030.jpg" sizes="(max-width: 528px) 100vw, 528px" srcset="https://osintops.com/wp-content/uploads/2019/02/image030.jpg 528w, https://osintops.com/wp-content/uploads/2019/02/image030-300x37.jpg 300w" alt="" width="500" height="62" loading="lazy" data-is-external-image="true"></figure>
-<h3>And now?</h3>
-<p>Now we arrived at the starting point of our analysis and we were able to determine that the target of our investigation bought bitcoins from Cex.io and made many payments, also using payment processors like BitPay.com and CoinPayments.com. So, let's take a look at what our targets made with their bitcoins after the aforementioned transaction.</p>
-<p>We can see that the transactions continue with the same pattern: one address receives a lower bitcoin amount and with fewer decimal digits and another receives the so-called change of the transaction, a higher amount and with more decimal places.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image001-1-1024x93.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://osintops.com/wp-content/uploads/2019/02/image001-1-1024x93.png 1024w, https://osintops.com/wp-content/uploads/2019/02/image001-1-300x27.png 300w, https://osintops.com/wp-content/uploads/2019/02/image001-1-768x70.png 768w, https://osintops.com/wp-content/uploads/2019/02/image001-1.png 1134w" alt="" width="800" height="73" data-is-external-image="true"></figure>
-<p>With the same rules used up to now, we can state that the address 1NZ4MSeYcDKFiPRt8h7VK6XMhShwzhCzCp is the one that receives the bitcoins, while the address 1AK79g9gpvZ8jn2C9MsWQpijMFA5JaTdqP is the one that receives the remainder of the transaction.</p>
-<p>In this case, <a href="https://www.walletexplorer.com/wallet/2cba7ba8b8d067d6?from_address=1NZ4MSeYcDKFiPRt8h7VK6XMhShwzhCzCp" target="_blank" rel="noreferrer noopener">walletexplorer.com</a> does not give us any information on the destination address.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image003-1.png" sizes="(max-width: 803px) 100vw, 803px" srcset="https://osintops.com/wp-content/uploads/2019/02/image003-1.png 803w, https://osintops.com/wp-content/uploads/2019/02/image003-1-300x103.png 300w, https://osintops.com/wp-content/uploads/2019/02/image003-1-768x265.png 768w" alt="" width="800" height="276" loading="lazy" data-is-external-image="true"></figure>
-<p>Now let's look to the change address 1AK79g9gpvZ8jn2C9MsWQpijMFA5JaTdqP with bitcoinwhoswho.com.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image005-1-1024x164.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://osintops.com/wp-content/uploads/2019/02/image005-1-1024x164.png 1024w, https://osintops.com/wp-content/uploads/2019/02/image005-1-300x48.png 300w, https://osintops.com/wp-content/uploads/2019/02/image005-1-768x123.png 768w, https://osintops.com/wp-content/uploads/2019/02/image005-1.png 1144w" alt="" width="800" height="128" loading="lazy" data-is-external-image="true"></figure>
-<p>Also in this case the situation is the same seen in most of the cases of our analysis. By now we shouldn’t have difficulty recognizing that the address 153LqeB1mQa8xDaQDyvhWTCNweVTDeH9BE is the actual destination of the payment while the address 1RBiVomgGeqqRm4NQkJhmffWtAfJDdjFr receives the change. So let’s see what <a href="https://www.walletexplorer.com/wallet/CoinPayments.net?from_address=153LqeB1mQa8xDaQDyvhWTCNweVTDeH9BE" target="_blank" rel="noreferrer noopener">walletexplorer.com</a> can tell us about the payment destination address.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image007-1.png" sizes="(max-width: 722px) 100vw, 722px" srcset="https://osintops.com/wp-content/uploads/2019/02/image007-1.png 722w, https://osintops.com/wp-content/uploads/2019/02/image007-1-300x42.png 300w" alt="" width="700" height="97" loading="lazy" data-is-external-image="true"></figure>
-<p>In this case, the address was traced to CoinPayments.net. Let’s continue with our analysis and see what happens in the subsequent transactions. To do this we need to analyze the transactions made by the address 1RBiVomgGeqqRm4NQkJhmffWtAfJDdjFr.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image009-1-1024x180.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://osintops.com/wp-content/uploads/2019/02/image009-1-1024x180.png 1024w, https://osintops.com/wp-content/uploads/2019/02/image009-1-300x53.png 300w, https://osintops.com/wp-content/uploads/2019/02/image009-1-768x135.png 768w, https://osintops.com/wp-content/uploads/2019/02/image009-1.png 1151w" alt="" width="800" height="141" loading="lazy" data-is-external-image="true"></figure>
-<p>If we search for the destination address with <a href="https://www.walletexplorer.com/wallet/00009799370b78be?from_address=1MM3YT9khXudNqgUxUXSPHhA2RHKoS37iv" target="_blank" rel="noopener noreferrer">walletexplorer.com</a>, we notice that it is not traced back to any known entity, but is still associated with a wallet with great activity, 211.023 transactions! Similar behavior is typical of an exchange or payment intermediary. It is difficult to imagine a person carrying out such several transactions.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image011-1.png" sizes="(max-width: 975px) 100vw, 975px" srcset="https://osintops.com/wp-content/uploads/2019/02/image011-1.png 975w, https://osintops.com/wp-content/uploads/2019/02/image011-1-300x114.png 300w, https://osintops.com/wp-content/uploads/2019/02/image011-1-768x292.png 768w" alt="" width="800" height="304" loading="lazy" data-is-external-image="true"></figure>
-<p>Going forward, observing the transactions carried out from the change address identified from time to time, we will notice the following payment destination addresses:</p>
-<ul>
-<li>1AV6NxfKYTwDSqbcGFn76KtAFHwCDYScHi, not related to any entity, but associated with the same wallet with ID 0000979937 of the previous case;</li>
-<li>1G85zgoQu1VeEaH4gQwyfS9VQqUxBJD6bb, not linked to any entity, but associated with the same wallet with ID 0000979937 of the previous cases;</li>
-<li>1MYQwTsamJ18WnaeggkF4Tboms5ySHp2VA, not linked to any entity, but associated with the same wallet with ID 0000979937 of the previous cases;</li>
-<li>1PQAL7HxjzuoKVAbbTijkZ3mPZWhtgEjYM, not related to any entity, but associated with the same wallet with ID 0000979937 of the previous cases;</li>
-<li>1MRFjrnChHPMP9WH797Tg27eZNzQexQW6S, not attributed to any entity;</li>
-<li>1EMVNB1aGTdL48oi2T6t4wZLUDQ9Kc5ddv, not linked to any entity, but associated with the same wallet with ID 0000979937 of the previous cases.</li>
-</ul>
-<p>Continuing, we arrive at the address 1HvWTwViSsy8j5Z9QWCGKKFiSCgDe1uLAM, which receives the change of the previous transactions. Looking closely at the transaction amounts, it could seem a bit strange.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image013-1024x179.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://osintops.com/wp-content/uploads/2019/02/image013-1024x179.png 1024w, https://osintops.com/wp-content/uploads/2019/02/image013-300x52.png 300w, https://osintops.com/wp-content/uploads/2019/02/image013-768x134.png 768w, https://osintops.com/wp-content/uploads/2019/02/image013.png 1150w" alt="" width="800" height="140" loading="lazy" data-is-external-image="true"></figure>
-<p>Indeed, the address seems to receive 1.37587747 bitcoins, but it spends 2.70223736! It seems absurd. Instead, it is a deceptive display of information provided by bitcoinwhoswho.com. The service only displays information strictly related to the address you searched for. To understand what happened, we must first note the string 23e7879eaa2c2757d049f1a22a176dda4907be407aa70fdcc3ea4a5b57754f52 written above the “anomalous” transaction. This is the transaction identifier, called hash. To be able to understand it we need to query another blockchain explorer, for example, <a href="https://www.blockchain.com/explorer" target="_blank" rel="noopener noreferrer">blockchain.com</a>.<br><br>By doing so, we can see that the address 1HvWTwViSsy8j5Z9QWCGKKFiSCgDe1uLAM is not the only sender of the transaction.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/25/Selection_011-2.png" alt="" width="800" height="120" sizes="100vw" srcset="https://anubitux.org/media/posts/25/responsive/Selection_011-2-xs.png 300w ,https://anubitux.org/media/posts/25/responsive/Selection_011-2-sm.png 480w ,https://anubitux.org/media/posts/25/responsive/Selection_011-2-md.png 768w ,https://anubitux.org/media/posts/25/responsive/Selection_011-2-lg.png 1024w ,https://anubitux.org/media/posts/25/responsive/Selection_011-2-xl.png 1360w ,https://anubitux.org/media/posts/25/responsive/Selection_011-2-2xl.png 1600w"></figure>
-<p>The bitcoins also come from the address 16xyGaTT2dQipfhUz8rNPR4L98xx7zQ9Et. If a transaction comes from two addresses or more addresses, the person who made it must have the private keys of all of them to sign it. In this case, we can therefore say that the user has both addresses, or that both addresses are part of the same wallet.</p>
-<p>Note that the address 16xyGaTT2dQipfhUz8rNPR4L98xx7zQ9Et already had some bitcoins available when we encountered it. So this address will also have its own history and flow of transactions. If we begin to observe the transactions linked to this flow, we notice that the behavior is almost identical to that seen so far.</p>
-<p>Our address receives its bitcoins from the address 17SLcA24f4s3RXupPWWAdJsfJcdhyRivfF.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image017-1024x157.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://osintops.com/wp-content/uploads/2019/02/image017-1024x157.png 1024w, https://osintops.com/wp-content/uploads/2019/02/image017-300x46.png 300w, https://osintops.com/wp-content/uploads/2019/02/image017-768x118.png 768w, https://osintops.com/wp-content/uploads/2019/02/image017.png 1140w" alt="" width="800" height="123" loading="lazy" data-is-external-image="true"></figure>
-<p>This address, continuing backward, receives the bitcoins from the address 17GKzWc4m7kEPxvoHAtPisvtZ7Qnk2sMd and carries out a single outbound transaction, of which the address 1ZeSmMCHFqd6Gg8y3NhrChVTyTPbUkneJ that receives 0.144816 bitcoin is that of the actual destination and the address 16xyGaTT2dQipfhUz8rNPR4L98xx7zQ9Et that receives 1.32640989 bitcoin is the change one.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image019-1024x158.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://osintops.com/wp-content/uploads/2019/02/image019-1024x158.png 1024w, https://osintops.com/wp-content/uploads/2019/02/image019-300x46.png 300w, https://osintops.com/wp-content/uploads/2019/02/image019-768x118.png 768w, https://osintops.com/wp-content/uploads/2019/02/image019.png 1144w" alt="" width="800" height="123" loading="lazy" data-is-external-image="true"></figure>
-<p>By going backward, we can try to get to the point where these bitcoins may have been bought. Using the same techniques we have seen so far we can see that the bitcoins come from the same wallet linked to Cex.io, which we met in the first part, with ID 0001d2e726 on walletexplorer.com.</p>
-<p>Here is an image that can help to understand what is happening. There are two flows of transactions that start from the Cex.io exchange (this suggests us there were two purchases made by our targets from that exchange): one is the one we followed in the first two parts of our analysis and one is the one we have just encountered. The two flows merge when the bitcoins in the availability of the addresses 1ZeSmMCHFqd6Gg8y3NhrChVTyTPbUkneJ and 16xyGaTT2dQipfhUz8rNPR4L98xx7zQ9Et are used to carry out the same transaction.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2020/09/Concept-Diagram_EN_P3-800x336.png" sizes="(max-width: 800px) 100vw, 800px" srcset="https://osintops.com/wp-content/uploads/2020/09/Concept-Diagram_EN_P3-800x336.png 800w, https://osintops.com/wp-content/uploads/2020/09/Concept-Diagram_EN_P3-300x126.png 300w, https://osintops.com/wp-content/uploads/2020/09/Concept-Diagram_EN_P3-768x323.png 768w, https://osintops.com/wp-content/uploads/2020/09/Concept-Diagram_EN_P3.png 862w" alt="" width="800" height="336" loading="lazy" data-is-external-image="true"></figure>
-<p>So far we have only taken care of the senders of the transaction where we noticed the cospending by two addresses. But let's also take a look at the recipients of the transaction.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image023.png" sizes="(max-width: 691px) 100vw, 691px" srcset="https://osintops.com/wp-content/uploads/2019/02/image023.png 691w, https://osintops.com/wp-content/uploads/2019/02/image023-300x41.png 300w" alt="" width="650" height="88" loading="lazy" data-is-external-image="true"></figure>
-<p>We find the address 1DqYiuVPjxrS3tkE8VeSorvx4ZEeR3oGkZ, which receives 0.20223736 bitcoins, and the address 1AgEeJ1cNWpXxABaTysv4CM6MqARSnXFce, which receives exactly 2.5.</p>
-<p>With the criteria adopted so far, we will certainly agree that the address that receives 2.5 bitcoins is the actual destination. We said that a user is unlikely to want to make a transaction by specifying an amount of 8 decimal places, resulting in a change of exactly 2.5 bitcoins.</p>
-<p>In this case, we can strengthen our claim considering that we have seen two sender addresses. If a user wanted to transfer 0.20223736 bitcoins it would not make sense to use both the sender. In fact, at the time of the transaction, observing the history of transactions received by each of the senders, the address 16xyGaTT2dQipfhUz8rNPR4L98xx7zQ9Et had 1,32640989 bitcoins available.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image025-1024x72.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://osintops.com/wp-content/uploads/2019/02/image025-1024x72.png 1024w, https://osintops.com/wp-content/uploads/2019/02/image025-300x21.png 300w, https://osintops.com/wp-content/uploads/2019/02/image025-768x54.png 768w, https://osintops.com/wp-content/uploads/2019/02/image025.png 1142w" alt="" width="800" height="56" loading="lazy" data-is-external-image="true"></figure>
-<p>and the address 1HvWTwViSsy8j5Z9QWCGKKFiSCgDe1uLAM had 1.3758774 bitcoins available.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/02/image027-1024x66.png" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://osintops.com/wp-content/uploads/2019/02/image027-1024x66.png 1024w, https://osintops.com/wp-content/uploads/2019/02/image027-300x19.png 300w, https://osintops.com/wp-content/uploads/2019/02/image027-768x50.png 768w, https://osintops.com/wp-content/uploads/2019/02/image027.png 1141w" alt="" width="800" height="52" loading="lazy" data-is-external-image="true"></figure>
-<p>So we can assume that our target had the intention to transfer 2.5 bitcoins. If the user of the addresses had wanted to transfer only 0.20223736 bitcoins, it would have been enough for him to use only one of the two addresses.</p>
-<p>Since we have found abnormal behavior compared to what we have seen so far, we need to carefully analyze what both destination addresses do: we could find ourselves in front of either a more substantial payment, or a consolidation transaction, that is, a transaction carried out to collect the balances available on multiple addresses in one.</p>
-<p>Continuing to analyze our flow of transactions, from the address 1DqYiuVPjxrS3tkE8VeSorvx4ZEeR3oGkZ we will find a situation similar to what we have seen by now, with transactions that have two destinations addresses, a recipient and a change.</p>
-<p>In the picture, we can see a reconstruction of what's happening.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2020/09/Concept-Diagram_EN_P4-800x455.png" sizes="(max-width: 800px) 100vw, 800px" srcset="https://osintops.com/wp-content/uploads/2020/09/Concept-Diagram_EN_P4-800x455.png 800w, https://osintops.com/wp-content/uploads/2020/09/Concept-Diagram_EN_P4-300x171.png 300w, https://osintops.com/wp-content/uploads/2020/09/Concept-Diagram_EN_P4-768x437.png 768w, https://osintops.com/wp-content/uploads/2020/09/Concept-Diagram_EN_P4.png 972w" alt="" width="800" height="455" loading="lazy" data-is-external-image="true"></figure>
-<p>Continuing to follow the peel chain as we did so far, we will find the address 155HWPsNcBGxMuMgiQjhAUD2ggCMGLVm9X.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2020/09/immagine-1.png" sizes="(max-width: 721px) 100vw, 721px" srcset="https://osintops.com/wp-content/uploads/2020/09/immagine-1.png 721w, https://osintops.com/wp-content/uploads/2020/09/immagine-1-300x213.png 300w" alt="" width="700" height="497" loading="lazy" data-is-external-image="true"></figure>
-<p>The address was only involved in an incoming transaction. The actual amount, 0.00003139 is so small that the user has probably decided to don’t use it anymore.</p>
-<p>At this point, we can say that we have followed a flow of bitcoins in which multiple transactions were made to different payment processors, gradually reducing the amount that was carried forward as change, up to an amount of practically zero and above all point where the flow of transactions stops.</p>
-<h4>The 2.5 bitcoins transactions</h4>
-<p>We do not have to forget that we have yet to observe where the 2.5 bitcoin transaction mentioned above went.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/25/Selection_012.png" alt="" width="800" height="118" sizes="100vw" srcset="https://anubitux.org/media/posts/25/responsive/Selection_012-xs.png 300w ,https://anubitux.org/media/posts/25/responsive/Selection_012-sm.png 480w ,https://anubitux.org/media/posts/25/responsive/Selection_012-md.png 768w ,https://anubitux.org/media/posts/25/responsive/Selection_012-lg.png 1024w ,https://anubitux.org/media/posts/25/responsive/Selection_012-xl.png 1360w ,https://anubitux.org/media/posts/25/responsive/Selection_012-2xl.png 1600w"></figure>
-<p>In this part of our analysis, let’s see what happens to the 2.5 bitcoins transferred. Such a precise amount was certainly intentionally transferred, it is not a random change. However, in most of the transactions examined so far, we have seen much smaller amounts sent to the actual recipients. Therefore, it is good practice in an analysis of any kind, to pay more attention to all those behaviors that “break” the regularity, trying to identify the reasons that could have given rise to the anomaly.</p>
-<p>Let’s immediately start looking at what has been done with the address we are examining.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/03/image003-800x97.png" sizes="(max-width: 800px) 100vw, 800px" srcset="https://osintops.com/wp-content/uploads/2019/03/image003-800x97.png 800w, https://osintops.com/wp-content/uploads/2019/03/image003-300x36.png 300w, https://osintops.com/wp-content/uploads/2019/03/image003-768x93.png 768w, https://osintops.com/wp-content/uploads/2019/03/image003.png 1159w" alt="" width="800" height="97" loading="lazy" data-is-external-image="true"></figure>
-<p>The address was involved in a single outgoing transaction, in favor of two addresses: 1J8kvixEnAnGDEDwkfqJS246sXdW1mhkvB, which receives 0.99805659 bitcoins, and 1NPgLU4sVj5ww2UZ8DktDSYm7kLJN6sYq1, which receives 1.501685 bitcoins. In this case, it is not at all easy to understand which of the two is the actual destination address and which is the change address. A single sender address is involved, which spends all the available balance, and both destination addresses receive an amount with 8 decimal digits.</p>
-<p>So, to avoid that we can miss something, we must carefully examine both addresses, looking for behaviors similar to those already seen so far or for interactions with known entities.</p>
-<h5>First recipient address</h5>
-<p>Let’s start by observing the behavior of the address 1J8kvixEnAnGDEDwkfqJS246sXdW1mhkvB, which received 0.99805659 bitcoins.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2020/09/immagine-10-800x352.png" sizes="(max-width: 800px) 100vw, 800px" srcset="https://osintops.com/wp-content/uploads/2020/09/immagine-10-800x352.png 800w, https://osintops.com/wp-content/uploads/2020/09/immagine-10-300x132.png 300w, https://osintops.com/wp-content/uploads/2020/09/immagine-10-768x338.png 768w, https://osintops.com/wp-content/uploads/2020/09/immagine-10.png 843w" alt="" width="800" height="352" loading="lazy" data-is-external-image="true"></figure>
-<p>Unlike what we have seen so far, this address received an amount of almost one bitcoin but did not spend it. In these cases, checking the address with <a href="https://www.walletexplorer.com/wallet/89f0e040d9c409ad?from_address=1J8kvixEnAnGDEDwkfqJS246sXdW1mhkvB" target="_blank" rel="noreferrer noopener">walletexplorer.com</a> will not give great results. The data shown by this service are based on the activity that was done with the addresses. In this case, since there has been practically no activity, it will not be possible to group this address with others or to trace it back to known entities.</p>
-<p>This is a new situation, we have an address that has a substantial amount of bitcoins and has not yet spent them. This does not mean that the user, from one day to the next, cannot decide to use this address to carry out a new transaction and provide us with new information.</p>
-<p>However, even if in this case we have only one address to observe, as it could carry out transactions, it is not at all practical to think of checking every day if the balance has changed.</p>
-<p>In such cases, we can take advantage of a service that is right for us, offered by the <a href="https://www.blockonomics.co/blockonomics" target="_blank" rel="noreferrer noopener">Blockonomics</a> site. Once we have created a free account, we have a service called “Wallet Watcher”, which allows us to keep an eye on multiple addresses simultaneously.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/03/image009-800x158.png" sizes="(max-width: 800px) 100vw, 800px" srcset="https://osintops.com/wp-content/uploads/2019/03/image009.png 800w, https://osintops.com/wp-content/uploads/2019/03/image009-300x59.png 300w, https://osintops.com/wp-content/uploads/2019/03/image009-768x152.png 768w" alt="" width="800" height="158" loading="lazy" data-is-external-image="true"></figure>
-<p>We can add multiple addresses and label them for easy recognition. From the settings tab, ticking the appropriate box we will receive an e-mail alert whenever one of the observed addresses is involved in any activity.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/03/image011.png" sizes="(max-width: 632px) 100vw, 632px" srcset="https://osintops.com/wp-content/uploads/2019/03/image011.png 632w, https://osintops.com/wp-content/uploads/2019/03/image011-300x168.png 300w" alt="" width="600" height="336" loading="lazy" data-is-external-image="true"></figure>
-<h5>Second recipient address</h5>
-<p>Continuing our analysis, let’s now look at the address 1NPgLU4sVj5ww2UZ8DktDSYm7kLJN6sYq1 which received 1.50168541 bitcoin, in the transaction reported at the beginning of this part of our analysis.</p>
-<p>In this case, the bitcoins were all spent, in a single transaction.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/25/Selection_013.png" alt="" width="800" height="406" sizes="100vw" srcset="https://anubitux.org/media/posts/25/responsive/Selection_013-xs.png 300w ,https://anubitux.org/media/posts/25/responsive/Selection_013-sm.png 480w ,https://anubitux.org/media/posts/25/responsive/Selection_013-md.png 768w ,https://anubitux.org/media/posts/25/responsive/Selection_013-lg.png 1024w ,https://anubitux.org/media/posts/25/responsive/Selection_013-xl.png 1360w ,https://anubitux.org/media/posts/25/responsive/Selection_013-2xl.png 1600w"></figure>This is a single transaction that sees 11 other addresses among the senders and was carried out in favor of 6 other addresses. In our analysis, we have never encountered a transaction involving so many addresses. Instead of starting immediately to examine all the addresses, grouping them in a single wallet and observing each of them where it got its bitcoins, let’s try to understand who we are in front of. Let’s search our address with <a href="https://www.walletexplorer.com/wallet/0001c7f9dcc8ba8f?from_address=1NPgLU4sVj5ww2UZ8DktDSYm7kLJN6sYq1" target="_blank" rel="noreferrer noopener">walletexplorer.com</a>.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/03/image014-800x521.png" sizes="(max-width: 800px) 100vw, 800px" srcset="https://osintops.com/wp-content/uploads/2019/03/image014-800x521.png 800w, https://osintops.com/wp-content/uploads/2019/03/image014-300x196.png 300w, https://osintops.com/wp-content/uploads/2019/03/image014-768x501.png 768w, https://osintops.com/wp-content/uploads/2019/03/image014.png 827w" alt="" width="800" height="521" loading="lazy" data-is-external-image="true"></figure>
-<p>As we can see, walletexplorer.com has grouped the address in a wallet that has carried out 232.621 transactions! It is a wallet that, based on the reconstructions carried out by the algorithms of walletexplorer.com, contains 37.632 addresses, too many for a single person.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/03/image016.png" sizes="(max-width: 766px) 100vw, 766px" srcset="https://osintops.com/wp-content/uploads/2019/03/image016.png 766w, https://osintops.com/wp-content/uploads/2019/03/image016-300x163.png 300w" alt="" width="750" height="408" loading="lazy" data-is-external-image="true"></figure>
-<p>Let’s go back for a moment to the previous image, which shows the activity carried out with the wallet which includes the address we are examining. As we can see, outgoing transactions are directed to <a href="https://spectrocoin.com/" target="_blank" rel="noreferrer noopener">spectrocoin.com</a>.</p>
-<p>What could have happened?</p>
-<p>Let’s start by understanding what spectrocoin.com is. It is an online service that allows you to exchange different types of virtual currencies with each other or to buy and sell them using FIAT currencies.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/25/Selection_014.png" alt="" width="700" height="872" sizes="100vw" srcset="https://anubitux.org/media/posts/25/responsive/Selection_014-xs.png 300w ,https://anubitux.org/media/posts/25/responsive/Selection_014-sm.png 480w ,https://anubitux.org/media/posts/25/responsive/Selection_014-md.png 768w ,https://anubitux.org/media/posts/25/responsive/Selection_014-lg.png 1024w ,https://anubitux.org/media/posts/25/responsive/Selection_014-xl.png 1360w ,https://anubitux.org/media/posts/25/responsive/Selection_014-2xl.png 1600w"></figure>However, the currencies displayed at the time of the analysis may be different from those accepted at the time of the transaction. Let’s try to understand what the situation was at the time of the transaction, therefore, approximately, in  April 2016. To do this we can use a service called <a href="https://web.archive.org/" target="_blank" rel="noreferrer noopener">WayBack Machine</a>. Let’s search the spectrocoin.com page and view the available data.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/03/image020-800x410.png" sizes="(max-width: 800px) 100vw, 800px" srcset="https://osintops.com/wp-content/uploads/2019/03/image020-800x410.png 800w, https://osintops.com/wp-content/uploads/2019/03/image020-300x154.png 300w, https://osintops.com/wp-content/uploads/2019/03/image020-768x394.png 768w, https://osintops.com/wp-content/uploads/2019/03/image020.png 1133w" alt="" width="800" height="410" loading="lazy" data-is-external-image="true"></figure>
-<p>There are various data relating to 2016. In particular, there is a capture of the site that dates back to April 8, coincidentally the day on which the transaction we are studying was carried out.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/03/image022-800x264.png" sizes="(max-width: 800px) 100vw, 800px" srcset="https://osintops.com/wp-content/uploads/2019/03/image022.png 800w, https://osintops.com/wp-content/uploads/2019/03/image022-300x99.png 300w, https://osintops.com/wp-content/uploads/2019/03/image022-768x253.png 768w" alt="" width="800" height="264" loading="lazy" data-is-external-image="true"></figure>
-<p>As we can <a href="https://web.archive.org/web/20160325153601/https:/spectrocoin.com/" target="_blank" rel="noreferrer noopener">see</a>, at the time of the transaction, the site only supported Bitcoin and no other virtual currency. In particular, the site could be only used to buy and sell bitcoins.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://osintops.com/wp-content/uploads/2019/03/image024-800x356.png" sizes="(max-width: 800px) 100vw, 800px" srcset="https://osintops.com/wp-content/uploads/2019/03/image024-800x356.png 800w, https://osintops.com/wp-content/uploads/2019/03/image024-300x133.png 300w, https://osintops.com/wp-content/uploads/2019/03/image024-768x342.png 768w, https://osintops.com/wp-content/uploads/2019/03/image024.png 881w" alt="" width="800" height="356" loading="lazy" data-is-external-image="true"></figure>
-<p>At this point, we can assume that the 1.50168541 bitcoins transaction, carried out to the address 1NPgLU4sVj5ww2UZ8DktDSYm7kLJN6sYq1, was aimed at exchanging bitcoins into FIAT currency or making a payment through the SpectroCoin virtual card. Unfortunately, at this point, the information is no longer present in the blockchain but is in the exclusive availability of those who manage spectrocoin.com.</p>
-<h3>Summary</h3>
-<p>Starting with a single bitcoin transaction, we were able to:</p>
-<ul>
-<li>identify other related transaction flows;</li>
-<li>understand that the bitcoins were probably purchased from the Cex.io exchange;</li>
-<li>reconstruct the scheme by which bitcoins were regularly used to send payments through BitPay.com and CoinPayments.com, following the rest of the transactions;</li>
-<li>follow a flow of transactions until its exhaustion;</li>
-<li>identify when bitcoins have likely been converted back into FIAT currency via SpectroCoin.com.</li>
-</ul>
-<p>The analysis we conducted started with a casual transaction. The scenario in front of us is always unpredictable. The more tools we master, the greater chances we will have of being able to productively analyze any scenario we will encounter.</p>
-<p>Unfortunately, once we arrive at an exchange, it would unlikely share information about its customers with us, unless we can use the powers of the law Enforcement Agencies or of the Judiciary.</p>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Anu₿itux and Python virtual environments</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/anubitux-and-python-virtual-environments/"/>
-        <id>https://anubitux.org/anubitux-and-python-virtual-environments/</id>
-        <media:content url="https://anubitux.org/media/posts/19/python-gbd1e5efef_1920.jpg" medium="image" />
-            <category term="virtual environment"/>
-            <category term="ubuntu"/>
-            <category term="tools"/>
-            <category term="tool"/>
-            <category term="script"/>
-            <category term="python"/>
-            <category term="project"/>
-            <category term="opsec"/>
-            <category term="linux for xmr"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="linux"/>
-            <category term="kubuntu"/>
-            <category term="anubitux"/>
-
-        <updated>2022-10-27T00:12:21+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/19/python-gbd1e5efef_1920.jpg" alt="" />
-                    When coding with Python, one of the bigger matters we have to deal with its dependencies. With a community as big as Python's one, this problem couldn't remain unsolved! In fact, we can use virtual environments, a solution that allows us to execute every Python&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/19/python-gbd1e5efef_1920.jpg" class="type:primaryImage" alt="" /></p>
-                <p>When coding with Python, one of the bigger matters we have to deal with its dependencies. With a community as big as Python's one, this problem couldn't remain unsolved! In fact, we can use <a href="https://docs.python.org/3/library/venv.html" target="_blank" rel="noopener noreferrer">virtual environments</a>, a solution that allows us to execute every Python script with its own version of the libraries it uses. This helps us to avoid conflicts between scripts needing different versions of the same library or between incompatible libraries.</p>
-<h3>How virtual environments work </h3>
-<p>First of all, we need to install Python virtual environments to be able to use them. To do that we can simply run:</p>
-<p><code>pip3 install venv</code></p>
-<p>Now, when we write a Python script or download some from <a href="https://github.com/search?l=Python&amp;q=python&amp;type=Repositories" target="_blank" rel="noopener noreferrer">GitHub</a>, like one of <a href="https://github.com/ASeriousMister" target="_blank" rel="noopener noreferrer">ours</a>, we can open our Terminal and change the working directory with the path of the tool:</p>
-<p><code>cd /home/anubitux/Tools/python_tool</code></p>
-<p>Now, let's create our virtual environment:</p>
-<p><code>virtualenv demo</code></p>
-<p>This is going to create a python virtual environment named "demo", that will be placed in a newly created folder in the tool's directory.</p>
-<p>At this point, we need to activate it, and all the libraries we are going to install will only be used within our virtual environment:</p>
-<p><code>source demo/bin/activate</code></p>
-<p>Now, to be sure our virtual environment is active, we can see its name in brackets on the left of our username in our terminal.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/19/Selection_055.png" alt="venv1" width="900" height="143" sizes="100vw" srcset="https://anubitux.org/media/posts/19/responsive/Selection_055-xs.png 300w ,https://anubitux.org/media/posts/19/responsive/Selection_055-sm.png 480w ,https://anubitux.org/media/posts/19/responsive/Selection_055-md.png 768w ,https://anubitux.org/media/posts/19/responsive/Selection_055-lg.png 1024w ,https://anubitux.org/media/posts/19/responsive/Selection_055-xl.png 1360w ,https://anubitux.org/media/posts/19/responsive/Selection_055-2xl.png 1600w"></figure>
-<p>Now we can install our libraries, running</p>
-<p><code>pip3 -r install requirements.txt</code></p>
-<p>if the tool we are going to use has a list of dependencies placed in the conventional <em>requirements.txt</em> file, or simply running</p>
-<p><code>pip3 install python_library_name</code></p>
-<p>When our environment is ready, we can run our tool:</p>
-<p><code>python3 demo_tool.py</code></p>
-<p>If we are done, we can stop our virtual environment running:</p>
-<p><code>deactivate</code></p>
-<p>So the virtual environment's name in brackets will disappear.</p>
-<h3>How Anu₿itux uses virtual environments</h3>
-<p>Anu₿itux uses many different <a href="https://anubitux.org/what-is-anubitux/" target="_blank" rel="noopener noreferrer">Python tools</a>, some of them developed by our <a href="https://anubitux.org/meet-the-anubitux-project/" target="_blank" rel="noopener noreferrer">team</a>, some of them developed by other trusted developers. Of course, our users wouldn't feel comfortable activating a different virtual environment every time they need to run a Python tool. So we adopted a solution suggested by our friends from the <a href="https://tsurugi-linux.org/" target="_blank" rel="noopener noreferrer">Tsurugi Linux</a> team.</p>
-<p>First of all, we created an environment for every single tool, with the procedure shown above. Then, to make sure that our tool is going to use it without the need to activate it, we placed its directory in the first commented line of every tool. This is the way to specify for every tool where it has to take the libraries it is going to use.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/19/Selection_056.png" alt="comment" width="500" height="109" sizes="100vw" srcset="https://anubitux.org/media/posts/19/responsive/Selection_056-xs.png 300w ,https://anubitux.org/media/posts/19/responsive/Selection_056-sm.png 480w ,https://anubitux.org/media/posts/19/responsive/Selection_056-md.png 768w ,https://anubitux.org/media/posts/19/responsive/Selection_056-lg.png 1024w ,https://anubitux.org/media/posts/19/responsive/Selection_056-xl.png 1360w ,https://anubitux.org/media/posts/19/responsive/Selection_056-2xl.png 1600w"></figure>
-<p>in the example, <em>ssve</em> is the name we gave to the virtual environment.</p>
-<p>It is important to indicate <em>python3</em> at the end of the line. This way we will be able to launch the tool without the need to specify it in the Terminal.</p>
-<p class="msg msg--info">Doing that, it could happen that a python3 file is not available in the virtual environment folder. If so, we can place a <a href="https://linuxhint.com/create_symbolic_link_ubuntu/" target="_blank" rel="noopener noreferrer">symbolic link</a> into it pointing to <em>/usr/bin/python3</em>.</p>
-<p>Now, to be able to run the tool without the need to go to its directory, using root privileges we'll add a symbolic link to it in a directory that is included in the $PATH system variable, like <em>/usr/bin</em>. The $PATH system variable controls where our system is going to look for the commands we enter in our Terminal.</p>
-<p><code>sudo ln -s demo_tool.py /usr/bin/</code></p>
-<p>Finally we need to add the execution rights to the symbolic link:</p>
-<p><code>sudo chmod +x /usr/bin/demo_tool.py</code></p>
-<p>Now, after restarting our Terminal, we will be able to run our tools as all the other commands we are used to!</p>
-<h3>Something to pay attention to</h3>
-<p>A lot of python tools do not use only libraries, but also some files placed in their folder. When launching them from our Terminal in any working directory, they won't be able to find those files. To solve this, we need to add a line to our python tool that makes its process run in the correct directory:</p>
-<p><code>os.chdir('/path/of/the/tool')</code></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/19/Selection_057.png" alt="oschdir" width="450" height="61" sizes="100vw" srcset="https://anubitux.org/media/posts/19/responsive/Selection_057-xs.png 300w ,https://anubitux.org/media/posts/19/responsive/Selection_057-sm.png 480w ,https://anubitux.org/media/posts/19/responsive/Selection_057-md.png 768w ,https://anubitux.org/media/posts/19/responsive/Selection_057-lg.png 1024w ,https://anubitux.org/media/posts/19/responsive/Selection_057-xl.png 1360w ,https://anubitux.org/media/posts/19/responsive/Selection_057-2xl.png 1600w"></figure>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to generate a mnemonic seed with Anu₿itux and a dice</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/how-to-generate-a-mnemonic-seed-with-anubitux-and-a-dice/"/>
-        <id>https://anubitux.org/how-to-generate-a-mnemonic-seed-with-anubitux-and-a-dice/</id>
-        <media:content url="https://anubitux.org/media/posts/38/dice-g609db9c73_1920.jpg" medium="image" />
-            <category term="wallet"/>
-            <category term="tutorial"/>
-            <category term="tools"/>
-            <category term="tool"/>
-            <category term="python"/>
-            <category term="private key"/>
-            <category term="paper wallet"/>
-            <category term="opsec"/>
-            <category term="offline"/>
-            <category term="live"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="howto"/>
-            <category term="ethereum"/>
-            <category term="cryptocurrency"/>
-            <category term="crypto"/>
-            <category term="bitcoin"/>
-            <category term="bip39"/>
-            <category term="anubitux"/>
-            <category term="USB"/>
-
-        <updated>2022-10-22T18:48:49+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/38/dice-g609db9c73_1920.jpg" alt="" />
-                    In a previous post, we have seen how to obtain a paper wallet by rolling a dice 256 times and tracking results with dicetracker.py, a tool developed by the Anu₿itux team. This tool supports the creation of paper wallets for many different currencies but not&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/38/dice-g609db9c73_1920.jpg" class="type:primaryImage" alt="" /></p>
-                <p>In a <a href="https://anubitux.org/how-to-generate-random-paper-wallets-with-anubitux/" target="_blank" rel="noopener noreferrer">previous post</a>, we have seen how to obtain a paper wallet by rolling a dice 256 times and tracking results with <a href="https://github.com/ASeriousMister/DiceTracker.py" target="_blank" rel="noopener noreferrer">dicetracker.py</a>, a tool developed by the Anu₿itux team. This tool supports the creation of paper wallets for many different currencies but not for all. Let's now see how to obtain a <a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki" target="_blank" rel="noopener noreferrer">BIP39</a> valid mnemonic seed starting from the entropy obtained by rolling a dice many times. This way, we can use this mnemonic seed to <a href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki" target="_blank" rel="noopener noreferrer">derive</a> private keys and addresses for many different kinds of coins. This is how this tool works!</p>
-<h3>OpSec first!</h3>
-<p>When generating a new mnemonic seed, it is very important to pay a lot of attention to the procedure we are using. If something goes wrong or if we leak some information, we could lose our coins. For this purpose, if we use it properly, Anu₿itux could give us great help.</p>
-<p>Let's begin starting <a href="https://anubitux.org/how-to-use-anubitux/" target="_blank" rel="noopener noreferrer">Anu₿itux live</a> from our USB stick! Working in a live environment will leave no traces of what we are doing on the internal drives of our devices. Then, to be sure no information is leaving our devices, let's use the 'Offline' script placed on the upper left corner of our home screen.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/38/Selection_045.png" alt="offline" width="350" height="355" sizes="100vw" srcset="https://anubitux.org/media/posts/38/responsive/Selection_045-xs.png 300w ,https://anubitux.org/media/posts/38/responsive/Selection_045-sm.png 480w ,https://anubitux.org/media/posts/38/responsive/Selection_045-md.png 768w ,https://anubitux.org/media/posts/38/responsive/Selection_045-lg.png 1024w ,https://anubitux.org/media/posts/38/responsive/Selection_045-xl.png 1360w ,https://anubitux.org/media/posts/38/responsive/Selection_045-2xl.png 1600w"></figure>
-<p>Now, if we are in a safe place, without any recording device or indiscreet eyes around us, we can start generating our new mnemonic seed.</p>
-<h3>Generating entropy</h3>
-<p>First of all, let's start the tool <a href="https://github.com/ASeriousMister/Dice2Seed" target="_blank" rel="noopener noreferrer">Dice2Seed.py</a>, by simply typing its name in our terminal window.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/38/Selection_047.png" alt="dice2seed1" width="900" height="179" sizes="100vw" srcset="https://anubitux.org/media/posts/38/responsive/Selection_047-xs.png 300w ,https://anubitux.org/media/posts/38/responsive/Selection_047-sm.png 480w ,https://anubitux.org/media/posts/38/responsive/Selection_047-md.png 768w ,https://anubitux.org/media/posts/38/responsive/Selection_047-lg.png 1024w ,https://anubitux.org/media/posts/38/responsive/Selection_047-xl.png 1360w ,https://anubitux.org/media/posts/38/responsive/Selection_047-2xl.png 1600w"></figure>
-<p>The tool first of all asks us how many bits of entropy we want to obtain to generate our seed. This will affect the length of our <a href="https://learnmeabitcoin.com/technical/mnemonic" target="_blank" rel="noopener noreferrer">mnemonic seed</a>, according to the following scheme.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/38/Selection_048.png" alt="scheme" width="250" height="209" sizes="100vw" srcset="https://anubitux.org/media/posts/38/responsive/Selection_048-xs.png 300w ,https://anubitux.org/media/posts/38/responsive/Selection_048-sm.png 480w ,https://anubitux.org/media/posts/38/responsive/Selection_048-md.png 768w ,https://anubitux.org/media/posts/38/responsive/Selection_048-lg.png 1024w ,https://anubitux.org/media/posts/38/responsive/Selection_048-xl.png 1360w ,https://anubitux.org/media/posts/38/responsive/Selection_048-2xl.png 1600w"></figure>
-<p>In the first column, we have the bits of entropy, in the second the bits of the checksum (obtained from <em>bits of entropy / 32</em>), in the third the length in bits of our seed and in the fourth the number of words of our mnemonic seed. This depends on how seeds are generated from entropy:</p>
-<ul>
-<li>sha256 hash is calculated on our entropy;</li>
-<li>a checksum is obtained with a bit of the sha256 result for every 32 bits of entropy;</li>
-<li>checksum is appended to entropy, giving us the seed;</li>
-<li>seed is divided into groups of 11 bits (adding a bit every 32 bits of entropy, our seed's length will always a multiple of 33, that is itself a multiple of 11);</li>
-<li>every 11 bits group is converted to decimals and gives us the index of the word in the <a href="https://github.com/bitcoin/bips/tree/master/bip-0039" target="_blank" rel="noopener noreferrer">bip39 wordlists</a>, since a number of 11 can give a decimal between 0 and 2047. For this reason, we have 2048 words in the bip39 wordlists.</li>
-</ul>
-<p>In our case, let's hypothesize we want to obtain a mnemonic seed starting from 128 bits of entropy.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/38/Selection_049.png" alt="dice2seed2" width="900" height="227" sizes="100vw" srcset="https://anubitux.org/media/posts/38/responsive/Selection_049-xs.png 300w ,https://anubitux.org/media/posts/38/responsive/Selection_049-sm.png 480w ,https://anubitux.org/media/posts/38/responsive/Selection_049-md.png 768w ,https://anubitux.org/media/posts/38/responsive/Selection_049-lg.png 1024w ,https://anubitux.org/media/posts/38/responsive/Selection_049-xl.png 1360w ,https://anubitux.org/media/posts/38/responsive/Selection_049-2xl.png 1600w"></figure>
-<p>Now we will be prompted to paste the result of 128 previously made dice rolls or we can use the tool to track the rolls we are making while running it.</p>
-<p>In this case, we will paste a 128 digits string, but we could also paste an entropy string made by 0s and 1s or use the tool to help us to track dice rolls.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/38/Selection_050.png" alt="dice2seed3" width="900" height="287" sizes="100vw" srcset="https://anubitux.org/media/posts/38/responsive/Selection_050-xs.png 300w ,https://anubitux.org/media/posts/38/responsive/Selection_050-sm.png 480w ,https://anubitux.org/media/posts/38/responsive/Selection_050-md.png 768w ,https://anubitux.org/media/posts/38/responsive/Selection_050-lg.png 1024w ,https://anubitux.org/media/posts/38/responsive/Selection_050-xl.png 1360w ,https://anubitux.org/media/posts/38/responsive/Selection_050-2xl.png 1600w"></figure>
-<h3>Obtaining the mnemonic seed</h3>
-<p>Now we only have to choose the language we prefer for our mnemonic seed, indicating the corresponding number, and mission complete! We obtained our mnemonic seed!</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/38/Selection_051.png" alt="dice2seed4" width="900" height="486" sizes="100vw" srcset="https://anubitux.org/media/posts/38/responsive/Selection_051-xs.png 300w ,https://anubitux.org/media/posts/38/responsive/Selection_051-sm.png 480w ,https://anubitux.org/media/posts/38/responsive/Selection_051-md.png 768w ,https://anubitux.org/media/posts/38/responsive/Selection_051-lg.png 1024w ,https://anubitux.org/media/posts/38/responsive/Selection_051-xl.png 1360w ,https://anubitux.org/media/posts/38/responsive/Selection_051-2xl.png 1600w"></figure>
-<h3>How to use our seed</h3>
-<p>Now we can use our seed accordingly to our needs:</p>
-<ul>
-<li>we could paste it in our BIP39 compatible wallet and start receiving and disposing transactions;</li>
-<li>we can use it with our hardware wallet;</li>
-<li>we can derive private keys and addresses with the <a href="https://github.com/iancoleman/bip39" target="_blank" rel="noopener noreferrer">Ian Coleman's BIP39 tool</a>, that is already available in Anu₿itux without the need to connect to the Internet.</li>
-</ul>
-<p>The last solution could be a good one if we are using this procedure to arrange a safe cold storage for our coins. To do it, we can start the Ian Coleman's tool from the WalletTools menu in Anu₿itux, and paste our mnemonic seed in the corresponding box.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/38/Selection_052.png" alt="iancoleman1" width="1000" height="369" sizes="100vw" srcset="https://anubitux.org/media/posts/38/responsive/Selection_052-xs.png 300w ,https://anubitux.org/media/posts/38/responsive/Selection_052-sm.png 480w ,https://anubitux.org/media/posts/38/responsive/Selection_052-md.png 768w ,https://anubitux.org/media/posts/38/responsive/Selection_052-lg.png 1024w ,https://anubitux.org/media/posts/38/responsive/Selection_052-xl.png 1360w ,https://anubitux.org/media/posts/38/responsive/Selection_052-2xl.png 1600w"></figure>
-<p>Then we only have to choose the coin of which we want to have private keys and addresses and, scrolling down the page, we will find all that we need to prepare our cold storage.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/38/Selection_053.png" alt="iancoleman2" width="1000" height="288" sizes="100vw" srcset="https://anubitux.org/media/posts/38/responsive/Selection_053-xs.png 300w ,https://anubitux.org/media/posts/38/responsive/Selection_053-sm.png 480w ,https://anubitux.org/media/posts/38/responsive/Selection_053-md.png 768w ,https://anubitux.org/media/posts/38/responsive/Selection_053-lg.png 1024w ,https://anubitux.org/media/posts/38/responsive/Selection_053-xl.png 1360w ,https://anubitux.org/media/posts/38/responsive/Selection_053-2xl.png 1600w"></figure>
-<p>Now we can choose one or more addresses, with the related private key, and prepare a paper wallet to store in a safe place. If we also want to generate QR codes for our paper wallet, we can use the <a href="https://github.com/fukuchi/libqrencode/" target="_blank" rel="noopener noreferrer">qrencode</a> tool:</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/38/Selection_054.png" alt="qrencode" width="800" height="302" sizes="100vw" srcset="https://anubitux.org/media/posts/38/responsive/Selection_054-xs.png 300w ,https://anubitux.org/media/posts/38/responsive/Selection_054-sm.png 480w ,https://anubitux.org/media/posts/38/responsive/Selection_054-md.png 768w ,https://anubitux.org/media/posts/38/responsive/Selection_054-lg.png 1024w ,https://anubitux.org/media/posts/38/responsive/Selection_054-xl.png 1360w ,https://anubitux.org/media/posts/38/responsive/Selection_054-2xl.png 1600w"></figure>
-<p>Of course, if we are intended to use the generated addresses only to receive coins and store them in a safe place, it might be enough to take note only of the public addresses. If in the future we will need to spend our coins, we could do that in a BIP39 compatible wallet.</p>
-<p>We could also use the Ian Coleman's tool to obtain addresses of many different coins from the same mnemonic seed.</p>
-<p>We should also be able to print our paper wallets without the need to connect to the Internet, exposing our working environment, since Anu₿itux has a lot of printer drivers already installed.</p>
-<h3>Final thoughts</h3>
-<p>When generating a mnemonic seed or a paper wallet, no care is enough! These are very sensible operations and doing some mistakes or operating with carelessness could compromise our funds. Cryptocurrencies are great because they let us be our bank, but this also implies that we are responsible for our funds.</p>
-<p>We should also pay attention to the tools we use during our process. We should prefer simple and open-source tools, that we could easily inspect to be sure about how they handle our precious information. </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Fix your mnemonic seed with Anu₿itux</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/fix-your-mnemonic-seed-with-anubitux/"/>
-        <id>https://anubitux.org/fix-your-mnemonic-seed-with-anubitux/</id>
-        <media:content url="https://anubitux.org/media/posts/10/game-g07f257a77_1920.jpg" medium="image" />
-            <category term="wallet"/>
-            <category term="tutorial"/>
-            <category term="tools"/>
-            <category term="tool"/>
-            <category term="recovery"/>
-            <category term="python"/>
-            <category term="linux for xmr"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="howto"/>
-            <category term="cryptocurrency"/>
-            <category term="crypto"/>
-            <category term="brute force"/>
-            <category term="bitcoin"/>
-            <category term="bip39"/>
-            <category term="anubitux"/>
-
-        <updated>2022-10-11T19:27:42+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/10/game-g07f257a77_1920.jpg" alt="" />
-                    For many reasons, it could happen that we do not have access to our complete mnemonic seed. For instance, we could have written it by hand too quickly and now we are not able to read it anymore, or we could have hidden it in&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/10/game-g07f257a77_1920.jpg" class="type:primaryImage" alt="" /></p>
-                <p>For many reasons, it could happen that we do not have access to our complete mnemonic seed. For instance, we could have written it by hand too quickly and now we are not able to read it anymore, or we could have hidden it in many places and we are not able to find part of it, or we have written it on paper and it is not completely readable anymore, etc.</p>
-<p>With Anu₿itux we can try to solve this issue with <a href="https://github.com/gurnec/btcrecover/blob/master/docs/Seedrecover_Quick_Start_Guide.md" target="_blank" rel="noopener noreferrer">seedrecover.py</a>, a tool that comes with <a href="https://btcrecover.readthedocs.io/en/stable/" target="_blank" rel="noopener noreferrer">btcrecover.py</a>. To start it we only need to type seedrecover.py in our Terminal. It has a very simple to use graphical user interface and we only need to answer the prompted question and skip the unavailable information.</p>
-<p>Let's check out how it works in a couple of use cases. For the examples we are going to use the following seed, obtained with the <a href="https://iancoleman.io/bip39/" target="_blank" rel="noopener noreferrer">Ian Coleman's BIP39 tool</a>.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/10/AnuBiBlog_1_6-VMware-Workstation_007.png" alt="seed" width="800" height="499" sizes="100vw" srcset="https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_007-xs.png 300w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_007-sm.png 480w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_007-md.png 768w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_007-lg.png 1024w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_007-xl.png 1360w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_007-2xl.png 1600w"></figure>
-<h3>Case 1: missing words</h3>
-<p>Let's hypothesize that we have only the first ten words of our seed:</p>
-<p><code>rigid cool hire tiny kingdom inner evidence brown fee airport</code></p>
-<p>First of all let's start our tool.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/10/AnuBiBlog_1_6-VMware-Workstation_008.png" alt="" width="700" height="688" sizes="100vw" srcset="https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_008-xs.png 300w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_008-sm.png 480w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_008-md.png 768w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_008-lg.png 1024w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_008-xl.png 1360w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_008-2xl.png 1600w"></figure>
-<p>The tool asks us if we have a wallet file related to our mnemonic seed, but this is not our case so let's skip this question by clicking on the "Cancel" button.</p>
-<p>Now we need to choose the kind of wallet we are going to recover, in our case a Bitcoin wallet with BIP39-based words.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/10/AnuBiBlog_1_6-VMware-Workstation_009.png" alt="" width="700" height="721" sizes="100vw" srcset="https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_009-xs.png 300w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_009-sm.png 480w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_009-md.png 768w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_009-lg.png 1024w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_009-xl.png 1360w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_009-2xl.png 1600w"></figure>
-<p>The tool only supports BIP44-derived addresses. This information will be used further by the tool because it will check if the seed is correct by comparing many derived addresses with the one we have to provide. If our seed has been used with a multicurrency wallet like Exodus or Coinomi, we can choose a coin from which we know at least one public address derived from the seed we are trying to recover.</p>
-<p>In the next step, the tool is going to ask us if we know a master key of our wallet, but this is not our case, so let's skip this step by clicking on the "Cancel" button.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/10/AnuBiBlog_1_6-VMware-Workstation_010.png" alt="" width="800" height="140" sizes="100vw" srcset="https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_010-xs.png 300w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_010-sm.png 480w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_010-md.png 768w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_010-lg.png 1024w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_010-xl.png 1360w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_010-2xl.png 1600w"></figure>
-<p>Now we can provide at least one address derived from our mnemonic seed.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/10/AnuBiBlog_1_6-VMware-Workstation_014.png" alt="" width="1000" height="626" sizes="100vw" srcset="https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_014-xs.png 300w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_014-sm.png 480w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_014-md.png 768w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_014-lg.png 1024w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_014-xl.png 1360w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_014-2xl.png 1600w"></figure>
-<p>It is important to provide addresses obtained with a BIP44 derivation path. This path is commonly used by all the currency but coins like Bitcoin, Litecoin, etc, also support other derivation paths like BIP49 and BIP84.</p>
-<p>Now the tool asks us to decide how many addresses we want to be checked for each possible mnemonic seed. If we know the address we have provided is one of the firsts derived, we can provide a low number like 10. Unless so, the tool could take longer to check a lot of possible mnemonic seeds.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/10/AnuBiBlog_1_6-VMware-Workstation_015.png" alt="" width="350" height="181" sizes="100vw" srcset="https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_015-xs.png 300w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_015-sm.png 480w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_015-md.png 768w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_015-lg.png 1024w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_015-xl.png 1360w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_015-2xl.png 1600w"></figure>
-<p>Finally, we have to provide the part of the mnemonic seed we have available.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/10/AnuBiBlog_1_6-VMware-Workstation_016.png" alt="" width="350" height="139" sizes="100vw" srcset="https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_016-xs.png 300w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_016-sm.png 480w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_016-md.png 768w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_016-lg.png 1024w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_016-xl.png 1360w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_016-2xl.png 1600w"></figure>
-<p>Now we can click on the "OK" button and wait until the tool tries to find the correct mnemonic seed.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/10/AnuBiBlog_1_6-VMware-Workstation_017-2.png" alt="" width="700" height="477" sizes="100vw" srcset="https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_017-2-xs.png 300w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_017-2-sm.png 480w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_017-2-md.png 768w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_017-2-lg.png 1024w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_017-2-xl.png 1360w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_017-2-2xl.png 1600w"></figure>
-<p>After a while, the tool will be able to provide us the correct seed.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/10/AnuBiBlog_1_6-VMware-Workstation_018.png" alt="seedfound" width="900" height="639" sizes="100vw" srcset="https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_018-xs.png 300w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_018-sm.png 480w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_018-md.png 768w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_018-lg.png 1024w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_018-xl.png 1360w ,https://anubitux.org/media/posts/10/responsive/AnuBiBlog_1_6-VMware-Workstation_018-2xl.png 1600w"></figure>
-<h3>Case 2: wrong words</h3>
-<p>Let's now hypothesize we have all the 12 words of our mnemonic seed but for some reason, we are not able to read one of them. So, instead of having the seed</p>
-<p><code>rigid cool hire tiny kingdom inner evidence brown fee airport grant orient</code></p>
-<p>we have</p>
-<p><code>rigid cool hive tiny kingdom inner evidence brown fee airport grant orient</code></p>
-<p>In this case, we can follow the same steps we have seed above and, when the tool asks us to enter the best guess for our mnemonic seed, we can insert this sequence of words.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/10/Selection_041.png" alt="" width="380" height="149" sizes="100vw" srcset="https://anubitux.org/media/posts/10/responsive/Selection_041-xs.png 300w ,https://anubitux.org/media/posts/10/responsive/Selection_041-sm.png 480w ,https://anubitux.org/media/posts/10/responsive/Selection_041-md.png 768w ,https://anubitux.org/media/posts/10/responsive/Selection_041-lg.png 1024w ,https://anubitux.org/media/posts/10/responsive/Selection_041-xl.png 1360w ,https://anubitux.org/media/posts/10/responsive/Selection_041-2xl.png 1600w"></figure>
-<p>In this case, in a few seconds, the tool is able to provide us the correct mnemonic seed!</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/10/Selection_043.png" alt="" width="900" height="461" sizes="100vw" srcset="https://anubitux.org/media/posts/10/responsive/Selection_043-xs.png 300w ,https://anubitux.org/media/posts/10/responsive/Selection_043-sm.png 480w ,https://anubitux.org/media/posts/10/responsive/Selection_043-md.png 768w ,https://anubitux.org/media/posts/10/responsive/Selection_043-lg.png 1024w ,https://anubitux.org/media/posts/10/responsive/Selection_043-xl.png 1360w ,https://anubitux.org/media/posts/10/responsive/Selection_043-2xl.png 1600w"></figure>
-<h3>Final thoughts</h3>
-<p>We have seen some simple applications of this tool but, of course, it could also perform harder tasks. For example, it could fix a mnemonic seed with both missing and wrong words. It is important that we do not know only the mnemonic seed we are trying to fix but also at least one other piece of information like our extended public key, one or more addresses or the wallet file the seed is related to. We also need to know the correct derivation path used with the mnemonic seed.</p>
             ]]>
         </content>
     </entry>
