@@ -3,12 +3,96 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2023-01-07T16:21:18+01:00</updated>
+    <updated>2023-01-09T14:40:58+01:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>From wax tablets to elliptical curves. A Brief History of Cryptography (Part Two)</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/from-wax-tablets-to-elliptical-curves-a-brief-history-of-cryptography-part-two/"/>
+        <id>https://anubitux.org/from-wax-tablets-to-elliptical-curves-a-brief-history-of-cryptography-part-two/</id>
+        <media:content url="https://anubitux.org/media/posts/57/front.jpg" medium="image" />
+            <category term="opsec"/>
+            <category term="encryption"/>
+            <category term="cryptography"/>
+            <category term="crypto"/>
+            <category term="anubitux"/>
+
+        <updated>2023-01-09T14:40:58+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/57/front.jpg" alt="" />
+                    After having broadly reviewed what we could call the genesis of cryptography, in this second article we will take us far forward in time, up to the present day. With the advent of modern electronic computers, it has been possible to exploit the computational power&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://anubitux.org/media/posts/57/front.jpg" class="type:primaryImage" alt="" /></p>
+                <p>After having broadly reviewed what we could call the <a href="https://anubitux.org/from-wax-tablets-to-elliptical-curves-a-brief-history-of-cryptography-part-one/" target="_blank" rel="noopener noreferrer">genesis of cryptography</a>, in this second article we will take us far forward in time, up to the present day.</p>
+<p>With the advent of modern electronic computers, it has been possible to exploit the computational power of processors in order to automate the procedures for coding and decoding messages.</p>
+<p>Conceptually, even though centuries have passed, we still think in terms of algorithm, which represents the cryptographic method, and key, a string chosen by the user useful for encrypting and decrypting the message.</p>
+<p>A substantial difference with respect to the past is given by the fact that electronic computers use only binary numbers as inputs, i.e., the numbers 0 and 1, with the combination of which all the other numbers, letters and symbols are composed. In particular, for the formation of the alphabet a conversion method called ASCII is used which allows to represent up to 128 alphabetic and symbolic characters through the combination of 7 binary digits.</p>
+<p>Furthermore, the introduction of block encryption algorithms has made it possible to speed up the encryption/decryption processes by allowing the algorithm to be applied no longer to single elements, but to entire blocks of elements (composed of N bits), on which it is It is possible to carry out different types of operations, called iterations or rounds which, performed in sequence on each block processed, will lead to a greater or lesser complexity of the encryption algorithm.</p>
+<p>Since the 1970s, together with the diffusion of personal computers, there has been great attention to the development of new encryption methods, which guarantee the best compromise between the level of security achieved and the complexity in computational terms of the algorithm adopted. The first of these was created by the German Horst Feistel (German naturalized US cryptographer who worked at IBM on the development of several famous ciphers) who, with his Lucifer cipher , laid the foundations for the Data Encryption Standard (called DES ) first protocol cipher officially adopted by the National Bureau of Standards of the United States ( National Institute of Standards and Technology, an agency of the government of the United States of America that deals with the management of technologies, today NIST ) in order to encrypt documents containing sensitive information ( a brief explanation of DES is available in <a href="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf" target="_blank" rel="noopener noreferrer">this NIST document</a>).</p>
+<p>After a few years, despite the improvements made over time, the DES protocol was supplanted by the more performing and secure Advanced Encryption Standard (= AES ) which, with its 128-bit blocks, could use 128, 192 or 256-bit keys and which , therefore, has been adopted by NIST to encrypt documents classified even as Top Secret (on <a href="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf" target="_blank" rel="noopener noreferrer">this NIST page</a> an excellent presentation of the AES algorithm).</p>
+<h3>Symmetric encryption and public key encryption</h3>
+<p>After these very brief references, which I hope to have allowed us to understand how and why we have passed from an analogical to a digital encryption method, it would be appropriate to focus our attention on the functioning of some of them.</p>
+<p>Among the encryption methods currently most used in the IT environment, a substantial distinction could be made based on the type of key used: symmetric key encryption and public key encryption.</p>
+<p>In the first case, the key to encrypt and the one to decrypt will coincide, in the second case, however, it will be necessary to use two different keys (even if "linked" to each other).</p>
+<p>One of the major problems of the first encryption methods, such as DES or AES, just mentioned, consisted in the need to create a rather long key, so as to be reasonably sure that the computational capabilities of the computers could not perform a so-called brute attack force, which is a method that consists of trying all possible combinations of keys. If it is true that it is possible to minimize this risk by simply increasing the length of the encryption key, so as to exponentially increase the calculation times and make a brute-force attack very difficult (if not impossible even with current hardware devices), one must however consider that the main flaw of the symmetric key method was the extreme difficulty in communicating the key to the recipient in a secure way.</p>
+<p>This delicate step has been the Achilles' heel of encryption methods of this type for decades, prompting some scholars to look for one that would allow the sender and recipient of the message to communicate in total security.</p>
+<p>In fact, there was a piece of history still to be written in cryptography. The moment this dilemma was resolved, a profound revolution would have taken place, in cryptography in particular, but also more generally in the methods of communication believed to be secure until then.</p>
+<p>This epochal discovery took place in the 70s in America, developing the intuition had by the mathematicians Hellman, Diffie and Merkle according to which it was possible to <a href="https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange" target="_blank" rel="noopener noreferrer">exchange unencrypted values ​​useful for generating one's own encryption keys</a>, thanks to the use of functions called unidirectional , i.e. via non-reversible functions.</p>
+<p>Shortly afterwards, thanks to the application of other scholars and cryptography enthusiasts such as Rivest, Shamir and Adleman , the cryptography system considered since then among the most important and innovative of this branch of science was developed: the RSA system (<a href="https://people.csail.mit.edu/rivest/Rsapaper.pdf" target="_blank" rel="noopener noreferrer">here the paper</a>), also known as the public key cryptography system.</p>
+<p>The innovative idea consisted in the presence of two different keys, one public, used to encrypt the message, the other private, used to decrypt it. This was made possible thanks to the use of a special one-way function, i.e., a function that was normally very difficult to reverse except under certain conditions (=the use of the private key).</p>
+<p>In practice, to use this encryption, each user should have two keys, first of all creating a private key, to be jealously guarded, then deriving a public key from it. This key, as explained by the name itself, is not secret, on the contrary, for the purpose of correct encryption it is necessary to communicate it to the sender of the message, who will use it to encrypt his message thus sending it to the recipient without the worry of having to communicate the key, with the risks that would derive from it. Once the message has been delivered, for example via email, the recipient just has to decrypt the message using his own private key, the only one capable of inverting the special one-way function that underlies this method.</p>
+<p>The classic example reported in scientific literature wants Alice and Bob to be willing to exchange a text message. Alice asks Bob for her public key, and Bob sends it to her. Using Bob's public key, Alice can encrypt the message and can proceed to send it. Once Bob has received the message, he can decrypt it using his private key.</p>
+<p>In reality, the function used to implement this method is defined as unidirectional, but this does not mean that it is completely irreversible since, through factoring, it is possible to try to go back to the prime numbers used for the implementation of this cryptographic system, even if it is extremely expensive in terms of computational power. To overcome this type of problem, the use of keys that are at least 2048 bits long is now recommended.</p>
+<p>On <a href="https://www.usna.edu/Users/cs/wcbrown/courses/si110AY13S/lec/l26/lec.html" target="_blank" rel="noopener noreferrer">this page</a> you will find an explanation of this algorithm, even with some small illustrations that can facilitate understanding 😊. </p>
+<p>For fans of numbers and mathematical problems, I recommend reading the book <a href="https://www.amazon.co.uk/Xfermat-S-Last-Theorem-Pb/dp/0007902492" target="_blank" rel="noopener noreferrer">Fermat's Last Theorem</a>. The adventure of a genius, of a mathematical problem and of the man who solved it (I inserted the link on Amazon for simplicity's sake, but you can find it everywhere, even in any traditional bookstore) once again by Simon Singh, who managed to make a topic in itself difficult exciting, and moreover he succeeded in the huge aim of making me read an enormous amount of figures without me being bored!</p>
+<h3>Hash functions</h3>
+<p>Taking up the concept of non-invertible function described above, it will be easier at this point to introduce the concept of hash, since it is based on a one-way function, simple to compute but (hopefully) impossible to invert.</p>
+<p>The purpose of this algorithm is to reduce a text (or input) of arbitrary length into a string (called hash value or message digest) of a fixed length.</p>
+<p>Moreover, in addition to non-reversibility, therefore the impossibility of going back to the initial message starting from the hash value, this function must respect other important characteristics:</p>
+<p>    • must produce a string that always has the same length regardless of the size of the input;<br>    • it must allow that, if the hashing function is repeated on the same message, the same output value is always calculated;<br>    • finally, it must ensure that at the slightest change in the input, the algorithm returns a completely different hash value.</p>
+<p>The most used hashing protocols are: the MD5 algorithm , one of the first algorithms used for this purpose, very fast and still used to check the integrity of files; the family of SHA algorithms offers an increasing safety factor, the best known are SHA-1 and SHA-256 ; the series of RIPEMD algorithms , the best known of which is the RIPEMD-160, born as a European response to the American MD5 algorithm.</p>
+<p>At <a href="https://md5calc.com/hash" target="_blank" rel="noopener noreferrer">this address</a> we can have fun calculating the hash value for any portion of text and for files up to 10 MB, using numerous hashing algorithms.</p>
+<p>The applications of such a function are many and more widespread than one might imagine. A first example of the use of hashing functions are password databases, where passwords are saved in the form of hash values ​​in order to prevent malicious people who come into possession of them from going back to the real passwords. </p>
+<p>Another example would be file integrity checking, where you use the hash value as a checksum to make sure a particular file has not changed.</p>
+<p>It is possible to verify the integrity of a message, by comparing the hash value calculated before and after the transmission of the message and verifying that no one has altered the source code since, due to the properties of this function, a minimal variation of the input would cause a complete hash value change. A useful application of this feature is the comparison with pre-compiled hash lists, in order to be able to quickly search for files already registered as viruses or containing malware in general.</p>
+<p>Also, in computer forensics the hash function is widely used, in order to preserve the data that is acquired from any type of alteration or manipulation, allowing a rapid integrity check at any time. All data that is duplicated for forensic activities, in fact, assumes validity only if their congruence with the original data is verified.</p>
+<p>For those who have never heard of computer forensics, I quote a very comprehensive definition:</p>
+<p>“Forensic computer science is the discipline that studies the research, identification, collection, preservation, acquisition, analysis, presentation and evaluation of computer data for evidentiary purposes, in the context of criminal or civil procedural law. The science of computer forensics unfolds in different sectors of technology in order to allow the computer expert to acquire and analyse different types of devices and data.”.</p>
+<p>Source: <a href="https://www.dalchecco.it/formazione/terminologia/informatica-forense/" target="_blank" rel="noopener noreferrer">https://www.dalchecco.it/formazione/terminologia/informatica-forense/ </a></p>
+<p>Any digital element can be used as an input value for a hash function. A string of text, an image, an audio file, an entire hard disk or any other digital data can "pass" through a specific hash function, returning a digest that will always have the same length, based on the algorithm used.</p>
+<p>A few brief examples will undoubtedly offer an overview of the above concept, making the characteristics and utility of hash functions immediately identifiable. In particular, for such examples, the SHA-1 algorithm was used:</p>
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://anubitux.org/media/posts/57/hash1-2.png" alt="" width="721" height="123" sizes="100vw" srcset="https://anubitux.org/media/posts/57/responsive/hash1-2-xs.png 300w ,https://anubitux.org/media/posts/57/responsive/hash1-2-sm.png 480w ,https://anubitux.org/media/posts/57/responsive/hash1-2-md.png 768w ,https://anubitux.org/media/posts/57/responsive/hash1-2-lg.png 1024w ,https://anubitux.org/media/posts/57/responsive/hash1-2-xl.png 1360w ,https://anubitux.org/media/posts/57/responsive/hash1-2-2xl.png 1600w">
+<figcaption >Fig. 1: Example n. Hash function 1: This is an example message.</figcaption>
+</figure>
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://anubitux.org/media/posts/57/hash2.png" alt="" width="721" height="122" sizes="100vw" srcset="https://anubitux.org/media/posts/57/responsive/hash2-xs.png 300w ,https://anubitux.org/media/posts/57/responsive/hash2-sm.png 480w ,https://anubitux.org/media/posts/57/responsive/hash2-md.png 768w ,https://anubitux.org/media/posts/57/responsive/hash2-lg.png 1024w ,https://anubitux.org/media/posts/57/responsive/hash2-xl.png 1360w ,https://anubitux.org/media/posts/57/responsive/hash2-2xl.png 1600w">
+<figcaption >Fig. 2: Example no. hash function 2: This is an example message!</figcaption>
+</figure>
+<p>Note how, as a single character in the input value varies between the two examples above (replacing the final punctuation mark of the example in Fig. 1 with an exclamation mark of the input value in Fig. 2), the result obtained was completely different.</p>
+<p>In the same way, it will be easy to observe that, using a much longer text as input, the hash function always returns a value of the same length (the SHA-1 algorithm, taken for example, generates a message digest with a length of 160 bits, represented with 40 characters in hexadecimal value):</p>
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://anubitux.org/media/posts/57/hash3.png" alt="" width="753" height="243" sizes="100vw" srcset="https://anubitux.org/media/posts/57/responsive/hash3-xs.png 300w ,https://anubitux.org/media/posts/57/responsive/hash3-sm.png 480w ,https://anubitux.org/media/posts/57/responsive/hash3-md.png 768w ,https://anubitux.org/media/posts/57/responsive/hash3-lg.png 1024w ,https://anubitux.org/media/posts/57/responsive/hash3-xl.png 1360w ,https://anubitux.org/media/posts/57/responsive/hash3-2xl.png 1600w">
+<figcaption >Fig. 3: Example no. 3 of hash function: “Computers are incredibly fast, accurate and stupid; humans are incredibly slow, inaccurate and brilliant; together they are powerful beyond imagination."</figcaption>
+</figure>
+<h3>Digital signature</h3>
+<p>A further application of public key cryptography, coupled with the characteristics of the hash algorithm, was the introduction of the so-called digital signature.</p>
+<p>We have already seen that, given a document with content of arbitrary length, it is possible to reduce it to a string using the hash function. This string can be encrypted with the sender's private key, reversing the usual order. At this point, the document is ready to be sent unencrypted to the recipient, together with the digital signature and the sender's public key. The receiver, in turn, using the public key received from the sender, will be able to be certain that the message is authentic and also, by calculating the hash value, that no one has been able to make changes to the original message.</p>
+<p>The following diagram will be useful in order to better understand what steps are necessary to apply the Digital Signature to a document:</p>
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://anubitux.org/media/posts/57/firma-digitale.png" alt="" width="680" height="674" sizes="100vw" srcset="https://anubitux.org/media/posts/57/responsive/firma-digitale-xs.png 300w ,https://anubitux.org/media/posts/57/responsive/firma-digitale-sm.png 480w ,https://anubitux.org/media/posts/57/responsive/firma-digitale-md.png 768w ,https://anubitux.org/media/posts/57/responsive/firma-digitale-lg.png 1024w ,https://anubitux.org/media/posts/57/responsive/firma-digitale-xl.png 1360w ,https://anubitux.org/media/posts/57/responsive/firma-digitale-2xl.png 1600w">
+<figcaption >Fig. 4: Operation diagram of the Digital Signature</figcaption>
+</figure>
+<p>In recent years, the digital signature has been widely used as well as further implemented, including through the use of smart cards, so as to assume a central role in digital communications, especially in the Public Administration. With D.Lgs. 82/2005, followed by D.Lgs. 235/2010, the Code for Digital Administration was introduced into Italian legislation, a body of rules with which the utmost importance was given to digital communications in the Public Administration, elevating the digital signature to a signature completely similar to the handwritten one (as indicated in article 21, paragraph 2, of Decreto Legislativo 7 marzo 2005, n. 82, published in the “Gazzetta Ufficiale” n. 112 of 16/05/2005).<br>Also in the Bitcoin protocol the developers have used the digital signature, together with the hash function, to digitally sign the transactions and verify that they originate from the real sender, but we will talk about this in the third and final part.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>FAQ</title>
         <author>
@@ -587,7 +671,7 @@
             <category term="cryptocurrency"/>
             <category term="crypto"/>
 
-        <updated>2022-12-04T18:29:14+01:00</updated>
+        <updated>2023-01-09T14:40:37+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/47/main.jpg" alt="" />
@@ -638,7 +722,7 @@
 <p>Based on his studies concerning a programmable universal logic machine, called Turing machine, he had a calculator built, called Bomb, which was able to quickly determine the initial positions of the rotors of the Enigma machine, thus allowing the decipherment of the entire message. On the subject, in addition to countless books, ranging from historical accounts to science fiction, we like to point out the beautiful film <a href="https://en.wikipedia.org/wiki/The_Imitation_Game" target="_blank" rel="noopener noreferrer">The Imitation Game</a>.</p>
 <p>A few years later, in Bletchley Park, in order to decipher the messages of the German cipher device Lorenz SZ40/42, which represented the evolution of the Enigma machine, the mathematician <a href="https://en.wikipedia.org/wiki/Max_Newman#cite_note-frs-3," target="_blank" rel="noopener noreferrer">Newman</a>, always starting from Turing's studies on the universal machine, built the Colossus calculator, which was not only decisive in decrypting thousands of messages considered indecipherable at the time, but represents the first example of a programmable computer in the history of information technology, laying the foundations for the creation of modern electronic computers.</p>
 <p>These exceptional facts have remained unknown for many years, due to the secrecy imposed by the British government, which forced all the protagonists to absolute secrecy and ordered the destruction of the electronic calculators built.</p>
-<h5 class="align-center"><em>Part two coming soon...</em></h5>
+<h5 class="align-center"><em><a href="https://anubitux.org/from-wax-tablets-to-elliptical-curves-a-brief-history-of-cryptography-part-two/">Part two</a></em></h5>
 <p> </p>
             ]]>
         </content>
@@ -687,54 +771,6 @@
 <p align="center"><div class="post__iframe"><iframe loading="lazy" width="480" height="352" src="https://giphy.com/embed/11BEQyXROgnLTG" frameborder="0" class="giphy-embed" allowfullscreen="allowfullscreen"></iframe></div>
 <h5>Don't trust...verify!</h5>
 <p><code>-----BEGIN PGP SIGNED MESSAGE-----</code><br><code>Hash: SHA512</code><br><br><code>AnuBitux_2022_1_8_christmas.iso</code><br><code>MD5: 62ef19470079359852e7a73292785960</code><br><code>Sha256: 14974507afd7c0c6656111ccc85c84f0b3460d7e18be1246b427c2c1c2a92506</code><br><code>-----BEGIN PGP SIGNATURE-----</code><br><br><code>iQGzBAEBCgAdFiEEefEIBKtGU1BmKiujyYDLEerEolUFAmOCLVkACgkQyYDLEerE</code><br><code>olWlNgwApKkJm1Z0VhGrIhh4r5DeYa0rqAC+6eheG/uY+RMofRNByWolK4Ah2Zss</code><br><code>S/1E+S9mt4DdY6llRhWe1KdPc3vJlivnor8gxYQ935Vz5cMLWI90/TE7VQ+QcnIt</code><br><code>ZnLLNWHzG8GrC8KFsC+Yxt6KbYBQBo2th08P11lUFVAhQNkA00Eihsri7ET8Y3bZ</code><br><code>WQvqX7PE2RW2YcUqGGWeld+goJYs2Ug28wXjCecZQ53yt/KrscmYfM6H+LhWDnKs</code><br><code>xU1OZciJTlYkJvLnnAPKO5Vct/L/1xnzFoq2lunzPonSyB+td+QZIlwHKM/yW6c1</code><br><code>s2S5K6sfqN8fEWEeWrHqZDbkacyaEToyVk0NuUCDnr8QkALwQEo3IvHAzvo5GqB6</code><br><code>HihgyE/CRD1NJhvLBqwCO8hYvevDay0DReKuQ1et3G5msWmmgZg65ioTJn06BQbK</code><br><code>5RzWOZ+f8996RbGNjfP+gAkjeVOp2gxvZAlZONgB50/63K2xlb3aCzVzWSJoTI4K</code><br><code>JjpiLAng</code><br><code>=8Xl3</code><br><code>-----END PGP SIGNATURE-----</code></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Anu₿itux and encrypted storages</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/anubitux-and-encrypted-storages/"/>
-        <id>https://anubitux.org/anubitux-and-encrypted-storages/</id>
-        <media:content url="https://anubitux.org/media/posts/40/decrypt.png" medium="image" />
-            <category term="ubuntu"/>
-            <category term="tools"/>
-            <category term="opsec"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux"/>
-            <category term="kubuntu"/>
-            <category term="howto"/>
-            <category term="encrypted"/>
-            <category term="caution"/>
-            <category term="anubitux"/>
-
-        <updated>2022-11-28T18:24:31+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/40/decrypt.png" alt="" />
-                    Anu₿itux is a live Linux distribution and it does not store any kind of information about what we do while using it. So, even our wallets are not stored anywhere when we access them They should be stored on some external storage, like paper, USB&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/40/decrypt.png" class="type:primaryImage" alt="" /></p>
-                <p>Anu₿itux is a live Linux distribution and it does not store any kind of information about what we do while using it. So, even our wallets are not stored anywhere when we access them They should be stored on some external storage, like paper, USB drives, hard drives, hardware wallets, etc.</p>
-<p>Using Anu₿itux to access our main wallets or our cold storages should be done only when we need it so we should not consider a good strategy to access our wallets using seeds or paper wallets on a daily base. A good strategy could be to store most of the funds on cold storages that we keep offline unless we need them and have some funds on hot wallets that we use with clients like Electrum, MyCrypto, Feather, Coinomi, etc. We could have our wallet files on an encrypted USB storage and plug it in when we need to access our funds.</p>
-<p>To manage encrypted storages, Anu₿itux integrates <a href="https://www.veracrypt.fr/en/Home.html" target="_blank" rel="noopener noreferrer">VeraCrypt</a> and <a href="https://github.com/mhogomchungu/zuluCrypt" target="_blank" rel="noopener noreferrer">ZuluCrypt</a> (supporting lots of different encryption standards, like <a href="https://gitlab.com/cryptsetup/cryptsetup" target="_blank" rel="noopener noreferrer">LUKS</a>, VeraCrypt, <a href="https://learn.microsoft.com/it-it/windows/security/information-protection/bitlocker/bitlocker-overview" target="_blank" rel="noopener noreferrer">BitLocker</a> and <a href="https://en.wikipedia.org/wiki/TrueCrypt" target="_blank" rel="noopener noreferrer">TrueCrypt</a>).</p>
-<p>We described how to use VeraCrypt in a previous <a href="https://anubitux.org/create-encrypted-volumes-with-veracrypt/" target="_blank" rel="noopener noreferrer">post</a>. VeraCrypt is a very powerful tool to manage encrypted volumes that works across almost all the desktop operating systems. So, it is a very valuable option to safely manage our files.</p>
-<p>But also ZuluCrypt has a very great potential since it supports a lot of different kinds of encryption standards. So, using it, we could be able to decrypt almost all the containers and the storages we have encrypted with other tools or using other operating systems and access the files we need while using Anu₿itux.</p>
-<p>To use ZuluCrypt to access encrypted storages, we simply run its GUI from the Anu₿itux menu, provide the root password (which is set to anubitux when using Anu₿itux live or VM), click on the "Open" menu and choose the option that fits your needs.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/40/Selection_072.png" alt="zulu1" width="750" height="442" sizes="100vw" srcset="https://anubitux.org/media/posts/40/responsive/Selection_072-xs.png 300w ,https://anubitux.org/media/posts/40/responsive/Selection_072-sm.png 480w ,https://anubitux.org/media/posts/40/responsive/Selection_072-md.png 768w ,https://anubitux.org/media/posts/40/responsive/Selection_072-lg.png 1024w ,https://anubitux.org/media/posts/40/responsive/Selection_072-xl.png 1360w ,https://anubitux.org/media/posts/40/responsive/Selection_072-2xl.png 1600w"></figure>
-<p>In the next window, we can select the volume or the container we want to decrypt, choose its format and provide the information to unlock it, like password, PIM, keyfile, etc.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/40/Selection_073.png" alt="zulu2" width="750" height="432" sizes="100vw" srcset="https://anubitux.org/media/posts/40/responsive/Selection_073-xs.png 300w ,https://anubitux.org/media/posts/40/responsive/Selection_073-sm.png 480w ,https://anubitux.org/media/posts/40/responsive/Selection_073-md.png 768w ,https://anubitux.org/media/posts/40/responsive/Selection_073-lg.png 1024w ,https://anubitux.org/media/posts/40/responsive/Selection_073-xl.png 1360w ,https://anubitux.org/media/posts/40/responsive/Selection_073-2xl.png 1600w"></figure>
-<p>At this point we only have to click the "Open" button and, if we provided the correct credentials, we can access the encrypted files we need from our file manager.</p>
-<p>When we finished our work, we do not have to forget to dismount the volume. To do it, we simply right click on the volume from ZuluCrypt's GUI and select the "Unmount" option.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/40/Selection_074.png" alt="zulu3" width="750" height="437" sizes="100vw" srcset="https://anubitux.org/media/posts/40/responsive/Selection_074-xs.png 300w ,https://anubitux.org/media/posts/40/responsive/Selection_074-sm.png 480w ,https://anubitux.org/media/posts/40/responsive/Selection_074-md.png 768w ,https://anubitux.org/media/posts/40/responsive/Selection_074-lg.png 1024w ,https://anubitux.org/media/posts/40/responsive/Selection_074-xl.png 1360w ,https://anubitux.org/media/posts/40/responsive/Selection_074-2xl.png 1600w"></figure>
-<p>As we can see in the above picture, ZuluCrypt also supports volumes that were encrypted using LUKS, the encryption standard used by Linux systems, BitLocker, a proprietary encryption standard powered by Microsoft, and TrueCrypt.</p>
-<p class="msg msg--warning">TrueCrypt is an old encryption software that should not be used anymore since it contains<a href="https://arstechnica.com/information-technology/2014/05/bombshell-truecrypt-advisory-backdoor-hack-hoax-none-of-the-above/" target="_blank" rel="noopener noreferrer"> unfixed security issues</a> that could allow an attacker to access our files even if he does not know the correct password. This feature should only be used to migrate the files we stored in a TrueCrypt volume to a new volume we have encrypted with another encryption method. </p>
-<p>This process could easily be done using Anu₿itux live disabling all the connections with the proper desktop shortcut. So we are sure we are not accessing our encrypted files from an unsafe working environment.</p>
             ]]>
         </content>
     </entry>
