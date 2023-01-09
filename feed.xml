@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2023-01-09T15:48:20+01:00</updated>
+    <updated>2023-01-09T16:19:22+01:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="crypto"/>
             <category term="anubitux"/>
 
-        <updated>2023-01-09T15:48:20+01:00</updated>
+        <updated>2023-01-09T16:19:22+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/57/front-2.jpg" alt="" />
@@ -72,10 +72,10 @@
 <p>Any digital element can be used as an input value for a hash function. A string of text, an image, an audio file, an entire hard disk or any other digital data can "pass" through a specific hash function, returning a digest that will always have the same length, based on the algorithm used.</p>
 <p>A few brief examples will undoubtedly offer an overview of the above concept, making the characteristics and utility of hash functions immediately identifiable. In particular, for such examples, the SHA-1 algorithm was used:</p>
 <figure class="post__image post__image--center" ><img loading="lazy" src="https://anubitux.org/media/posts/57/hash1-2.png" alt="" width="721" height="123" sizes="100vw" srcset="https://anubitux.org/media/posts/57/responsive/hash1-2-xs.png 300w ,https://anubitux.org/media/posts/57/responsive/hash1-2-sm.png 480w ,https://anubitux.org/media/posts/57/responsive/hash1-2-md.png 768w ,https://anubitux.org/media/posts/57/responsive/hash1-2-lg.png 1024w ,https://anubitux.org/media/posts/57/responsive/hash1-2-xl.png 1360w ,https://anubitux.org/media/posts/57/responsive/hash1-2-2xl.png 1600w">
-<figcaption >Fig. 1: Example n. Hash function 1: This is an example message.</figcaption>
+<figcaption >Fig. 1: Example Hash function 1: This is an example text message</figcaption>
 </figure>
 <figure class="post__image post__image--center" ><img loading="lazy" src="https://anubitux.org/media/posts/57/hash2.png" alt="" width="721" height="122" sizes="100vw" srcset="https://anubitux.org/media/posts/57/responsive/hash2-xs.png 300w ,https://anubitux.org/media/posts/57/responsive/hash2-sm.png 480w ,https://anubitux.org/media/posts/57/responsive/hash2-md.png 768w ,https://anubitux.org/media/posts/57/responsive/hash2-lg.png 1024w ,https://anubitux.org/media/posts/57/responsive/hash2-xl.png 1360w ,https://anubitux.org/media/posts/57/responsive/hash2-2xl.png 1600w">
-<figcaption >Fig. 2: Example no. hash function 2: This is an example message!</figcaption>
+<figcaption >Fig. 2: Example Hash function 2: This is an example text message!</figcaption>
 </figure>
 <p>Note how, as a single character in the input value varies between the two examples above (replacing the final punctuation mark of the example in Fig. 1 with an exclamation mark of the input value in Fig. 2), the result obtained was completely different.</p>
 <p>In the same way, it will be easy to observe that, using a much longer text as input, the hash function always returns a value of the same length (the SHA-1 algorithm, taken for example, generates a message digest with a length of 160 bits, represented with 40 characters in hexadecimal value):</p>
