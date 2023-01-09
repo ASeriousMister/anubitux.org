@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2023-01-09T14:40:58+01:00</updated>
+    <updated>2023-01-09T15:48:20+01:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -16,23 +16,23 @@
         </author>
         <link href="https://anubitux.org/from-wax-tablets-to-elliptical-curves-a-brief-history-of-cryptography-part-two/"/>
         <id>https://anubitux.org/from-wax-tablets-to-elliptical-curves-a-brief-history-of-cryptography-part-two/</id>
-        <media:content url="https://anubitux.org/media/posts/57/front.jpg" medium="image" />
+        <media:content url="https://anubitux.org/media/posts/57/front-2.jpg" medium="image" />
             <category term="opsec"/>
             <category term="encryption"/>
             <category term="cryptography"/>
             <category term="crypto"/>
             <category term="anubitux"/>
 
-        <updated>2023-01-09T14:40:58+01:00</updated>
+        <updated>2023-01-09T15:48:20+01:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://anubitux.org/media/posts/57/front.jpg" alt="" />
+                        <img src="https://anubitux.org/media/posts/57/front-2.jpg" alt="" />
                     After having broadly reviewed what we could call the genesis of cryptography, in this second article we will take us far forward in time, up to the present day. With the advent of modern electronic computers, it has been possible to exploit the computational power&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/57/front.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://anubitux.org/media/posts/57/front-2.jpg" class="type:primaryImage" alt="" /></p>
                 <p>After having broadly reviewed what we could call the <a href="https://anubitux.org/from-wax-tablets-to-elliptical-curves-a-brief-history-of-cryptography-part-one/" target="_blank" rel="noopener noreferrer">genesis of cryptography</a>, in this second article we will take us far forward in time, up to the present day.</p>
 <p>With the advent of modern electronic computers, it has been possible to exploit the computational power of processors in order to automate the procedures for coding and decoding messages.</p>
 <p>Conceptually, even though centuries have passed, we still think in terms of algorithm, which represents the cryptographic method, and key, a string chosen by the user useful for encrypting and decrypting the message.</p>
