@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2023-01-09T16:19:22+01:00</updated>
+    <updated>2023-01-21T17:12:57+01:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -102,7 +102,7 @@
         <id>https://anubitux.org/faq/</id>
         <media:content url="https://anubitux.org/media/posts/56/AnubituxWallpaperLightBlue.png" medium="image" />
 
-        <updated>2023-01-07T16:21:18+01:00</updated>
+        <updated>2023-01-21T17:12:57+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/56/AnubituxWallpaperLightBlue.png" alt="" />
@@ -123,13 +123,15 @@
 <p>in your terminal and chose a password. If you are using Anu₿itux in live mode, this password will not be stored anywhere and has to be set-up again at every reboot.</p>
 <h5>How to use Anu₿itux?</h5>
 <p>Anu₿itux has beed designed to work as a live environment or, only for training purposes, as an installable Linux distribution that can be used as a virtual machine or on a dedicated device. To run it, please refer to <a href="https://anubitux.org/how-to-use-anubitux-2/" target="_blank" rel="noopener noreferrer">this post</a>.</p>
+<h5>Anu₿itux does not start, what should I do?</h5>
+<p>Some devices could not be able to run live Linux distros properly. Anu₿itux integrates a lot of firmwares and drivers but sometimes this is not enough. When starting, operating systems check the available hardware and power settings with a standard named ACPI. On some devices this check fails and the system does not start. To avoid this issue it is enough to disable this check. On the boot screen, when "Live (amd64)" is selected hit e to edit the grub config, after "quiet splasc" write acpi=off and hit enter (do not worry if line splits). Now hit Ctrl + X to boot.</p>
 <h5>How to verify Anu₿itux?</h5>
 <p>Every time a new release of Anu₿itux is released, checksums are updated on the <a href="https://anubitux.org/download-anubitux/" target="_blank" rel="noopener noreferrer">download page</a>. They are signen with our PGP key that we share on our <a href="https://github.com/ASeriousMister/Anubitux-PGP" target="_blank" rel="noopener noreferrer">GitHub</a>, on <a href="https://pastebin.com/bqmy9y2P" target="_blank" rel="noopener noreferrer">PasteBin</a> and on <a href="https://keybase.io/anubitux" target="_blank" rel="noopener noreferrer">KeyBase</a>. To verify the signed checksums, please refer to <a href="https://anubitux.org/how-to-verify-your-downloaded-anubitux/" target="_blank" rel="noopener noreferrer">this post</a>.</p>
 <h5>How to verify Anu₿itux's tools?</h5>
 <p>Anu₿itux's tools have been downloaded from the official debian reposotpries, from GitHub or as .appimage from the officla websites. GitHub tools and .appimages are placed in the /home/anubitux/Tools/ directory. Users can verify the source of the tools like Python scripts and verify checksums of the appimages comparing them to the official webisites of the tools. Doing so, users do not need to trust Anu₿itux but can easily verify by themselves that the Tools are genuine. All the links to sources and official websites can be found <a href="https://anubitux.org/what-is-anubitux-2/" target="_blank" rel="noopener noreferrer">here</a>.</p>
 <h5>How to update Anu₿itux?</h5>
 <p>Anu₿itux works primarly as a live envirnment. Running commands like sudo apt update or sudo apt upgrade will have effect only on the current session and will not affect appimages and open source tools. The only way to update Anu₿itux is to <a href="https://anubitux.org/download-anubitux/" target="_blank" rel="noopener noreferrer">download</a> the last version checking the <a href="https://anubitux.org/changelog/" target="_blank" rel="noopener noreferrer">changelog</a>. We are releasing frequently a new version of Anu₿itux containing updates, some fixes and including users' <a href="https://anubitux.org/meet-the-anubitux-project/" target="_blank" rel="noopener noreferrer">suggestions</a>.</p>
-<h5>What should I do if I do not know how Anu₿itux's tools word?</h5>
+<h5>What should I do if I do not know how Anu₿itux's tools work?</h5>
 <p>One of the main rules in the crypto world is "do not trust, verify!". Anu₿itux uses open source tools that can be verified by yourself or by someone you trust and appimages, so that you can verify the checksum of the tools by yourself referencing to the official sites. Link to sources and official websites can be found on <a href="https://anubitux.org/what-is-anubitux-2/" target="_blank" rel="noopener noreferrer">this page</a>. If you are in doubt about any tool or feature do not hesitate to <a href="https://anubitux.org/meet-the-anubitux-project/" target="_blank" rel="noopener noreferrer">contact us</a>.</p>
             ]]>
         </content>
@@ -242,7 +244,7 @@
             <category term="anubitux"/>
             <category term="USB"/>
 
-        <updated>2023-01-01T00:01:00+01:00</updated>
+        <updated>2023-01-14T11:24:28+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/52/space-shuttle-774_1280.jpg" alt="Start" />
@@ -272,7 +274,7 @@
 <p>We could need to install Anu₿itux, maybe to run some tests on the tools or do some training with them. To install it on a dedicated device, we can arrange an USB drive following the steps shown above and, when booting from it, we have to chose the Start installer option.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selection_117.png" alt="" width="640" height="477" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selection_117-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selection_117-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selection_117-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selection_117-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selection_117-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selection_117-2xl.png 1600w"></figure>
 <p>Now we have to follow the debian installation wizard.</p>
-<p class="msg msg--highlight ">It is suggested to chose anubitux as username, to be sure that all the tools run properly.</p>
+<p class="msg msg--highlight "><strong>It is suggested to chose anubitux as username, to be sure that all the tools run properly.</strong></p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selezione_108.png" alt="" width="800" height="594" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selezione_108-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selezione_108-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selezione_108-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selezione_108-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selezione_108-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selezione_108-2xl.png 1600w"></figure>
 <p>When arriving at the step where we have to chose the root password, we can leave it blank, so that our user will automatically be allowed to run administrative commands with sudo, and have a more "<em>ubuntu-like</em>" user experience.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/Selection_109.png" alt="" width="790" height="512" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/Selection_109-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/Selection_109-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/Selection_109-md.png 768w ,https://anubitux.org/media/posts/52/responsive/Selection_109-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/Selection_109-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/Selection_109-2xl.png 1600w"></figure>
