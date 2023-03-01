@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2023-03-01T22:41:53+01:00</updated>
+    <updated>2023-03-01T22:57:59+01:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -14,8 +14,8 @@
         <author>
             <name>Anu₿itux</name>
         </author>
-        <link href="https://anubitux.org/find-the-last-word-of-your-mnemonic-with-anuitux/"/>
-        <id>https://anubitux.org/find-the-last-word-of-your-mnemonic-with-anuitux/</id>
+        <link href="https://anubitux.org/find-the-last-word-of-your-mnemonic-with-anubitux/"/>
+        <id>https://anubitux.org/find-the-last-word-of-your-mnemonic-with-anubitux/</id>
         <media:content url="https://anubitux.org/media/posts/61/domino-g9b2cd8d8d_1920.jpg" medium="image" />
             <category term="wallet"/>
             <category term="tutorial"/>
@@ -39,7 +39,7 @@
             <category term="bip39"/>
             <category term="anubitux"/>
 
-        <updated>2023-03-01T22:41:53+01:00</updated>
+        <updated>2023-03-01T22:57:59+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/61/domino-g9b2cd8d8d_1920.jpg" alt="" />
