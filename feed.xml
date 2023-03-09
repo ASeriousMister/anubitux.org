@@ -3,12 +3,96 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2023-03-09T19:25:27+01:00</updated>
+    <updated>2023-03-09T19:45:56+01:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>How to obtain xpub keys with Anu₿itux </title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/how-to-obtain-xpub-keys-with-anubitux/"/>
+        <id>https://anubitux.org/how-to-obtain-xpub-keys-with-anubitux/</id>
+        <media:content url="https://anubitux.org/media/posts/60/key-hole-gd944a9560_1920.jpg" medium="image" />
+            <category term="wallet"/>
+            <category term="tutorial"/>
+            <category term="tools"/>
+            <category term="opsec"/>
+            <category term="offline"/>
+            <category term="live"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="linux"/>
+            <category term="howto"/>
+            <category term="electrum"/>
+            <category term="distro"/>
+            <category term="debian"/>
+            <category term="cryptocurrency"/>
+            <category term="crypto"/>
+            <category term="caution"/>
+            <category term="bitcoin"/>
+            <category term="bip39"/>
+            <category term="anubitux"/>
+
+        <updated>2023-03-09T19:45:56+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/60/key-hole-gd944a9560_1920.jpg" alt="" />
+                    Xpub keys can be very useful to monitor our wallets without exposing our private keys. Keeping it very simple, with our mnemonic phrase we are obtaining an xpriv key from which all private keys are derived and an xpub key from which all public keys,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://anubitux.org/media/posts/60/key-hole-gd944a9560_1920.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Xpub keys can be very useful to monitor our wallets without exposing our private keys. Keeping it very simple, with our mnemonic phrase we are obtaining an xpriv key from which all private keys are derived and an xpub key from which all public keys, and consequently all addresses, can be derived. Configuring our wallet to use xpub keys, we are setting up a <a href="https://anubitux.org/how-to-create-a-view-only-wallet-for-our-cold-storage/" target="_blank" rel="noopener noreferrer">view-only</a> wallet.</p>
+<h3>How to obtain xpub keys</h3>
+<p>Xpub keys can be obtained in many different ways, depending on what kind of solution we are using. Basically, it can be obtained from our mnemonic phrase, using tools like the Ian Colaman's one or from the menus of our desktop wallets.</p>
+<h4>Ian Coleman</h4>
+<p>With <a href="https://iancoleman.io/bip39/" target="_blank" rel="noopener noreferrer">Ian Coleman</a>'s tool we can manage all that regerds BIP39 hierarchical deterministic wallets. We can generate a mnemonic phrase with the proper button or type/paste a seed in the proper box.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk1.png" alt="" width="750" height="350" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk1-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk1-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk1-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk1-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk1-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk1-2xl.png 1600w"></figure>
+<p class="msg msg--warning">If we are using this tool with a mnemonic phrase related to a wallet containing funds, we should do that in a live and offline Anu₿itux, to prevent any information leak. </p>
+<p>Scrolling down the page we will find the xpub key derived from our mnemonic phrase.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk2.png" alt="" width="750" height="495" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk2-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk2-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk2-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk2-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk2-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk2-2xl.png 1600w"></figure>
+<p>Changing the Derivation Path, we can notice that the key format changes since it starts with xpub, ypub or zpub. Some clients are able to recognize derivation path directly from the key's format and others are only accepting xpub keys and need the desired derivation path to be specified. </p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk4.png" alt="" width="750" height="481" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk4-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk4-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk4-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk4-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk4-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk4-2xl.png 1600w"></figure>
+<h4>Electrum</h4>
+<p><a href="https://electrum.org/#home" target="_blank" rel="noopener noreferrer">Electrum</a> wallets commonly use a customized version of hierarchical deterministic wallets and not the BIP39 standard like many other clients. Also in this case we can obtain our xpub key simply using its GUI, clicking on the "Wallet" menu and on the "Information" entry. </p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk5.png" alt="" width="750" height="440" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk5-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk5-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk5-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk5-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk5-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk5-2xl.png 1600w"></figure>
+<p>In this case we are obtaining a key starting as zpub, since we are using a wallet with native segwit addresses, commonly related to the BIP84 derivation path as seen above.</p>
+<h4>Sparrow</h4>
+<p>WIth <a href="https://sparrowwallet.com/" target="_blank" rel="noopener noreferrer">Sparrow wallet</a> we can see our master public key simply by clicking on the settings button on the left panel of our GUI.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk6.png" alt="" width="750" height="554" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk6-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk6-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk6-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk6-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk6-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk6-2xl.png 1600w"></figure>
+<p>Sparrow wallet will always show us an xpub key related to the derivation path used to obtain our addresses. In this case we have native segwit addresses and a normal xpub key (which is commonly related to legacy addresses) and a "Derivation" field were we can set the address format we need.</p>
+<h4>Ledger Live</h4>
+<p>Even with our <a href="https://www.ledger.com/" target="_blank" rel="noopener noreferrer">Ledger</a> device, we can access our xpub key without the need to handle our mnemonic phrase. We have to connect our device, launch the Ledger Live client, <a href="https://support.ledger.com/hc/en-us/articles/115005195945-Bitcoin-BTC-?support=true" target="_blank" rel="noopener noreferrer">create a Bitcoin account</a> from the "My Ledger" tab and then go to the "Accounts" tab. Here we can select the desired account, click on the settings button, show the advanced information and so we will have access to our xpub key and the derivation path related to the account we are using.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk9.png" alt="" width="750" height="732" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk9-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk9-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk9-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk9-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk9-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk9-2xl.png 1600w"></figure>
+<p>Ledger allows only to access the xpub key and will not show the other master public keys like ypub and zpub. So we also need to notice the derivation path if we need to use the key to set up a <a href="https://anubitux.org/how-to-create-a-view-only-wallet-for-our-cold-storage/">view-only wallet</a>. </p>
+<h4>Trezor suite</h4>
+<p>Also with <a href="https://trezor.io/" target="_blank" rel="noopener noreferrer">Trezor</a> hardware wallets we can access our master public key. We have to go to the desired account, click on the "Details" button and on the "Show public key" button.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk10.png" alt="" width="750" height="314" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk10-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk10-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk10-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk10-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk10-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk10-2xl.png 1600w"></figure>
+<p>Now we can see our key in text and as a QR code.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk11.png" alt="" width="490" height="680" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk11-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk11-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk11-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk11-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk11-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk11-2xl.png 1600w"></figure>
+<p>In this case we obtain a zpub key, so we'll not need to store the derivation path to obtain the correct addresses if we are setting up a <a href="https://anubitux.org/how-to-create-a-view-only-wallet-for-our-cold-storage/" target="_blank" rel="noopener noreferrer">view-only wallet</a>.</p>
+<h4>Exodus</h4>
+<p>WIth Exodus we commonly do not have access to crypto-nerd-stuff. We need to unlock a secret menu pressing <em>Ctrl+Shift+D</em>. Now, on the new menu, we can click on "Developer" and on "Export All Transactions".</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk7.png" alt="" width="750" height="424" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk7-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk7-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk7-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk7-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk7-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk7-2xl.png 1600w"></figure>
+<p>So we can obtain a folder containing a zip archive with a lot of files in it, that is commonly created on the Desktop. In this archive we can find a text file named xpubs.txt, containing all the master public keys, related to all the supported coins.</p>
+<h3><figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk8.png" alt="" width="750" height="454" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk8-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk8-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk8-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk8-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk8-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk8-2xl.png 1600w"></figure></h3>
+<h4>Blockstream Green</h4>
+<p>Blockstream Green does not show xpub keys in the GUI so we can access them using the Ian Coleman's tool we have seen above with our mnemonic phrase or we can find them in the log file, placed in the home folder, in the <code><em>.local/share/Blockstream/Green/logs</em></code> file.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk12.png" alt="" width="750" height="192" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk12-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk12-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk12-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk12-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk12-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk12-2xl.png 1600w"></figure>
+<p>Near every xpub key we can also find the address format it has been used with, like p2pkh for legacy addresses and so on.</p>
+<h3>Final thoughts</h3>
+<p>Xpub keys are very powerful to monitor our wallets and also  to receive funds avoiding address reuse, without exposing our private keys. But, these keys are also very sensible because revealing it we are allowing someone to reconstruct our past transactions and even to monitor the future ones. So it is always a good idea to do some tests before handling our primary master public key.</p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Find the last word of your mnemonic with Anu₿itux</title>
         <author>
@@ -74,90 +158,6 @@
 <p>Creating a mnemonic phrase has to be done very carefully since it is very hard to realize it has been compromised before we are losing all our coins.</p>
 <p>This tool is just another solution to help users to create mnemonics in a secure and simple way. We do not have to forget that we also need to pay attention to the way we are storing it. Even in this case, there isn't a universal solution. If we need to access often our mnemonic to sign transactions it should be in a secure but accessible place or if we use it as a disaster recovery strategy, it can be stored in a very hard to reach place.</p>
 <p>We should not look for the best strategy but we should seek the knowledge that will allow us to decide which strategy is the best for us.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to obtain xpub keys with Anu₿itux </title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/how-to-obtain-xpub-keys-with-anubitux/"/>
-        <id>https://anubitux.org/how-to-obtain-xpub-keys-with-anubitux/</id>
-        <media:content url="https://anubitux.org/media/posts/60/key-hole-gd944a9560_1920.jpg" medium="image" />
-            <category term="wallet"/>
-            <category term="tutorial"/>
-            <category term="tools"/>
-            <category term="opsec"/>
-            <category term="offline"/>
-            <category term="live"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="linux"/>
-            <category term="howto"/>
-            <category term="electrum"/>
-            <category term="distro"/>
-            <category term="debian"/>
-            <category term="cryptocurrency"/>
-            <category term="crypto"/>
-            <category term="caution"/>
-            <category term="bitcoin"/>
-            <category term="bip39"/>
-            <category term="anubitux"/>
-
-        <updated>2023-03-09T19:04:20+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/60/key-hole-gd944a9560_1920.jpg" alt="" />
-                    Xpub keys can be very useful to monitor our wallets without exposing our private keys. Keeping it very simple, with our mnemonic phrase we are obtaining an xpriv key from which all private keys are derived and an xpub key from which all public keys,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/60/key-hole-gd944a9560_1920.jpg" class="type:primaryImage" alt="" /></p>
-                <p>Xpub keys can be very useful to monitor our wallets without exposing our private keys. Keeping it very simple, with our mnemonic phrase we are obtaining an xpriv key from which all private keys are derived and an xpub key from which all public keys, and consequently all addresses, can be derived. Configuring our wallet to use xpub keys, we are setting up a <a href="https://anubitux.org/how-to-create-a-view-only-wallet-for-our-cold-storage/" target="_blank" rel="noopener noreferrer">view-only</a> wallet.</p>
-<h3>How to obtain xpub keys</h3>
-<p>Xpub keys can be obtained in many different ways, depending on what kind of solution we are using. Basically, it can be obtained from our mnemonic phrase, using tools like the Ian Colaman's one or from the menus of our desktop wallets.</p>
-<h4>Ian Coleman</h4>
-<p>With <a href="https://iancoleman.io/bip39/" target="_blank" rel="noopener noreferrer">Ian Coleman</a>'s tool we can manage all that regerds BIP39 hierarchical deterministic wallets. We can generate a mnemonic phrase with the proper button or type/paste a seed in the proper box.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk1.png" alt="" width="750" height="350" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk1-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk1-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk1-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk1-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk1-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk1-2xl.png 1600w"></figure>
-<p class="msg msg--warning">If we are using this tool with a mnemonic phrase related to a wallet containing funds, we should do that in a live and offline Anu₿itux, to prevent any information leak. </p>
-<p>Scrolling down the page we will find the xpub key derived from our mnemonic phrase.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk2.png" alt="" width="750" height="495" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk2-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk2-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk2-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk2-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk2-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk2-2xl.png 1600w"></figure>
-<p>Changing the Derivation Path, we can notice that the key format changes since it starts with xpub, ypub or zpub. Some clients are able to recognize derivation path directly from the key's format and others are only accepting xpub keys and need the desired derivation path to be specified. </p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk4.png" alt="" width="750" height="481" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk4-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk4-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk4-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk4-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk4-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk4-2xl.png 1600w"></figure>
-<h4>Electrum</h4>
-<p><a href="https://electrum.org/#home" target="_blank" rel="noopener noreferrer">Electrum</a> wallets commonly use a customized version of hierarchical deterministic wallets and not the BIP39 standard like many other clients. Also in this case we can obtain our xpub key simply using its GUI, clicking on the "Wallet" menu and on the "Information" entry. </p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk5.png" alt="" width="750" height="440" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk5-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk5-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk5-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk5-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk5-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk5-2xl.png 1600w"></figure>
-<p>In this case we are obtaining a key starting as zpub, since we are using a wallet with native segwit addresses, commonly related to the BIP84 derivation path as seen above.</p>
-<h4>Sparrow</h4>
-<p>WIth <a href="https://sparrowwallet.com/" target="_blank" rel="noopener noreferrer">Sparrow wallet</a> we can see our master public key simply by clicking on the settings button on the left panel of our GUI.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk6.png" alt="" width="750" height="554" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk6-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk6-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk6-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk6-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk6-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk6-2xl.png 1600w"></figure>
-<p>Sparrow wallet will always show us an xpub key related to the derivation path used to obtain our addresses. In this case we have native segwit addresses and a normal xpub key (which is commonly related to legacy addresses) and a "Derivation" field were we can set the address format we need.</p>
-<h4>Ledger Live</h4>
-<p>Even with our <a href="https://www.ledger.com/" target="_blank" rel="noopener noreferrer">Ledger</a> device, we can access our xpub key without the need to handle our mnemonic phrase. We have to connect our device, launch the Ledger Live client, <a href="https://support.ledger.com/hc/en-us/articles/115005195945-Bitcoin-BTC-?support=true" target="_blank" rel="noopener noreferrer">create a Bitcoin account</a> from the "My Ledger" tab and then go to the "Accounts" tab. Here we can select the desired account, click on the settings button, show the advanced information and so we will have access to our xpub key and the derivation path related to the account we are using.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk9.png" alt="" width="750" height="732" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk9-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk9-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk9-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk9-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk9-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk9-2xl.png 1600w"></figure>
-<p>Ledger allows only to access the xpub key and will not show the other master public keys like ypub and zpub. So we also need to notice the derivation path if we need to use the key to set up a <a href="https://anubitux.org/how-to-create-a-view-only-wallet-for-our-cold-storage/">view-only wallet</a>. </p>
-<h4>Trezor suite</h4>
-<p>Also with <a href="https://trezor.io/" target="_blank" rel="noopener noreferrer">Trezor</a> hardware wallets we can access our master public key. We have to go to the desired account, click on the "Details" button and on the "Show public key" button.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk10.png" alt="" width="750" height="314" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk10-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk10-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk10-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk10-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk10-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk10-2xl.png 1600w"></figure>
-<p>Now we can see our key in text and as a QR code.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk11.png" alt="" width="490" height="680" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk11-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk11-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk11-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk11-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk11-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk11-2xl.png 1600w"></figure>
-<p>In this case we obtain a zpub key, so we'll not need to store the derivation path to obtain the correct addresses if we are setting up a <a href="https://anubitux.org/how-to-create-a-view-only-wallet-for-our-cold-storage/" target="_blank" rel="noopener noreferrer">view-only wallet</a>.</p>
-<h4>Exodus</h4>
-<p>WIth Exodus we commonly do not have access to crypto-nerd-stuff. We need to unlock a secret menu pressing <em>Ctrl+Shift+D</em>. Now, on the new menu, we can click on "Developer" and on "Export All Transactions".</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk7.png" alt="" width="750" height="424" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk7-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk7-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk7-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk7-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk7-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk7-2xl.png 1600w"></figure>
-<p>So we can obtain a folder containing a zip archive with a lot of files in it, that is commonly created on the Desktop. In this archive we can find a text file named xpubs.txt, containing all the master public keys, related to all the supported coins.</p>
-<h3><figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk8.png" alt="" width="750" height="454" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk8-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk8-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk8-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk8-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk8-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk8-2xl.png 1600w"></figure></h3>
-<h4>Blockstream Green</h4>
-<p>Blockstream Green does not show xpub keys in the GUI so we can access them using the Ian Coleman's tool we have seen above with our mnemonic phrase or we can find them in the log file, placed in the home folder, in the <code><em>.local/share/Blockstream/Green/logs</em></code> file.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/60/xk12.png" alt="" width="750" height="192" sizes="100vw" srcset="https://anubitux.org/media/posts/60/responsive/xk12-xs.png 300w ,https://anubitux.org/media/posts/60/responsive/xk12-sm.png 480w ,https://anubitux.org/media/posts/60/responsive/xk12-md.png 768w ,https://anubitux.org/media/posts/60/responsive/xk12-lg.png 1024w ,https://anubitux.org/media/posts/60/responsive/xk12-xl.png 1360w ,https://anubitux.org/media/posts/60/responsive/xk12-2xl.png 1600w"></figure>
-<p>Near every xpub key we can also find the address format it has been used with, like p2pkh for legacy addresses and so on.</p>
-<h3>Final thoughts</h3>
-<p>Xpub keys are very powerful to monitor our wallets and also  to receive funds avoiding address reuse, without exposing our private keys. But, these keys are also very sensible because revealing it we are allowing someone to reconstruct our past transactions and even to monitor the future ones. So it is always a good idea to do some tests before handling our primary master public key.</p>
-<p> </p>
-<p> </p>
             ]]>
         </content>
     </entry>
