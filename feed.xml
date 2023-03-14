@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2023-03-14T19:13:22+01:00</updated>
+    <updated>2023-03-14T19:23:39+01:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -31,7 +31,7 @@
             <category term="bip39"/>
             <category term="anubitux"/>
 
-        <updated>2023-03-14T19:13:22+01:00</updated>
+        <updated>2023-03-14T19:23:39+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/63/stones-3364324_1920.jpg" alt="" />
@@ -44,13 +44,13 @@
                 <p>In previous posts we have seen how to use xpub keys to create <a href="https://anubitux.org/how-to-create-a-view-only-wallet-for-our-cold-storage/" target="_blank" rel="noopener noreferrer">view-only wallets</a> and how to <a href="https://anubitux.org/how-to-obtain-xpub-keys-with-anubitux/" target="_blank" rel="noopener noreferrer">obtain</a> them form our wallets.</p>
 <p>Handling our xpub keys we have surely noticed that some clients are only using keys starting with "xpub" and others are also using keys starting with "ypub" and "zpub".</p>
 <p>This may seem a bit confusing!</p>
-<p> This is because some clients (like <a href="https://sparrowwallet.com/" target="_blank" rel="noopener noreferrer">Sparrow</a>) are accepting only xpub keys and want us to specify the derivation path to manage the addresses in the format we want. For instance, we could specify:</p>
+<p> This is because some clients are only accepting xpub keys and want us to specify the derivation path to manage the addresses in the format we want. For instance, we could specify:</p>
 <ul>
 <li>m/44'/0'/0'/0 for legacy Bitcoin addresses;</li>
 <li>m/49'/0'/0'/0 for segwit Bitcoin addresses;</li>
 <li>m/84'/0'/0'/0 for native segwit Bitcoin addresses (bech32).</li>
 </ul>
-<p>Other clients, instead, are not allowing us to specify the derivation path since they are able to recognice it from the format of the xpub key (like <a href="https://electrum.org/#home" target="_blank" rel="noopener noreferrer">Electrum</a>). For instance they are using:</p>
+<p>Other clients, instead, are not allowing us to specify the derivation path since they are able to recognize it from the format of the master public key (like <a href="https://electrum.org/#home" target="_blank" rel="noopener noreferrer">Electrum</a>). For instance they are using:</p>
 <ul>
 <li>keys starting with xpub for legacy addresses;</li>
 <li>keys starting with ypub for segwit addresses;</li>
@@ -58,7 +58,7 @@
 </ul>
 <p>We could use the right client depending on what kind of key we have but we do not want that! We want to use the client we feel comfortable with!</p>
 <h3>Convert public keys</h3>
-<p>To fix this, we can use the <a href="https://jlopp.github.io/xpub-converter/" target="_blank" rel="noopener noreferrer">Xpub-converter tool</a>, by <a href="https://www.lopp.net/" target="_blank" rel="noopener noreferrer">Jameson Lopp</a>, that can be found in the Wallet Tools section of the Anu₿itux menu.</p>
+<p>To fix this, we can use the <a href="https://jlopp.github.io/xpub-converter/" target="_blank" rel="noopener noreferrer">Xpub-converter tool</a>, by <a href="https://www.lopp.net/" target="_blank" rel="noopener noreferrer">Jameson Lopp</a>, that can be found in the "WalletTools" section of the Anu₿itux menu.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/63/xc1.png" alt="" width="800" height="467" sizes="100vw" srcset="https://anubitux.org/media/posts/63/responsive/xc1-xs.png 300w ,https://anubitux.org/media/posts/63/responsive/xc1-sm.png 480w ,https://anubitux.org/media/posts/63/responsive/xc1-md.png 768w ,https://anubitux.org/media/posts/63/responsive/xc1-lg.png 1024w ,https://anubitux.org/media/posts/63/responsive/xc1-xl.png 1360w ,https://anubitux.org/media/posts/63/responsive/xc1-2xl.png 1600w"></figure>
 <p>We simply have to select the format of the key we want to obtain, paste the key in the proper box and here it is! We have obtained a master public key in the desired format and now we can use it with our favourite client. In this example we have obtained an xpub key from a zpub one.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/63/xc2.png" alt="" width="800" height="567" sizes="100vw" srcset="https://anubitux.org/media/posts/63/responsive/xc2-xs.png 300w ,https://anubitux.org/media/posts/63/responsive/xc2-sm.png 480w ,https://anubitux.org/media/posts/63/responsive/xc2-md.png 768w ,https://anubitux.org/media/posts/63/responsive/xc2-lg.png 1024w ,https://anubitux.org/media/posts/63/responsive/xc2-xl.png 1360w ,https://anubitux.org/media/posts/63/responsive/xc2-2xl.png 1600w"></figure>
