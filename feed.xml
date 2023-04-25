@@ -3,12 +3,176 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2023-03-14T19:23:39+01:00</updated>
+    <updated>2023-04-25T18:34:12+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>Convert binary numbers to decimals</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/convert-binary-numbers-to-decimals/"/>
+        <id>https://anubitux.org/convert-binary-numbers-to-decimals/</id>
+        <media:content url="https://anubitux.org/media/posts/64/pay-g30d0715cb_1920.jpg" medium="image" />
+            <category term="tutorial"/>
+            <category term="private key"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux"/>
+            <category term="howto"/>
+            <category term="encrypted"/>
+            <category term="cryptocurrency"/>
+            <category term="crypto"/>
+            <category term="bitcoin"/>
+            <category term="anubitux"/>
+
+        <updated>2023-04-25T18:34:12+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/64/pay-g30d0715cb_1920.jpg" alt="" />
+                    When handling cryptocurrency-related stuff, like private keys, seeds, etc... we often hear things like "256 bits", "128 bits",... but what does it mean? Computers use their different type of memories to perform any kind of action. The smallest memory unit is called bit and it&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://anubitux.org/media/posts/64/pay-g30d0715cb_1920.jpg" class="type:primaryImage" alt="" /></p>
+                <p>When handling cryptocurrency-related stuff, like private keys, seeds, etc... we often hear things like "256 bits", "128 bits",... but what does it mean?</p>
+<p>Computers use their different type of memories to perform any kind of action. The smallest memory unit is called bit and it can assume only 0 and 1 as a value. More bits chained together are able to represent any kind of information that a computer may be able to read.</p>
+<p>Indeed, computers are only able to manage numbers, even when we see text and pictures, computers are handling numbers. M<span class="--l --r sentence_highlight"><span class="--l --r hover:bg-[#B4DAE8]">ore</span> <span class="--l --r hover:bg-[#B4DAE8]">in</span> <span class="--l --r hover:bg-[#B4DAE8]">detail</span></span>, computers manage binary numbers, only made by 0s and 1s, like 10001001.</p>
+<p>In our tools, like <a href="https://anubitux.org/how-to-generate-a-mnemonic-seed-with-anubitux-and-a-dice/" target="_blank" rel="noopener noreferrer">Dice2Seed</a> and <a href="https://anubitux.org/how-to-generate-random-paper-wallets-with-anubitux/" target="_blank" rel="noopener noreferrer">DiceTracker</a> we have seen that we could also paste a binary string to obtain mnemonic phrases or private keys. But, what are these binary strings?</p>
+<h3>How numbers work</h3>
+<p>We are used to counting with numbers like 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... These are base10 numbers but we could also have base16 numbers, base64 or also base2. The number expresses the number of available digits. With base10 we have 10 digits (from 0 to 9) and with base2 we only have 2 digits (0 and 1).</p>
+<p>When counting, each time we reach the maximum value we add another digit on the left and start counting again. So when we are counting and we reach the number 9, we add a 1 on the left and start again from 0, obtaining the number 10; when we reach the number 99, we add a 1 on the left and obtain the number 100, and so on...</p>
+<p>Each digit gets a value depending on its position in the number. The first digit is multiplied by 1 (which is the result of 10^0), the second one is multiplied by 10 (which is the result of 10^1), the second one is multiplied by 100 (which is the result of 10^2), and so on.</p>
+<p>The same thing happens also with base2 numbers, but in this case, the first digit gets multiplied by 2^0, the second one gets multiplied by 2^1, the third one gets multiplied by 2^2, and so on.</p>
+<h3>How to convert binary to decimals</h3>
+<p>As seen above, every digit of a binary number assumes a certain value depending on its position. What we basically have to do is to multiply the digit's value (which may be 0 or 1) by 2 elevated to the digit's position. Let's consider the following example:</p>
+<table class="align-center" style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 12.4822%;">2^7</td>
+<td style="width: 12.4822%;">2^6</td>
+<td style="width: 12.4822%;">2^5</td>
+<td style="width: 12.4822%;">2^4</td>
+<td style="width: 12.4822%;">2^3</td>
+<td style="width: 12.4822%;">2^2</td>
+<td style="width: 12.4822%;">2^1</td>
+<td style="width: 12.4822%;">2^0</td>
+</tr>
+<tr>
+<td style="width: 12.4822%;">1</td>
+<td style="width: 12.4822%;">0</td>
+<td style="width: 12.4822%;">0</td>
+<td style="width: 12.4822%;">0</td>
+<td style="width: 12.4822%;">1</td>
+<td style="width: 12.4822%;">0</td>
+<td style="width: 12.4822%;">0</td>
+<td style="width: 12.4822%;">1</td>
+</tr>
+</tbody>
+</table>
+<p>To convert the binary number 10001001 into a decimal number, we have to calculate this sum:</p>
+<p class="align-center"><code>1*2^0 + 0*2^1 + 0*2^2 + 1*2^3 + 0*2^4 + 0*2^5 + 0*2^6 + 1*2^7</code></p>
+<p>which is equal to</p>
+<p class="align-center"><code>1*1 + 0 + 0 + 1*8 + 0 + 0 + 0 + 1*128 = <strong>137</strong></code></p>
+<h3>How to convert decimals to binary</h3>
+<p>We could also need to convert a base10 number into a base2 one. This may be a little bit more complex, but let's do that with a simple and practical approach.</p>
+<p>We need to consider that in a binary number, every digit has a value that equals 2 times the previous one. So we'll have a sequence like 0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, ...</p>
+<p>We first need to find the biggest number of that sequence that is not greater than the one that we have to convert into a binary number.</p>
+<p>So, let's hypothesize we want to convert 137 into a binary number:</p>
+<ul>
+<li>is 64 greater than 137? NO, so it may be the first number we are looking for;</li>
+<li>is 128 greater than 137? NO, so it may be the first number we are looking for instead of 64;</li>
+<li>is 256 greater than 137? YES, so it is not a valid solution and 128 is the first number we are looking for.</li>
+</ul>
+<p>128 is equal to 2^7 so we can put a 1 in the 8th position (starting from the right) of our binary number (do not forget that computers start counting from 0).</p>
+<table class="align-center" style="border-collapse: collapse; width: 100%; height: 100.719px;" border="1">
+<tbody>
+<tr style="height: 50.3594px;">
+<td style="width: 12.4822%; height: 50.3594px;">2^7</td>
+<td style="width: 12.4822%; height: 50.3594px;">2^6</td>
+<td style="width: 12.4822%; height: 50.3594px;">2^5</td>
+<td style="width: 12.4822%; height: 50.3594px;">2^4</td>
+<td style="width: 12.4822%; height: 50.3594px;">2^3</td>
+<td style="width: 12.4822%; height: 50.3594px;">2^2</td>
+<td style="width: 12.4822%; height: 50.3594px;">2^1</td>
+<td style="width: 12.4822%; height: 50.3594px;">2^0</td>
+</tr>
+<tr style="height: 50.3594px;">
+<td style="width: 12.4822%; height: 50.3594px;"><strong>1</strong></td>
+<td style="width: 12.4822%; height: 50.3594px;">?</td>
+<td style="width: 12.4822%; height: 50.3594px;">?</td>
+<td style="width: 12.4822%; height: 50.3594px;">?</td>
+<td style="width: 12.4822%; height: 50.3594px;">?</td>
+<td style="width: 12.4822%; height: 50.3594px;">?</td>
+<td style="width: 12.4822%; height: 50.3594px;">?</td>
+<td style="width: 12.4822%; height: 50.3594px;">?</td>
+</tr>
+</tbody>
+</table>
+<p>Now we need to find the second digit of our binary number. We can apply the same criteria to the remaining part of the number we are looking for.</p>
+<p>The remaining part of the number we are looking for is equal to 137 - 128 = 9. So we need to find the bigger number in the sequence that is not greater than 9. It is very easy to find out that it is 8, which corresponds to the 4th position of our binary number (2^3). The middle ones will be 0s.</p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 12.5535%; height: 50.3594px;">2^7</td>
+<td style="width: 12.5535%; height: 50.3594px;">2^6</td>
+<td style="width: 12.5535%; height: 50.3594px;">2^5</td>
+<td style="width: 12.5535%; height: 50.3594px;">2^4</td>
+<td style="width: 12.5535%; height: 50.3594px;">2^3</td>
+<td style="width: 12.5535%; height: 50.3594px;">2^2</td>
+<td style="width: 12.5535%; height: 50.3594px;">2^1</td>
+<td style="width: 12.5535%; height: 50.3594px;">2^0</td>
+</tr>
+<tr>
+<td style="width: 12.5535%; height: 50.3594px;"><strong>1</strong></td>
+<td style="width: 12.5535%; height: 50.3594px;">0</td>
+<td style="width: 12.5535%; height: 50.3594px;">0</td>
+<td style="width: 12.5535%; height: 50.3594px;">0</td>
+<td style="width: 12.5535%; height: 50.3594px;"><strong>1</strong></td>
+<td style="width: 12.5535%; height: 50.3594px;">?</td>
+<td style="width: 12.5535%; height: 50.3594px;">?</td>
+<td style="width: 12.5535%; height: 50.3594px;">?</td>
+</tr>
+</tbody>
+</table>
+<p>Now we have to find the next digit for the remaining part of the decimal number we are converting, which corresponds to 137 - 128 - 8 = 1. In this case we can easily find out that 1 is equal to the first number of our sequence, so we can place a 1 in the first position of our binary number (corresponding to 2^0).</p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 12.5535%; height: 50.3594px;">2^7</td>
+<td style="width: 12.5535%; height: 50.3594px;">2^6</td>
+<td style="width: 12.5535%; height: 50.3594px;">2^5</td>
+<td style="width: 12.5535%; height: 50.3594px;">2^4</td>
+<td style="width: 12.5535%; height: 50.3594px;">2^3</td>
+<td style="width: 12.5535%; height: 50.3594px;">2^2</td>
+<td style="width: 12.5535%; height: 50.3594px;">2^1</td>
+<td style="width: 12.1255%; height: 50.3594px;">2^0</td>
+</tr>
+<tr>
+<td style="width: 12.5535%; height: 50.3594px;"><strong>1</strong></td>
+<td style="width: 12.5535%; height: 50.3594px;">0</td>
+<td style="width: 12.5535%; height: 50.3594px;">0</td>
+<td style="width: 12.5535%; height: 50.3594px;">0</td>
+<td style="width: 12.5535%; height: 50.3594px;"><strong>1</strong></td>
+<td style="width: 12.5535%; height: 50.3594px;">0</td>
+<td style="width: 12.5535%; height: 50.3594px;">0</td>
+<td style="width: 12.1255%; height: 50.3594px;"><strong>1</strong></td>
+</tr>
+</tbody>
+</table>
+<p>So we obtained our binary number corresponding to 137, which is 10001001!</p>
+<h3>Final thoughts</h3>
+<p>In this post, we have seen a short example about how numbers work with computers. Of course, there is much more to know but, when handling cryptocurrencies, it could be useful to know what is intended for a binary number and which is its value. We also may never have to perform the above-seen operations by ourselves</p>
+<p>Whit the same criteria, we could also encounter base16 numbers (called hexadecimal), base64 numbers and so on...</p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to handle xpub keys with Anu₿itux</title>
         <author>
@@ -612,157 +776,6 @@
 <p>Then simply click on "Next &gt;" and on "Import".</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/52/ova2.png" alt="ova2" width="1085" height="826" sizes="100vw" srcset="https://anubitux.org/media/posts/52/responsive/ova2-xs.png 300w ,https://anubitux.org/media/posts/52/responsive/ova2-sm.png 480w ,https://anubitux.org/media/posts/52/responsive/ova2-md.png 768w ,https://anubitux.org/media/posts/52/responsive/ova2-lg.png 1024w ,https://anubitux.org/media/posts/52/responsive/ova2-xl.png 1360w ,https://anubitux.org/media/posts/52/responsive/ova2-2xl.png 1600w"></figure>
 <p>Then, when the import process is complete, the virtual machine will appera in the left side of the VirtualBox client, where al the virtual appliances are listed. Now you can start Anu₿itux or click on the "Settings" button to customize the hardware assigned to it.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>What is Anu₿itux?</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/what-is-anubitux-2/"/>
-        <id>https://anubitux.org/what-is-anubitux-2/</id>
-        <media:content url="https://anubitux.org/media/posts/51/Screenshot_20221226_120241.png" medium="image" />
-            <category term="wallet"/>
-            <category term="ubuntu"/>
-            <category term="tutorial"/>
-            <category term="tools"/>
-            <category term="tool"/>
-            <category term="script"/>
-            <category term="python"/>
-            <category term="live"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="linux"/>
-            <category term="distro"/>
-            <category term="cryptocurrency"/>
-            <category term="crypto"/>
-            <category term="bitcoin"/>
-            <category term="anubitux"/>
-
-        <updated>2023-03-09T19:25:27+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/51/Screenshot_20221226_120241.png" alt="AnuBituxDesktop" />
-                    Anu₿itux is, first of all, a Debian based distro that aims to provide a simple and safe environment to use and manage cryptocurrencies. Its aim is to allow all the users to safeguard their cryptos and their privacy like pros, without the need to prepare&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/51/Screenshot_20221226_120241.png" class="type:primaryImage" alt="AnuBituxDesktop" /></p>
-                <p>Anu₿itux is, first of all, a <a href="https://debian.org/" target="_blank" rel="noopener noreferrer">Debian</a> based distro that aims to provide a <strong>simple</strong> and <strong>safe</strong> environment to use and manage cryptocurrencies. Its aim is to allow all the users to safeguard their cryptos and their privacy like pros, without the need to prepare any complex set-up. But it is not only a customized operative system, it also wants to be a place to share knowledge and best practices, providing tutorials based on Anu₿itux that can be applied in every situation.</p>
-<h3>What is included in the Anu₿itux OS?</h3>
-<p>As mentioned, Anu₿itux is an environment based on Debian 11 Bullseye but with many customizations:</p>
-<ul>
-<li>it includes a lot of useful tools to manage cryptocurrencies, like address generators and desktop wallets. Many tools are includes as AppImages, so that end-users will be able to check hashes by themselves;</li>
-<li>the Firefox browser is improved to prevent fingerprinting and the storage of any kind of information on the device. It also has a lot of useful and interesting bookmarks to easily reach online resources;</li>
-<li>if more privacy is neede, <a href="https://www.torproject.org/download/" target="_blank" rel="noopener noreferrer">Tor Browser</a> is also available;</li>
-<li><a href="https://github.com/Und3rf10w/kali-anonsurf" target="_blank" rel="noopener noreferrer">AnonSurf</a> has been added, to help users safeguard their privacy while accessing online resources;</li>
-<li>Python tools run in dedicated <a href="https://anubitux.org/anubitux-and-python-virtual-environments/" target="_blank" rel="noopener noreferrer">virtual environments</a>;</li>
-<li>many printer drivers are installed. They could be useful to generate and print paper wallets completely offline;</li>
-<li>it also includes many solutions to recover access to lost wallets;</li>
-<li>and more...</li>
-</ul>
-<p>The most significant part of Anu₿itux is his collection of tools. Some of them have been selected for this environment, others have been <a href="https://github.com/ASeriousMister" target="_blank" rel="noopener noreferrer">developed</a> by the Anu₿itux team to fit the needs that users may encounter.</p>
-<h3>Tools list</h3>
-<p>The tools are placed in dedicated sub-menus, divided into different categories so that users will be able to quickly find what they need. Some tools did not provide a menu entry. In this case, Anu₿itux has arranged a custom menu entry that also shows some useful information about the tool, like examples and suggestions.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/Selection_111.png" alt="" width="240" height="553" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/Selection_111-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/Selection_111-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/Selection_111-md.png 768w ,https://anubitux.org/media/posts/51/responsive/Selection_111-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/Selection_111-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/Selection_111-2xl.png 1600w"></figure>
-<h4>Address generators</h4>
-<p>The first category is dedicated to the address generators, a collection of tools that could be used to securely generate crypto addresses to store, for instance, on a paper wallet.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/mn1.png" alt="" width="380" height="264" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/mn1-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/mn1-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/mn1-md.png 768w ,https://anubitux.org/media/posts/51/responsive/mn1-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/mn1-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/mn1-2xl.png 1600w"></figure>
-<ul>
-<li><a href="https://github.com/pointbiz/bitaddress.org" target="_blank" rel="noopener noreferrer">BitAddress</a> is a javascript tool that runs locally and creates a Bitcoin paper wallet and that can be found at <a href="https://www.bitaddress.org/" target="_blank" rel="noopener noreferrer">bitaddress.org</a>;</li>
-<li><a href="https://github.com/theantnest/bccaddress" target="_blank" rel="noopener noreferrer">CashAddress</a> is a javascript tool that runs locally and creates a Bitcoin Cash paper wallet and that can be found at <a href="https://cashaddress.org/" target="_blank" rel="noopener noreferrer">cashaddress.org</a>;</li>
-<li><a href="https://github.com/dashpay/paper.dash.org" target="_blank" rel="noopener noreferrer">DashPaperWallet</a> is a javascript tool that runs locally and creates a Dash paper wallet that can be found on <a href="https://paper.dash.org/" target="_blank" rel="noopener noreferrer">paper.dash.org</a>;</li>
-<li><a href="https://github.com/ASeriousMister/Dice2Seed" target="_blank" rel="noopener noreferrer">Dice2Seed</a> is a tool that obtaines a mnemonic seed starting from the entropy obtained rolling a dice;</li>
-<li><a href="https://github.com/ASeriousMister/DiceTracker.py" target="_blank" rel="noopener noreferrer">DiceTracker</a> is a tool that generates printable paper wallets starting from 256 dice rolls, removing the need to trust software's entropy;</li>
-<li><a href="https://github.com/ASeriousMister/LastWord" target="_blank" rel="noopener noreferrer">LastWord</a> is a tool that finds a last word that respects the BIP39 checksum for mnemonic phrases;</li>
-<li><a href="http://liteaddress.org/" target="_blank" rel="noopener noreferrer">LiteAddress</a> is a javascript tool that runs locally and creates a Bitcoin paper wallet and that can be found at <a href="https://github.com/litecoin-project/liteaddress.org" target="_blank" rel="noopener noreferrer">liteaddress.org</a>;</li>
-<li><a href="https://github.com/moneromooo-monero/monero-wallet-generator/" target="_blank" rel="noopener noreferrer">MoneroWalletGenerator</a> is an offline Monero wallet generator that can also be found on <a href="https://moneroaddress.org/" target="_blank" rel="noopener noreferrer">moneroaddress.org</a>; </li>
-<li><a href="https://github.com/walletgeneratornet/WalletGenerator.net" target="_blank" rel="noopener noreferrer">WalletGenerator</a> is a multi-currency paper wallet generator that supports dozens of different coins;</li>
-<li><a href="https://github.com/luigi1111/xmr.llcoins.net/blob/master/site/addressgen.html" target="_blank" rel="noopener noreferrer">XMR AddressGen</a> is a tool to generate XMR addresses that can also be reached on <a href="https://xmr.llcoins.net/" target="_blank" rel="noopener noreferrer">this</a> website.</li>
-</ul>
-<h4>Encryption</h4>
-<p>Here there are tools that could be useful to interact with anything regarding encryption.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/Screenshot_20221226_191603.png" alt="" width="300" height="172" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191603-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191603-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191603-md.png 768w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191603-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191603-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191603-2xl.png 1600w"></figure>
-<ul>
-<li><a href="https://bitwarden.com/" target="_blank" rel="noopener noreferrer">BitWarden</a> is a very popular, powerful and <a href="https://github.com/bitwarden" target="_blank" rel="noopener noreferrer">open source</a> password manager;</li>
-<li><a href="https://keepassxc.org/" target="_blank" rel="noopener noreferrer">KeepassXC</a> is an offline <a href="https://github.com/keepassxreboot/keepassxc" target="_blank" rel="noopener noreferrer">open source</a> cross-platform password manager, that could also store any kind of information like mnemonic seed phrases;</li>
-<li><a href="https://www.openpgp.org/software/kleopatra/" target="_blank" rel="noopener noreferrer">Kleopatra</a> manages PGP Keys and allows to encrypt, decrypt, sign and verify text and files;</li>
-<li><a href="https://www.veracrypt.fr/en/Home.html" target="_blank" rel="noopener noreferrer">VeraCrypt</a> is a cross-platform <a href="https://github.com/veracrypt/VeraCrypt" target="_blank" rel="noopener noreferrer">open source</a> tool that allows to encrypt and decrypt volumes and disks with many algorithms;</li>
-<li><a href="https://github.com/mhogomchungu/zuluCrypt" target="_blank" rel="noopener noreferrer">zuluCrypt</a> is a simple,feature rich and powerful solution for hard drives encryption. More info <a href="https://mhogomchungu.github.io/zuluCrypt/" target="_blank" rel="noopener noreferrer">here</a>.</li>
-</ul>
-<h4>Hardware Wallets</h4>
-<p>This category encloses the official clients of some hardware wallets. Many of them are also supported by desktop clients like Electrum, since the udev rules have been set up in Anu₿itux so that they can be connected without troubles. </p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/mn2.png" alt="" width="336" height="186" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/mn2-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/mn2-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/mn2-md.png 768w ,https://anubitux.org/media/posts/51/responsive/mn2-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/mn2-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/mn2-2xl.png 1600w"></figure>
-<ul>
-<li><a href="https://bc-vault.com/download/" target="_blank" rel="noopener noreferrer">BC Vault</a> is the official client to manage <a href="https://bc-vault.com/" target="_blank" rel="noopener noreferrer">BCVault hardware wallets</a>.</li>
-<li><a href="https://github.com/digitalbitbox/bitbox-wallet-app" target="_blank" rel="noopener noreferrer">BitBoxApp</a> is the official client to manage <a href="https://shiftcrypto.ch/" target="_blank" rel="noopener noreferrer">BitBox hardware wallets</a>;</li>
-<li><a href="https://www.keepkey.com/" target="_blank" rel="noopener noreferrer">KeepKey</a> is the official client for KeepKey hardware wallets;</li>
-<li><a href="https://www.ledger.com/ledger-live" target="_blank" rel="noopener noreferrer">Ledger Live</a> is the official client to manage <a href="https://www.ledger.com/" target="_blank" rel="noopener noreferrer">Ledger hardware wallets</a> like the Nano S model and the Nano X model;</li>
-<li>Setup udev rules is a script that sets up the udev rules, needed by the clients to interact with hardware wallets (this is done completely offline);</li>
-<li><a href="https://suite.trezor.io/" target="_blank" rel="noopener noreferrer">Trezor Suite</a> is the official client to manage <a href="https://trezor.io/" target="_blank" rel="noopener noreferrer">Trezor hardware wallets</a> like the Model One and the Model T.</li>
-</ul>
-<h4>Recovery</h4>
-<p>In this section there is a collection of tool that could help to recover access to lost wallets or locked funds.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/Screenshot_20221226_191238.png" alt="" width="300" height="276" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191238-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191238-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191238-md.png 768w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191238-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191238-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_191238-2xl.png 1600w"></figure>
-<ul>
-<li><a href="https://github.com/ASeriousMister/BTCKeySearch" target="_blank" rel="noopener noreferrer">BTCKeySearch</a> is a tool , developed by the Anu₿itux team, that scans files in a directory and in its subdirectories, looking for Bitcoin private keys, Monero private spend keys and BIP32 root keys (xpriv);</li>
-<li><a href="https://github.com/3rdIteration/btcrecover" target="_blank" rel="noopener noreferrer">BTCRecover</a> is a powerful tool that provides many solutions to recover access to wallets, even to perform dictionary and bruteforce attacks;</li>
-<li><a href="https://github.com/simsong/bulk_extractor" target="_blank" rel="noopener noreferrer">BulkExtractor</a> is a tool that rapidly scans directory and volumes for any kind of input like regular expressions;</li>
-<li><a href="https://hashcat.net/hashcat/" target="_blank" rel="noopener noreferrer">HashCat</a> is a very popular password cracking tool that supports a lot of different algorithms. Please refer to the <a href="https://hashcat.net/forum/" target="_blank" rel="noopener noreferrer">official forum</a> to learn how to use it in every specific case;</li>
-<li><a href="https://github.com/cgsecurity/testdisk" target="_blank" rel="noopener noreferrer">Photorec</a> tries to recover deleted files or part of them and could be useful, for instance, for accidentally deleted wallets.</li>
-<li><a href="https://github.com/ASeriousMister/SeedSearch.py" target="_blank" rel="noopener noreferrer">SeedSearch</a> is a tool, developed by the Anu₿itux team, that scans files in a directory and in its subdirectories, looking for BIP39 mnemonic seeds;</li>
-<li><a href="https://github.com/3rdIteration/btcrecover/blob/master/seedrecover.py" target="_blank" rel="noopener noreferrer">SeedRecover</a> is part of the BTCrecover tool. It tries to fix a mnemonic seed phrase with mistakes and/or missing words;</li>
-<li><a href="https://github.com/ASeriousMister/SeedSearch.py" target="_blank" rel="noopener noreferrer">SeedSearch</a> is a tool, developed by the Anu₿itux team, that scans files in a directory and in its subdirectories, looking for BIP39 mnemonic seeds;</li>
-<li><a href="https://github.com/ASeriousMister/VeraDecrypt.py" target="_blank" rel="noopener noreferrer">VeraDecrypt</a> is a tool, developed by the Anu₿itux team, that tries to unlock <a href="https://www.veracrypt.fr/en/Home.html" target="_blank" rel="noopener noreferrer">VeraCrypt</a> volumes and containers using a list of passwords given by the user.</li>
-</ul>
-<h4>UsefulTools</h4>
-<p>In this section there are some tools that could be useful in many Anu₿itux's use cases.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/Screenshot_20221226_192634.png" alt="" width="350" height="289" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_192634-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_192634-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_192634-md.png 768w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_192634-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_192634-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/Screenshot_20221226_192634-2xl.png 1600w"></figure>
-<ul>
-<li><a href="https://ffmpeg.org/" target="_blank" rel="noopener noreferrer">FFMpeg</a> is a complete, cross-platform solution to record, convert and stream audio and video. For this purpose, it could be used to record the desktop screen while doing operations that need to be reported to a third party. <span style="text-decoration: underline;"><span style="color: #e03e2d; text-decoration: underline;"><strong>Never</strong></span></span> use it while generating sensible information like private keys or new wallets or, in general, for information that are not supposed to be shared;</li>
-<li><a href="https://flameshot.org/" target="_blank" rel="noopener noreferrer">Flameshot</a> is a powerful tool to capture and edit screenshots</li>
-<li><a href="https://github.com/ASeriousMister/passgen.py" target="_blank" rel="noopener noreferrer">Password (passgen.py)</a> is a secure password generator developed by the Anu₿itux team;</li>
-<li><a href="https://github.com/fukuchi/libqrencode/" target="_blank" rel="noopener noreferrer">QREncode</a> is a tool that generates QR codes from strings and that could be very useful to store addresses and keys offline. More information <a href="https://fukuchi.org/works/qrencode/" target="_blank" rel="noopener noreferrer">here</a>.</li>
-<li><a href="https://github.com/sayanarijit/qrscan" target="_blank" rel="noopener noreferrer">QRScan</a> is a lightweight QR scanner with a terminal user interface (TUX) that works on files and throught the webcam;</li>
-<li><a href="https://debian.pkgs.org/11/debian-main-amd64/qtqr_2.0~bzr33-2_all.deb.html" target="_blank" rel="noopener noreferrer">QtQR</a> is a GUI tool to generate and scan QR codes; </li>
-<li><a href="https://tshark.dev/" target="_blank" rel="noopener noreferrer">TShark</a> is a CLI tool for packet capturing;</li>
-<li><a href="https://www.wireshark.org/" target="_blank" rel="noopener noreferrer">Wireshark</a> is the world’s foremost and widely-used network protocol analyzer. It could be used to capture network traffic during sensible operations and verify that only proper network traffic was exchanged.</li>
-</ul>
-<h4>Wallets</h4>
-<p>In this category there is a collection of many desktop wallets, so that the users, in most cases, will be able to use their coins without the need to install any client.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/mn4.png" alt="" width="403" height="374" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/mn4-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/mn4-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/mn4-md.png 768w ,https://anubitux.org/media/posts/51/responsive/mn4-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/mn4-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/mn4-2xl.png 1600w"></figure>
-<ul>
-<li><a href="https://www.coinomi.com/" target="_blank" rel="noopener noreferrer">Coinomi</a> is a multi-chain wallet that is widely used;</li>
-<li><a href="https://electroncash.org/" target="_blank" rel="noopener noreferrer">ElectronCash</a> is a version of the well known Electrum wallet that works with Bitcoin Cash;</li>
-<li><a href="https://electrum-ltc.org/" target="_blank" rel="noopener noreferrer">Electrum(LTC)</a> is a version of the well known Electrum wallet that works with Litecoin;</li>
-<li><a href="https://electrum.org/#home" target="_blank" rel="noopener noreferrer">Electrum(BTC)</a> is one of the most known and used SPV Bitcoin wallets; </li>
-<li><a href="https://www.exodus.com/" target="_blank" rel="noopener noreferrer">Exodus</a> is a multi-currency and multi-service desktop wallet;</li>
-<li><a href="https://featherwallet.org/" target="_blank" rel="noopener noreferrer">FeatherWallet</a> is a very complete and powerful Monero wallet with a comfortable user interface that is similar to Electrum's one;</li>
-<li><a href="https://blockstream.com/green/" target="_blank" rel="noopener noreferrer">GreenWallet</a> is a desktop wallet, <a href="https://github.com/Blockstream/green_qt/releases" target="_blank" rel="noopener noreferrer">developed</a> by <a href="https://blockstream.com/" target="_blank" rel="noopener noreferrer">Blockstream</a> that supports Bitcoin and even L-BTC on the <a href="https://blockstream.com/liquid/" target="_blank" rel="noopener noreferrer">Liquid</a> sidechain.</li>
-<li><a href="https://www.getmonero.org/resources/user-guides/monero-wallet-cli.html" target="_blank" rel="noopener noreferrer">Monero-CLI</a> is the official command line Monero wallet;</li>
-<li><a href="https://mycrypto.com/" target="_blank" rel="noopener noreferrer">MyCrypto</a> is a wallet that allows to manage Ethereum accounts;</li>
-<li><a href="https://mymonero.com/" target="_blank" rel="noopener noreferrer">MyMonero</a> is a lightweight and efficient Monero wallet;</li>
-<li><a href="https://sparrowwallet.com/" target="_blank" rel="noopener noreferrer">Sparrow wallet</a> is a Bitcoin wallet caring for user's privacy;</li>
-<li><a href="https://www.zecwallet.co/" target="_blank" rel="noopener noreferrer">ZecWallet Lite</a> is a fully featured shielded wallet for Zcash;</li>
-<li><a href="https://github.com/MetaMask/metamask-extension/" target="_blank" rel="noopener noreferrer">MetaMask</a> is a wallet for Ethereum accounts and a gateway to blockchain apps. It can be found as an extension of the FireFox browser;</li>
-<li><a href="https://templewallet.com/" target="_blank" rel="noopener noreferrer">Temple</a> is a Tezos wallet that can be found as an extension of the FireFox browser.</li>
-</ul>
-<h4>Wallet Tools</h4>
-<p>In this section there are tools that can be used to manage wallet related stuff, especially mnemonic seed phrases.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/51/mn3.png" alt="" width="338" height="339" sizes="100vw" srcset="https://anubitux.org/media/posts/51/responsive/mn3-xs.png 300w ,https://anubitux.org/media/posts/51/responsive/mn3-sm.png 480w ,https://anubitux.org/media/posts/51/responsive/mn3-md.png 768w ,https://anubitux.org/media/posts/51/responsive/mn3-lg.png 1024w ,https://anubitux.org/media/posts/51/responsive/mn3-xl.png 1360w ,https://anubitux.org/media/posts/51/responsive/mn3-2xl.png 1600w"></figure>
-<ul>
-<li><a href="https://github.com/iancoleman/bip39" target="_blank" rel="noopener noreferrer">BIP39</a> is the well known tool developed by Ian Coleman that handles derivation paths based on BIP39 wordlists. It is also available on his <a href="https://iancoleman.io/bip39/" target="_blank" rel="noopener noreferrer">website</a>;</li>
-<li><a href="https://github.com/OutCast3k/coinbin/" target="_blank" rel="noopener noreferrer">Coinb.in</a> is a tool that allows users to sign, verify and broadcast transactions that could also have been written from scratch. The tool is also available on the web at the <a href="https://coinb.in/" target="_blank" rel="noopener noreferrer">coinb.in</a> page.</li>
-<li><a href="https://github.com/ASeriousMister/SeedCheck.py" target="_blank" rel="noopener noreferrer">SeedCheck.py</a> is a tool developed by the Anu₿itux team that tries to find out the correct derivation path or the right software a seed was used with;</li>
-<li><a href="https://github.com/luigi1111/xmr.llcoins.net/blob/master/site/addresstests.html" target="_blank" rel="noopener noreferrer">XMR Address Test</a> is a tool related to Cryptonote Addresses, used by the Monero protocol;</li>
-<li><a href="https://github.com/luigi1111/xmr.llcoins.net/blob/master/site/checktx.html" target="_blank" rel="noopener noreferrer">XMR check tx</a> is a tool that can be used to verify XMR transactions, providing the necessary keys;</li>
-<li><a href="https://github.com/luigi1111/xmr.llcoins.net/blob/master/site/sign.html" target="_blank" rel="noopener noreferrer">XMR message sign</a> can be used to sign and verify messages using XMR keys;</li>
-<li><a href="https://github.com/jlopp/xpub-converter" target="_blank" rel="noopener noreferrer">Xpub-converter</a> is a tool, by <a href="https://www.lopp.net/" target="_blank" rel="noopener noreferrer">Jameson Lopp</a>, that allows to convert among many different formats of xpub keys. </li>
-</ul>
-<p> </p>
             ]]>
         </content>
     </entry>
