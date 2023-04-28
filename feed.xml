@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2023-04-28T15:16:57+02:00</updated>
+    <updated>2023-04-28T15:25:04+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -16,7 +16,7 @@
         </author>
         <link href="https://anubitux.org/from-wax-tablets-to-elliptical-curves-a-brief-history-of-cryptography-part-three/"/>
         <id>https://anubitux.org/from-wax-tablets-to-elliptical-curves-a-brief-history-of-cryptography-part-three/</id>
-        <media:content url="https://anubitux.org/media/posts/65/pic_0.png" medium="image" />
+        <media:content url="https://anubitux.org/media/posts/65/pic_0-2.png" medium="image" />
             <category term="tutorial"/>
             <category term="linux"/>
             <category term="encryption"/>
@@ -25,16 +25,16 @@
             <category term="bitcoin"/>
             <category term="anubitux"/>
 
-        <updated>2023-04-28T15:16:57+02:00</updated>
+        <updated>2023-04-28T15:25:04+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://anubitux.org/media/posts/65/pic_0.png" alt="" />
+                        <img src="https://anubitux.org/media/posts/65/pic_0-2.png" alt="" />
                     At the end of this brief journey through incomprehensible digits and letters (in case you haven't already done so, I suggest reading the first and second parts), in this article we will talk about a cryptographic method that has had great resonance in recent years, even thanks to the&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/65/pic_0.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://anubitux.org/media/posts/65/pic_0-2.png" class="type:primaryImage" alt="" /></p>
                 <p><span style="color: #000000;"><span style="font-family: Arial, serif;"><span style="font-size: medium;"><span lang="en-US">At the end of this brief journey through incomprehensible digits and letters (in case you haven't already done so, I suggest reading the </span></span></span></span><span style="color: #176db3;"><span style="font-family: Arial, serif;"><span style="font-size: medium;"><span lang="en-US"><u><a href="https://anubitux.org/from-wax-tablets-to-elliptical-curves-a-brief-history-of-cryptography-part-one/" target="_blank" rel="noopener noreferrer">first</a></u></span></span></span></span><span style="color: #000000;"><span style="font-family: Arial, serif;"><span style="font-size: medium;"><span lang="en-US"> and </span></span></span></span><span style="color: #176db3;"><span style="font-family: Arial, serif;"><span style="font-size: medium;"><span lang="en-US"><u><a href="https://anubitux.org/from-wax-tablets-to-elliptical-curves-a-brief-history-of-cryptography-part-two/" target="_blank" rel="noopener noreferrer">second</a></u></span></span></span></span><span style="color: #000000;"><span style="font-family: Arial, serif;"><span style="font-size: medium;"><span lang="en-US"> parts), in this article we will talk about a cryptographic method that has had great resonance in recent years, even thanks to the implementation in the Bitcoin protocol.</span></span></span></span></p>
 <p><span style="color: #000000;"><span style="font-family: Arial, serif;"><span style="font-size: medium;"><span lang="en-US">Without pretending to be able to </span></span></span></span><span style="color: #000000;"><span style="font-family: Arial, serif;"><span style="font-size: medium;"><span lang="en-US"><i>liquidate</i></span></span></span></span><span style="color: #000000;"><span style="font-family: Arial, serif;"><span style="font-size: medium;"><span lang="en-US"> the subject of cryptography in such small spaces, since such a vast and complex subject certainly goes beyond the purpose of these articles, I leave ample space for the passion and study of each of us on texts also available online.</span></span></span></span></p>
 <p><span style="color: #000000;"><span style="font-family: Arial, serif;"><span style="font-size: medium;"><span lang="en-US">This concluding article wants us to get to know a little better how a cryptographic method that is very popular and discussed today works: the use of Elliptic-Curve Cryptography in the Bitcoin protocol.</span></span></span></span></p>
