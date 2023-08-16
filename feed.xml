@@ -3,12 +3,74 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2023-06-10T11:20:24+02:00</updated>
+    <updated>2023-08-16T22:14:49+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>How to speed up a transaction</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/how-to-speed-up-a-transaction/"/>
+        <id>https://anubitux.org/how-to-speed-up-a-transaction/</id>
+        <media:content url="https://anubitux.org/media/posts/66/speedometer-653246_1280.jpg" medium="image" />
+            <category term="wallet"/>
+            <category term="tutorial"/>
+            <category term="tools"/>
+            <category term="tool"/>
+            <category term="python"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="linux"/>
+            <category term="howto"/>
+            <category term="electrum"/>
+            <category term="cryptocurrency"/>
+            <category term="crypto"/>
+            <category term="bitcoin"/>
+            <category term="anubitux"/>
+
+        <updated>2023-08-16T22:14:49+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/66/speedometer-653246_1280.jpg" alt="" />
+                    Let's hypothesize we are receiving a transaction from a friend but he has set up a very low fee and the transaction gets no confirmation. How could we solve that if he is not intended to increase the fee? We could arrange a CPFP transaction.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://anubitux.org/media/posts/66/speedometer-653246_1280.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Let's hypothesize we are receiving a transaction from a friend but he has set up a very low fee and the transaction gets no confirmation. How could we solve that if he is not intended to increase the fee? We could arrange a CPFP transaction.</p>
+<h3>What are CPFP transactions?</h3>
+<p>CPFP means "Child Pays For Parents". With this kind of transaction, we are spending the unconfirmed coins, sending them to one of our addresses setting up a higher fee. Doing so miners that want to take the big fee of our transaction have to confirm also the transaction with a lower one.</p>
+<h3>How to arrange a CPFP transaction</h3>
+<p>In our case, a friend has arranged a transaction to our address mxhf3LRP3C9gZRacvJMiYvq5K3dpeWRPaG (it's a testnet address),</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/66/Electrum-Testnet-4.4.4-miserly-standard_001.png" alt="" width="800" height="408" sizes="100vw" srcset="https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-miserly-standard_001-xs.png 300w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-miserly-standard_001-sm.png 480w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-miserly-standard_001-md.png 768w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-miserly-standard_001-lg.png 1024w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-miserly-standard_001-xl.png 1360w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-miserly-standard_001-2xl.png 1600w"></figure>
+<p>but he has set a very low fee.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/66/New-Transaction_001.png" alt="" width="600" height="201" sizes="100vw" srcset="https://anubitux.org/media/posts/66/responsive/New-Transaction_001-xs.png 300w ,https://anubitux.org/media/posts/66/responsive/New-Transaction_001-sm.png 480w ,https://anubitux.org/media/posts/66/responsive/New-Transaction_001-md.png 768w ,https://anubitux.org/media/posts/66/responsive/New-Transaction_001-lg.png 1024w ,https://anubitux.org/media/posts/66/responsive/New-Transaction_001-xl.png 1360w ,https://anubitux.org/media/posts/66/responsive/New-Transaction_001-2xl.png 1600w"></figure>
+<p>We can see the transaction in the "History" tab of our <a href="https://electrum.org/" target="_blank" rel="noopener noreferrer">Electrum</a> client, but we'll have to wait several hours to have it confirmed by the network.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/66/Electrum-Testnet-4.4.4-default_wallet-imported_001.png" alt="" width="800" height="408" sizes="100vw" srcset="https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_001-xs.png 300w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_001-sm.png 480w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_001-md.png 768w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_001-lg.png 1024w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_001-xl.png 1360w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_001-2xl.png 1600w"></figure>
+<p>To arrange a CPFP transaction, we have to go to the "Addresses" tab, select the mxhf3LRP3C9gZRacvJMiYvq5K3dpeWRPaG address (the one that is receiving the transaction with low fees) and, clicking on the right button, we have to select "Add to coin control". In doing so we are going to spend only the UTxOs related to this address.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/66/Electrum-Testnet-4.4.4-default_wallet-imported_002.png" alt="" width="800" height="408" sizes="100vw" srcset="https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_002-xs.png 300w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_002-sm.png 480w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_002-md.png 768w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_002-lg.png 1024w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_002-xl.png 1360w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_002-2xl.png 1600w"></figure>
+<p>Now we can go to the "Send" tab and dispose a transaction to another address we own, like the n3ReAt8GJ6m1ricoanTsBJpANc4zYVkXSG address in our case, spending all the available amount (clicking on the "Max" button).</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/66/Electrum-Testnet-4.4.4-default_wallet-imported_003.png" alt="" width="800" height="408" sizes="100vw" srcset="https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_003-xs.png 300w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_003-sm.png 480w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_003-md.png 768w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_003-lg.png 1024w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_003-xl.png 1360w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_003-2xl.png 1600w"></figure>
+<p>Now, clicking on the "Pay..." button, we can set up the fee. We can consider setting it accordingly to our needs. In our case, we have set it to the maximum available value.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/66/New-Transaction_002.png" alt="" width="600" height="201" sizes="100vw" srcset="https://anubitux.org/media/posts/66/responsive/New-Transaction_002-xs.png 300w ,https://anubitux.org/media/posts/66/responsive/New-Transaction_002-sm.png 480w ,https://anubitux.org/media/posts/66/responsive/New-Transaction_002-md.png 768w ,https://anubitux.org/media/posts/66/responsive/New-Transaction_002-lg.png 1024w ,https://anubitux.org/media/posts/66/responsive/New-Transaction_002-xl.png 1360w ,https://anubitux.org/media/posts/66/responsive/New-Transaction_002-2xl.png 1600w"></figure>
+<p>Now we can see the new transaction in our "History" tab.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/66/Electrum-Testnet-4.4.4-default_wallet-imported_004.png" alt="" width="800" height="408" sizes="100vw" srcset="https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_004-xs.png 300w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_004-sm.png 480w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_004-md.png 768w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_004-lg.png 1024w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_004-xl.png 1360w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_004-2xl.png 1600w"></figure>
+<p>As we can see, there is an alert sign because the transaction is trying to spend unconfirmed coins. Waiting a few minutes, we will see that both transactions have been confirmed together by the network.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/66/Electrum-Testnet-4.4.4-default_wallet-imported_005.png" alt="" width="800" height="408" sizes="100vw" srcset="https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_005-xs.png 300w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_005-sm.png 480w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_005-md.png 768w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_005-lg.png 1024w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_005-xl.png 1360w ,https://anubitux.org/media/posts/66/responsive/Electrum-Testnet-4.4.4-default_wallet-imported_005-2xl.png 1600w"></figure>
+<p>Looking at the transactions' details, we can also see that both have been included in the same block number 2473282.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/66/Transaction-553b5d3daa1499e1aa23544c87387d1618244a70937de87c7c76b64853121b48_002.png" alt="" width="750" height="539" sizes="100vw" srcset="https://anubitux.org/media/posts/66/responsive/Transaction-553b5d3daa1499e1aa23544c87387d1618244a70937de87c7c76b64853121b48_002-xs.png 300w ,https://anubitux.org/media/posts/66/responsive/Transaction-553b5d3daa1499e1aa23544c87387d1618244a70937de87c7c76b64853121b48_002-sm.png 480w ,https://anubitux.org/media/posts/66/responsive/Transaction-553b5d3daa1499e1aa23544c87387d1618244a70937de87c7c76b64853121b48_002-md.png 768w ,https://anubitux.org/media/posts/66/responsive/Transaction-553b5d3daa1499e1aa23544c87387d1618244a70937de87c7c76b64853121b48_002-lg.png 1024w ,https://anubitux.org/media/posts/66/responsive/Transaction-553b5d3daa1499e1aa23544c87387d1618244a70937de87c7c76b64853121b48_002-xl.png 1360w ,https://anubitux.org/media/posts/66/responsive/Transaction-553b5d3daa1499e1aa23544c87387d1618244a70937de87c7c76b64853121b48_002-2xl.png 1600w"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/66/Transaction-83a79a9dadc8c169430230594f38b1df3fba81dd6188cdf2f271c861721f3687_002.png" alt="" width="750" height="539" sizes="100vw" srcset="https://anubitux.org/media/posts/66/responsive/Transaction-83a79a9dadc8c169430230594f38b1df3fba81dd6188cdf2f271c861721f3687_002-xs.png 300w ,https://anubitux.org/media/posts/66/responsive/Transaction-83a79a9dadc8c169430230594f38b1df3fba81dd6188cdf2f271c861721f3687_002-sm.png 480w ,https://anubitux.org/media/posts/66/responsive/Transaction-83a79a9dadc8c169430230594f38b1df3fba81dd6188cdf2f271c861721f3687_002-md.png 768w ,https://anubitux.org/media/posts/66/responsive/Transaction-83a79a9dadc8c169430230594f38b1df3fba81dd6188cdf2f271c861721f3687_002-lg.png 1024w ,https://anubitux.org/media/posts/66/responsive/Transaction-83a79a9dadc8c169430230594f38b1df3fba81dd6188cdf2f271c861721f3687_002-xl.png 1360w ,https://anubitux.org/media/posts/66/responsive/Transaction-83a79a9dadc8c169430230594f38b1df3fba81dd6188cdf2f271c861721f3687_002-2xl.png 1600w"></figure>
+<h3>Final thoughts</h3>
+<p>This method may not be used daily and may also be inconvenient since we have to pay a transaction fee to receive funds, but it may be useful in some situations and it is also a good method to learn how the Bitcoin protocol works.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>From wax tablets to elliptical curves. A Brief History of Cryptography (Part Three)</title>
         <author>
@@ -727,43 +789,6 @@
 <p>Now user can chose at the boot if they want to run AnuBitux in live mode, the main purpose of this project, or install it to train using its tools.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/54/Selection_116.png" alt="" width="600" height="451" sizes="100vw" srcset="https://anubitux.org/media/posts/54/responsive/Selection_116-xs.png 300w ,https://anubitux.org/media/posts/54/responsive/Selection_116-sm.png 480w ,https://anubitux.org/media/posts/54/responsive/Selection_116-md.png 768w ,https://anubitux.org/media/posts/54/responsive/Selection_116-lg.png 1024w ,https://anubitux.org/media/posts/54/responsive/Selection_116-xl.png 1360w ,https://anubitux.org/media/posts/54/responsive/Selection_116-2xl.png 1600w"></figure>
 <p>It also has a lot of new tools and updates! <a href="https://anubitux.org/download-anubitux/" target="_blank" rel="noopener noreferrer">Download</a> it and <a href="https://anubitux.org/how-to-use-anubitux-2/">check it out</a>!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Enable network monitor in AnuBitux 2</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/enable-network-monitor-in-anubitux-2/"/>
-        <id>https://anubitux.org/enable-network-monitor-in-anubitux-2/</id>
-        <media:content url="https://anubitux.org/media/posts/53/cyberspace-gc66fcea74_1280.jpg" medium="image" />
-            <category term="tutorial"/>
-            <category term="opsec"/>
-            <category term="network"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="anubitux"/>
-
-        <updated>2023-06-10T11:18:39+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/53/cyberspace-gc66fcea74_1280.jpg" alt="Network" />
-                    AnuBitux is a linux distro based on Debian. By default, AnuBitux has the network monitor enabled in the lower panel, but, it could not show any data because it needs to be configured accordingly to the network interfaces of the device you are using. To&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/53/cyberspace-gc66fcea74_1280.jpg" class="type:primaryImage" alt="Network" /></p>
-                <p>AnuBitux is a linux distro based on Debian. By default, AnuBitux has the network monitor enabled in the lower panel, but, it could not show any data because it needs to be configured accordingly to the network interfaces of the device you are using.</p>
-<p>To make it work properly, right click on the right part of the lower panel, near the notification area, as shown below.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/53/Selection_128.png" alt="" width="470" height="289" sizes="100vw" srcset="https://anubitux.org/media/posts/53/responsive/Selection_128-xs.png 300w ,https://anubitux.org/media/posts/53/responsive/Selection_128-sm.png 480w ,https://anubitux.org/media/posts/53/responsive/Selection_128-md.png 768w ,https://anubitux.org/media/posts/53/responsive/Selection_128-lg.png 1024w ,https://anubitux.org/media/posts/53/responsive/Selection_128-xl.png 1360w ,https://anubitux.org/media/posts/53/responsive/Selection_128-2xl.png 1600w"></figure>
-<p>Then click on Network interfaces and select the interfaces you want to be monitored, to show the inbound and outbound network traffic on your panel and always be able to see if something is going on.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/53/Selection_129.png" alt="" width="470" height="321" sizes="100vw" srcset="https://anubitux.org/media/posts/53/responsive/Selection_129-xs.png 300w ,https://anubitux.org/media/posts/53/responsive/Selection_129-sm.png 480w ,https://anubitux.org/media/posts/53/responsive/Selection_129-md.png 768w ,https://anubitux.org/media/posts/53/responsive/Selection_129-lg.png 1024w ,https://anubitux.org/media/posts/53/responsive/Selection_129-xl.png 1360w ,https://anubitux.org/media/posts/53/responsive/Selection_129-2xl.png 1600w"></figure>
-<p>Now you will be able to see two coloured waves on the panel that symbolize the network load.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/53/Selection_130.png" alt="" width="298" height="90" sizes="100vw" srcset="https://anubitux.org/media/posts/53/responsive/Selection_130-xs.png 300w ,https://anubitux.org/media/posts/53/responsive/Selection_130-sm.png 480w ,https://anubitux.org/media/posts/53/responsive/Selection_130-md.png 768w ,https://anubitux.org/media/posts/53/responsive/Selection_130-lg.png 1024w ,https://anubitux.org/media/posts/53/responsive/Selection_130-xl.png 1360w ,https://anubitux.org/media/posts/53/responsive/Selection_130-2xl.png 1600w"></figure>
-<p>This feature is very userful to notice if a service or a tool is doing some unexpected network traffic.</p>
             ]]>
         </content>
     </entry>
