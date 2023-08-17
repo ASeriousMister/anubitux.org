@@ -3,12 +3,83 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2023-08-16T22:14:49+02:00</updated>
+    <updated>2023-08-17T22:35:31+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>Reviewing Ledger Live&#x27;s network traffic</title>
+        <author>
+            <name>Anu₿itux</name>
+        </author>
+        <link href="https://anubitux.org/reviewing-ledger-lives-network-traffic/"/>
+        <id>https://anubitux.org/reviewing-ledger-lives-network-traffic/</id>
+        <media:content url="https://anubitux.org/media/posts/67/system-2660914_1280.jpg" medium="image" />
+            <category term="wireshark"/>
+            <category term="wallet"/>
+            <category term="tools"/>
+            <category term="tool"/>
+            <category term="test"/>
+            <category term="seedcheck"/>
+            <category term="opsec"/>
+            <category term="network"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="investigation"/>
+            <category term="hardware wallet"/>
+            <category term="encryption"/>
+            <category term="encrypted"/>
+            <category term="debian"/>
+            <category term="cryptography"/>
+            <category term="cryptocurrency"/>
+            <category term="blockchain"/>
+            <category term="bitcoin"/>
+            <category term="bip39"/>
+            <category term="anubitux"/>
+
+        <updated>2023-08-17T22:35:31+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/67/system-2660914_1280.jpg" alt="" />
+                    There are a lot of rumors about hardware wallet clients tracing their customers, collecting their data through official clients. One of the most common hardware wallets, which has also been much discussed for possible privacy issues, is undoubtedly the Ledger. Let's try to analyze the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://anubitux.org/media/posts/67/system-2660914_1280.jpg" class="type:primaryImage" alt="" /></p>
+                <p>There are a lot of rumors about hardware wallet clients tracing their customers, collecting their data through official clients. O<span class="--l --r sentence_highlight">ne of the most common hardware wallets, which has also been much discussed for possible privacy issues, is undoubtedly the <a href="https://www.ledger.com/" target="_blank" rel="noopener noreferrer">Ledger</a>.</span></p>
+<p>Let's try to analyze the Ledger Live client's network traffic to see what data it collects.</p>
+<p>One of the most common rumors is that the Ledger's servers collect the <a href="https://anubitux.org/how-to-obtain-xpub-keys-with-anubitux/" target="_blank" rel="noopener noreferrer">XPUB keys</a>, being able to know all the past, present and future activities of each customer. A<span class="--l --r sentence_highlight">nother rumor, spread when the company launched the ability to <a href="https://www.ledger.com/recover" target="_blank" rel="noopener noreferrer">recover</a> users' seeds, is that the devices are sending them to the servers, putting user's funds at risk.</span></p>
+<h3>Myth busting rumors</h3>
+<p>Let's try to verify these rumors, by analyzing the behavior of the client. To do this, we could capture the network traffic using <a href="https://www.wireshark.org/" target="_blank" rel="noopener noreferrer">Wireshark</a>, which is included in AnuBitux with the <a href="https://www.ledger.com/ledger-live" target="_blank" rel="noopener noreferrer">Ledger Live</a> client and the <a href="https://anubitux.org/connecting-your-hardware-wallet-to-anubitux/" target="_blank" rel="noopener noreferrer">udev rules</a> to handle Ledger devices. </p>
+<p>Likely the network traffic between the Ledger Live client and Ledger's servers is encrypted. So we can set up the environment as we explained in <a href="https://anubitux.org/capture-and-review-network-traffic-with-anubitux/" target="_blank" rel="noopener noreferrer">this post</a>, start the traffic capture by clicking on the proper button in Wireshark and launch the Ledger Live client from our command line (unless doing so, it will not write the TLS data in the SSLKeyLog file and encrypted traffic will not be readable).</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/67/LedgerLiveCLI.png" alt="" width="800" height="101" sizes="100vw" srcset="https://anubitux.org/media/posts/67/responsive/LedgerLiveCLI-xs.png 300w ,https://anubitux.org/media/posts/67/responsive/LedgerLiveCLI-sm.png 480w ,https://anubitux.org/media/posts/67/responsive/LedgerLiveCLI-md.png 768w ,https://anubitux.org/media/posts/67/responsive/LedgerLiveCLI-lg.png 1024w ,https://anubitux.org/media/posts/67/responsive/LedgerLiveCLI-xl.png 1360w ,https://anubitux.org/media/posts/67/responsive/LedgerLiveCLI-2xl.png 1600w"></figure>
+<p>Now we can regularly connect our Ledger, install the Bitcoin app on the device if needed, set up a Bitcoin account in the client, wait for the sync to complete and then we can stop Wireshark and unplug our Ledger.</p>
+<p>Now we can analyze all the network traffic from Wireshark and, since we have set it up to decode encrypted traffic and since the Ledger Live client is based on a web browser, we are also able to inspect the content of the transmitted network traffic.</p>
+<p>First of all, ledger Live sends information about the client and the device we are using, like any web browser commonly does. Here you can find the whole content in plain text of a packet sending this kind of data.</p>
+<p><code>Transport Layer Security<br>    TLSv1.3 Record Layer: Application Data Protocol: http2<br>        Opaque Type: Application Data (23)<br>        Version: TLS 1.2 (0x0303)<br>        Length: 256<br>        [Content Type: Application Data (23)]<br>        Encrypted Application Data: 72dd5dc080844e1149f02f93017803ecddd6334b9f86f3abfead7a05aa517a6ef3bfbb2e…<br>        [Application Data Protocol: http2]<br>HyperText Transfer Protocol 2<br>    Stream: HEADERS, Stream ID: 1, Length 230, GET /edgedl/chrome/dict/en-us-10-1.bdic<br>        Length: 230<br>        Type: HEADERS (1)<br>        Flags: 0x25, Priority, End Headers, End Stream<br>            00.0 ..0. = Unused: 0x00<br>            ..1. .... = Priority: True<br>            .... 0... = Padded: False<br>            .... .1.. = End Headers: True<br>            .... ...1 = End Stream: True<br>        0... .... .... .... .... .... .... .... = Reserved: 0x0<br>        .000 0000 0000 0000 0000 0000 0000 0001 = Stream Identifier: 1<br>        [Pad Length: 0]<br>        1... .... .... .... .... .... .... .... = Exclusive: True<br>        .000 0000 0000 0000 0000 0000 0000 0000 = Stream Dependency: 0<br>        Weight: 109<br>        [Weight real: 110]<br>        Header Block Fragment: 82418eb0b21ac29127b179bba42b90f4ff87049960b24c59286093d87a4ac48622582d4b…<br>        [Header Length: 431]<br>        [Header Count: 10]<br>        Header: :method: GET<br>            Name Length: 7<br>            Name: :method<br>            Value Length: 3<br>            Value: GET<br>            :method: GET<br>            [Unescaped: GET]<br>            Representation: Indexed Header Field<br>            Index: 2<br>        Header: :authority: redirector.gvt1.com<br>            Name Length: 10<br>            Name: :authority<br>            Value Length: 19<br>            Value: redirector.gvt1.com<br>            :authority: redirector.gvt1.com<br>            [Unescaped: redirector.gvt1.com]<br>            Representation: Literal Header Field with Incremental Indexing - Indexed Name<br>            Index: 1<br>        Header: :scheme: https<br>            Name Length: 7<br>            Name: :scheme<br>            Value Length: 5<br>            Value: https<br>            :scheme: https<br>            [Unescaped: https]<br>            Representation: Indexed Header Field<br>            Index: 7<br>        Header: :path: /edgedl/chrome/dict/en-us-10-1.bdic<br>            Name Length: 5<br>            Name: :path<br>            Value Length: 35<br>            Value: /edgedl/chrome/dict/en-us-10-1.bdic<br>            :path: /edgedl/chrome/dict/en-us-10-1.bdic<br>            [Unescaped: /edgedl/chrome/dict/en-us-10-1.bdic]<br>            Representation: Literal Header Field without Indexing - Indexed Name<br>            Index: 4<br>        Header: sec-fetch-site: none<br>            Name Length: 14<br>            Name: sec-fetch-site<br>            Value Length: 4<br>            Value: none<br>            [Unescaped: none]<br>            Representation: Literal Header Field with Incremental Indexing - New Name<br>        Header: sec-fetch-mode: no-cors<br>            Name Length: 14<br>            Name: sec-fetch-mode<br>            Value Length: 7<br>            Value: no-cors<br>            [Unescaped: no-cors]<br>            Representation: Literal Header Field with Incremental Indexing - New Name<br>        Header: sec-fetch-dest: empty<br>            Name Length: 14<br>            Name: sec-fetch-dest<br>            Value Length: 5<br>            Value: empty<br>            [Unescaped: empty]<br>            Representation: Literal Header Field with Incremental Indexing - New Name<br>        Header: user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) LedgerLive/2.55.0 Chrome/110.0.5481.100 Electron/23.1.0 Safari/537.36<br>            Name Length: 10<br>            Name: user-agent<br>            Value Length: 140<br>            Value: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) LedgerLive/2.55.0 Chrome/110.0.5481.100 Electron/23.1.0 Safari/537.36<br>            user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) LedgerLive/2.55.0 Chrome/110.0.5481.100 Electron/23.1.0 Safari/537.36<br>            [Unescaped: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) LedgerLive/2.55.0 Chrome/110.0.5481.100 Electron/23.1.0 Safari/537.36]<br>            Representation: Literal Header Field with Incremental Indexing - Indexed Name<br>            Index: 58<br>        Header: accept-encoding: gzip, deflate, br<br>            Name Length: 15<br>            Name: accept-encoding<br>            Value Length: 17<br>            Value: gzip, deflate, br<br>            accept-encoding: gzip, deflate, br<br>            [Unescaped: gzip, deflate, br]<br>            Representation: Literal Header Field with Incremental Indexing - Indexed Name<br>            Index: 16<br>        Header: accept-language: en-US<br>            Name Length: 15<br>            Name: accept-language<br>            Value Length: 5<br>            Value: en-US<br>            accept-language: en-US<br>            [Unescaped: en-US]<br>            Representation: Literal Header Field with Incremental Indexing - Indexed Name<br>            Index: 17</code></p>
+<p>To verify if the client is sending our XPUB key, we can simply try to search the "xpub" string using the proper Wireshark function.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/67/pic1a.png" alt="" width="1200" height="486" sizes="100vw" srcset="https://anubitux.org/media/posts/67/responsive/pic1a-xs.png 300w ,https://anubitux.org/media/posts/67/responsive/pic1a-sm.png 480w ,https://anubitux.org/media/posts/67/responsive/pic1a-md.png 768w ,https://anubitux.org/media/posts/67/responsive/pic1a-lg.png 1024w ,https://anubitux.org/media/posts/67/responsive/pic1a-xl.png 1360w ,https://anubitux.org/media/posts/67/responsive/pic1a-2xl.png 1600w"></figure>
+<p>As we can see, we are also looking into the detail of the transmitted packets, but there seems to be no trace of any XPUB key, even encrypted with TLS.</p>
+<p>Analyzing the transmitted packages, we can see that the client is sending many Bitcoin addresses in plain text, as shown above.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/67/pic2.png" alt="" width="1200" height="500" sizes="100vw" srcset="https://anubitux.org/media/posts/67/responsive/pic2-xs.png 300w ,https://anubitux.org/media/posts/67/responsive/pic2-sm.png 480w ,https://anubitux.org/media/posts/67/responsive/pic2-md.png 768w ,https://anubitux.org/media/posts/67/responsive/pic2-lg.png 1024w ,https://anubitux.org/media/posts/67/responsive/pic2-xl.png 1360w ,https://anubitux.org/media/posts/67/responsive/pic2-2xl.png 1600w"></figure>
+<p>This is a normal behavior, since it happens with most of the SPV wallets that are not connecting to users' private nodes. We can see that the client is checking each of our addresses but it is not sending the whole XPUB key or a lot of unnecessary addresses. If it seems to send more addresses than we have ever used, it depends on the default gap limit. This means that Ledger Live continues deriving addresses until it finds 20 unused addresses, so that it should not miss any balance. We can change this value from the "Experimental features" tab, setting a "Custom gap limit".</p>
+<p>The second rumor we talked about regards the possibility that Ledger Live is sending our seed to the Ledger's servers. To verify this myth, first of all, we exported the packets in a plain text file.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/67/pic4.png" alt="" width="750" height="557" sizes="100vw" srcset="https://anubitux.org/media/posts/67/responsive/pic4-xs.png 300w ,https://anubitux.org/media/posts/67/responsive/pic4-sm.png 480w ,https://anubitux.org/media/posts/67/responsive/pic4-md.png 768w ,https://anubitux.org/media/posts/67/responsive/pic4-lg.png 1024w ,https://anubitux.org/media/posts/67/responsive/pic4-xl.png 1360w ,https://anubitux.org/media/posts/67/responsive/pic4-2xl.png 1600w"></figure>
+<p>Then we used our <a href="https://anubitux.org/search-for-bip39-seeds-with-anubitux/" target="_blank" rel="noopener noreferrer">seedsearch</a> tool to verify if there is any mnemonic seed among all the transmitted data. As expected, we didn't find anyone.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/67/pic5.png" alt="" width="800" height="221" sizes="100vw" srcset="https://anubitux.org/media/posts/67/responsive/pic5-xs.png 300w ,https://anubitux.org/media/posts/67/responsive/pic5-sm.png 480w ,https://anubitux.org/media/posts/67/responsive/pic5-md.png 768w ,https://anubitux.org/media/posts/67/responsive/pic5-lg.png 1024w ,https://anubitux.org/media/posts/67/responsive/pic5-xl.png 1360w ,https://anubitux.org/media/posts/67/responsive/pic5-2xl.png 1600w"></figure>
+<p>We could notice that the tool didn't access the pcapng file, but this does not matter since it examined the plain text file we have exported, which contains all the content of any captured packet.</p>
+<h3>Final thoughts</h3>
+<p>To analyze the rumors around the privacy issues related to Ledger devices, we tried to examine the network traffic of their official client but we could also refer to <a href="https://support.ledger.com/hc/en-us/articles/360011069619-Extended-public-key-xPub-?docs=true" target="_blank" rel="noopener noreferrer">their website</a>, even if one of the main rules of the crypto users is "don't trust, verify".</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/67/LedgerXpubWeb.png" alt="" width="700" height="502" sizes="100vw" srcset="https://anubitux.org/media/posts/67/responsive/LedgerXpubWeb-xs.png 300w ,https://anubitux.org/media/posts/67/responsive/LedgerXpubWeb-sm.png 480w ,https://anubitux.org/media/posts/67/responsive/LedgerXpubWeb-md.png 768w ,https://anubitux.org/media/posts/67/responsive/LedgerXpubWeb-lg.png 1024w ,https://anubitux.org/media/posts/67/responsive/LedgerXpubWeb-xl.png 1360w ,https://anubitux.org/media/posts/67/responsive/LedgerXpubWeb-2xl.png 1600w"></figure>
+<p>This analysis seems to confirm that Ledger is doing what is claimed on their website and that they are not "stealing" users' data. Of course, if Ledger was/became a malicious actor, xpub keys or other sensitive data could be sent with additional encryption so that it couldn't be read even decrypting the TLS traffic, but there is no evidence to support this rumor and we never have to forget that another main rule of the crypto users is "be your own bank" and <span class="--l --r sentence_highlight">only we can choose what is best for our needs.</span></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to speed up a transaction</title>
         <author>
@@ -741,54 +812,6 @@
 <p>AnuBitux works primarly as a live envirnment. Running commands like sudo apt update or sudo apt upgrade will have effect only on the current session and will not affect appimages and open source tools. The only way to update AnuBitux is to <a href="https://anubitux.org/download-anubitux/" target="_blank" rel="noopener noreferrer">download</a> the last version checking the <a href="https://anubitux.org/changelog/" target="_blank" rel="noopener noreferrer">changelog</a>. We are releasing frequently a new version of AnuBitux containing updates, some fixes and including users' <a href="https://anubitux.org/meet-the-anubitux-project/" target="_blank" rel="noopener noreferrer">suggestions</a>.</p>
 <h5>What should I do if I do not know how AnuBitux's tools work?</h5>
 <p>One of the main rules in the crypto world is "do not trust, verify!". AnuBitux uses open source tools that can be verified by yourself or by someone you trust and appimages, so that you can verify the checksum of the tools by yourself referencing to the official sites. Link to sources and official websites can be found on <a href="https://anubitux.org/what-is-anubitux-2/" target="_blank" rel="noopener noreferrer">this page</a>. If you are in doubt about any tool or feature do not hesitate to <a href="https://anubitux.org/meet-the-anubitux-project/" target="_blank" rel="noopener noreferrer">contact us</a>.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Happy AnewByear! AnuBitux 2 is out!</title>
-        <author>
-            <name>Anu₿itux</name>
-        </author>
-        <link href="https://anubitux.org/happy-anewyear-anuitux-2-is-out/"/>
-        <id>https://anubitux.org/happy-anewyear-anuitux-2-is-out/</id>
-        <media:content url="https://anubitux.org/media/posts/54/load-2.png" medium="image" />
-            <category term="team"/>
-            <category term="python"/>
-            <category term="project"/>
-            <category term="opsec"/>
-            <category term="live"/>
-            <category term="linux for xmr"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="linux"/>
-            <category term="links"/>
-            <category term="install"/>
-            <category term="downloads"/>
-            <category term="download"/>
-            <category term="distro"/>
-            <category term="debian"/>
-            <category term="cryptocurrency"/>
-            <category term="crypto"/>
-            <category term="changelog"/>
-            <category term="bitcoin"/>
-            <category term="anubitux"/>
-
-        <updated>2023-06-10T11:19:05+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/54/load-2.png" alt="" />
-                    Great news! AnuBitux 2 is out! It is now based on Debian 11 bullseye and has a completely new user interface based on Cinnamon! Now user can chose at the boot if they want to run AnuBitux in live mode, the main purpose of this&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/54/load-2.png" class="type:primaryImage" alt="" /></p>
-                <p>Great news! <a href="https://anubitux.org/what-is-anubitux-2/">AnuBitux 2</a> is out! It is now based on Debian 11 bullseye and has a completely new user interface based on Cinnamon!</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/54/Selection_127-2.png" alt="" width="800" height="391" sizes="100vw" srcset="https://anubitux.org/media/posts/54/responsive/Selection_127-2-xs.png 300w ,https://anubitux.org/media/posts/54/responsive/Selection_127-2-sm.png 480w ,https://anubitux.org/media/posts/54/responsive/Selection_127-2-md.png 768w ,https://anubitux.org/media/posts/54/responsive/Selection_127-2-lg.png 1024w ,https://anubitux.org/media/posts/54/responsive/Selection_127-2-xl.png 1360w ,https://anubitux.org/media/posts/54/responsive/Selection_127-2-2xl.png 1600w"></figure>
-<p>Now user can chose at the boot if they want to run AnuBitux in live mode, the main purpose of this project, or install it to train using its tools.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/54/Selection_116.png" alt="" width="600" height="451" sizes="100vw" srcset="https://anubitux.org/media/posts/54/responsive/Selection_116-xs.png 300w ,https://anubitux.org/media/posts/54/responsive/Selection_116-sm.png 480w ,https://anubitux.org/media/posts/54/responsive/Selection_116-md.png 768w ,https://anubitux.org/media/posts/54/responsive/Selection_116-lg.png 1024w ,https://anubitux.org/media/posts/54/responsive/Selection_116-xl.png 1360w ,https://anubitux.org/media/posts/54/responsive/Selection_116-2xl.png 1600w"></figure>
-<p>It also has a lot of new tools and updates! <a href="https://anubitux.org/download-anubitux/" target="_blank" rel="noopener noreferrer">Download</a> it and <a href="https://anubitux.org/how-to-use-anubitux-2/">check it out</a>!</p>
             ]]>
         </content>
     </entry>
