@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2023-08-17T22:35:31+02:00</updated>
+    <updated>2023-09-03T16:03:13+02:00</updated>
     <author>
         <name>Anu₿itux</name>
     </author>
@@ -781,7 +781,7 @@
         <id>https://anubitux.org/faq/</id>
         <media:content url="https://anubitux.org/media/posts/56/AnubituxWallpaperLightBlue.png" medium="image" />
 
-        <updated>2023-06-10T11:19:19+02:00</updated>
+        <updated>2023-09-03T16:03:13+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/56/AnubituxWallpaperLightBlue.png" alt="" />
@@ -806,6 +806,8 @@
 <p>Some devices could not be able to run live Linux distros properly. AnuBitux integrates a lot of firmwares and drivers but sometimes this is not enough. When starting, operating systems check the available hardware and power settings with a standard named ACPI. On some devices this check fails and the system does not start. To avoid this issue it is enough to disable this check. On the boot screen, when "Live (amd64)" is selected hit e to edit the grub config, after "quiet splasc" write acpi=off and hit enter (do not worry if line splits). Now hit Ctrl + X to boot.</p>
 <h5>How to verify AnuBitux?</h5>
 <p>Every time a new release of AnuBitux is released, checksums are updated on the <a href="https://anubitux.org/download-anubitux/" target="_blank" rel="noopener noreferrer">download page</a>. They are signen with our PGP key that we share on our <a href="https://github.com/ASeriousMister/Anubitux-PGP" target="_blank" rel="noopener noreferrer">GitHub</a>, on <a href="https://pastebin.com/bqmy9y2P" target="_blank" rel="noopener noreferrer">PasteBin</a> and on <a href="https://keybase.io/anubitux" target="_blank" rel="noopener noreferrer">KeyBase</a>. To verify the signed checksums, please refer to <a href="https://anubitux.org/how-to-verify-your-downloaded-anubitux/" target="_blank" rel="noopener noreferrer">this post</a>.</p>
+<h5>Is AnuBitux open source?</h5>
+<p>AnuBitux is based on well known tools that are mostly open source or even downloaded from official sources. Also the whole building process is open source and replicable, as whoen <a href="https://github.com/AnuBitux" target="_blank" rel="noopener noreferrer">here</a>.</p>
 <h5>How to verify AnuBitux's tools?</h5>
 <p>AnuBitux's tools have been downloaded from the official debian reposotpries, from GitHub or as .appimage from the officla websites. GitHub tools and .appimages are placed in the /home/anubitux/Tools/ directory. Users can verify the source of the tools like Python scripts and verify checksums of the appimages comparing them to the official webisites of the tools. Doing so, users do not need to trust AnuBitux but can easily verify by themselves that the Tools are genuine. All the links to sources and official websites can be found <a href="https://anubitux.org/what-is-anubitux-2/" target="_blank" rel="noopener noreferrer">here</a>.</p>
 <h5>How to update AnuBitux?</h5>
