@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2023-09-03T18:50:03+02:00</updated>
+    <updated>2023-10-26T19:48:19+02:00</updated>
     <author>
         <name>AnuBitux</name>
     </author>
@@ -711,7 +711,7 @@
             <category term="crypto"/>
             <category term="anubitux"/>
 
-        <updated>2023-06-10T11:09:53+02:00</updated>
+        <updated>2023-10-26T19:48:19+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://anubitux.org/media/posts/15/fractal-g413a8f627_1920.jpg" alt="" />
@@ -758,7 +758,7 @@
 <p>In the picture we can see a packet we have sent to iancoleman.io's website with the details of our browser. It was an encrypted package and we can see its content only thanks to the setup we have made.</p>
 <h3>Final thoughts</h3>
 <p>Wireshark is a very powerful tool to analyze network traffic. In this post, we have seen only a few examples of how to use it but it can be applied in a lot of different situations, not only for analyzing network activity but also for penetration testing and security audits. It also requires very good skills to be used properly, since it collects thousands of packets every few seconds and most of them seem to be meaningless without knowing what is going on. There are a lot of guides and tutorials online about how to use it, even on the official <a href="https://www.wireshark.org/#learnWS" target="_blank" rel="noopener noreferrer">website</a>. </p>
-<p> </p>
+<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/15/buybeer.png" alt="" width="250" height="167" sizes="100vw" srcset="https://anubitux.org/media/posts/15/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/15/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/15/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/15/responsive/buybeer-lg.png 1024w ,https://anubitux.org/media/posts/15/responsive/buybeer-xl.png 1360w ,https://anubitux.org/media/posts/15/responsive/buybeer-2xl.png 1600w"></figure></a></p>
 <p> </p>
 <p> </p>
 <p> </p>
