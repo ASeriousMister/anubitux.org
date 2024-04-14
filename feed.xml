@@ -3,12 +3,52 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2024-03-23T18:07:39+01:00</updated>
+    <updated>2024-04-14T16:08:19+02:00</updated>
     <author>
         <name>AnuBitux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>AnuBitux presented at the Cyber Forensics IISFA Forum 2024</title>
+        <author>
+            <name>AnuBitux</name>
+        </author>
+        <link href="https://anubitux.org/anubitux-presented-at-the-cyber-forensics-iisfa-forum-2024/"/>
+        <id>https://anubitux.org/anubitux-presented-at-the-cyber-forensics-iisfa-forum-2024/</id>
+        <media:content url="https://anubitux.org/media/posts/70/2024-04-14_16-02.png" medium="image" />
+            <category term="tools"/>
+            <category term="test"/>
+            <category term="recovery"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for bitcoin"/>
+            <category term="investigation"/>
+            <category term="distro"/>
+            <category term="debian"/>
+            <category term="cryptocurrency"/>
+            <category term="crypto"/>
+            <category term="btcrecover"/>
+            <category term="bitcoin"/>
+            <category term="anubitux"/>
+
+        <updated>2024-04-14T16:08:19+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/70/2024-04-14_16-02.png" alt="" />
+                    On the 12th April 2024 our core team memper StanleyK presented AnuBitux at the Cyber Forensics IISFA Forum, held by the IISFA association. Here you can watch the recording of the talk: It was about the features and the tools included in AnuBitux and there&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://anubitux.org/media/posts/70/2024-04-14_16-02.png" class="type:primaryImage" alt="" /></p>
+                <p>On the 12th April 2024 our core team memper StanleyK presented AnuBitux <span class="yt-core-attributed-string--link-inherit-color"> at the Cyber Forensics IISFA Forum, held by the <a href="https://iisfa.it" target="_blank" rel="noopener noreferrer">IISFA association</a>.</span></p>
+<p>Here you can watch the recording of the talk:</p>
+<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/dpRNw5ijA_8?si=kYiChZ54jILo7m6h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>
+<p>It was about the features and the tools included in AnuBitux and there was also a demo about how to use <a href="https://github.com/3rdIteration/btcrecover" target="_blank" rel="noopener noreferrer">seedrecover</a> to fix a mnemonic seed with missing words, like we have shown <a href="https://anubitux.org/fix-your-mnemonic-seed-with-anubitux/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/70/buybeer.png" alt="" width="256" height="171" sizes="100vw" srcset="https://anubitux.org/media/posts/70/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/70/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/70/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/70/responsive/buybeer-lg.png 1024w ,https://anubitux.org/media/posts/70/responsive/buybeer-xl.png 1360w ,https://anubitux.org/media/posts/70/responsive/buybeer-2xl.png 1600w"></figure></a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>AnuBitux 3.0 is out!</title>
         <author>
@@ -726,86 +766,6 @@
 <p>This tool is just another solution to help users to create mnemonics in a secure and simple way. We do not have to forget that we also need to pay attention to the way we are storing it. Even in this case, there isn't a universal solution. If we need to access often our mnemonic to sign transactions it should be in a secure but accessible place or if we use it as a disaster recovery strategy, it can be stored in a very hard to reach place.</p>
 <p>We should not look for the best strategy but we should seek the knowledge that will allow us to decide which strategy is the best for us.</p>
 <figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/61/buybeer.png" alt="" width="256" height="171" sizes="100vw" srcset="https://anubitux.org/media/posts/61/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/61/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/61/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/61/responsive/buybeer-lg.png 1024w ,https://anubitux.org/media/posts/61/responsive/buybeer-xl.png 1360w ,https://anubitux.org/media/posts/61/responsive/buybeer-2xl.png 1600w"></figure></a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Capture and review network traffic with AnuBitux</title>
-        <author>
-            <name>AnuBitux</name>
-        </author>
-        <link href="https://anubitux.org/capture-and-review-network-traffic-with-anubitux/"/>
-        <id>https://anubitux.org/capture-and-review-network-traffic-with-anubitux/</id>
-        <media:content url="https://anubitux.org/media/posts/15/fractal-g413a8f627_1920.jpg" medium="image" />
-            <category term="wireshark"/>
-            <category term="tutorial"/>
-            <category term="tools"/>
-            <category term="tool"/>
-            <category term="opsec"/>
-            <category term="network"/>
-            <category term="linux for xmr"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="investigation"/>
-            <category term="howto"/>
-            <category term="debian"/>
-            <category term="cryptocurrency"/>
-            <category term="crypto"/>
-            <category term="anubitux"/>
-
-        <updated>2023-10-26T20:28:39+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/15/fractal-g413a8f627_1920.jpg" alt="" />
-                    When handling our cryptocurrencies, we feel more comfortable being offline but, sometimes, we can't perform operations without using an internet connection. In these cases, we are always afraid that some sensible information could be leaked. With AnuBitux we have a lot of countermeasures, like a&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/15/fractal-g413a8f627_1920.jpg" class="type:primaryImage" alt="" /></p>
-                <p>When handling our cryptocurrencies, we feel more comfortable being offline but, sometimes, we can't perform operations without using an internet connection. In these cases, we are always afraid that some sensible information could be leaked. With AnuBitux we have a lot of countermeasures, like a <a href="https://anubitux.org/enable-network-monitor-in-anubitux-2/" target="_blank" rel="noopener noreferrer">network monitor</a> on the lower right side of our screen and a desktop shortcut that disables all the communication features. If we want to perform some additional checks, even to verify if AnuBitux is working properly, we can use <a href="https://www.wireshark.org/" target="_blank" rel="noopener noreferrer">Wireshark</a>, a tool that captures all the incoming and outgoing network traffic and allows us to review it with a lot of powerful features like filters and streams reconstruction.</p>
-<h3>First steps</h3>
-<p>We can find wireshark in the Useful Tools menu. If we want to run it with root privileges, we can launch it from our terminal typing</p>
-<p class="align-center"><code>sudo wireshark</code></p>
-<p>Remember that in AnuBitux the default root password is set to anubitux.</p>
-<p>Now we can choose which network interface we want packets to be captured and start the acquisition by clicking on the shark's fin button.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/15/Selection_161.png" alt="" width="740" height="575" sizes="100vw" srcset="https://anubitux.org/media/posts/15/responsive/Selection_161-xs.png 300w ,https://anubitux.org/media/posts/15/responsive/Selection_161-sm.png 480w ,https://anubitux.org/media/posts/15/responsive/Selection_161-md.png 768w ,https://anubitux.org/media/posts/15/responsive/Selection_161-lg.png 1024w ,https://anubitux.org/media/posts/15/responsive/Selection_161-xl.png 1360w ,https://anubitux.org/media/posts/15/responsive/Selection_161-2xl.png 1600w"></figure>
-<h3>Decrypting encrypted network traffic</h3>
-<p>Nowadays most of the network traffic is encrypted with TLS, so even if we capture it, we won't be able to read it. To see what's flowing through our Internet connection, we need to configure a <a href="https://crypto.stackexchange.com/questions/27131/differences-between-the-terms-pre-master-secret-master-secret-private-key" target="_blank" rel="noopener noreferrer">pre-master secret key</a>.</p>
-<p>To prepare it, we need to set up an environment variable, setting up a file that stores handshakes and that can be used by Wireshark to decrypt network traffic.</p>
-<p>Let's create an empty text file, for instance in our Documents folder and name it keylogfile.txt. Now we need to edit the SSLKEYLOGFILE environment variable so that the information we need will be stored in this file. We can do that by opening our terminal and typing </p>
-<p class="align-center"><code>nano .bashrc</code></p>
-<p>and adding this line at the end of the file</p>
-<p class="align-center"><code>export SSLKEYLOGFILE=/home/anubitux/Documents/keylogfile.txt</code></p>
-<p>Then we can close the nano text editor pressing Ctrl+X and saving the modified file (without renaming it).</p>
-<p>Now we need to restart our Terminal so that it takes effect. To check if it worked, we can type</p>
-<p class="align-center"><code>echo $SSLKEYLOGFILE</code></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/15/Selection_162.png" alt="" width="390" height="66" sizes="100vw" srcset="https://anubitux.org/media/posts/15/responsive/Selection_162-xs.png 300w ,https://anubitux.org/media/posts/15/responsive/Selection_162-sm.png 480w ,https://anubitux.org/media/posts/15/responsive/Selection_162-md.png 768w ,https://anubitux.org/media/posts/15/responsive/Selection_162-lg.png 1024w ,https://anubitux.org/media/posts/15/responsive/Selection_162-xl.png 1360w ,https://anubitux.org/media/posts/15/responsive/Selection_162-2xl.png 1600w"></figure>
-<p>At this point we have to set up Wireshark to use the content of this file to decrypt the captured network traffic. To do that we have to open Wireshark, go to Edit and click on Preferences, then under the protocols list select TLS and, clicking on the Browse button, provide the keylogfile we created.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/15/Selection_163.png" alt="" width="740" height="578" sizes="100vw" srcset="https://anubitux.org/media/posts/15/responsive/Selection_163-xs.png 300w ,https://anubitux.org/media/posts/15/responsive/Selection_163-sm.png 480w ,https://anubitux.org/media/posts/15/responsive/Selection_163-md.png 768w ,https://anubitux.org/media/posts/15/responsive/Selection_163-lg.png 1024w ,https://anubitux.org/media/posts/15/responsive/Selection_163-xl.png 1360w ,https://anubitux.org/media/posts/15/responsive/Selection_163-2xl.png 1600w"></figure>
-<p>Now Wireshark will be able to decrypt network traffic and show it in plain text.</p>
-<h3>Capturing traffic</h3>
-<p>Finally, we can start capturing our traffic by clicking on the shark's fin button. To see something going on, let's start the Firefox browser (it may be necessary to start it from the Terminal, to make sure it stores keys in the keylogfile.txt file).</p>
-<p>Then we can visit some websites that use HTTPS, like anubitux.org and iancoleman.io. After browsing some pages we can stop the network capture and review it.</p>
-<p>In the below picture, we can see an example with a captured TLS packet.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/15/Selection_164.png" alt="" width="930" height="826" sizes="100vw" srcset="https://anubitux.org/media/posts/15/responsive/Selection_164-xs.png 300w ,https://anubitux.org/media/posts/15/responsive/Selection_164-sm.png 480w ,https://anubitux.org/media/posts/15/responsive/Selection_164-md.png 768w ,https://anubitux.org/media/posts/15/responsive/Selection_164-lg.png 1024w ,https://anubitux.org/media/posts/15/responsive/Selection_164-xl.png 1360w ,https://anubitux.org/media/posts/15/responsive/Selection_164-2xl.png 1600w"></figure>
-<p>To see its content we need to click on the proper button in the lower part of the user interface. These buttons would not be available without setting up the key log file as we did before.</p>
-<p>In this case, it is a packet related to the HTTPS certificate verification process. With most of the websites, even if packets are unencrypted, we won't see the plain text because the information are sent in gzip format. Sometimes Wireshark will be able to see it, providing us another button to see the uncompressed content of packets.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/15/Selection_165.png" alt="" width="570" height="71" sizes="100vw" srcset="https://anubitux.org/media/posts/15/responsive/Selection_165-xs.png 300w ,https://anubitux.org/media/posts/15/responsive/Selection_165-sm.png 480w ,https://anubitux.org/media/posts/15/responsive/Selection_165-md.png 768w ,https://anubitux.org/media/posts/15/responsive/Selection_165-lg.png 1024w ,https://anubitux.org/media/posts/15/responsive/Selection_165-xl.png 1360w ,https://anubitux.org/media/posts/15/responsive/Selection_165-2xl.png 1600w"></figure>
-<p>If we are interested in packets we exchanged with a specific website, like iancoleman.io, we can filter our list knowing its IP address. To check it out we can ping it, as seen above.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/15/Selection_166.png" alt="" width="730" height="261" sizes="100vw" srcset="https://anubitux.org/media/posts/15/responsive/Selection_166-xs.png 300w ,https://anubitux.org/media/posts/15/responsive/Selection_166-sm.png 480w ,https://anubitux.org/media/posts/15/responsive/Selection_166-md.png 768w ,https://anubitux.org/media/posts/15/responsive/Selection_166-lg.png 1024w ,https://anubitux.org/media/posts/15/responsive/Selection_166-xl.png 1360w ,https://anubitux.org/media/posts/15/responsive/Selection_166-2xl.png 1600w"></figure>
-<p>Now we can set up filters in the proper box, based on the IP address we have found. To see both incoming and outgoing traffic the syntax is</p>
-<p class="align-center"><code>ip.src == 99.86.159.30 or ip.dst == 99.86.159.30</code></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/15/Selection_167.png" alt="" width="910" height="827" sizes="100vw" srcset="https://anubitux.org/media/posts/15/responsive/Selection_167-xs.png 300w ,https://anubitux.org/media/posts/15/responsive/Selection_167-sm.png 480w ,https://anubitux.org/media/posts/15/responsive/Selection_167-md.png 768w ,https://anubitux.org/media/posts/15/responsive/Selection_167-lg.png 1024w ,https://anubitux.org/media/posts/15/responsive/Selection_167-xl.png 1360w ,https://anubitux.org/media/posts/15/responsive/Selection_167-2xl.png 1600w"></figure>
-<p>In the picture we can see a packet we have sent to iancoleman.io's website with the details of our browser. It was an encrypted package and we can see its content only thanks to the setup we have made.</p>
-<h3>Final thoughts</h3>
-<p>Wireshark is a very powerful tool to analyze network traffic. In this post, we have seen only a few examples of how to use it but it can be applied in a lot of different situations, not only for analyzing network activity but also for penetration testing and security audits. It also requires very good skills to be used properly, since it collects thousands of packets every few seconds and most of them seem to be meaningless without knowing what is going on. There are a lot of guides and tutorials online about how to use it, even on the official <a href="https://www.wireshark.org/#learnWS" target="_blank" rel="noopener noreferrer">website</a>. </p>
-<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/15/buybeer.png" alt="" width="256" height="171" sizes="100vw" srcset="https://anubitux.org/media/posts/15/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/15/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/15/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/15/responsive/buybeer-lg.png 1024w ,https://anubitux.org/media/posts/15/responsive/buybeer-xl.png 1360w ,https://anubitux.org/media/posts/15/responsive/buybeer-2xl.png 1600w"></figure></a></p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
             ]]>
         </content>
     </entry>
