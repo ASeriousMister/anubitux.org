@@ -3,12 +3,94 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2024-05-16T23:34:26+02:00</updated>
+    <updated>2024-06-02T19:34:33+02:00</updated>
     <author>
         <name>AnuBitux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>Blind protocol for crypto wallet generation</title>
+        <author>
+            <name>AnuBitux</name>
+        </author>
+        <link href="https://anubitux.org/blind-protocol-for-crypto-wallet-generation/"/>
+        <id>https://anubitux.org/blind-protocol-for-crypto-wallet-generation/</id>
+        <media:content url="https://anubitux.org/media/posts/74/BlindGen.png" medium="image" />
+            <category term="wallet"/>
+            <category term="tutorial"/>
+            <category term="tools"/>
+            <category term="tool"/>
+            <category term="seizure"/>
+            <category term="seize"/>
+            <category term="private key"/>
+            <category term="paper wallet"/>
+            <category term="opsec"/>
+            <category term="offline"/>
+            <category term="monero"/>
+            <category term="live"/>
+            <category term="linux for xmr"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="howto"/>
+            <category term="ethereum"/>
+            <category term="distro for cryptocurrencies"/>
+            <category term="distro for crypto"/>
+            <category term="distro for bitcoin"/>
+            <category term="debian"/>
+            <category term="cryptography"/>
+            <category term="cryptocurrency"/>
+            <category term="crypto"/>
+            <category term="bitcoin"/>
+            <category term="anubitux"/>
+
+        <updated>2024-06-02T19:19:00+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/74/BlindGen.png" alt="" />
+                    In some cases it may be necessary to create private keys to securely store funds for others, for instance, when seizing cryptocurrency for the judicial authority or when acting as a crypto custodian. When creating the private key with the common tools, even when using&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://anubitux.org/media/posts/74/BlindGen.png" class="type:primaryImage" alt="" /></p>
+                <p>In some cases it may be necessary to create private keys to securely store funds for others, for instance, when seizing cryptocurrency for the judicial authority or when acting as a crypto custodian. When creating the private key with the common tools, even when using all the precautions (i.e. using a live working environment like AnuBitux, disabling all the network connections, using a good source o fentropy, etc.), the operator, even if only for a few seconds, is gaining access to a private key related to funds which are not going to belong to him. To avoid it, multisignature wallets ciuld be created, but this solution is not directly and easily available for all the currencies and may also be pretty difficult to use for most of the users.</p>
+<p>As more complex is the solution we use to store cryptocurrencies, as more it is easy to lose access to them.</p>
+<p>To solve this, we developed something called "<strong>Blind protocol for crypto wallet generation</strong>". This protocol provides two tools, <a href="https://github.com/ASeriousMister/BlindGen" target="_blank" rel="noopener noreferrer">BlindGen</a> and BlindDecode.</p>
+<p>The BlindGen tool allows <span style="text-decoration: underline;"><strong>two user</strong></span> to create half part of the private key, without ever gaining access to the whole private key and then provides a printable paper wallet only containing the public address. The BlindDecode tool allows the users to obtain the whole private key. It is intended to be used only when in need to spend the funds received on the genearted address.</p>
+<h3>OpSec first</h3>
+<p>Before using the tool, it may be a good idea to use the "Offline" shortcut from the AnuBitux desktop, in order to disable all the possible connection to external devices and avoid leaking any kind of information. It is also mandatory to use AnuBitux in live mode and not in a virtual machine and to operate in a safe environment.</p>
+<h3>How to use the tool</h3>
+<p>The tool is provided with a very easy to use graphical interface. When starting it, the first user has to insert some random text, which could be a single word, a sentence, a number, some random characters, etc. </p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/74/Blind1-2.png" alt="" width="460" height="183" sizes="100vw" srcset="https://anubitux.org/media/posts/74/responsive/Blind1-2-xs.png 300w ,https://anubitux.org/media/posts/74/responsive/Blind1-2-sm.png 480w ,https://anubitux.org/media/posts/74/responsive/Blind1-2-md.png 768w ,https://anubitux.org/media/posts/74/responsive/Blind1-2-lg.png 1024w ,https://anubitux.org/media/posts/74/responsive/Blind1-2-xl.png 1360w ,https://anubitux.org/media/posts/74/responsive/Blind1-2-2xl.png 1600w"></figure>
+<p>Then it is only necessary to click on the "Generate first half key" button to obtain a printable pdf file with the first half part of the private key and the related QR code.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/74/Blind2.png" alt="" width="920" height="527" sizes="100vw" srcset="https://anubitux.org/media/posts/74/responsive/Blind2-xs.png 300w ,https://anubitux.org/media/posts/74/responsive/Blind2-sm.png 480w ,https://anubitux.org/media/posts/74/responsive/Blind2-md.png 768w ,https://anubitux.org/media/posts/74/responsive/Blind2-lg.png 1024w ,https://anubitux.org/media/posts/74/responsive/Blind2-xl.png 1360w ,https://anubitux.org/media/posts/74/responsive/Blind2-2xl.png 1600w"></figure>
+<p>Now the first user has to print the pdf or store it in some safe place and click on the "End" button. When clicking on it, the pdf viewer is automatically closed and the pdf file is permanetly deleted. </p>
+<p>Then the second user has to perform the same operations.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/74/Blind3.png" alt="" width="920" height="531" sizes="100vw" srcset="https://anubitux.org/media/posts/74/responsive/Blind3-xs.png 300w ,https://anubitux.org/media/posts/74/responsive/Blind3-sm.png 480w ,https://anubitux.org/media/posts/74/responsive/Blind3-md.png 768w ,https://anubitux.org/media/posts/74/responsive/Blind3-lg.png 1024w ,https://anubitux.org/media/posts/74/responsive/Blind3-xl.png 1360w ,https://anubitux.org/media/posts/74/responsive/Blind3-2xl.png 1600w"></figure>
+<p class="msg msg--highlight ">It is very important to store the provided parts of the keys during the process since the tool does not work in a deterministic way. The text provided by the user is not the only source of entropy. This tool uses multiple sources of entropy so that human randomness and computer randomness can work together and avoid that the obtained private key could be raplicated by some threat actor. </p>
+<p>Now, when the second part of the private key has been put in a safe place, also the second user can click on the "End" button. Then one of the users or also some third user has to select for which currency it is necessary to obtain a public address.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/74/Blind4.png" alt="" width="460" height="289" sizes="100vw" srcset="https://anubitux.org/media/posts/74/responsive/Blind4-xs.png 300w ,https://anubitux.org/media/posts/74/responsive/Blind4-sm.png 480w ,https://anubitux.org/media/posts/74/responsive/Blind4-md.png 768w ,https://anubitux.org/media/posts/74/responsive/Blind4-lg.png 1024w ,https://anubitux.org/media/posts/74/responsive/Blind4-xl.png 1360w ,https://anubitux.org/media/posts/74/responsive/Blind4-2xl.png 1600w"></figure>
+<p>Let's hypothesize we are in need of a Bitcoin address, so we can chose Bitcoin from the menu and click on the "Generate public addresses" button.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/74/Blind5.png" alt="" width="920" height="595" sizes="100vw" srcset="https://anubitux.org/media/posts/74/responsive/Blind5-xs.png 300w ,https://anubitux.org/media/posts/74/responsive/Blind5-sm.png 480w ,https://anubitux.org/media/posts/74/responsive/Blind5-md.png 768w ,https://anubitux.org/media/posts/74/responsive/Blind5-lg.png 1024w ,https://anubitux.org/media/posts/74/responsive/Blind5-xl.png 1360w ,https://anubitux.org/media/posts/74/responsive/Blind5-2xl.png 1600w"></figure>
+<p>It is also possible to click multiple times on the "Generate public addresses" button obtaining addresses for different currencies. Only the last one is stored in the Documents folder but, if the previous generated address hasn't been stored, it is possible to choose the same currency again and obtain it multiple times before the tool is closed.</p>
+<p class="msg msg--warning">Now it is possible to send funds to the obtained addresses but it is very important to be sure to have both parts of the private key. Unless so there is no way to recover it and funds are going to be lost!</p>
+<h3>How to obtain the private key</h3>
+<p>To obtain the whole private key, it is necessary to use the BlindDecode tool.</p>
+<p class="msg msg--highlight ">This action is supposed to be done only when it is necessary to move the funds.</p>
+<p>The tool is not mandatory since the two parts of the private key simply are the bits of the private key in hex format and they could also be converted manually or with other custom tools.</p>
+<p>When the tool is started, it shows a garphical interface where it is possible to paste the two parts of the private key and select the desired coin. To avoid to write them manually it is also possible to read the QR codes with QtQR or any similar tool.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/74/Blind6.png" alt="" width="460" height="235" sizes="100vw" srcset="https://anubitux.org/media/posts/74/responsive/Blind6-xs.png 300w ,https://anubitux.org/media/posts/74/responsive/Blind6-sm.png 480w ,https://anubitux.org/media/posts/74/responsive/Blind6-md.png 768w ,https://anubitux.org/media/posts/74/responsive/Blind6-lg.png 1024w ,https://anubitux.org/media/posts/74/responsive/Blind6-xl.png 1360w ,https://anubitux.org/media/posts/74/responsive/Blind6-2xl.png 1600w"></figure>
+<p>Now, clicking on the "Show private key" it is possible to obtain a pdf file with the WIF private key in and the related QR code.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/74/Blind7.png" alt="" width="920" height="530" sizes="100vw" srcset="https://anubitux.org/media/posts/74/responsive/Blind7-xs.png 300w ,https://anubitux.org/media/posts/74/responsive/Blind7-sm.png 480w ,https://anubitux.org/media/posts/74/responsive/Blind7-md.png 768w ,https://anubitux.org/media/posts/74/responsive/Blind7-lg.png 1024w ,https://anubitux.org/media/posts/74/responsive/Blind7-xl.png 1360w ,https://anubitux.org/media/posts/74/responsive/Blind7-2xl.png 1600w"></figure>
+<p>There are also some suggestions about how the private keys could be used.</p>
+<figure class="post__image post__image--center"><a href="https://buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/74/buybeer.png" alt="" width="256" height="171" sizes="100vw" srcset="https://anubitux.org/media/posts/74/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/74/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/74/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/74/responsive/buybeer-lg.png 1024w ,https://anubitux.org/media/posts/74/responsive/buybeer-xl.png 1360w ,https://anubitux.org/media/posts/74/responsive/buybeer-2xl.png 1600w"></figure></a></p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Generate a paper wallet with your microphone</title>
         <author>
@@ -679,73 +761,6 @@
 <p>Whit the same criteria, we could also encounter base16 numbers (called hexadecimal), base64 numbers and so on...</p>
 <figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/64/buybeer.png" alt="" width="256" height="171" sizes="100vw" srcset="https://anubitux.org/media/posts/64/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/64/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/64/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/64/responsive/buybeer-lg.png 1024w ,https://anubitux.org/media/posts/64/responsive/buybeer-xl.png 1360w ,https://anubitux.org/media/posts/64/responsive/buybeer-2xl.png 1600w"></figure></a></p>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to handle xpub keys with AnuBitux</title>
-        <author>
-            <name>AnuBitux</name>
-        </author>
-        <link href="https://anubitux.org/how-to-handle-xpub-keys-with-anubitux/"/>
-        <id>https://anubitux.org/how-to-handle-xpub-keys-with-anubitux/</id>
-        <media:content url="https://anubitux.org/media/posts/63/stones-3364324_1920.jpg" medium="image" />
-            <category term="tutorial"/>
-            <category term="tool"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="linux"/>
-            <category term="howto"/>
-            <category term="hardware wallet"/>
-            <category term="cryptocurrency"/>
-            <category term="crypto"/>
-            <category term="bitcoin"/>
-            <category term="bip39"/>
-            <category term="anubitux"/>
-
-        <updated>2023-03-14T17:04:00+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/63/stones-3364324_1920.jpg" alt="" />
-                    In previous posts we have seen how to use xpub keys to create view-only wallets and how to obtain them form our wallets. Handling our xpub keys we have surely noticed that some clients are only using keys starting with "xpub" and others are also&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/63/stones-3364324_1920.jpg" class="type:primaryImage" alt="" /></p>
-                <p>In previous posts we have seen how to use xpub keys to create <a href="https://anubitux.org/how-to-create-a-view-only-wallet-for-our-cold-storage/" target="_blank" rel="noopener noreferrer">view-only wallets</a> and how to <a href="https://anubitux.org/how-to-obtain-xpub-keys-with-anubitux/" target="_blank" rel="noopener noreferrer">obtain</a> them form our wallets.</p>
-<p>Handling our xpub keys we have surely noticed that some clients are only using keys starting with "xpub" and others are also using keys starting with "ypub" and "zpub".</p>
-<p>This may seem a bit confusing!</p>
-<p> This is because some clients are only accepting xpub keys and want us to specify the derivation path to manage the addresses in the format we want. For instance, we could specify:</p>
-<ul>
-<li>m/44'/0'/0'/0 for legacy Bitcoin addresses;</li>
-<li>m/49'/0'/0'/0 for segwit Bitcoin addresses;</li>
-<li>m/84'/0'/0'/0 for native segwit Bitcoin addresses (bech32).</li>
-</ul>
-<p>Other clients, instead, are not allowing us to specify the derivation path since they are able to recognize it from the format of the master public key (like <a href="https://electrum.org/#home" target="_blank" rel="noopener noreferrer">Electrum</a>). For instance they are using:</p>
-<ul>
-<li>keys starting with xpub for legacy addresses;</li>
-<li>keys starting with ypub for segwit addresses;</li>
-<li>keys starting with zpub for native segwit addresses.</li>
-</ul>
-<p>We could use the right client depending on what kind of key we have but we do not want that! We want to use the client we feel comfortable with!</p>
-<h3>Convert public keys</h3>
-<p>To fix this, we can use the <a href="https://jlopp.github.io/xpub-converter/" target="_blank" rel="noopener noreferrer">Xpub-converter tool</a>, by <a href="https://www.lopp.net/" target="_blank" rel="noopener noreferrer">Jameson Lopp</a>, that can be found in the "WalletTools" section of the AnuBitux menu.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/63/xc1.png" alt="" width="800" height="467" sizes="100vw" srcset="https://anubitux.org/media/posts/63/responsive/xc1-xs.png 300w ,https://anubitux.org/media/posts/63/responsive/xc1-sm.png 480w ,https://anubitux.org/media/posts/63/responsive/xc1-md.png 768w ,https://anubitux.org/media/posts/63/responsive/xc1-lg.png 1024w ,https://anubitux.org/media/posts/63/responsive/xc1-xl.png 1360w ,https://anubitux.org/media/posts/63/responsive/xc1-2xl.png 1600w"></figure>
-<p>We simply have to select the format of the key we want to obtain, paste the key in the proper box and here it is! We have obtained a master public key in the desired format and now we can use it with our favourite client. In this example we have obtained an xpub key from a zpub one.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/63/xc2.png" alt="" width="800" height="567" sizes="100vw" srcset="https://anubitux.org/media/posts/63/responsive/xc2-xs.png 300w ,https://anubitux.org/media/posts/63/responsive/xc2-sm.png 480w ,https://anubitux.org/media/posts/63/responsive/xc2-md.png 768w ,https://anubitux.org/media/posts/63/responsive/xc2-lg.png 1024w ,https://anubitux.org/media/posts/63/responsive/xc2-xl.png 1360w ,https://anubitux.org/media/posts/63/responsive/xc2-2xl.png 1600w"></figure>
-<h3>An example</h3>
-<p>Let's assume we have our Sparrow that is giving us an xpub key with the <code>m/84'/0'/0'</code> derivation path.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/63/xc5-2.png" alt="" width="800" height="310" sizes="100vw" srcset="https://anubitux.org/media/posts/63/responsive/xc5-2-xs.png 300w ,https://anubitux.org/media/posts/63/responsive/xc5-2-sm.png 480w ,https://anubitux.org/media/posts/63/responsive/xc5-2-md.png 768w ,https://anubitux.org/media/posts/63/responsive/xc5-2-lg.png 1024w ,https://anubitux.org/media/posts/63/responsive/xc5-2-xl.png 1360w ,https://anubitux.org/media/posts/63/responsive/xc5-2-2xl.png 1600w"></figure>
-<p>If we want to set up a view-only wallet using the Electrum client, we won't be able to specify the derivation path to use with our xpub key and so we are going to obtain a view-only wallet with legacy addresses.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/63/xc6-2.png" alt="" width="800" height="409" sizes="100vw" srcset="https://anubitux.org/media/posts/63/responsive/xc6-2-xs.png 300w ,https://anubitux.org/media/posts/63/responsive/xc6-2-sm.png 480w ,https://anubitux.org/media/posts/63/responsive/xc6-2-md.png 768w ,https://anubitux.org/media/posts/63/responsive/xc6-2-lg.png 1024w ,https://anubitux.org/media/posts/63/responsive/xc6-2-xl.png 1360w ,https://anubitux.org/media/posts/63/responsive/xc6-2-2xl.png 1600w"></figure>
-<p>To correctly set up our view-only wallet with Electrum, we first need to convert our master public key in the proper format. We can perform that with the Xpub-converter tool, chosing the zpub key format.  </p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/63/xc7.png" alt="" width="800" height="503" sizes="100vw" srcset="https://anubitux.org/media/posts/63/responsive/xc7-xs.png 300w ,https://anubitux.org/media/posts/63/responsive/xc7-sm.png 480w ,https://anubitux.org/media/posts/63/responsive/xc7-md.png 768w ,https://anubitux.org/media/posts/63/responsive/xc7-lg.png 1024w ,https://anubitux.org/media/posts/63/responsive/xc7-xl.png 1360w ,https://anubitux.org/media/posts/63/responsive/xc7-2xl.png 1600w"></figure>
-<p>Now we can create a new view-only wallet with Electrum, using the obtained zpub key.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/63/xc8.png" alt="" width="800" height="480" sizes="100vw" srcset="https://anubitux.org/media/posts/63/responsive/xc8-xs.png 300w ,https://anubitux.org/media/posts/63/responsive/xc8-sm.png 480w ,https://anubitux.org/media/posts/63/responsive/xc8-md.png 768w ,https://anubitux.org/media/posts/63/responsive/xc8-lg.png 1024w ,https://anubitux.org/media/posts/63/responsive/xc8-xl.png 1360w ,https://anubitux.org/media/posts/63/responsive/xc8-2xl.png 1600w"></figure>
-<p>As we can see, we obtained the same addresses in both wallets.</p>
-<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/63/buybeer.png" alt="" width="256" height="171" sizes="100vw" srcset="https://anubitux.org/media/posts/63/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/63/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/63/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/63/responsive/buybeer-lg.png 1024w ,https://anubitux.org/media/posts/63/responsive/buybeer-xl.png 1360w ,https://anubitux.org/media/posts/63/responsive/buybeer-2xl.png 1600w"></figure></a></p>
             ]]>
         </content>
     </entry>
