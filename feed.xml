@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2024-06-02T19:34:33+02:00</updated>
+    <updated>2024-06-03T23:18:35+02:00</updated>
     <author>
         <name>AnuBitux</name>
     </author>
@@ -258,7 +258,7 @@
                     <p><img src="https://anubitux.org/media/posts/70/2024-04-14_16-02.png" class="type:primaryImage" alt="" /></p>
                 <p>On the 12th April 2024 our core team memper StanleyK presented AnuBitux <span class="yt-core-attributed-string--link-inherit-color"> at the Cyber Forensics IISFA Forum, held by the <a href="https://iisfa.it" target="_blank" rel="noopener noreferrer">IISFA association</a>.</span></p>
 <p>Here you can watch the recording of the talk:</p>
-<div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/dpRNw5ijA_8?si=kYiChZ54jILo7m6h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>
+<p align="center"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/dpRNw5ijA_8?si=kYiChZ54jILo7m6h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>
 <p>It was about the features and the tools included in AnuBitux and there was also a demo about how to use <a href="https://github.com/3rdIteration/btcrecover" target="_blank" rel="noopener noreferrer">seedrecover</a> to fix a mnemonic seed with missing words, like we have shown <a href="https://anubitux.org/fix-your-mnemonic-seed-with-anubitux/" target="_blank" rel="noopener noreferrer">here</a>.</p>
 <figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/70/buybeer.png" alt="" width="256" height="171" sizes="100vw" srcset="https://anubitux.org/media/posts/70/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/70/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/70/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/70/responsive/buybeer-lg.png 1024w ,https://anubitux.org/media/posts/70/responsive/buybeer-xl.png 1360w ,https://anubitux.org/media/posts/70/responsive/buybeer-2xl.png 1600w"></figure></a></p>
             ]]>
