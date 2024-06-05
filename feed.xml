@@ -3,12 +3,77 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2024-06-05T12:34:01+02:00</updated>
+    <updated>2024-06-05T13:09:53+02:00</updated>
     <author>
         <name>AnuBitux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>Generate a mnemonic seed with your microphone</title>
+        <author>
+            <name>AnuBitux</name>
+        </author>
+        <link href="https://anubitux.org/generate-a-mnemonic-seed-with-your-microphone/"/>
+        <id>https://anubitux.org/generate-a-mnemonic-seed-with-your-microphone/</id>
+        <media:content url="https://anubitux.org/media/posts/73/Mic2Seed.png" medium="image" />
+            <category term="wallet"/>
+            <category term="tutorial"/>
+            <category term="tools"/>
+            <category term="python"/>
+            <category term="opsec"/>
+            <category term="offline"/>
+            <category term="linux for xmr"/>
+            <category term="linux for cryptocurrencies"/>
+            <category term="linux for crypto"/>
+            <category term="linux for bitcoin"/>
+            <category term="linux"/>
+            <category term="howto"/>
+            <category term="distro for cryptocurrencies"/>
+            <category term="distro for crypto"/>
+            <category term="distro for bitcoin"/>
+            <category term="distro"/>
+            <category term="debian"/>
+            <category term="cryptocurrency"/>
+            <category term="crypto"/>
+            <category term="bitcoin"/>
+            <category term="bip39"/>
+            <category term="anubitux"/>
+
+        <updated>2024-06-05T12:21:00+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/73/Mic2Seed.png" alt="" />
+                    Generating mnemonic seeds is perhaps the most delicate aspect in relation to the custody of cryptocurrencies. There are a lot of methods to obtain mnemonics, for example: It is very important to make sure that the obtained mnemonic seed is truly random and not replicable.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://anubitux.org/media/posts/73/Mic2Seed.png" class="type:primaryImage" alt="" /></p>
+                <p>Generating mnemonic seeds is perhaps the most delicate aspect in relation to the custody of cryptocurrencies. There are a lot of methods to obtain mnemonics, for example:</p>
+<ul>
+<li>many wallets automatically provide them to us;</li>
+<li>they can be obtained <a href="https://anubitux.org/how-to-generate-a-mnemonic-seed-with-anubitux-and-a-dice/" target="_blank" rel="noopener noreferrer">rolling a dice</a> several times;</li>
+<li>they can be obtained through dedicated tools and hardwares like <a href="#INTERNAL_LINK#/null/undefined" title="https://seedsigner.com/" target="_blank" rel="noopener noreferrer">SeedSigner</a>.</li>
+</ul>
+<p>It is very important to make sure that the obtained mnemonic seed is truly random and not replicable. If not so, other users could obtain the same private keys and steal our funds. Summarizing, <strong>it is important to use a good source of entropy</strong>!</p>
+<h3>Entropy from the air</h3>
+<p>It could also be a good idea to grab the entropy from the environmental noise, since it is very unlike that there could be exactly the same noise for two times. To collect entropy in this way and obtain a printable paper wallet, AnuBitux provides the <a href="https://github.com/ASeriousMister/Mic2Seed" target="_blank" rel="noopener noreferrer">Mic2Seed</a> tool.</p>
+<h3>OpSec first</h3>
+<p>Before using the tool, it may be a good idea to use the "Offline" shortcut from the AnuBitux desktop, in order to disable all the possible connection to external devices and avoid leaking any kind of information.</p>
+<p>It is also important to check that the ardware we are using is working properly. In AnuBitux, we can use the <a href="https://github.com/AnuBitux/MicCheck" target="_blank" rel="noopener noreferrer">MicCheck</a> tool. It records a 5 seconds audio and plays it. If we don't hear anything there may be something not working in the correct way but definetly we have to remember to turn up the volume. The tool tries to help us showing a clear and big message saying "VolumeUp".</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="file:///home/misterserious/Dropbox/Publii/anubituxorg/input/media/posts/72/MicCheck.png" alt="" width="600" height="461" sizes="100vw" srcset="file:///home/misterserious/Dropbox/Publii/anubituxorg/input/media/posts/72/responsive/MicCheck-xs.png 300w ,file:///home/misterserious/Dropbox/Publii/anubituxorg/input/media/posts/72/responsive/MicCheck-sm.png 480w ,file:///home/misterserious/Dropbox/Publii/anubituxorg/input/media/posts/72/responsive/MicCheck-md.png 768w ,file:///home/misterserious/Dropbox/Publii/anubituxorg/input/media/posts/72/responsive/MicCheck-lg.png 1024w ,file:///home/misterserious/Dropbox/Publii/anubituxorg/input/media/posts/72/responsive/MicCheck-xl.png 1360w ,file:///home/misterserious/Dropbox/Publii/anubituxorg/input/media/posts/72/responsive/MicCheck-2xl.png 1600w"></figure>
+<h3>How to use the tool</h3>
+<p>Once we are sure that our hardware is working properly and we took care of our OpSec, we can launch the tool directly from the <em>Wallet Generators</em> menu or typing <em>mic2seed.py</em> in our terminal.</p>
+<p>If we are sure that our hardware is working properly, we only have to wait about 30 seconds to obtain our new random mnemonic seed.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/73/mic2seed1.png" alt="" width="900" height="441" sizes="100vw" srcset="https://anubitux.org/media/posts/73/responsive/mic2seed1-xs.png 300w ,https://anubitux.org/media/posts/73/responsive/mic2seed1-sm.png 480w ,https://anubitux.org/media/posts/73/responsive/mic2seed1-md.png 768w ,https://anubitux.org/media/posts/73/responsive/mic2seed1-lg.png 1024w ,https://anubitux.org/media/posts/73/responsive/mic2seed1-xl.png 1360w ,https://anubitux.org/media/posts/73/responsive/mic2seed1-2xl.png 1600w"></figure>
+<p>The tool also provides the entropy used to obtain the mnemonic seed and the indexes of the words to check them from the <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt" target="_blank" rel="noopener noreferrer">BIP39 list</a>.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/73/mic2seed2.png" alt="" width="900" height="273" sizes="100vw" srcset="https://anubitux.org/media/posts/73/responsive/mic2seed2-xs.png 300w ,https://anubitux.org/media/posts/73/responsive/mic2seed2-sm.png 480w ,https://anubitux.org/media/posts/73/responsive/mic2seed2-md.png 768w ,https://anubitux.org/media/posts/73/responsive/mic2seed2-lg.png 1024w ,https://anubitux.org/media/posts/73/responsive/mic2seed2-xl.png 1360w ,https://anubitux.org/media/posts/73/responsive/mic2seed2-2xl.png 1600w"></figure>
+<p class="msg msg--info">On our <a href="https://www.youtube.com/@AnuBitux" target="_blank" rel="noopener noreferrer">YouTube channel</a> you can find a demonstration on how to use this tool!</p>
+<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/73/buybeer.png" alt="" width="256" height="171" sizes="100vw" srcset="https://anubitux.org/media/posts/73/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/73/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/73/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/73/responsive/buybeer-lg.png 1024w ,https://anubitux.org/media/posts/73/responsive/buybeer-xl.png 1360w ,https://anubitux.org/media/posts/73/responsive/buybeer-2xl.png 1600w"></figure></a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Blind protocol for crypto wallet generation</title>
         <author>
@@ -600,170 +665,6 @@
 </ol>
 <p><span style="font-family: Arial, serif;"><span style="font-size: medium;"><span lang="en-US">For any suggestion, criticism, or if you need further texts to deepen the topic, please <a href="https://anubitux.org/meet-the-anubitux-project/" target="_blank" rel="noopener noreferrer">reach us out</a>.</span></span></span></p>
 <figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/65/buybeer.png" alt="" width="256" height="171" sizes="100vw" srcset="https://anubitux.org/media/posts/65/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/65/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/65/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/65/responsive/buybeer-lg.png 1024w ,https://anubitux.org/media/posts/65/responsive/buybeer-xl.png 1360w ,https://anubitux.org/media/posts/65/responsive/buybeer-2xl.png 1600w"></figure></a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Convert binary numbers to decimals</title>
-        <author>
-            <name>AnuBitux</name>
-        </author>
-        <link href="https://anubitux.org/convert-binary-numbers-to-decimals/"/>
-        <id>https://anubitux.org/convert-binary-numbers-to-decimals/</id>
-        <media:content url="https://anubitux.org/media/posts/64/pay-g30d0715cb_1920.jpg" medium="image" />
-            <category term="tutorial"/>
-            <category term="private key"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux"/>
-            <category term="howto"/>
-            <category term="encrypted"/>
-            <category term="cryptocurrency"/>
-            <category term="crypto"/>
-            <category term="bitcoin"/>
-            <category term="anubitux"/>
-
-        <updated>2023-04-25T11:12:48+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/64/pay-g30d0715cb_1920.jpg" alt="" />
-                    When handling cryptocurrency-related stuff, like private keys, seeds, etc... we often hear things like "256 bits", "128 bits",... but what does it mean? Computers use their different type of memories to perform any kind of action. The smallest memory unit is called bit and it&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/64/pay-g30d0715cb_1920.jpg" class="type:primaryImage" alt="" /></p>
-                <p>When handling cryptocurrency-related stuff, like private keys, seeds, etc... we often hear things like "256 bits", "128 bits",... but what does it mean?</p>
-<p>Computers use their different type of memories to perform any kind of action. The smallest memory unit is called bit and it can assume only 0 and 1 as a value. More bits chained together are able to represent any kind of information that a computer may be able to read.</p>
-<p>Indeed, computers are only able to manage numbers, even when we see text and pictures, computers are handling numbers. M<span class="--l --r sentence_highlight"><span class="--l --r hover:bg-[#B4DAE8]">ore</span> <span class="--l --r hover:bg-[#B4DAE8]">in</span> <span class="--l --r hover:bg-[#B4DAE8]">detail</span></span>, computers manage binary numbers, only made by 0s and 1s, like 10001001.</p>
-<p>In our tools, like <a href="https://anubitux.org/how-to-generate-a-mnemonic-seed-with-anubitux-and-a-dice/" target="_blank" rel="noopener noreferrer">Dice2Seed</a> and <a href="https://anubitux.org/how-to-generate-random-paper-wallets-with-anubitux/" target="_blank" rel="noopener noreferrer">DiceTracker</a> we have seen that we could also paste a binary string to obtain mnemonic phrases or private keys. But, what are these binary strings?</p>
-<h3>How numbers work</h3>
-<p>We are used to counting with numbers like 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... These are base10 numbers but we could also have base16 numbers, base64 or also base2. The number expresses the number of available digits. With base10 we have 10 digits (from 0 to 9) and with base2 we only have 2 digits (0 and 1).</p>
-<p>When counting, each time we reach the maximum value we add another digit on the left and start counting again. So when we are counting and we reach the number 9, we add a 1 on the left and start again from 0, obtaining the number 10; when we reach the number 99, we add a 1 on the left and obtain the number 100, and so on...</p>
-<p>Each digit gets a value depending on its position in the number. The first digit is multiplied by 1 (which is the result of 10^0), the second one is multiplied by 10 (which is the result of 10^1), the second one is multiplied by 100 (which is the result of 10^2), and so on.</p>
-<p>The same thing happens also with base2 numbers, but in this case, the first digit gets multiplied by 2^0, the second one gets multiplied by 2^1, the third one gets multiplied by 2^2, and so on.</p>
-<h3>How to convert binary to decimals</h3>
-<p>As seen above, every digit of a binary number assumes a certain value depending on its position. What we basically have to do is to multiply the digit's value (which may be 0 or 1) by 2 elevated to the digit's position. Let's consider the following example:</p>
-<table class="align-center" style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 12.4822%;">2^7</td>
-<td style="width: 12.4822%;">2^6</td>
-<td style="width: 12.4822%;">2^5</td>
-<td style="width: 12.4822%;">2^4</td>
-<td style="width: 12.4822%;">2^3</td>
-<td style="width: 12.4822%;">2^2</td>
-<td style="width: 12.4822%;">2^1</td>
-<td style="width: 12.4822%;">2^0</td>
-</tr>
-<tr>
-<td style="width: 12.4822%;">1</td>
-<td style="width: 12.4822%;">0</td>
-<td style="width: 12.4822%;">0</td>
-<td style="width: 12.4822%;">0</td>
-<td style="width: 12.4822%;">1</td>
-<td style="width: 12.4822%;">0</td>
-<td style="width: 12.4822%;">0</td>
-<td style="width: 12.4822%;">1</td>
-</tr>
-</tbody>
-</table>
-<p>To convert the binary number 10001001 into a decimal number, we have to calculate this sum:</p>
-<p class="align-center"><code>1*2^0 + 0*2^1 + 0*2^2 + 1*2^3 + 0*2^4 + 0*2^5 + 0*2^6 + 1*2^7</code></p>
-<p>which is equal to</p>
-<p class="align-center"><code>1*1 + 0 + 0 + 1*8 + 0 + 0 + 0 + 1*128 = <strong>137</strong></code></p>
-<h3>How to convert decimals to binary</h3>
-<p>We could also need to convert a base10 number into a base2 one. This may be a little bit more complex, but let's do that with a simple and practical approach.</p>
-<p>We need to consider that in a binary number, every digit has a value that equals 2 times the previous one. So we'll have a sequence like 0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, ...</p>
-<p>We first need to find the biggest number of that sequence that is not greater than the one that we have to convert into a binary number.</p>
-<p>So, let's hypothesize we want to convert 137 into a binary number:</p>
-<ul>
-<li>is 64 greater than 137? NO, so it may be the first number we are looking for;</li>
-<li>is 128 greater than 137? NO, so it may be the first number we are looking for instead of 64;</li>
-<li>is 256 greater than 137? YES, so it is not a valid solution and 128 is the first number we are looking for.</li>
-</ul>
-<p>128 is equal to 2^7 so we can put a 1 in the 8th position (starting from the right) of our binary number (do not forget that computers start counting from 0).</p>
-<table class="align-center" style="border-collapse: collapse; width: 100%; height: 100.719px;" border="1">
-<tbody>
-<tr style="height: 50.3594px;">
-<td style="width: 12.4822%; height: 50.3594px;">2^7</td>
-<td style="width: 12.4822%; height: 50.3594px;">2^6</td>
-<td style="width: 12.4822%; height: 50.3594px;">2^5</td>
-<td style="width: 12.4822%; height: 50.3594px;">2^4</td>
-<td style="width: 12.4822%; height: 50.3594px;">2^3</td>
-<td style="width: 12.4822%; height: 50.3594px;">2^2</td>
-<td style="width: 12.4822%; height: 50.3594px;">2^1</td>
-<td style="width: 12.4822%; height: 50.3594px;">2^0</td>
-</tr>
-<tr style="height: 50.3594px;">
-<td style="width: 12.4822%; height: 50.3594px;"><strong>1</strong></td>
-<td style="width: 12.4822%; height: 50.3594px;">?</td>
-<td style="width: 12.4822%; height: 50.3594px;">?</td>
-<td style="width: 12.4822%; height: 50.3594px;">?</td>
-<td style="width: 12.4822%; height: 50.3594px;">?</td>
-<td style="width: 12.4822%; height: 50.3594px;">?</td>
-<td style="width: 12.4822%; height: 50.3594px;">?</td>
-<td style="width: 12.4822%; height: 50.3594px;">?</td>
-</tr>
-</tbody>
-</table>
-<p>Now we need to find the second digit of our binary number. We can apply the same criteria to the remaining part of the number we are looking for.</p>
-<p>The remaining part of the number we are looking for is equal to 137 - 128 = 9. So we need to find the bigger number in the sequence that is not greater than 9. It is very easy to find out that it is 8, which corresponds to the 4th position of our binary number (2^3). The middle ones will be 0s.</p>
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 12.5535%; height: 50.3594px;">2^7</td>
-<td style="width: 12.5535%; height: 50.3594px;">2^6</td>
-<td style="width: 12.5535%; height: 50.3594px;">2^5</td>
-<td style="width: 12.5535%; height: 50.3594px;">2^4</td>
-<td style="width: 12.5535%; height: 50.3594px;">2^3</td>
-<td style="width: 12.5535%; height: 50.3594px;">2^2</td>
-<td style="width: 12.5535%; height: 50.3594px;">2^1</td>
-<td style="width: 12.5535%; height: 50.3594px;">2^0</td>
-</tr>
-<tr>
-<td style="width: 12.5535%; height: 50.3594px;"><strong>1</strong></td>
-<td style="width: 12.5535%; height: 50.3594px;">0</td>
-<td style="width: 12.5535%; height: 50.3594px;">0</td>
-<td style="width: 12.5535%; height: 50.3594px;">0</td>
-<td style="width: 12.5535%; height: 50.3594px;"><strong>1</strong></td>
-<td style="width: 12.5535%; height: 50.3594px;">?</td>
-<td style="width: 12.5535%; height: 50.3594px;">?</td>
-<td style="width: 12.5535%; height: 50.3594px;">?</td>
-</tr>
-</tbody>
-</table>
-<p>Now we have to find the next digit for the remaining part of the decimal number we are converting, which corresponds to 137 - 128 - 8 = 1. In this case we can easily find out that 1 is equal to the first number of our sequence, so we can place a 1 in the first position of our binary number (corresponding to 2^0).</p>
-<table style="border-collapse: collapse; width: 100%;" border="1">
-<tbody>
-<tr>
-<td style="width: 12.5535%; height: 50.3594px;">2^7</td>
-<td style="width: 12.5535%; height: 50.3594px;">2^6</td>
-<td style="width: 12.5535%; height: 50.3594px;">2^5</td>
-<td style="width: 12.5535%; height: 50.3594px;">2^4</td>
-<td style="width: 12.5535%; height: 50.3594px;">2^3</td>
-<td style="width: 12.5535%; height: 50.3594px;">2^2</td>
-<td style="width: 12.5535%; height: 50.3594px;">2^1</td>
-<td style="width: 12.1255%; height: 50.3594px;">2^0</td>
-</tr>
-<tr>
-<td style="width: 12.5535%; height: 50.3594px;"><strong>1</strong></td>
-<td style="width: 12.5535%; height: 50.3594px;">0</td>
-<td style="width: 12.5535%; height: 50.3594px;">0</td>
-<td style="width: 12.5535%; height: 50.3594px;">0</td>
-<td style="width: 12.5535%; height: 50.3594px;"><strong>1</strong></td>
-<td style="width: 12.5535%; height: 50.3594px;">0</td>
-<td style="width: 12.5535%; height: 50.3594px;">0</td>
-<td style="width: 12.1255%; height: 50.3594px;"><strong>1</strong></td>
-</tr>
-</tbody>
-</table>
-<p>So we obtained our binary number corresponding to 137, which is 10001001!</p>
-<h3>Final thoughts</h3>
-<p>In this post, we have seen a short example about how numbers work with computers. Of course, there is much more to know but, when handling cryptocurrencies, it could be useful to know what is intended for a binary number and which is its value. We also may never have to perform the above-seen operations by ourselves</p>
-<p>Whit the same criteria, we could also encounter base16 numbers (called hexadecimal), base64 numbers and so on...</p>
-<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/64/buybeer.png" alt="" width="256" height="171" sizes="100vw" srcset="https://anubitux.org/media/posts/64/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/64/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/64/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/64/responsive/buybeer-lg.png 1024w ,https://anubitux.org/media/posts/64/responsive/buybeer-xl.png 1360w ,https://anubitux.org/media/posts/64/responsive/buybeer-2xl.png 1600w"></figure></a></p>
-<p> </p>
             ]]>
         </content>
     </entry>
