@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2024-06-05T13:09:53+02:00</updated>
+    <updated>2024-06-05T13:15:16+02:00</updated>
     <author>
         <name>AnuBitux</name>
     </author>
@@ -70,6 +70,7 @@
 <p>The tool also provides the entropy used to obtain the mnemonic seed and the indexes of the words to check them from the <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt" target="_blank" rel="noopener noreferrer">BIP39 list</a>.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/73/mic2seed2.png" alt="" width="900" height="273" sizes="100vw" srcset="https://anubitux.org/media/posts/73/responsive/mic2seed2-xs.png 300w ,https://anubitux.org/media/posts/73/responsive/mic2seed2-sm.png 480w ,https://anubitux.org/media/posts/73/responsive/mic2seed2-md.png 768w ,https://anubitux.org/media/posts/73/responsive/mic2seed2-lg.png 1024w ,https://anubitux.org/media/posts/73/responsive/mic2seed2-xl.png 1360w ,https://anubitux.org/media/posts/73/responsive/mic2seed2-2xl.png 1600w"></figure>
 <p class="msg msg--info">On our <a href="https://www.youtube.com/@AnuBitux" target="_blank" rel="noopener noreferrer">YouTube channel</a> you can find a demonstration on how to use this tool!</p>
+<p align="center"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/b23h-PbYOzA?si=AHMcEF8ZdLFpTobS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>
 <figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/73/buybeer.png" alt="" width="256" height="171" sizes="100vw" srcset="https://anubitux.org/media/posts/73/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/73/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/73/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/73/responsive/buybeer-lg.png 1024w ,https://anubitux.org/media/posts/73/responsive/buybeer-xl.png 1360w ,https://anubitux.org/media/posts/73/responsive/buybeer-2xl.png 1600w"></figure></a></p>
             ]]>
         </content>
