@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2024-06-03T23:18:35+02:00</updated>
+    <updated>2024-06-05T12:34:01+02:00</updated>
     <author>
         <name>AnuBitux</name>
     </author>
@@ -159,6 +159,9 @@
 <p>If we accept to make the tool create a paper wallet for us, we can find the printable file in the <em>Documents/PaperWallet</em> folder.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/72/Mic2Paper3.png" alt="" width="1000" height="485" sizes="100vw" srcset="https://anubitux.org/media/posts/72/responsive/Mic2Paper3-xs.png 300w ,https://anubitux.org/media/posts/72/responsive/Mic2Paper3-sm.png 480w ,https://anubitux.org/media/posts/72/responsive/Mic2Paper3-md.png 768w ,https://anubitux.org/media/posts/72/responsive/Mic2Paper3-lg.png 1024w ,https://anubitux.org/media/posts/72/responsive/Mic2Paper3-xl.png 1360w ,https://anubitux.org/media/posts/72/responsive/Mic2Paper3-2xl.png 1600w"></figure>
 <p>Now, thanks to the numerous <a href="https://anubitux-project.gitbook.io/the-anubitux-documentation/features/printing" target="_blank" rel="noopener noreferrer">printer drivers</a> included in AnuBitux, we should be able to print our paper wallet and store it in a super safe place.</p>
+<p class="msg msg--info">You can see a demo aboit how this tool works on our <a href="https://www.youtube.com/@AnuBitux" target="_blank" rel="noopener noreferrer">YouTube channel</a>.</p>
+<p align="center"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/9_OWg6KSmpQ?si=wsHhcoBhGeUuGzLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>
+<p> </p>
 <figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/72/buybeer.png" alt="" width="256" height="171" sizes="100vw" srcset="https://anubitux.org/media/posts/72/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/72/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/72/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/72/responsive/buybeer-lg.png 1024w ,https://anubitux.org/media/posts/72/responsive/buybeer-xl.png 1360w ,https://anubitux.org/media/posts/72/responsive/buybeer-2xl.png 1600w"></figure></a></p>
 <p> </p>
             ]]>
