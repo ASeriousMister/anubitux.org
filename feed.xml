@@ -3,7 +3,7 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2024-06-05T13:15:16+02:00</updated>
+    <updated>2024-06-19T20:27:27+02:00</updated>
     <author>
         <name>AnuBitux</name>
     </author>
@@ -212,8 +212,8 @@
 <h3>Entropy from the air</h3>
 <p>It could also be a good idea to grab the entropy from the environmental noise, since it is very unlike that there could be exactly the same noise for two times. To collect entropy in this way and obtain a printable paper wallet, AnuBitux provides the <a href="https://github.com/ASeriousMister/Mic2Paper" target="_blank" rel="noopener noreferrer">Mic2Paper</a> tool.</p>
 <h3>OpSec first</h3>
-<p>Before using the tool, it may be a good idea to use the "Offline" shortcut from the AnuBitux desktop, in order to disable all the possible connection to external devices and avoid leaking any kind of information.</p>
-<p>It is also important to check that the ardware we are using is working properly. In AnuBitux, we can use the <a href="https://github.com/AnuBitux/MicCheck" target="_blank" rel="noopener noreferrer">MicCheck</a> tool. It records a 5 seconds audio and plays it. If we don't hear anything there may be something not working in the correct way but definetly we have to remember to turn up the volume. The tool tries to help us showing a clear and big message saying "VolumeUp".</p>
+<p>Before using the tool, it may be a good idea to use the "Offline" shortcut from the AnuBitux desktop, in order to disable all the possible connections to external devices and avoid leaking any kind of information.</p>
+<p>It is also important to check that the hardware we are using is working properly. In AnuBitux, we can use the <a href="https://github.com/AnuBitux/MicCheck" target="_blank" rel="noopener noreferrer">MicCheck</a> tool. It records a 5 seconds audio and plays it. If we don't hear anything there may be something not working in the correct way but definetly we have to remember to turn up the volume. The tool tries to help us showing a clear and big message saying "VolumeUp".</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/72/MicCheck.png" alt="" width="600" height="461" sizes="100vw" srcset="https://anubitux.org/media/posts/72/responsive/MicCheck-xs.png 300w ,https://anubitux.org/media/posts/72/responsive/MicCheck-sm.png 480w ,https://anubitux.org/media/posts/72/responsive/MicCheck-md.png 768w ,https://anubitux.org/media/posts/72/responsive/MicCheck-lg.png 1024w ,https://anubitux.org/media/posts/72/responsive/MicCheck-xl.png 1360w ,https://anubitux.org/media/posts/72/responsive/MicCheck-2xl.png 1600w"></figure>
 <h3>How to use the tool</h3>
 <p>Once we are sure that our hardware is working properly and we took care of our OpSec, we can launch the tool directly from the <em>Wallet Generators</em> menu or typing <em>mic2paper.py</em> in our terminal.</p>
@@ -225,7 +225,7 @@
 <p>If we accept to make the tool create a paper wallet for us, we can find the printable file in the <em>Documents/PaperWallet</em> folder.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/72/Mic2Paper3.png" alt="" width="1000" height="485" sizes="100vw" srcset="https://anubitux.org/media/posts/72/responsive/Mic2Paper3-xs.png 300w ,https://anubitux.org/media/posts/72/responsive/Mic2Paper3-sm.png 480w ,https://anubitux.org/media/posts/72/responsive/Mic2Paper3-md.png 768w ,https://anubitux.org/media/posts/72/responsive/Mic2Paper3-lg.png 1024w ,https://anubitux.org/media/posts/72/responsive/Mic2Paper3-xl.png 1360w ,https://anubitux.org/media/posts/72/responsive/Mic2Paper3-2xl.png 1600w"></figure>
 <p>Now, thanks to the numerous <a href="https://anubitux-project.gitbook.io/the-anubitux-documentation/features/printing" target="_blank" rel="noopener noreferrer">printer drivers</a> included in AnuBitux, we should be able to print our paper wallet and store it in a super safe place.</p>
-<p class="msg msg--info">You can see a demo aboit how this tool works on our <a href="https://www.youtube.com/@AnuBitux" target="_blank" rel="noopener noreferrer">YouTube channel</a>.</p>
+<p class="msg msg--info">You can see a demo about how this tool works on our <a href="https://www.youtube.com/@AnuBitux" target="_blank" rel="noopener noreferrer">YouTube channel</a>.</p>
 <p align="center"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/9_OWg6KSmpQ?si=wsHhcoBhGeUuGzLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>
 <p> </p>
 <figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/72/buybeer.png" alt="" width="256" height="171" sizes="100vw" srcset="https://anubitux.org/media/posts/72/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/72/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/72/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/72/responsive/buybeer-lg.png 1024w ,https://anubitux.org/media/posts/72/responsive/buybeer-xl.png 1360w ,https://anubitux.org/media/posts/72/responsive/buybeer-2xl.png 1600w"></figure></a></p>
