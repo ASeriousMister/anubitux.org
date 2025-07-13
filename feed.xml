@@ -3,12 +3,82 @@
     <title>anubitux.org</title>
     <link href="https://anubitux.org/feed.xml" rel="self" />
     <link href="https://anubitux.org" />
-    <updated>2025-07-06T15:30:28+02:00</updated>
+    <updated>2025-07-13T23:21:00+02:00</updated>
     <author>
         <name>AnuBitux</name>
     </author>
     <id>https://anubitux.org</id>
 
+    <entry>
+        <title>Share a wallet with a trusted person using Liana</title>
+        <author>
+            <name>AnuBitux</name>
+        </author>
+        <link href="https://anubitux.org/liana/"/>
+        <id>https://anubitux.org/liana/</id>
+        <media:content url="https://anubitux.org/media/posts/80/img_ui.png" medium="image" />
+            <category term="wallet"/>
+            <category term="tutorial"/>
+            <category term="tools"/>
+            <category term="tool"/>
+            <category term="recovery"/>
+            <category term="opsec"/>
+            <category term="linux"/>
+            <category term="howto"/>
+            <category term="distro for cryptocurrencies"/>
+            <category term="distro for crypto"/>
+            <category term="distro for bitcoin"/>
+            <category term="distro"/>
+            <category term="cryptocurrency"/>
+            <category term="crypto"/>
+            <category term="bitcoin"/>
+            <category term="bip39"/>
+            <category term="anubitux"/>
+
+        <updated>2025-07-13T23:21:00+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://anubitux.org/media/posts/80/img_ui.png" alt="" />
+                    Tools like Liana, which is described in this post, are designed for experienced users. If you are not sure about how it works and how&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://anubitux.org/media/posts/80/img_ui.png" class="type:primaryImage" alt="" /></p>
+                <p class="msg msg--warning">Tools like Liana, which is described in this post, are designed for experienced users. If you are not sure about how it works and how to access your funds using it, you should do some practice with testnet funds or opt for another solution. </p>
+<p>With cryptocurrencies, we usually want to keep our wallets very private and secret, but we might also have the necessity to share a wallet with a trusted person to prevent funds loss for any reason. Just sharing a copy of our mnemonic would include multiple security issues and would expose our wallet to unwanted risks. To achieve this task we may want to use <a href="https://wizardsardine.com/liana/" target="_blank" rel="noopener noreferrer">Liana</a>, a very special wallet designed for it.</p>
+<p>To create a wallet we can just start it and follow the creation wizard's steps.</p>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/80/L1.png" alt="" width="1000" height="599" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/80/responsive/L1-xs.png 300w ,https://anubitux.org/media/posts/80/responsive/L1-sm.png 480w ,https://anubitux.org/media/posts/80/responsive/L1-md.png 768w ,https://anubitux.org/media/posts/80/responsive/L1-lg.png 1024w"></figure>
+<figcaption >Welcome window at the first start of the Liana wallet</figcaption>
+</figure>
+<p>Choosing to create a new Liana wallet, we have to select what kind of wallet we want to create. For this demonstration we will just pick the first option "<em>Simple inheritance</em>".</p>
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://anubitux.org/media/posts/80/L2.png" alt="" width="1000" height="573" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/80/responsive/L2-xs.png 300w ,https://anubitux.org/media/posts/80/responsive/L2-sm.png 480w ,https://anubitux.org/media/posts/80/responsive/L2-md.png 768w ,https://anubitux.org/media/posts/80/responsive/L2-lg.png 1024w">
+<figcaption >Various type of available wallets</figcaption>
+</figure>
+<p>In the next step, we start having a clearer view on how this tool works: our wallet will have two keys, one that can regularly access the funds and a second one, that won't be able to access funds before a certain period of inactivity of the wallet.</p>
+<figure class="post__image"><img loading="lazy"  src="https://anubitux.org/media/posts/80/L3.png" alt="" width="1000" height="588" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/80/responsive/L3-xs.png 300w ,https://anubitux.org/media/posts/80/responsive/L3-sm.png 480w ,https://anubitux.org/media/posts/80/responsive/L3-md.png 768w ,https://anubitux.org/media/posts/80/responsive/L3-lg.png 1024w"><figcaption>How the Liana wallet works</figcaption></figure>
+<p>Then we have to choose the keys. In order to simplify the demonstration, we are picking the same locally generated key, but it is preferable to use a separately generated key. Anyway, the other user that would have access after the desired period of inactivity, only has to share the <em>xpub</em> key.</p>
+<figure class="post__image"><img loading="lazy"  src="https://anubitux.org/media/posts/80/L4.png" alt="" width="1000" height="570" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/80/responsive/L4-xs.png 300w ,https://anubitux.org/media/posts/80/responsive/L4-sm.png 480w ,https://anubitux.org/media/posts/80/responsive/L4-md.png 768w ,https://anubitux.org/media/posts/80/responsive/L4-lg.png 1024w"><figcaption>Setting the two keys</figcaption></figure>
+<p>We will then obtain a mnemonic seed, like in any other desktop wallet, after which we obtain a string to backup (the <a href="https://blog.casa.io/introducing-wallet-descriptors/" target="_blank" rel="noopener noreferrer">descriptor</a>).</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/80/L6.png" alt="" width="1000" height="623" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/80/responsive/L6-xs.png 300w ,https://anubitux.org/media/posts/80/responsive/L6-sm.png 480w ,https://anubitux.org/media/posts/80/responsive/L6-md.png 768w ,https://anubitux.org/media/posts/80/responsive/L6-lg.png 1024w"></figure>
+<p>We can then set how our client should connect to the Bitcoin network. Connecting to our private node is the best option to preserve our privacy but, if we don't have a node, we can connect to Liana's. We may want to use Kalitorify* to avoid exposing our IP address.</p>
+<p class="msg msg--info">* In AnuBitux, Kalitorify can be started using the desktop shortcut "Tor mode".</p>
+<figure class="post__image"><img loading="lazy"  src="https://anubitux.org/media/posts/80/L7.png" alt="" width="1000" height="529" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/80/responsive/L7-xs.png 300w ,https://anubitux.org/media/posts/80/responsive/L7-sm.png 480w ,https://anubitux.org/media/posts/80/responsive/L7-md.png 768w ,https://anubitux.org/media/posts/80/responsive/L7-lg.png 1024w"><figcaption>Setting up how Liana connects to the Bitcoin network</figcaption></figure>
+<p>We have then to submit an email that will be associated with the wallet (email will be verified in the next step).</p>
+<figure class="post__image"><img loading="lazy"  src="https://anubitux.org/media/posts/80/L8.png" alt="" width="1000" height="377" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/80/responsive/L8-xs.png 300w ,https://anubitux.org/media/posts/80/responsive/L8-sm.png 480w ,https://anubitux.org/media/posts/80/responsive/L8-md.png 768w ,https://anubitux.org/media/posts/80/responsive/L8-lg.png 1024w"><figcaption>Associating an email address with the wallet</figcaption></figure>
+<p>We have now successfully created our Liana wallet. In the settings, we can see an overview of how our keys work.</p>
+<figure class="post__image"><img loading="lazy"  src="https://anubitux.org/media/posts/80/L9.png" alt="" width="1000" height="592" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/80/responsive/L9-xs.png 300w ,https://anubitux.org/media/posts/80/responsive/L9-sm.png 480w ,https://anubitux.org/media/posts/80/responsive/L9-md.png 768w ,https://anubitux.org/media/posts/80/responsive/L9-lg.png 1024w"><figcaption>Wallet settings</figcaption></figure>
+<p>In the recovery menu, which is empty in our demo wallet as it has no funds, will be displayed the owned coins and the remaining time, until they will expire and became available for the second authorized signer. </p>
+<p>More information and more detailed explanations can be found on the Liana wallet official website, in the <a href="https://wizardsardine.com/liana/support/" target="_blank" rel="noopener noreferrer">Support</a> section.</p>
+<figure class="post__image post__image--center"><a href="https://buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/80/buybeer-md.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/80/responsive/buybeer-md-xs.png 300w ,https://anubitux.org/media/posts/80/responsive/buybeer-md-sm.png 480w ,https://anubitux.org/media/posts/80/responsive/buybeer-md-md.png 768w ,https://anubitux.org/media/posts/80/responsive/buybeer-md-lg.png 1024w"></figure></a></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Safe storage of your cryptos</title>
         <author>
@@ -93,7 +163,7 @@
 <li>those used as cold storage solutions;</li>
 <li>those used to improve the security of our cryptos;</li>
 </ul>
-<p>In the first case, we are referring to wallets that are keeping our private keys isolated, as <a href="https://github.com/ASeriousMister/DiceTracker.py" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">paper wallets</a> or devices like <a href="https://opendime.com/" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">OpenDime</a> do.</p>
+<p>In the first case, we are referring to wallets that are keeping our private keys isolated, as <a href="https://github.com/ASeriousMister/DiceTracker.py" target="_blank" rel="noopener noreferrer">paper wallets</a> or devices like <a href="https://opendime.com/" target="_blank" rel="noopener noreferrer">OpenDime</a> do.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/36/Selection_061.png" alt="opendime" width="600" height="316" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/36/responsive/Selection_061-xs.png 300w ,https://anubitux.org/media/posts/36/responsive/Selection_061-sm.png 480w ,https://anubitux.org/media/posts/36/responsive/Selection_061-md.png 768w ,https://anubitux.org/media/posts/36/responsive/Selection_061-lg.png 1024w"></figure>
 <p>These solutions are very powerful to receive coins or to store coins in a very safe way when we do not need to spend them. They are safe as long as:</p>
 <ul>
@@ -102,12 +172,13 @@
 <li>the mathematics behind cryptocurrencies does its job.</li>
 </ul>
 <p>When we need to <a href="https://anubitux.org/how-to-spend-a-paper-wallet-with-anubitux/" target="_blank" rel="noopener noreferrer">move coins</a> from these wallets, we should always empty them, since starting from this moment, we exposed our private keys and they can't be considered that secure anymore. If we do not need to spend the whole amount we are storing, it could be a very good idea to move funds to a new secure cold storage.</p>
-<p>In the second case we are talking about hardware wallets like <a href="https://trezor.io/" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">Trezor</a>, <a href="https://www.ledger.com/" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">Ledger</a>, <a href="https://www.safepal.com/" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">Safepal</a>, <a href="https://www.ellipal.com/" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">Ellipal</a>, etc. This kind of wallets can be considered very safe even for using cryptos on a daily basis. Indeed, they handle all the signing process without revealing the private keys they are handling. The client prepares the transaction, sends it to the hardware wallets that signs it with the correct private keys and sends it back to the client that now can propagate it to the network. These wallets often require a physical interaction by the user to perform the signing process so, even if the device we are using has been compromised, no one will be able to move our cryptos without being near our hardware wallet. On the counter, these solutions, like desktop wallets, use mnemonic seeds as backup method. So, they can be considered safe as long we are keeping our mnemonic seed in a secure place. This feature makes them useless as cold storage solutions, since we are already storing our seed in a safe place without the need to move funds. Store them also on an electronic device does not add any security to our cold storage. Also the process with which they collect entropy to generate our seed, has not to be considered safer than the methods used by other solutions. We could obtain a mnemonic seed even <a href="https://github.com/ASeriousMister/Dice2Seed" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">rolling our dice</a> many times and converting results into entropy to obtain a mnemonic seed.</p>
+<p>In the second case we are talking about hardware wallets like <a href="https://trezor.io/" target="_blank" rel="noopener noreferrer">Trezor</a>, <a href="https://www.ledger.com/" target="_blank" rel="noopener noreferrer">Ledger</a>, <a href="https://www.safepal.com/" target="_blank" rel="noopener noreferrer">Safepal</a>, <a href="https://www.ellipal.com/" target="_blank" rel="noopener noreferrer">Ellipal</a>, etc. This kind of wallets can be considered very safe even for using cryptos on a daily basis. Indeed, they handle all the signing process without revealing the private keys they are handling. The client prepares the transaction, sends it to the hardware wallets that signs it with the correct private keys and sends it back to the client that now can propagate it to the network. These wallets often require a physical interaction by the user to perform the signing process so, even if the device we are using has been compromised, no one will be able to move our cryptos without being near our hardware wallet. On the counter, these solutions, like desktop wallets, use mnemonic seeds as backup method. So, they can be considered safe as long we are keeping our mnemonic seed in a secure place. This feature makes them useless as cold storage solutions, since we are already storing our seed in a safe place without the need to move funds. Store them also on an electronic device does not add any security to our cold storage. Also the process with which they collect entropy to generate our seed, has not to be considered safer than the methods used by other solutions. We could obtain a mnemonic seed even <a href="https://github.com/ASeriousMister/Dice2Seed" target="_blank" rel="noopener noreferrer">rolling our dice</a> many times and converting results into entropy to obtain a mnemonic seed.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/36/Selection_202.png" alt="" width="750" height="668" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/36/responsive/Selection_202-xs.png 300w ,https://anubitux.org/media/posts/36/responsive/Selection_202-sm.png 480w ,https://anubitux.org/media/posts/36/responsive/Selection_202-md.png 768w ,https://anubitux.org/media/posts/36/responsive/Selection_202-lg.png 1024w"></figure>
 <h3>Final thoughts</h3>
 <p>So, which one can be considered as the best solutions? Maybe no one, because any solution has many pros and cons and has been designed to satisfy different needs. Online wallets are useful since they can be accessed from anywhere, desktop wallets give us the control over our keys and can be used on regular basis, hardware wallets can be used as cold storage solutions or for keeping our private keys safer.</p>
 <p>Therefore the best solution could be using all these solutions, separating coins in consideration of what we want to use them for, so we can always be ready to send coins to a safe cold storage or we can quickly perform a good trade on our preferred exchange platform. We also need to consider that this strategy avoids us from having a single point of failure since if one of our wallets gets compromised, we are not going to loose our coins.</p>
 <p>In conclusion, we should not rely on a single solution and should not adopt solutions without previously analyzing them. We should only use wallets we have analysed and tested, using them only when we feel pretty comfortable with their features.</p>
+<figure class="post__image post__image--center"><a href="https://buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/36/buybeer-md.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/36/responsive/buybeer-md-xs.png 300w ,https://anubitux.org/media/posts/36/responsive/buybeer-md-sm.png 480w ,https://anubitux.org/media/posts/36/responsive/buybeer-md-md.png 768w ,https://anubitux.org/media/posts/36/responsive/buybeer-md-lg.png 1024w"></figure></a></p>
             ]]>
         </content>
     </entry>
@@ -156,8 +227,8 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://anubitux.org/media/posts/75/BlindMnem.jpg" class="type:primaryImage" alt="" /></p>
-                <p>In a previous <a href="https://anubitux.org/blind-protocol-for-crypto-wallet-generation/" target="_blank" rel="noopener noreferrer">post</a>, we illustrated our <a href="https://github.com/ASeriousMister/BlindGen" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">Blind Protocol</a>, which allows two operators to create a paper wallet splitting the private key so that nobody has access to it and it is not shown before the need to spend the funds. </p>
-<p>In some cases, it is definitely more useful to have the private key stored in the form of a BIP39 mnemonic seed, since it can be used easily with most of the nowadays clients. So we developed <a href="https://github.com/ASeriousMister/BlindMnemonic" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">BlindMnemonic</a>, a new tool with the same approach, which generates two parts of a mnemonic seed and provides some deposit addresses, so that it is possible to receive funds with no one having access to the whole mneminic seed.</p>
+                <p>In a previous <a href="https://anubitux.org/blind-protocol-for-crypto-wallet-generation/" target="_blank" rel="noopener noreferrer">post</a>, we illustrated our <a href="https://github.com/ASeriousMister/BlindGen" target="_blank" rel="noopener noreferrer">Blind Protocol</a>, which allows two operators to create a paper wallet splitting the private key so that nobody has access to it and it is not shown before the need to spend the funds. </p>
+<p>In some cases, it is definitely more useful to have the private key stored in the form of a BIP39 mnemonic seed, since it can be used easily with most of the nowadays clients. So we developed <a href="https://github.com/ASeriousMister/BlindMnemonic" target="_blank" rel="noopener noreferrer">BlindMnemonic</a>, a new tool with the same approach, which generates two parts of a mnemonic seed and provides some deposit addresses, so that it is possible to receive funds with no one having access to the whole mneminic seed.</p>
 <h3>How to use the tool</h3>
 <p>Also this tool requires two different operators, each one obtaining a part of the mnemonic seed.</p>
 <p class="msg msg--warning">In real case scenarios, don't forget to use the "Offline" button on the desktop to disable all the network interfaces and prevent any data leakage.</p>
@@ -193,7 +264,7 @@
 <figcaption >Comparing the public address obtained with BlindMnemonic with the public address obtained with standard BIP39 wallets</figcaption>
 </figure>
 <p> </p>
-<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank"   rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/75/buybeer-md.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/75/responsive/buybeer-md-xs.png 300w ,https://anubitux.org/media/posts/75/responsive/buybeer-md-sm.png 480w ,https://anubitux.org/media/posts/75/responsive/buybeer-md-md.png 768w ,https://anubitux.org/media/posts/75/responsive/buybeer-md-lg.png 1024w"></figure></a></p>
+<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/75/buybeer-md.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/75/responsive/buybeer-md-xs.png 300w ,https://anubitux.org/media/posts/75/responsive/buybeer-md-sm.png 480w ,https://anubitux.org/media/posts/75/responsive/buybeer-md-md.png 768w ,https://anubitux.org/media/posts/75/responsive/buybeer-md-lg.png 1024w"></figure></a></p>
             ]]>
         </content>
     </entry>
@@ -233,7 +304,7 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://anubitux.org/media/posts/77/angels.png" class="type:primaryImage" alt="" /></p>
-                <p>It might happen that we want to share some kind of information with a third party without the need to writing down the information in clear text and without requiring the other party to get used to some encryption method. For this purpose we developed <a href="https://github.com/ASeriousMister/Bequest" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">Bequest</a>, a tool that encrypts some text using an arbitrary key phrase and stores the encrypted text in a series of QR codes. With this tool the party that needs to access the secret information only has to remember the phrase that was used in the encryption process.</p>
+                <p>It might happen that we want to share some kind of information with a third party without the need to writing down the information in clear text and without requiring the other party to get used to some encryption method. For this purpose we developed <a href="https://github.com/ASeriousMister/Bequest" target="_blank" rel="noopener noreferrer">Bequest</a>, a tool that encrypts some text using an arbitrary key phrase and stores the encrypted text in a series of QR codes. With this tool the party that needs to access the secret information only has to remember the phrase that was used in the encryption process.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/77//beq1.png" alt="" width="521" height="516" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/77//responsive/beq1-xs.png 300w ,https://anubitux.org/media/posts/77//responsive/beq1-sm.png 480w ,https://anubitux.org/media/posts/77//responsive/beq1-md.png 768w ,https://anubitux.org/media/posts/77//responsive/beq1-lg.png 1024w"></figure>
 <h2>How to encrypt some text</h2>
 <p>To encrypt some text, we simply have to:</p>
@@ -258,7 +329,7 @@
 <h2><figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/77/beq6.png" alt="" width="600" height="309" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/77/responsive/beq6-xs.png 300w ,https://anubitux.org/media/posts/77/responsive/beq6-sm.png 480w ,https://anubitux.org/media/posts/77/responsive/beq6-md.png 768w ,https://anubitux.org/media/posts/77/responsive/beq6-lg.png 1024w"></figure></h2>
 <h2>Recommendations</h2>
 <p>It is recommended to always check if the QR codes are storing the correct text and if the tool is able to decrypt it in the proper way. In case something goes wrong, it is probably due to some temporary issue or to some special character that is not handled correctly. If so, we recommend to try again, maybe changing your text and <a href="https://anubitux.org/meet-the-anubitux-project/" target="_blank" rel="noopener noreferrer">reporting the issue to us</a>.</p>
-<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank"   rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/77/buybeer-md.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/77/responsive/buybeer-md-xs.png 300w ,https://anubitux.org/media/posts/77/responsive/buybeer-md-sm.png 480w ,https://anubitux.org/media/posts/77/responsive/buybeer-md-md.png 768w ,https://anubitux.org/media/posts/77/responsive/buybeer-md-lg.png 1024w"></figure></a></p>
+<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/77/buybeer-md.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/77/responsive/buybeer-md-xs.png 300w ,https://anubitux.org/media/posts/77/responsive/buybeer-md-sm.png 480w ,https://anubitux.org/media/posts/77/responsive/buybeer-md-md.png 768w ,https://anubitux.org/media/posts/77/responsive/buybeer-md-lg.png 1024w"></figure></a></p>
 <p> </p>
 <p> </p>
 <p> </p>
@@ -317,10 +388,10 @@
 </ul>
 <p>It is very important to make sure that the obtained mnemonic seed is truly random and not replicable. If not so, other users could obtain the same private keys and steal our funds. Summarizing, <strong>it is important to use a good source of entropy</strong>!</p>
 <h3>Entropy from the air</h3>
-<p>It could also be a good idea to grab the entropy from the environmental noise, since it is very unlike that there could be exactly the same noise for two times. To collect entropy in this way and obtain a printable paper wallet, AnuBitux provides the <a href="https://github.com/ASeriousMister/Mic2Seed" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">Mic2Seed</a> tool.</p>
+<p>It could also be a good idea to grab the entropy from the environmental noise, since it is very unlike that there could be exactly the same noise for two times. To collect entropy in this way and obtain a printable paper wallet, AnuBitux provides the <a href="https://github.com/ASeriousMister/Mic2Seed" target="_blank" rel="noopener noreferrer">Mic2Seed</a> tool.</p>
 <h3>OpSec first</h3>
 <p>Before using the tool, it may be a good idea to use the "Offline" shortcut from the AnuBitux desktop, in order to disable all the possible connection to external devices and avoid leaking any kind of information.</p>
-<p>It is also important to check that the ardware we are using is working properly. In AnuBitux, we can use the <a href="https://github.com/AnuBitux/MicCheck" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">MicCheck</a> tool. It records a 5 seconds audio and plays it. If we don't hear anything there may be something not working in the correct way but definetly we have to remember to turn up the volume. The tool tries to help us showing a clear and big message saying "VolumeUp".</p>
+<p>It is also important to check that the ardware we are using is working properly. In AnuBitux, we can use the <a href="https://github.com/AnuBitux/MicCheck" target="_blank" rel="noopener noreferrer">MicCheck</a> tool. It records a 5 seconds audio and plays it. If we don't hear anything there may be something not working in the correct way but definetly we have to remember to turn up the volume. The tool tries to help us showing a clear and big message saying "VolumeUp".</p>
 <figure class="post__image post__image--center" ><img loading="lazy" src="file:///home/misterserious/Dropbox/Publii/anubituxorg/input/media/posts/72/MicCheck.png" alt="" width="600" height="461" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="file:///home/misterserious/Dropbox/Publii/anubituxorg/input/media/posts/72/responsive/MicCheck-xs.png 300w ,file:///home/misterserious/Dropbox/Publii/anubituxorg/input/media/posts/72/responsive/MicCheck-sm.png 480w ,file:///home/misterserious/Dropbox/Publii/anubituxorg/input/media/posts/72/responsive/MicCheck-md.png 768w ,file:///home/misterserious/Dropbox/Publii/anubituxorg/input/media/posts/72/responsive/MicCheck-lg.png 1024w">
 <figcaption >Checking the microphone with the MicCheck tool included in AnuBitux</figcaption>
 </figure>
@@ -330,13 +401,13 @@
 <figure class="post__image post__image--center" ><img loading="lazy" src="https://anubitux.org/media/posts/73/mic2seed1.png" alt="" width="900" height="441" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/73/responsive/mic2seed1-xs.png 300w ,https://anubitux.org/media/posts/73/responsive/mic2seed1-sm.png 480w ,https://anubitux.org/media/posts/73/responsive/mic2seed1-md.png 768w ,https://anubitux.org/media/posts/73/responsive/mic2seed1-lg.png 1024w">
 <figcaption >Mnemonic seed obtained with explanation of all the indexes and the words</figcaption>
 </figure>
-<p>The tool also provides the entropy used to obtain the mnemonic seed and the indexes of the words to check them from the <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">BIP39 list</a>.</p>
+<p>The tool also provides the entropy used to obtain the mnemonic seed and the indexes of the words to check them from the <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt" target="_blank" rel="noopener noreferrer">BIP39 list</a>.</p>
 <figure class="post__image post__image--center" ><img loading="lazy" src="https://anubitux.org/media/posts/73/mic2seed2.png" alt="" width="900" height="273" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/73/responsive/mic2seed2-xs.png 300w ,https://anubitux.org/media/posts/73/responsive/mic2seed2-sm.png 480w ,https://anubitux.org/media/posts/73/responsive/mic2seed2-md.png 768w ,https://anubitux.org/media/posts/73/responsive/mic2seed2-lg.png 1024w">
 <figcaption >Entropy obtained through the microphone</figcaption>
 </figure>
-<p class="msg msg--info">On our <a href="https://www.youtube.com/@AnuBitux" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">YouTube channel</a> you can find a demonstration on how to use this tool!</p>
+<p class="msg msg--info">On our <a href="https://www.youtube.com/@AnuBitux" target="_blank" rel="noopener noreferrer">YouTube channel</a> you can find a demonstration on how to use this tool!</p>
 <p align="center"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/b23h-PbYOzA?si=AHMcEF8ZdLFpTobS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>
-<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank"   rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/73/buybeer.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/73/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/73/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/73/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/73/responsive/buybeer-lg.png 1024w"></figure></a></p>
+<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/73/buybeer.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/73/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/73/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/73/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/73/responsive/buybeer-lg.png 1024w"></figure></a></p>
             ]]>
         </content>
     </entry>
@@ -388,7 +459,7 @@
                     <p><img src="https://anubitux.org/media/posts/74/BlindGen.png" class="type:primaryImage" alt="" /></p>
                 <p>In some cases it may be necessary to create private keys to securely store funds for others, for instance, when seizing cryptocurrency for the judicial authority or when acting as a crypto custodian. When creating the private key with the common tools, even when using all the precautions (i.e. using a live working environment like AnuBitux, disabling all the network connections, using a good source of entropy, etc.), the operator, even if only for a few seconds, is gaining access to a private key related to funds which are not going to belong to him. To avoid it, multisignature wallets ciuld be created, but this solution is not directly and easily available for all the currencies and may also be pretty difficult to use for most of the users.</p>
 <p>As more complex is the solution we use to store cryptocurrencies, as more it is easy to lose access to them.</p>
-<p>To solve this, we developed something called "<strong>Blind protocol for crypto wallet generation</strong>". This protocol provides two tools, <a href="https://github.com/ASeriousMister/BlindGen" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">BlindGen</a> and BlindDecode.</p>
+<p>To solve this, we developed something called "<strong>Blind protocol for crypto wallet generation</strong>". This protocol provides two tools, <a href="https://github.com/ASeriousMister/BlindGen" target="_blank" rel="noopener noreferrer">BlindGen</a> and BlindDecode.</p>
 <p>The BlindGen tool allows <span style="text-decoration: underline;"><strong>two user</strong></span> to create half part of the private key, without ever gaining access to the whole private key and then provides a printable paper wallet only containing the public address. The BlindDecode tool allows the users to obtain the whole private key. It is intended to be used only when in need to spend the funds received on the generated address.</p>
 <h3>OpSec first</h3>
 <p>Before using the tool, it may be a good idea to use the "Offline" shortcut from the AnuBitux desktop, in order to disable all the possible connection to external devices and avoid leaking any kind of information. It is also mandatory to use AnuBitux in live mode and not in a virtual machine and to operate in a safe environment.</p>
@@ -430,7 +501,7 @@
 <figcaption >Full WIF private key obtained through BlindDecode</figcaption>
 </figure>
 <p>There are also some suggestions about how the private keys could be used.</p>
-<figure class="post__image post__image--center"><a href="https://buymeacoffee.com/anubitux" target="_blank"   rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/74/buybeer.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/74/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/74/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/74/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/74/responsive/buybeer-lg.png 1024w"></figure></a></p>
+<figure class="post__image post__image--center"><a href="https://buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/74/buybeer.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/74/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/74/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/74/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/74/responsive/buybeer-lg.png 1024w"></figure></a></p>
 <p> </p>
 <p> </p>
             ]]>
@@ -489,10 +560,10 @@
 </ul>
 <p>It is very important to make sure that the obtained private key is truly random and not replicable. If not so, other users could obtain the same private key and steal our funds. Summarizing, it is important to use a good source of entropy!</p>
 <h3>Entropy from the air</h3>
-<p>It could also be a good idea to grab the entropy from the environmental noise, since it is very unlike that there could be exactly the same noise for two times. To collect entropy in this way and obtain a printable paper wallet, AnuBitux provides the <a href="https://github.com/ASeriousMister/Mic2Paper" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">Mic2Paper</a> tool.</p>
+<p>It could also be a good idea to grab the entropy from the environmental noise, since it is very unlike that there could be exactly the same noise for two times. To collect entropy in this way and obtain a printable paper wallet, AnuBitux provides the <a href="https://github.com/ASeriousMister/Mic2Paper" target="_blank" rel="noopener noreferrer">Mic2Paper</a> tool.</p>
 <h3>OpSec first</h3>
 <p>Before using the tool, it may be a good idea to use the "Offline" shortcut from the AnuBitux desktop, in order to disable all the possible connections to external devices and avoid leaking any kind of information.</p>
-<p>It is also important to check that the hardware we are using is working properly. In AnuBitux, we can use the <a href="https://github.com/AnuBitux/MicCheck" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">MicCheck</a> tool. It records a 5 seconds audio and plays it. If we don't hear anything there may be something not working in the correct way but definitely we have to remember to turn up the volume. The tool tries to help us showing a clear and big message saying "VolumeUp".</p>
+<p>It is also important to check that the hardware we are using is working properly. In AnuBitux, we can use the <a href="https://github.com/AnuBitux/MicCheck" target="_blank" rel="noopener noreferrer">MicCheck</a> tool. It records a 5 seconds audio and plays it. If we don't hear anything there may be something not working in the correct way but definitely we have to remember to turn up the volume. The tool tries to help us showing a clear and big message saying "VolumeUp".</p>
 <figure class="post__image post__image--center" ><img loading="lazy" src="https://anubitux.org/media/posts/72/MicCheck.png" alt="" width="600" height="461" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/72/responsive/MicCheck-xs.png 300w ,https://anubitux.org/media/posts/72/responsive/MicCheck-sm.png 480w ,https://anubitux.org/media/posts/72/responsive/MicCheck-md.png 768w ,https://anubitux.org/media/posts/72/responsive/MicCheck-lg.png 1024w">
 <figcaption >Checking the microphone with the MicCheck tool included in AnuBitux</figcaption>
 </figure>
@@ -509,11 +580,11 @@
 <figure class="post__image post__image--center" ><img loading="lazy" src="https://anubitux.org/media/posts/72/Mic2Paper3.png" alt="" width="1000" height="485" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/72/responsive/Mic2Paper3-xs.png 300w ,https://anubitux.org/media/posts/72/responsive/Mic2Paper3-sm.png 480w ,https://anubitux.org/media/posts/72/responsive/Mic2Paper3-md.png 768w ,https://anubitux.org/media/posts/72/responsive/Mic2Paper3-lg.png 1024w">
 <figcaption >The printable paper wallet obtained with Mix2Paper</figcaption>
 </figure>
-<p>Now, thanks to the numerous <a href="https://anubitux-project.gitbook.io/the-anubitux-documentation/features/printing" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">printer drivers</a> included in AnuBitux, we should be able to print our paper wallet and store it in a super safe place.</p>
-<p class="msg msg--info">You can see a demo about how this tool works on our <a href="https://www.youtube.com/@AnuBitux" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">YouTube channel</a>.</p>
+<p>Now, thanks to the numerous <a href="https://anubitux-project.gitbook.io/the-anubitux-documentation/features/printing" target="_blank" rel="noopener noreferrer">printer drivers</a> included in AnuBitux, we should be able to print our paper wallet and store it in a super safe place.</p>
+<p class="msg msg--info">You can see a demo about how this tool works on our <a href="https://www.youtube.com/@AnuBitux" target="_blank" rel="noopener noreferrer">YouTube channel</a>.</p>
 <p align="center"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/9_OWg6KSmpQ?si=wsHhcoBhGeUuGzLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>
 <p> </p>
-<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank"   rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/72/buybeer.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/72/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/72/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/72/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/72/responsive/buybeer-lg.png 1024w"></figure></a></p>
+<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/72/buybeer.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/72/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/72/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/72/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/72/responsive/buybeer-lg.png 1024w"></figure></a></p>
 <p> </p>
             ]]>
         </content>
@@ -544,8 +615,8 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://anubitux.org/media/posts/71/Samourai_UncleSam.png" class="type:primaryImage" alt="" /></p>
-                <p>On April 24, 2024, U.S. D.O.J. <a href="https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">arrested</a> the founder and the CEO of Samourai wallet and charged them with money laundering and unlicensed money transmitting offenses.</p>
-<p>Samourai wallet was a mobile wallet that could be used to perform CoinJoin transactions through the <a href="https://bitcoiner.guide/whirlpool/" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">Whirlpool algorithm</a> (a zerolink coinjoin implementation created by the Samourai Wallet developer team). </p>
+                <p>On April 24, 2024, U.S. D.O.J. <a href="https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering" target="_blank" rel="noopener noreferrer">arrested</a> the founder and the CEO of Samourai wallet and charged them with money laundering and unlicensed money transmitting offenses.</p>
+<p>Samourai wallet was a mobile wallet that could be used to perform CoinJoin transactions through the <a href="https://bitcoiner.guide/whirlpool/" target="_blank" rel="noopener noreferrer">Whirlpool algorithm</a> (a zerolink coinjoin implementation created by the Samourai Wallet developer team). </p>
 <figure class="post__image post__image--center" ><img loading="lazy" src="https://anubitux.org/media/posts/71/seized.png" alt="" width="800" height="483" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/71/responsive/seized-xs.png 300w ,https://anubitux.org/media/posts/71/responsive/seized-sm.png 480w ,https://anubitux.org/media/posts/71/responsive/seized-md.png 768w ,https://anubitux.org/media/posts/71/responsive/seized-lg.png 1024w">
 <figcaption >The homepage of the Samourai wallet website after the seizure</figcaption>
 </figure>
@@ -553,7 +624,7 @@
 <p>At a very high level, a Whirlpool mix is a collaborative transaction between five participants. The outputs of each Whirlpool mix are always identical resulting in every mix having a lot of possible interpretations. Anyone trying to analyze the blockchain and looking at a Whirlpool transaction cannot say for sure which output corresponds to which input. </p>
 <p>Each of the five Whirlpool participants submits 1 input into the transaction. For a mix to start, a minimum of two of these participants must be new entrants to the pool. These new entrants are known as ‘premixers’ and they are required at every Whirlpool mix. Requiring two premixers to trigger a mix ensures that new liquidity forms part of every cycle and prevents the same pool UTXO’s continually mixing with each other.</p>
 <h3>How does a Whirlpool transaction look like?</h3>
-<p>As stated above, a whirlpool transaction requires 5 participants sending 5 identical outputs. Here you can see an example of a <a href="https://mempool.space/tx/3795565f9d3b0885f9b702a6a216653afe03d8bf647d4f640afb4227654703c1" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">Whirlpool transaction</a>.</p>
+<p>As stated above, a whirlpool transaction requires 5 participants sending 5 identical outputs. Here you can see an example of a <a href="https://mempool.space/tx/3795565f9d3b0885f9b702a6a216653afe03d8bf647d4f640afb4227654703c1" target="_blank" rel="noopener noreferrer">Whirlpool transaction</a>.</p>
 <figure class="post__image post__image--center" ><img loading="lazy" src="https://anubitux.org/media/posts/71//Whirlpool.png" alt="" width="850" height="823" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/71//responsive/Whirlpool-xs.png 300w ,https://anubitux.org/media/posts/71//responsive/Whirlpool-sm.png 480w ,https://anubitux.org/media/posts/71//responsive/Whirlpool-md.png 768w ,https://anubitux.org/media/posts/71//responsive/Whirlpool-lg.png 1024w">
 <figcaption >An example Whirlpool transaction</figcaption>
 </figure>
@@ -561,9 +632,9 @@
 <h3>Where are the mixed funds?</h3>
 <p>It is very important to point out that Whirlpool works in a totally <strong>non custodial</strong> way. Funds are never sent to third parties, there's only a coordinator server orchestrating the process without knowing which funds belong to each of the involved addresses.</p>
 <p>Among the mixing process, funds are sent to addresses based on the same seed  used to create the BIP39 software wallet you are using. Whirlpool just uses different standards with an offset on the index.</p>
-<p class="msg msg--info">Remember that a <a href="https://learnmeabitcoin.com/technical/keys/hd-wallets/derivation-paths/" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">derivation path</a> is something like m/44’/60’/0’/0/0. it is tellig your hierarchical deterministic wallet to:</p>
+<p class="msg msg--info">Remember that a <a href="https://learnmeabitcoin.com/technical/keys/hd-wallets/derivation-paths/" target="_blank" rel="noopener noreferrer">derivation path</a> is something like m/44’/60’/0’/0/0. it is tellig your hierarchical deterministic wallet to:</p>
 <p class="msg msg--info">- start at the master key (m);<br>- use the BIP44 standard (44);<br>- derive keys for Ethereum (60, use 0 for bitcoin);<br>- do not derive a change address (first zero, use 1 for change addresses);<br>- the index of the address (last zero).</p>
-<p>In detail, Whirlpool is using the following <a href="https://github.com/Samourai-Wallet/samourai-wallet-android/blob/develop/Guides/Restore%20%26%20Recovery.md" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">derivation paths</a>:</p>
+<p>In detail, Whirlpool is using the following <a href="https://github.com/Samourai-Wallet/samourai-wallet-android/blob/develop/Guides/Restore%20%26%20Recovery.md" target="_blank" rel="noopener noreferrer">derivation paths</a>:</p>
 <ul>
 <li dir="auto">Deposit: <code>m/44'|49'|84'|47'/0'/0'</code></li>
 <li dir="auto">Bad Bank: <code>m/84'/0'/2147483644'</code></li>
@@ -573,12 +644,12 @@
 </ul>
 <p>That means that we can always recover all our funds so long as you have the seed.</p>
 <h3>Recover access to the funds</h3>
-<p>Since the Samourai app may not be available anymore, to access funds held through this client it may be possible to use other clients supporting Whirlpool mixes, like <a href="https://sparrowwallet.com/docs/mixing-whirlpool.html" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">Sparrow wallet</a> (<a href="https://web.archive.org/web/20240405202436/https://www.sparrowwallet.com/docs/mixing-whirlpool.html" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">backup link</a>). If also Sparrow wallet does not work with Whirlpool anymore, it is enough to use it or other fully feathured clients, like <a href="https://electrum.org/" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">Electrum</a>, manually specifying the desired derivation path in the wallet setup wizard.</p>
+<p>Since the Samourai app may not be available anymore, to access funds held through this client it may be possible to use other clients supporting Whirlpool mixes, like <a href="https://sparrowwallet.com/docs/mixing-whirlpool.html" target="_blank" rel="noopener noreferrer">Sparrow wallet</a> (<a href="https://web.archive.org/web/20240405202436/https://www.sparrowwallet.com/docs/mixing-whirlpool.html" target="_blank" rel="noopener noreferrer">backup link</a>). If also Sparrow wallet does not work with Whirlpool anymore, it is enough to use it or other fully feathured clients, like <a href="https://electrum.org/" target="_blank" rel="noopener noreferrer">Electrum</a>, manually specifying the desired derivation path in the wallet setup wizard.</p>
 <p>To see the funds used through Whirlpool with Sparrow wallet, when importing a new keystore based on the BIP39 mnemonic used with Samourai, it is necessary to click on the "Add Account..." button and click on the Whirlpool option (the last one). This will add the buttons on the left and will allow us to see the funds and the transactions related to our ordinary wallet (Deposit) and also the funds and the transactions related to Whirlpool (Premix, Postmix and Badbank).</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/71/Selection_204.png" alt="" width="800" height="513" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/71/responsive/Selection_204-xs.png 300w ,https://anubitux.org/media/posts/71/responsive/Selection_204-sm.png 480w ,https://anubitux.org/media/posts/71/responsive/Selection_204-md.png 768w ,https://anubitux.org/media/posts/71/responsive/Selection_204-lg.png 1024w"></figure>
 <h3>Final thoughts</h3>
 <p>In this case we can notice how it is important to know how the tools we are using work. So, if some of them stops working, we will always be in control of our funds. It is very important to avoid to rely on centralized solutions or using tools before trying to understand how they work.</p>
-<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank"   rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/71/buybeer.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/71/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/71/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/71/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/71/responsive/buybeer-lg.png 1024w"></figure></a></p>
+<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/71/buybeer.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/71/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/71/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/71/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/71/responsive/buybeer-lg.png 1024w"></figure></a></p>
             ]]>
         </content>
     </entry>
@@ -614,11 +685,11 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://anubitux.org/media/posts/70/2024-04-14_16-02.png" class="type:primaryImage" alt="" /></p>
-                <p>On the 12th April 2024 our core team memper StanleyK presented AnuBitux <span class="yt-core-attributed-string--link-inherit-color"> at the Cyber Forensics IISFA Forum, held by the <a href="https://iisfa.it" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">IISFA association</a>.</span></p>
+                <p>On the 12th April 2024 our core team memper StanleyK presented AnuBitux <span class="yt-core-attributed-string--link-inherit-color"> at the Cyber Forensics IISFA Forum, held by the <a href="https://iisfa.it" target="_blank" rel="noopener noreferrer">IISFA association</a>.</span></p>
 <p>Here you can watch the recording of the talk:</p>
 <p align="center"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/dpRNw5ijA_8?si=kYiChZ54jILo7m6h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe></div>
-<p>It was about the features and the tools included in AnuBitux and there was also a demo about how to use <a href="https://github.com/3rdIteration/btcrecover" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">seedrecover</a> to fix a mnemonic seed with missing words, like we have shown <a href="https://anubitux.org/fix-your-mnemonic-seed-with-anubitux/" target="_blank" rel="noopener noreferrer">here</a>.</p>
-<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank"   rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/70/buybeer.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/70/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/70/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/70/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/70/responsive/buybeer-lg.png 1024w"></figure></a></p>
+<p>It was about the features and the tools included in AnuBitux and there was also a demo about how to use <a href="https://github.com/3rdIteration/btcrecover" target="_blank" rel="noopener noreferrer">seedrecover</a> to fix a mnemonic seed with missing words, like we have shown <a href="https://anubitux.org/fix-your-mnemonic-seed-with-anubitux/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/70/buybeer.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/70/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/70/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/70/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/70/responsive/buybeer-lg.png 1024w"></figure></a></p>
             ]]>
         </content>
     </entry>
@@ -655,87 +726,13 @@
         <content type="html">
             <![CDATA[
                     <p><img src="https://anubitux.org/media/posts/69/fireworks-180553_1280.jpg" class="type:primaryImage" alt="" /></p>
-                <p>A new version of AnuBitux is finally out! It is now based on <a href="https://www.debian.org/" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">Debian 12</a> with a fresher Linux Kernel! We have also improved the user interface with new icons, to give our distro a more modern look.</p>
+                <p>A new version of AnuBitux is finally out! It is now based on <a href="https://www.debian.org/" target="_blank" rel="noopener noreferrer">Debian 12</a> with a fresher Linux Kernel! We have also improved the user interface with new icons, to give our distro a more modern look.</p>
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://anubitux.org/media/posts/69/2024-03-23_18-07.png" alt="" width="1200" height="606" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/69/responsive/2024-03-23_18-07-xs.png 300w ,https://anubitux.org/media/posts/69/responsive/2024-03-23_18-07-sm.png 480w ,https://anubitux.org/media/posts/69/responsive/2024-03-23_18-07-md.png 768w ,https://anubitux.org/media/posts/69/responsive/2024-03-23_18-07-lg.png 1024w"></figure>
 <p>We also removed the possibility to install it, to avoid misuses and make it work in a totally amnesic way. It is able to interact with a lot of ways to store cryptocurrencies, like restoring mnemonic seeds in many different clients, connecting hardware wallets, mounting different kind of encrypted storages, etc.</p>
 <p>More details are provided in the <a href="https://anubitux.org/changelog/" target="_blank" rel="noopener noreferrer">Changelog</a>. Visit our <a href="https://anubitux.org/download-anubitux/" target="_blank" rel="noopener noreferrer">Download page</a> to get it!</p>
 <h3>What's next?</h3>
-<p>We have other big projects in mind. We are finishing the test stage to also publish the whole building process of the version 3 on <a href="https://github.com/AnuBitux" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">GitHub</a>, we are creating an official, more technical and organized documentation and we are also preparing a script to convert a common Debian virtual machine in a fully featured AnuBitux VM to test our tools in a safe way get more confident with them. Stay tuned following our <a href="https://t.me/anubitux" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">Telegram channel</a> and our <a href="https://x.com/anubitux" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">X profile</a>!</p>
-<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank"   rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/69//buybeer.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/69//responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/69//responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/69//responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/69//responsive/buybeer-lg.png 1024w"></figure></a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to build AnuBitux by yourself</title>
-        <author>
-            <name>AnuBitux</name>
-        </author>
-        <link href="https://anubitux.org/how-to-build-anubitux-by-yourself/"/>
-        <id>https://anubitux.org/how-to-build-anubitux-by-yourself/</id>
-        <media:content url="https://anubitux.org/media/posts/68/lego-5442555_1280.jpg" medium="image" />
-            <category term="tutorial"/>
-            <category term="tools"/>
-            <category term="team"/>
-            <category term="script"/>
-            <category term="project"/>
-            <category term="linux for xmr"/>
-            <category term="linux for cryptocurrencies"/>
-            <category term="linux for crypto"/>
-            <category term="linux for bitcoin"/>
-            <category term="linux"/>
-            <category term="howto"/>
-            <category term="distro"/>
-            <category term="debian"/>
-            <category term="cryptocurrency"/>
-            <category term="crypto"/>
-            <category term="anubitux"/>
-            <category term="USB"/>
-
-        <updated>2023-09-03T16:04:40+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://anubitux.org/media/posts/68/lego-5442555_1280.jpg" alt="" />
-                    We know that using using cryptocurrencies one of the first rules is "be your own bank". So, when we need to use softwares and tools,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://anubitux.org/media/posts/68/lego-5442555_1280.jpg" class="type:primaryImage" alt="" /></p>
-                <p>We know that using using cryptocurrencies one of the first rules is "be your own bank". So, when we need to use softwares and tools, it is very important to analyze them to avoid the risk to lose our cryotis or to use solutions that are not working in a proper way.</p>
-<p>We are building AnuBitux, first of all, because we need it for personal and professional reasons and, since it could be useful for others, we decided to share it with everyone that could need it.</p>
-<p>Now we decided to make a little step forward, publishing the way we build it and making it completely replicable by creating a dedicated <a href="https://github.com/AnuBitux/build" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">GitHub repository</a>.</p>
-<p>We have always built AnuBitux in that way, but. before today, we performed some of the steps manually, now it is completely automated and you only need to launch some preparatory command and then you can run the <a href="https://github.com/AnuBitux/build/blob/main/anubitux_script.sh" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">anubitux_script</a>.</p>
-<p>If you want to build AnuBitux by yourself, you can follow these easy steps.</p>
-<p>We should start using some Debian based Linux distribution and install the following packages:</p>
-<p><code>sudo apt install live-build squashfs-tools syslinux-common syslinux-utils xorriso isolinux</code></p>
-<p>Then we can create a folder to store all the files that are being created during the building process, like</p>
-<p><code>mkdir distro</code></p>
-<p>Now we can set the parameters of the distro, suing this command</p>
-<p><code>lb config -b iso --cache true --apt-recommends true -a amd64 --binary-images iso --debian-installer live --linux-flavours amd64 --mode debian --debian-installer-gui true --archive-areas "main contrib non-free" --security true --win32-loader false --interactive shell --updates true --iso-application anubitux --iso-publisher https://anubitux.org --iso-volume anubitux --memtest none</code></p>
-<p>With this command, we are setting up things like the repositories to use, the architecture and some information about the project.</p>
-<p>Now we need to gain root privileges so that we can start the building process, creating a <a href="https://en.wikipedia.org/wiki/Chroot" target="_blank"  class="extlink extlink-icon-7"  rel="noopener noreferrer">chroot environment</a>:</p>
-<p><code>sudo -s</code></p>
-<p><code>lb build</code></p>
-<p>This may take a while. We will notice it finisched when we'll see (live) written on the left of our command prompt.</p>
-<p>Now we can execute the anubitux_script. We can copy it to our chroot environment after we downloaded it to our main operating system</p>
-<p><code>cp /path/anubitux_script.sh /distro/chroot/</code></p>
-<p>or download it directly into our chroot environment</p>
-<p><code>sudo apt -y install git</code></p>
-<p><code>git clone https://github.com/AnuBitux/build</code></p>
-<p><code>cd build</code></p>
-<p>Now we need to give execution rights to the script and run it:</p>
-<p><code>chmod +x anubitux_script.sh</code></p>
-<p><code>./anubitux_script.sh</code></p>
-<p class="msg msg--info">Before running the script we may want to check the variables at its beginning. They refer to the versions of the tools that are going to be installed. If some tool has received an update, please change the version number in the corresponfing variable. We plan to update the script regularly but it could be useful to do that check to be sure to obtain the last version of all the tools.</p>
-<p>During the execution of the script we only have to provide a password for the anubitux user and accept the license agreement of the Samsung printers' drivers (if you need to use such devices, unless so the printer-drivers-all package is already installed, supporting a lot of different printers).</p>
-<p>When the script ended up, we may perform some further customization, like installing other drivers and tools. We may also want to delete the script since it is not needed anymore. </p>
-<p>Now we only have to type</p>
-<p><code>exit</code></p>
-<p>to start the building process. When the iso creation is completed, we can find the .iso file in the distro folder. To be able to write it on some bootable device, we only need to run this command</p>
-<p><code>isohybrid isoname.iso</code></p>
-<p>Now we are ready to run our personally built AnuBitux.</p>
-<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank"   rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/68/buybeer.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/68/responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/68/responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/68/responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/68/responsive/buybeer-lg.png 1024w"></figure></a></p>
-<p> </p>
+<p>We have other big projects in mind. We are finishing the test stage to also publish the whole building process of the version 3 on <a href="https://github.com/AnuBitux" target="_blank" rel="noopener noreferrer">GitHub</a>, we are creating an official, more technical and organized documentation and we are also preparing a script to convert a common Debian virtual machine in a fully featured AnuBitux VM to test our tools in a safe way get more confident with them. Stay tuned following our <a href="https://t.me/anubitux" target="_blank" rel="noopener noreferrer">Telegram channel</a> and our <a href="https://x.com/anubitux" target="_blank" rel="noopener noreferrer">X profile</a>!</p>
+<figure class="post__image post__image--center"><a href="https://www.buymeacoffee.com/anubitux" target="_blank" rel="noopener noreferrer"><img loading="lazy"  src="https://anubitux.org/media/posts/69//buybeer.png" alt="" width="256" height="171" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://anubitux.org/media/posts/69//responsive/buybeer-xs.png 300w ,https://anubitux.org/media/posts/69//responsive/buybeer-sm.png 480w ,https://anubitux.org/media/posts/69//responsive/buybeer-md.png 768w ,https://anubitux.org/media/posts/69//responsive/buybeer-lg.png 1024w"></figure></a></p>
             ]]>
         </content>
     </entry>
